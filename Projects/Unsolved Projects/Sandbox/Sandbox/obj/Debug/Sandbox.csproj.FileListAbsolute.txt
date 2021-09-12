@@ -1,0 +1,7 @@
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\Unsolved Projects\Sandbox\Sandbox\bin\Debug\Sandbox.exe.config
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\Unsolved Projects\Sandbox\Sandbox\bin\Debug\Sandbox.exe
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\Unsolved Projects\Sandbox\Sandbox\bin\Debug\Sandbox.pdb
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\Unsolved Projects\Sandbox\Sandbox\obj\Debug\Sandbox.csproj.AssemblyReference.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\Unsolved Projects\Sandbox\Sandbox\obj\Debug\Sandbox.csproj.CoreCompileInputs.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\Unsolved Projects\Sandbox\Sandbox\obj\Debug\Sandbox.exe
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\Unsolved Projects\Sandbox\Sandbox\obj\Debug\Sandbox.pdb

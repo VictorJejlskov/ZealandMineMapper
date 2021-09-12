@@ -18,6 +18,10 @@ namespace WebShopV05
             int noOfGamesInOrder = 0;
 
             double totalPrice = 0.0; // This variable should contain the total price for the order
+            double netPrice = 0.0;
+            double taxPercent = 1.1;
+            int shippingCost = 49;
+            double creditCardFee = 1.02;
 
             Console.WriteLine("How many books do you want to buy at a rate of 30dkk each?");
             noOfBooksInOrder = Convert.ToInt32(Console.ReadLine());
@@ -31,8 +35,11 @@ namespace WebShopV05
             noOfGamesInOrder = Convert.ToInt32(Console.ReadLine());
             Console.Clear();
 
-            totalPrice = (netPriceBook * noOfBooksInOrder) + (netPriceDVD * noOfDVDsInOrder) +
+            netPrice = (netPriceBook * noOfBooksInOrder) + (netPriceDVD * noOfDVDsInOrder) +
                          (netPriceGame * noOfGamesInOrder);
+            totalPrice = (((netPrice * taxPercent) + 49) * creditCardFee);
+            
+
             Console.WriteLine($"You ordered {noOfBooksInOrder} books, {noOfDVDsInOrder} DVDs and {noOfGamesInOrder} games");
             Console.WriteLine($"Total cost including tax, shipping and credit card fee: {totalPrice} kr.");
 
