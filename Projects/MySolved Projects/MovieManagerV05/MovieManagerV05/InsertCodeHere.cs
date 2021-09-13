@@ -7,6 +7,7 @@ namespace MovieManagerV05
         string movieTitle;
         int movieLength;
         string movieMainActor;
+        bool isAdultMovie;
 
         public void MyCode()
         {
@@ -25,6 +26,21 @@ namespace MovieManagerV05
             movieMainActor = Console.ReadLine();
             Console.Clear();
 
+            Console.WriteLine("Is the movie an adult-only movie? Y/N");
+            string userInput = Convert.ToString(Console.ReadLine());
+            if (userInput == "Y" || userInput == "y")
+            {
+                isAdultMovie = true;
+            }
+            else if (userInput == "N" || userInput == "n")
+            {
+                isAdultMovie = false;
+            }
+            else
+            {
+                Console.WriteLine("You ignored my instructions");
+            }
+
             PrintMovie();
             // The LAST line of code should be ABOVE this line
         }
@@ -33,6 +49,15 @@ namespace MovieManagerV05
             Console.WriteLine("The name of the movie is: " + movieTitle);
             Console.WriteLine("And it runs for: " + movieLength + " minutes");
             Console.WriteLine("The main actor/actress of the movie is: " + movieMainActor);
+            if (isAdultMovie)
+            {
+                Console.WriteLine("Your movie is an adult-rated movie");
+            }
+            else
+            {
+                Console.WriteLine("Your movie is NOT an adult-rated movie");
+            }
+            
         }
     }
 }

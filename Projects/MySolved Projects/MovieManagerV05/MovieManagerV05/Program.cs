@@ -13,15 +13,7 @@ namespace MovieManagerV05
             Console.WriteLine("If you wanna try again, click R");
             Console.WriteLine();
             Console.WriteLine("If not, press any other key to close the program...");
-
-            if(Console.ReadKey().Key == ConsoleKey.R)
-            {
-                theCode.MyCode();
-            }
-            else
-            {
-                Environment.Exit(0);
-            }
+            Console.ReadKey();
         }
     }
 }
