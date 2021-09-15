@@ -1,0 +1,14 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\bin\Debug\netcoreapp3.1\LilleOpgave.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\bin\Debug\netcoreapp3.1\LilleOpgave.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\bin\Debug\netcoreapp3.1\LilleOpgave.runtimeconfig.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\bin\Debug\netcoreapp3.1\LilleOpgave.runtimeconfig.dev.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\bin\Debug\netcoreapp3.1\LilleOpgave.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\bin\Debug\netcoreapp3.1\LilleOpgave.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\obj\Debug\netcoreapp3.1\LilleOpgave.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\obj\Debug\netcoreapp3.1\LilleOpgave.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\obj\Debug\netcoreapp3.1\LilleOpgave.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\obj\Debug\netcoreapp3.1\LilleOpgave.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\obj\Debug\netcoreapp3.1\LilleOpgave.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\obj\Debug\netcoreapp3.1\LilleOpgave.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\obj\Debug\netcoreapp3.1\LilleOpgave.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\LilleOpgave\LilleOpgave\obj\Debug\netcoreapp3.1\LilleOpgave.genruntimeconfig.cache

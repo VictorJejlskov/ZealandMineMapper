@@ -41,15 +41,15 @@ namespace MovieManagerV05
                 Console.WriteLine("You ignored my instructions");
             }
 
-            PrintMovie();
+            PrintMovie(movieTitle, movieLength, movieMainActor, isAdultMovie);
             // The LAST line of code should be ABOVE this line
         }
-        public void PrintMovie()
+        public void PrintMovie(string printTitle, int printLength, string printMainActor, bool printAdultMovie)
         {
-            Console.WriteLine("The name of the movie is: " + movieTitle);
-            Console.WriteLine("And it runs for: " + movieLength + " minutes");
-            Console.WriteLine("The main actor/actress of the movie is: " + movieMainActor);
-            if (isAdultMovie)
+            Console.WriteLine("The name of the movie is: " + printTitle);
+            Console.WriteLine("And it runs for: " + printLength + " minutes");
+            Console.WriteLine("The main actor/actress of the movie is: " + printMainActor);
+            if (printAdultMovie)
             {
                 Console.WriteLine("Your movie is an adult-rated movie");
             }
