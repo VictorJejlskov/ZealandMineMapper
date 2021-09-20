@@ -1,0 +1,25 @@
+﻿body {
+    background-image: url('../media/catgif.gif');
+    /*background-repeat: no-repeat;*/
+    background-size: 20cm;
+    color: black;
+}
+h1 {
+    color: yellowgreen;
+    font-family: arial;
+    font-size: 2cm;
+    font-weight: normal;
+    font-style: italic;
+}
+h2 {
+    color:#f700ff;
+    font-family: arial;
+    font-size: 1cm;
+    font-weight: normal;
+    font-style: italic;
+}
+.special {
+    color: green;
+}
+
+

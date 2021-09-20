@@ -1,0 +1,53 @@
+﻿header {
+    background-color: whitesmoke;
+    padding: 1em;
+    color: black;
+    text-align: center;
+}
+.HeaderText {
+    font-style: italic;
+    font-size: 1.5em;
+}
+body {
+    background-image: url('../media/galaxybaggrund.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+h1 {
+    color: yellowgreen;
+    font-family: arial;
+    font-size: 2em;
+    font-weight: normal;
+}
+h2 {
+    color:#f700ff;
+    font-family: arial;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+}
+.special {
+    color: green;
+}
+nav {
+    font-size: 0.8cm;
+    background-color: #c3c6f1;
+    text-align: center;
+}
+.HeaderList {
+    display: inline;
+    text-decoration: none;
+    padding: auto;
+
+    width: .2em;
+    margin: .2em;
+    border: 0.085em solid red;
+}
+.FooterList {
+    text-decoration: none;
+    padding: auto;
+}
+footer {
+
+}
