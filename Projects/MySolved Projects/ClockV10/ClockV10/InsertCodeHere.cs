@@ -7,10 +7,11 @@ namespace ClockV10
     {
         private string shownHour;
         private string shownMinute;
+        Clock clock = new Clock();
         public void MyCode()
         {
             // The FIRST line of code should be BELOW this line
-            Clock clock = new Clock();
+
             if (clock.CurrHour < 10)
             {
                 shownHour = ($"0{clock.CurrHour}");
@@ -27,14 +28,7 @@ namespace ClockV10
             {
                 shownMinute = $"{clock.CurrMinute}";
             }
-            Console.Clear();
-            Console.WriteLine($"The time is currently {shownHour}:{shownMinute}");
-            Console.WriteLine("Click H to increase the Hour by 1");
-            Console.WriteLine("Click M to increase the Minute by 1");
-            Console.WriteLine("Click K to increase the Minute by 15");
-            Console.WriteLine();
-            Console.WriteLine(clock.CurrHour);
-            Console.WriteLine(clock.CurrMinute);
+            DisplayTime();
             string userInput = Convert.ToString(Console.ReadKey().Key);
             if (userInput == Convert.ToString(ConsoleKey.H))
             {
@@ -53,6 +47,15 @@ namespace ClockV10
             }
 
             // The LAST line of code should be ABOVE this line
+        }
+
+        public void DisplayTime()
+        {
+            Console.Clear();
+            Console.WriteLine($"The time is currently {shownHour}:{shownMinute}");
+            Console.WriteLine("Click H to increase the Hour by 1");
+            Console.WriteLine("Click M to increase the Minute by 1");
+            Console.WriteLine("Click K to increase the Minute by 15");
         }
     }
 }

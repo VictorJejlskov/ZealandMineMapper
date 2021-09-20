@@ -14,13 +14,11 @@
         public int CurrHour
         {
             get { return _currHour; }
-            set { _currHour = value; }
         }
 
         public int CurrMinute
         {
             get { return _currMinute; }
-            set { _currMinute = value; }
         }
 
         public void AddHour()
