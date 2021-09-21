@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BigDie.cs" />
     <Compile Include="DiceCup.cs" />
     <Compile Include="Die.cs" />
     <Compile Include="InsertCodeHere.cs" />

@@ -37,13 +37,13 @@ namespace RolePlayV11
             {
                 Console.WriteLine();
                 Console.WriteLine($"{warriorA.Name} died!");
-                Console.WriteLine($"{warriorB.Name} is the winnner!");
+                Console.WriteLine($"{warriorB.Name} is the winner!");
             }
             else if (warriorA.IsAlive == true && warriorB.IsAlive == false)
             {
                 Console.WriteLine();
                 Console.WriteLine($"{warriorB.Name} died!");
-                Console.WriteLine($"{warriorA.Name} is the winnner!");
+                Console.WriteLine($"{warriorA.Name} is the winner!");
             }
             else if (warriorA.IsAlive == false && warriorB.IsAlive == false)
             {

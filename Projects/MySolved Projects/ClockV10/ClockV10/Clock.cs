@@ -14,11 +14,13 @@
         public int CurrHour
         {
             get { return _currHour; }
+            set { _currHour = value; }
         }
 
         public int CurrMinute
         {
             get { return _currMinute; }
+            set { _currMinute = value; }
         }
 
         public void AddHour()
@@ -33,7 +35,7 @@
         public void AddMinute()
         {
             _currMinute = _currMinute + 1;
-            if (_currMinute == 61)
+            if (_currMinute == 60)
             {
                 AddHour();
                 _currMinute = 0;

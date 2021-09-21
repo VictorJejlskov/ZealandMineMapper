@@ -1,0 +1,7 @@
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MySolved Projects\RolePlayV12\RolePlayV12\bin\Debug\RolePlayV12.exe.config
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MySolved Projects\RolePlayV12\RolePlayV12\bin\Debug\RolePlayV12.exe
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MySolved Projects\RolePlayV12\RolePlayV12\bin\Debug\RolePlayV12.pdb
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MySolved Projects\RolePlayV12\RolePlayV12\obj\Debug\RolePlayV12.csproj.AssemblyReference.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MySolved Projects\RolePlayV12\RolePlayV12\obj\Debug\RolePlayV12.csproj.CoreCompileInputs.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MySolved Projects\RolePlayV12\RolePlayV12\obj\Debug\RolePlayV12.exe
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MySolved Projects\RolePlayV12\RolePlayV12\obj\Debug\RolePlayV12.pdb

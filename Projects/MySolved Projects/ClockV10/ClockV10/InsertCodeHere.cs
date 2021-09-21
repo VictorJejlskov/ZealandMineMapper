@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
 
 namespace ClockV10
@@ -8,6 +9,7 @@ namespace ClockV10
         private string shownHour;
         private string shownMinute;
         Clock clock = new Clock();
+
         public void MyCode()
         {
             // The FIRST line of code should be BELOW this line
@@ -45,7 +47,14 @@ namespace ClockV10
                     clock.AddMinute();
                 }
             }
-
+            else if (userInput == Convert.ToString(ConsoleKey.A))
+            {
+                SetHour();
+            }
+            else if (userInput == Convert.ToString(ConsoleKey.B))
+            {
+                SetMinute();
+            }
             // The LAST line of code should be ABOVE this line
         }
 
@@ -56,6 +65,23 @@ namespace ClockV10
             Console.WriteLine("Click H to increase the Hour by 1");
             Console.WriteLine("Click M to increase the Minute by 1");
             Console.WriteLine("Click K to increase the Minute by 15");
+            Console.WriteLine("Click A to set the current hour manually");
+            Console.WriteLine("Click B to set the current hour manually");
+        }
+
+        public void SetHour()
+        {
+            Console.Clear();
+            Console.WriteLine("Insert the current hour");
+            string userInput = Console.ReadLine();
+            clock.CurrHour = Convert.ToInt32(userInput);
+        }
+        public void SetMinute()
+        {
+            Console.Clear();
+            Console.WriteLine("Insert the current minute");
+            string userInput = Console.ReadLine();
+            clock.CurrMinute = Convert.ToInt32(userInput);
         }
     }
 }
