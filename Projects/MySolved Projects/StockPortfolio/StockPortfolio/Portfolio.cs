@@ -45,8 +45,19 @@
         {
             get
             {
-                // Implement the property as described above...
-                return 0.0;
+                double startPrice1 = _stock1.InitialPrice * _stock1.Amount;
+                double startPrice2 = _stock2.InitialPrice * _stock2.Amount;
+                double startPrice3 = _stock3.InitialPrice * _stock3.Amount;
+                double startPrice = startPrice1 + startPrice2 + startPrice3;
+
+                double endPrice1 = _stock1.CurrentPrice * _stock1.Amount;
+                double endPrice2 = _stock2.CurrentPrice * _stock2.Amount;
+                double endPrice3 = _stock3.CurrentPrice * _stock3.Amount;
+                double endPrice = endPrice1 + endPrice2 + endPrice3;
+
+                double gained = endPrice - startPrice;
+
+                return (gained * 100) / startPrice;
             }
         }
         #endregion
@@ -62,7 +73,9 @@
         /// <param name="percent3">Percentage change in price for stock #3</param>
         public void UpdateCurrentPrices(double percent1, double percent2, double percent3)
         {
-            // Implement the method as described above...
+            _stock1.CurrentPrice = CalculateNewPrice(_stock1.CurrentPrice, percent1);
+            _stock2.CurrentPrice = CalculateNewPrice(_stock2.CurrentPrice, percent2);
+            _stock3.CurrentPrice = CalculateNewPrice(_stock3.CurrentPrice, percent3);
         }
 
         /// <summary>

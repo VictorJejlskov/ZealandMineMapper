@@ -1,0 +1,7 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StaticExamples\StaticExamples\bin\Debug\StaticExamples.exe.config
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StaticExamples\StaticExamples\bin\Debug\StaticExamples.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StaticExamples\StaticExamples\bin\Debug\StaticExamples.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StaticExamples\StaticExamples\obj\Debug\StaticExamples.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StaticExamples\StaticExamples\obj\Debug\StaticExamples.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StaticExamples\StaticExamples\obj\Debug\StaticExamples.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StaticExamples\StaticExamples\obj\Debug\StaticExamples.pdb

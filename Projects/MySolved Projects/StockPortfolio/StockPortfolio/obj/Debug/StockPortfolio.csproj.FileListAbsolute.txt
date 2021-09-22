@@ -1,0 +1,7 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StockPortfolio\StockPortfolio\bin\Debug\StockPortfolio.exe.config
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StockPortfolio\StockPortfolio\bin\Debug\StockPortfolio.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StockPortfolio\StockPortfolio\bin\Debug\StockPortfolio.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StockPortfolio\StockPortfolio\obj\Debug\StockPortfolio.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StockPortfolio\StockPortfolio\obj\Debug\StockPortfolio.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StockPortfolio\StockPortfolio\obj\Debug\StockPortfolio.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\StockPortfolio\StockPortfolio\obj\Debug\StockPortfolio.pdb
