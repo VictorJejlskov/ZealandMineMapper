@@ -1,0 +1,14 @@
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\bin\Debug\netcoreapp3.1\Fly.exe
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\bin\Debug\netcoreapp3.1\Fly.deps.json
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\bin\Debug\netcoreapp3.1\Fly.runtimeconfig.json
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\bin\Debug\netcoreapp3.1\Fly.runtimeconfig.dev.json
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\bin\Debug\netcoreapp3.1\Fly.dll
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\bin\Debug\netcoreapp3.1\Fly.pdb
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.csproj.AssemblyReference.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.AssemblyInfoInputs.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.AssemblyInfo.cs
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.csproj.CoreCompileInputs.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.dll
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.pdb
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.genruntimeconfig.cache
