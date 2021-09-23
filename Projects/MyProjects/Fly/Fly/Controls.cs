@@ -33,22 +33,22 @@ namespace Fly
             {
                 myFly.LiftOff();
             }
-            else if (userInput == Convert.ToString(ConsoleKey.A))
+            else if (userInput == Convert.ToString(ConsoleKey.A) && myFly.FirstTime == false)
             {
-                myFly.Turn(-0.1, -0.1);
+                myFly.Turn(-0.1, 0.1);
                 myFly.Move();
             }
-            else if (userInput == Convert.ToString(ConsoleKey.D))
+            else if (userInput == Convert.ToString(ConsoleKey.D) && myFly.FirstTime == false)
             {
                 myFly.Turn(0.1, -0.1);
                 myFly.Move();
             }
-            else if (userInput == Convert.ToString(ConsoleKey.W))
+            else if (userInput == Convert.ToString(ConsoleKey.W) && myFly.FirstTime == false)
             {
                 myFly.Accelerate();
                 myFly.Move();
             }
-            else if (userInput == Convert.ToString(ConsoleKey.S))
+            else if (userInput == Convert.ToString(ConsoleKey.S) && myFly.FirstTime == false)
             {
                 myFly.Decelerate();
                 myFly.Move();
@@ -57,11 +57,6 @@ namespace Fly
             {
                 myFly.Move();
             }
-
-
-
-
-
         }
     }
 }
