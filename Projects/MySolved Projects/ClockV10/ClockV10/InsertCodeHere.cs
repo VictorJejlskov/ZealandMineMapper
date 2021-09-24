@@ -36,7 +36,7 @@ namespace ClockV10
             {
                 clock.AddHour();
             }
-            else if (userInput == Convert.ToString(ConsoleKey.M))
+            else if (userInput == Convert.ToString(ConsoleKey.M))   
             {
                 clock.AddMinute();
             }
@@ -66,7 +66,7 @@ namespace ClockV10
             Console.WriteLine("Click M to increase the Minute by 1");
             Console.WriteLine("Click K to increase the Minute by 15");
             Console.WriteLine("Click A to set the current hour manually");
-            Console.WriteLine("Click B to set the current hour manually");
+            Console.WriteLine("Click B to set the current minute manually");
         }
 
         public void SetHour()

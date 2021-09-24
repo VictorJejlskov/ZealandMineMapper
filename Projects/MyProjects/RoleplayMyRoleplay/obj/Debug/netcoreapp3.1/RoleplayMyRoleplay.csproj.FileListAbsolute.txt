@@ -1,0 +1,14 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\bin\Debug\netcoreapp3.1\RoleplayMyRoleplay.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\bin\Debug\netcoreapp3.1\RoleplayMyRoleplay.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\bin\Debug\netcoreapp3.1\RoleplayMyRoleplay.runtimeconfig.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\bin\Debug\netcoreapp3.1\RoleplayMyRoleplay.runtimeconfig.dev.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\bin\Debug\netcoreapp3.1\RoleplayMyRoleplay.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\bin\Debug\netcoreapp3.1\RoleplayMyRoleplay.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.genruntimeconfig.cache

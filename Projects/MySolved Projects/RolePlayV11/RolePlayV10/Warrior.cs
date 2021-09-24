@@ -43,11 +43,16 @@ namespace RolePlayV11
         }
 
 
-        static Random rnd = new Random();
-        public void DealDamage()
+        private static Random rnd = new Random();
+        //public void DealDamage()
+        //{
+        //    int damageNumber = rnd.Next(1, 31);
+        //    _hitpoints = _hitpoints - damageNumber;
+        //}
+
+        public int DealDamage()
         {
-            int damageNumber = rnd.Next(1, 31);
-            _hitpoints = _hitpoints - damageNumber;
+            return rnd.Next(1, 31);
         }
 
 

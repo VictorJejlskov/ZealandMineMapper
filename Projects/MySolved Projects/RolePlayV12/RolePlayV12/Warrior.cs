@@ -68,12 +68,12 @@ namespace RolePlayV12
             {
                 return (_sword1.DealDamage() + _sword2.DealDamage())*_strength;
             }
-            return _sword1.DealDamage();
+            return _sword1.DealDamage()*_strength;
         }
 
         public string GetInfo()
         {
-            return $"{Name} has {HitPoints} hit points ({(Dead ? "dead" : "alive")})";
+                return $"{Name} has {HitPoints} hit points ({(Dead ? "dead" : "alive")})";
         }
 
         public string WeaponInfo()
