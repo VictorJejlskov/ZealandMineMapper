@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace RolePlayV11
 {
@@ -37,22 +38,36 @@ namespace RolePlayV11
             {
                 Console.WriteLine();
                 Console.WriteLine($"{warriorA.Name} died!");
-                Console.WriteLine($"{warriorB.Name} is the winner!");
+                Console.WriteLine($"{warriorB.Name} is the winner!\n"+
+                                  $"\n"+
+                                  $"Press any key to continue..");
             }
             else if (warriorA.IsAlive == true && warriorB.IsAlive == false)
             {
                 Console.WriteLine();
                 Console.WriteLine($"{warriorB.Name} died!");
-                Console.WriteLine($"{warriorA.Name} is the winner!");
+                Console.WriteLine($"{warriorA.Name} is the winner!\n" +
+                                  $"\n" +
+                                  $"Press any key to continue..");
             }
             else if (warriorA.IsAlive == false && warriorB.IsAlive == false)
             {
                 Console.WriteLine();
-                Console.WriteLine("Both warriors died, it's a draw!");
+                Console.WriteLine("Both warriors died, it's a draw!\n" +
+                                  $"\n" +
+                                  $"Press any key to continue..");
             }
 
-
+            
             // The LAST line of code should be ABOVE this line
+        }
+        public void YouWon()
+        {
+
+        }
+        public void YouLost()
+        {
+
         }
     }
 }

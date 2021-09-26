@@ -11,20 +11,19 @@ namespace RoleplayMyRoleplay
         public int MaxDamage { get; set; }
         public int MinDamage { get; set; }
         public int WeaponType { get; set; }
-        public int WeaponID { get; set; }
+        public int WeaponID { get; set; } = 0;
         public int Price { get; set; }
         private Random _rnd;
 
-        public Weapon(string name, int weaponType, int price, int weaponID, int minDamage, int maxDamage)
+        public Weapon(string name, int weaponType, int price, int minDamage, int maxDamage, int weaponID)
         {
             Name = name;
             WeaponType = weaponType;
             Price = price;
-            WeaponID = weaponID;
             MinDamage = minDamage;
             MaxDamage = maxDamage;
-
             _rnd = new Random();
+            WeaponID = weaponID;
         }
 
         public int DealDamage()
@@ -46,5 +45,15 @@ namespace RoleplayMyRoleplay
             else return Equals(objAsPart);
         }
 
+        public int AverageDamage()
+        {
+            return (MinDamage + MaxDamage) / 2;
+        }
+
+        public override string ToString()
+        {
+            return $"{WeaponID} - Name: {Name} and is a {(WeaponType == 1 ? $"One-handed weapon" : $"Two-handed weapon")} - Average damage: {AverageDamage()}\n"+
+                   $"    Price: {Price}";
+        }
     }
 }

@@ -12,3 +12,17 @@ C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\
 C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.dll
 C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.pdb
 C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.genruntimeconfig.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\bin\Debug\netcoreapp3.1\RoleplayMyRoleplay.exe
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\bin\Debug\netcoreapp3.1\RoleplayMyRoleplay.deps.json
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\bin\Debug\netcoreapp3.1\RoleplayMyRoleplay.runtimeconfig.json
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\bin\Debug\netcoreapp3.1\RoleplayMyRoleplay.runtimeconfig.dev.json
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\bin\Debug\netcoreapp3.1\RoleplayMyRoleplay.dll
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\bin\Debug\netcoreapp3.1\RoleplayMyRoleplay.pdb
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.csproj.AssemblyReference.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.AssemblyInfoInputs.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.AssemblyInfo.cs
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.csproj.CoreCompileInputs.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.dll
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.pdb
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\RoleplayMyRoleplay\obj\Debug\netcoreapp3.1\RoleplayMyRoleplay.genruntimeconfig.cache
