@@ -49,13 +49,7 @@ namespace RoleplayMyRoleplay
 
         public void GenerateEnemies()
         {
-            List<Enemy> enemies = new List<Enemy>();
-            Enemies myEnemies = new Enemies();
-            enemies = myEnemies.enemies;
-            foreach (Enemy eme in enemies)
-            {
-                Console.WriteLine(eme);
-            }
+
         }
 
         public void FirstTime()
@@ -82,9 +76,7 @@ namespace RoleplayMyRoleplay
                 Console.WriteLine("lul");
             }
         }
-
-
-
+        
         public void RollWeapons()
         {
             int noOfWeps = rnd.Next(1, 3);
@@ -101,33 +93,41 @@ namespace RoleplayMyRoleplay
 
         public void FightAnEnemy()
         {
+            List<Enemy> listEnemies = new List<Enemy>();
+            Enemies myEnemies = new Enemies();
+            listEnemies = myEnemies.enemies;
+
             Console.Clear();
-            GenerateEnemies();
+            foreach (Enemy eme in listEnemies)
+            {
+                Console.WriteLine(eme);
+            }
+            //GenerateEnemies();
             Console.WriteLine($"Please select an enemy to fight, 1-5, or  click B to go back");
             UserInput = Convert.ToString(Console.ReadKey().Key);
             if (UserInput == "D1")
             {
-                CurrEnemy = enemies.enemies[1];
+                CurrEnemy = listEnemies[0];
                 Console.Clear();
             }            
             if (UserInput == "D2")
             {
-                CurrEnemy = enemies.enemies[2];
+                CurrEnemy = listEnemies[1];
                 Console.Clear();
             }            
             if (UserInput == "D3")
             {
-                CurrEnemy = enemies.enemies[3];
+                CurrEnemy = listEnemies[2];
                 Console.Clear();
             }            
             if (UserInput == "D4")
             {
-                CurrEnemy = enemies.enemies[4];
+                CurrEnemy = listEnemies[3];
                 Console.Clear();
             }            
             if (UserInput == "D5")
             {
-                CurrEnemy = enemies.enemies[5];
+                CurrEnemy = listEnemies[4];
                 Console.Clear();
             }
             else if (UserInput == "B")
@@ -147,7 +147,58 @@ namespace RoleplayMyRoleplay
 
         public void VisitShop()
         {
-            Shop.VisitShop(warrior);
+            Shop myShop = new Shop();
+            myShop.VisitShop(warrior);
+            UserInput = Convert.ToString(Console.ReadKey());
+            if (UserInput == "H")
+            {
+                myShop.HealthPotion(warrior);
+            }
+            else if (UserInput == "G")
+            {
+                myShop.StrengthPotion(warrior);
+            }
+            else if (UserInput == "D0")
+            {
+                myShop.BuyWeapon(myShop.MyWeapons[0], warrior);
+            }
+            else if (UserInput == "D1")
+            {
+                myShop.BuyWeapon(myShop.MyWeapons[1], warrior);
+            }
+            else if (UserInput == "D2")
+            {
+                myShop.BuyWeapon(myShop.MyWeapons[2], warrior);
+            }
+            else if (UserInput == "D3")
+            {
+                myShop.BuyWeapon(myShop.MyWeapons[3], warrior);
+            }
+            else if (UserInput == "D4")
+            {
+                myShop.BuyWeapon(myShop.MyWeapons[4], warrior);
+            }
+            else if (UserInput == "D5")
+            {
+                myShop.BuyWeapon(myShop.MyWeapons[5], warrior);
+            }
+            else if (UserInput == "D6")
+            {
+                myShop.BuyWeapon(myShop.MyWeapons[6], warrior);
+            }
+            else if (UserInput == "D7")
+            {
+                myShop.BuyWeapon(myShop.MyWeapons[7], warrior);
+            }
+            else if (UserInput == "D8")
+            {
+                myShop.BuyWeapon(myShop.MyWeapons[8], warrior);
+            }
+            else if (UserInput == "D9")
+            {
+                myShop.BuyWeapon(myShop.MyWeapons[9], warrior);
+            }
+            MyCode();
         }
 
         public void FightEnemy()
@@ -162,6 +213,16 @@ namespace RoleplayMyRoleplay
                 Console.WriteLine($"{warrior.Name} has {warrior.HitPoints} health remaining");
                 Console.WriteLine($"{CurrEnemy.EnemyName} has {CurrEnemy.EnemyHitPoints} health remaining");
             }
+
+            if (warrior.StrengthBonusDuration > 0)
+            {
+                warrior.StrengthBonusDuration -= 1;
+            }
+            else if (warrior.StrengthBonusDuration == 0)
+            {
+                warrior.StrengthBonus = 1.0;
+            }
+            
             if (warrior.IsAlive == false && CurrEnemy.IsAlive == true)
             {
                 Console.WriteLine();

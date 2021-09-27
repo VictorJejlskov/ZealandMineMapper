@@ -10,6 +10,7 @@ namespace RoleplayMyRoleplay
         public int HitPoints { get; set; }
         public int Gold { get; set; }
         public double StrengthBonus { get; set; }
+        public int StrengthBonusDuration { get; set; }
         public bool IsAlive { get; set; }
         private Random _rnd;
         public Weapon MainHandWeapon { get; set; }
@@ -22,6 +23,7 @@ namespace RoleplayMyRoleplay
             Name = name;
             HitPoints = hitPoints;
             StrengthBonus = strengthBonus;
+            StrengthBonusDuration = 0;
             MainHandWeapon = mainHand;
             OffHandWeapon = offHand;
             IsAlive = true;
