@@ -16,13 +16,31 @@ namespace PizzaStore
             int currHour = DateTime.Now.Hour;
             int currMinute = DateTime.Now.Minute;
             currMinute += 25;
-            if (currMinute >= 25)
+            if (currMinute >= 60)
             {
-                currMinute -= 35;
+                currMinute -= 25;
                 currHour += 1;
             }
 
-            Console.WriteLine($"Planlagt ankomst: {currHour}:{currMinute}");
+            string shownHour = "";
+            string shownMinute = "";
+            if (currMinute < 10)
+            {
+                shownMinute = $"0{currMinute}";
+            }
+            else
+            {
+                shownMinute = $"{currMinute}";
+            }
+            if (currHour < 10)
+            {
+                shownHour = $"0{currHour}";
+            }
+            else
+            {
+                shownHour = $"{currHour}";
+            }
+            Console.WriteLine($"Planlagt ankomst: {shownHour}:{shownMinute}");
         }
     }
 }

@@ -17,3 +17,17 @@ C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\PizzaStore\obj\Debug\ne
 C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\PizzaStore\obj\Debug\netcoreapp3.1\PizzaStore.dll
 C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\PizzaStore\obj\Debug\netcoreapp3.1\PizzaStore.pdb
 C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\PizzaStore\obj\Debug\netcoreapp3.1\PizzaStore.genruntimeconfig.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\bin\Debug\netcoreapp3.1\PizzaStore.exe
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\bin\Debug\netcoreapp3.1\PizzaStore.deps.json
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\bin\Debug\netcoreapp3.1\PizzaStore.runtimeconfig.json
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\bin\Debug\netcoreapp3.1\PizzaStore.runtimeconfig.dev.json
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\bin\Debug\netcoreapp3.1\PizzaStore.dll
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\bin\Debug\netcoreapp3.1\PizzaStore.pdb
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\obj\Debug\netcoreapp3.1\PizzaStore.csproj.AssemblyReference.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\obj\Debug\netcoreapp3.1\PizzaStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\obj\Debug\netcoreapp3.1\PizzaStore.AssemblyInfoInputs.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\obj\Debug\netcoreapp3.1\PizzaStore.AssemblyInfo.cs
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\obj\Debug\netcoreapp3.1\PizzaStore.csproj.CoreCompileInputs.cache
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\obj\Debug\netcoreapp3.1\PizzaStore.dll
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\obj\Debug\netcoreapp3.1\PizzaStore.pdb
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\PizzaStore\obj\Debug\netcoreapp3.1\PizzaStore.genruntimeconfig.cache

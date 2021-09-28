@@ -20,6 +20,9 @@ namespace PizzaStore
             Console.WriteLine($"\nKortnr: 12345678 - cvc: 111");
 
             Console.ReadKey();
+            Console.Clear();
+            Postpurchase.Kvittering();
+            Postpurchase.TidTilMad();
 
 
         }

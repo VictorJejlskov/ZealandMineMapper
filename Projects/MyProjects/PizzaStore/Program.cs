@@ -7,9 +7,8 @@ namespace PizzaStore
     {
         static void Main(string[] args)
         {
-            Postpurchase.TidTilMad();
-            //SandboxCode mySandboxCode = new SandboxCode();
-            //mySandboxCode.MyCode();
+            SandboxCode mySandboxCode = new SandboxCode();
+            mySandboxCode.MyCode();
         }
     }
 }
