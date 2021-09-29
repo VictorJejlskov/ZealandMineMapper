@@ -100,6 +100,11 @@ namespace WhileLoopsBaseCamp
             }
             Console.WriteLine("End of Case 8");
 
+
+            int c9 = 16;
+            Console.WriteLine(c9);
+            Console.WriteLine(c9 % 2);
+
             // The LAST line of code should be ABOVE this line
         }
     }

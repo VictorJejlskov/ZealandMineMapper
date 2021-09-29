@@ -82,7 +82,7 @@ namespace RoleplayMyRoleplay
             int noOfWeps = rnd.Next(1, 3);
             if (noOfWeps == 1)
             {
-                warrior.MainHandWeapon = Shop.weapons[rnd.Next(0, 4)];
+                warrior.MainHandWeapon = Shop.weapons[rnd.Next(2, 4)];
             }
             else if (noOfWeps == 2)
             {
@@ -103,29 +103,29 @@ namespace RoleplayMyRoleplay
                 Console.WriteLine(eme);
             }
             //GenerateEnemies();
-            Console.WriteLine($"Please select an enemy to fight, 1-5, or  click B to go back");
+            Console.WriteLine($"Please select an enemy to fight, 1-5, or click B to go back");
             UserInput = Convert.ToString(Console.ReadKey().Key);
             if (UserInput == "D1")
             {
                 CurrEnemy = listEnemies[0];
                 Console.Clear();
-            }            
-            if (UserInput == "D2")
+            }
+            else if(UserInput == "D2")
             {
                 CurrEnemy = listEnemies[1];
                 Console.Clear();
-            }            
-            if (UserInput == "D3")
+            }
+            else if(UserInput == "D3")
             {
                 CurrEnemy = listEnemies[2];
                 Console.Clear();
-            }            
-            if (UserInput == "D4")
+            }
+            else if(UserInput == "D4")
             {
                 CurrEnemy = listEnemies[3];
                 Console.Clear();
-            }            
-            if (UserInput == "D5")
+            }
+            else if(UserInput == "D5")
             {
                 CurrEnemy = listEnemies[4];
                 Console.Clear();
@@ -149,54 +149,70 @@ namespace RoleplayMyRoleplay
         {
             Shop myShop = new Shop();
             myShop.VisitShop(warrior);
-            UserInput = Convert.ToString(Console.ReadKey());
-            if (UserInput == "H")
+            UserInput = Convert.ToString(Console.ReadKey().Key);
+            if (UserInput == Convert.ToString(ConsoleKey.H))
             {
                 myShop.HealthPotion(warrior);
+                myShop.VisitShop(warrior);
             }
-            else if (UserInput == "G")
+            else if (UserInput == Convert.ToString(ConsoleKey.G))
             {
                 myShop.StrengthPotion(warrior);
+                myShop.VisitShop(warrior);
             }
             else if (UserInput == "D0")
             {
                 myShop.BuyWeapon(myShop.MyWeapons[0], warrior);
+                myShop.VisitShop(warrior);
             }
             else if (UserInput == "D1")
             {
                 myShop.BuyWeapon(myShop.MyWeapons[1], warrior);
+                myShop.VisitShop(warrior);
             }
             else if (UserInput == "D2")
             {
                 myShop.BuyWeapon(myShop.MyWeapons[2], warrior);
+                myShop.VisitShop(warrior);
             }
             else if (UserInput == "D3")
             {
                 myShop.BuyWeapon(myShop.MyWeapons[3], warrior);
+                myShop.VisitShop(warrior);
             }
             else if (UserInput == "D4")
             {
                 myShop.BuyWeapon(myShop.MyWeapons[4], warrior);
+                myShop.VisitShop(warrior);
             }
             else if (UserInput == "D5")
             {
                 myShop.BuyWeapon(myShop.MyWeapons[5], warrior);
+                myShop.VisitShop(warrior);
             }
             else if (UserInput == "D6")
             {
                 myShop.BuyWeapon(myShop.MyWeapons[6], warrior);
+                myShop.VisitShop(warrior);
             }
             else if (UserInput == "D7")
             {
                 myShop.BuyWeapon(myShop.MyWeapons[7], warrior);
+                myShop.VisitShop(warrior);
             }
             else if (UserInput == "D8")
             {
                 myShop.BuyWeapon(myShop.MyWeapons[8], warrior);
+                myShop.VisitShop(warrior);
             }
             else if (UserInput == "D9")
             {
                 myShop.BuyWeapon(myShop.MyWeapons[9], warrior);
+                myShop.VisitShop(warrior);
+            }
+            else if (UserInput == Convert.ToString(ConsoleKey.Spacebar))
+            {
+                MyCode();
             }
             MyCode();
         }

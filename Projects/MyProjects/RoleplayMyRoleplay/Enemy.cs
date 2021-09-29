@@ -78,13 +78,13 @@ namespace RoleplayMyRoleplay
         {
             if (OffHand != null)
             {
-                return $"{EnemyName} - HP: {EnemyHitPoints}\n" +
+                return $"{EnemyID}-{EnemyName} - HP: {EnemyHitPoints}\n" +
                        $"Is currently holding {MainHand.Name} & {OffHand.Name}\n"+
                        $"This enemy is worth {GoldReward} gold to kill\n"+
                        $"";
 
             }
-            return $"{EnemyName} - HP: {EnemyHitPoints}\n"+
+            return $"{EnemyID}-{EnemyName} - HP: {EnemyHitPoints}\n"+
                    $"Is currently holding {MainHand.Name}\n" +
                    $"This enemy is worth {GoldReward} gold to kill\n" +
                    $"";

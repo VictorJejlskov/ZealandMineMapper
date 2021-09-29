@@ -35,7 +35,9 @@ namespace RoleplayMyRoleplay
                               $"Your current weapon(s): {(warrior.OffHandWeapon != null ? $"{warrior.MainHandWeapon.Name} & {warrior.OffHandWeapon.Name}" : $"{warrior.MainHandWeapon.Name}")}\n" +
                               $"\n" +
                               $"H: Healthpotion 80g - Heals you for 100 hitpoints, to a max of 500\n" +
-                              $"G: Strength Potion 400g - Gives you 50% more damage done for the next 3 fights\n");
+                              $"G: Strength Potion 400g - Gives you 50% more damage done for the next 3 fights\n"+
+                              $"Or click 'SPACEBAR' to go back.\n");
+
 
             foreach (Weapon wep in weapons)
             {
@@ -60,27 +62,31 @@ namespace RoleplayMyRoleplay
             }
             else if (warrior.Gold < 80)
             {
+                Console.Clear();
                 Console.WriteLine("Sorry, you're too poor.");
+                Console.ReadKey();
             }
-            VisitShop(warrior);
         }
 
         public void StrengthPotion(Warrior warrior)
         {
             if (warrior.Gold >= 400)
             {
+                warrior.Gold -= 400;
                 warrior.StrengthBonus = 1.5;
                 warrior.StrengthBonusDuration = 3;
             }
             else if (warrior.Gold < 400)
             {
+                Console.Clear();
                 Console.WriteLine("Sorry, you're too poor.");
+                Console.ReadKey();
             }
         }
 
         public void BuyWeapon(Weapon weapon, Warrior warrior)
         {
-            if (weapon.WeaponType == 1)
+            if (weapon.WeaponType == 1 && warrior.Gold >= weapon.Price)
             {
                 if (warrior.OffHandWeapon != null)
                 {
@@ -97,23 +103,35 @@ namespace RoleplayMyRoleplay
                     {
                         warrior.OffHandWeapon = weapon;
                     }
+
+                    Console.ReadKey();
+                    warrior.Gold -= weapon.Price;
                 }
                 else
                 {
                     Console.Clear();
                     Console.WriteLine($"You've equipped {weapon.Name} in your offhand");
+                    Console.ReadKey();
                     warrior.OffHandWeapon = weapon;
+                    warrior.Gold -= weapon.Price;
                 }
 
                 Console.ReadKey();
-                VisitShop(warrior);
             }
-            else if (weapon.WeaponType == 2)
+            else if (weapon.WeaponType == 2 && warrior.Gold >= weapon.Price)
             {
                 Console.Clear();
                 Console.WriteLine($"You've equipped {weapon.Name} ({weapon.AverageDamage()}), replacing your weapon(s)");
-                Console.Read();
-                VisitShop(warrior);
+                Console.ReadKey();
+                warrior.Gold -= weapon.Price;
+                warrior.MainHandWeapon = weapon;
+                warrior.OffHandWeapon = null;
+            }
+            else if (warrior.Gold < weapon.Price)
+            {
+                Console.Clear();
+                Console.WriteLine("Sorry, you're too poor.");
+                Console.ReadKey();
             }
         }
     }

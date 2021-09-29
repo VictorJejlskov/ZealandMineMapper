@@ -1,0 +1,7 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WhileLoopsBaseCamp\WhileLoopsBaseCamp\bin\Debug\WhileLoopsBaseCamp.exe.config
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WhileLoopsBaseCamp\WhileLoopsBaseCamp\bin\Debug\WhileLoopsBaseCamp.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WhileLoopsBaseCamp\WhileLoopsBaseCamp\bin\Debug\WhileLoopsBaseCamp.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WhileLoopsBaseCamp\WhileLoopsBaseCamp\obj\Debug\WhileLoopsBaseCamp.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WhileLoopsBaseCamp\WhileLoopsBaseCamp\obj\Debug\WhileLoopsBaseCamp.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WhileLoopsBaseCamp\WhileLoopsBaseCamp\obj\Debug\WhileLoopsBaseCamp.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WhileLoopsBaseCamp\WhileLoopsBaseCamp\obj\Debug\WhileLoopsBaseCamp.pdb

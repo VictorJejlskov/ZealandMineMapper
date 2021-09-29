@@ -27,6 +27,7 @@ namespace RoleplayMyRoleplay
             MainHandWeapon = mainHand;
             OffHandWeapon = offHand;
             IsAlive = true;
+            Gold = 100;
         }
 
         public void RecieveDamage(int points)

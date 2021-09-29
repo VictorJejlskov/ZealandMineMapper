@@ -1,0 +1,7 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CorrectChangeAutomat\CorrectChangeAutomat\bin\Debug\CorrectChangeAutomat.exe.config
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CorrectChangeAutomat\CorrectChangeAutomat\bin\Debug\CorrectChangeAutomat.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CorrectChangeAutomat\CorrectChangeAutomat\bin\Debug\CorrectChangeAutomat.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CorrectChangeAutomat\CorrectChangeAutomat\obj\Debug\CorrectChangeAutomat.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CorrectChangeAutomat\CorrectChangeAutomat\obj\Debug\CorrectChangeAutomat.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CorrectChangeAutomat\CorrectChangeAutomat\obj\Debug\CorrectChangeAutomat.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CorrectChangeAutomat\CorrectChangeAutomat\obj\Debug\CorrectChangeAutomat.pdb
