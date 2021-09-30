@@ -7,19 +7,11 @@ namespace Sandbox
         public void MyCode()
         {
             // The FIRST line of code should be BELOW this line
-
-            Console.WriteLine("Hello world!");
-            if (Console.ReadKey().Key == ConsoleKey.Y)
+            string userInput = Convert.ToString(Console.ReadKey().KeyChar);
+            Console.WriteLine(userInput);
+            if (Convert.ToInt32(userInput)>1)
             {
-                Console.WriteLine("you clicked y :)");
-            }
-            else if (Console.ReadKey().Key == ConsoleKey.N)
-            {
-                Console.WriteLine("you clicked n :)");
-            }
-            else
-            {
-                Console.WriteLine("You clicked neither Y or N");
+                Console.WriteLine("lol den er over 1");
             }
 
             // The LAST line of code should be ABOVE this line

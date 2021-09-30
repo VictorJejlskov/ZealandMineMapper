@@ -1,0 +1,14 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\bin\Debug\netcoreapp3.1\BigMamaPizzaStore.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\bin\Debug\netcoreapp3.1\BigMamaPizzaStore.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\bin\Debug\netcoreapp3.1\BigMamaPizzaStore.runtimeconfig.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\bin\Debug\netcoreapp3.1\BigMamaPizzaStore.runtimeconfig.dev.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\bin\Debug\netcoreapp3.1\BigMamaPizzaStore.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\bin\Debug\netcoreapp3.1\BigMamaPizzaStore.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\obj\Debug\netcoreapp3.1\BigMamaPizzaStore.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\obj\Debug\netcoreapp3.1\BigMamaPizzaStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\obj\Debug\netcoreapp3.1\BigMamaPizzaStore.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\obj\Debug\netcoreapp3.1\BigMamaPizzaStore.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\obj\Debug\netcoreapp3.1\BigMamaPizzaStore.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\obj\Debug\netcoreapp3.1\BigMamaPizzaStore.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\obj\Debug\netcoreapp3.1\BigMamaPizzaStore.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\BigMamaPizzaStore\obj\Debug\netcoreapp3.1\BigMamaPizzaStore.genruntimeconfig.cache

@@ -5,3 +5,10 @@ C:\Users\Victur\Desktop\ZealandMineMapper\Projects\Unsolved Projects\Sandbox\San
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\Unsolved Projects\Sandbox\Sandbox\obj\Debug\Sandbox.csproj.CoreCompileInputs.cache
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\Unsolved Projects\Sandbox\Sandbox\obj\Debug\Sandbox.exe
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\Unsolved Projects\Sandbox\Sandbox\obj\Debug\Sandbox.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\Unsolved Projects\Sandbox\Sandbox\bin\Debug\Sandbox.exe.config
+C:\Users\victo\Desktop\ZealandMapper\Projects\Unsolved Projects\Sandbox\Sandbox\bin\Debug\Sandbox.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\Unsolved Projects\Sandbox\Sandbox\bin\Debug\Sandbox.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\Unsolved Projects\Sandbox\Sandbox\obj\Debug\Sandbox.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\Unsolved Projects\Sandbox\Sandbox\obj\Debug\Sandbox.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\Unsolved Projects\Sandbox\Sandbox\obj\Debug\Sandbox.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\Unsolved Projects\Sandbox\Sandbox\obj\Debug\Sandbox.pdb

@@ -13,14 +13,30 @@ namespace PizzaStore
             Inventar.MenuKort();
             Console.WriteLine("\n" +
                               $"Indtast tallet for mad-genstanden du vil købe\n" +
-                              $"Eller tryk 'B' for at gå til betaling");
+                              $"Eller tryk 'B' for at gå til betaling\n" +
+                              $"{(Login.IsMember ? $"{Login.Name} - tryk 'L' igen for at logge ud." : "For gentagende kunder, tryk L for 'login'" )}");
 
-            string userInput = Console.ReadLine();
+            string userInput = Convert.ToString(Console.ReadKey().KeyChar);
             try
             {
-                if (userInput == "b" || userInput == "B")
+                if (userInput == "b")
                 {
                     PaymentCustomer.FinishPurchase();
+                    MyCode();
+                }
+                else if (userInput == "l")
+                {
+                    if (Login.IsMember)
+                    {
+                        Logud.LogUd();
+                        MyCode();
+                    }
+                    else
+                    {
+                        Login.LogIn();
+                        MyCode();
+                    }
+
                 }
                 else if (Convert.ToInt32(userInput) <= Convert.ToInt32(Inventar.myPizzas.Count))
                 {
@@ -35,6 +51,7 @@ namespace PizzaStore
                     if (userInput == Convert.ToString(ConsoleKey.B))
                     {
                         PaymentCustomer.FinishPurchase();
+                        MyCode();
                     }
                     else
                     {

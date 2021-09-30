@@ -9,6 +9,7 @@ namespace PizzaStore
         public static void Kvittering()
         {
             Cart.ListCart();
+            Cart.EndePrisen();
         }
 
         public static void TidTilMad()
@@ -18,7 +19,7 @@ namespace PizzaStore
             currMinute += 25;
             if (currMinute >= 60)
             {
-                currMinute -= 25;
+                currMinute -= 60;
                 currHour += 1;
             }
 
