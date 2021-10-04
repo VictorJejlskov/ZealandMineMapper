@@ -7,7 +7,7 @@ namespace BigMamaPizzaStore
     class Store
     {
 
-        public void Start()
+        public static void Start()
         { 
 
             Customer customer1 = new Customer("Alex", 29);
@@ -22,7 +22,7 @@ namespace BigMamaPizzaStore
             Console.WriteLine($"Totalpris for alle 3: {CalcutelateTotalPrice(order1.MyPizza.Price, order2.MyPizza.Price, order3.MyPizza.Price)}");
         }
 
-        public int CalcutelateTotalPrice(int prisA, int prisB, int PrisC)
+        public static int CalcutelateTotalPrice(int prisA, int prisB, int PrisC)
         {
             return prisA + prisB + PrisC;
         }

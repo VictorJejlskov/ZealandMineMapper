@@ -1,0 +1,7 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CalculationSimulation\CalculationSimulation\bin\Debug\CalculationSimulation.exe.config
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CalculationSimulation\CalculationSimulation\bin\Debug\CalculationSimulation.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CalculationSimulation\CalculationSimulation\bin\Debug\CalculationSimulation.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CalculationSimulation\CalculationSimulation\obj\Debug\CalculationSimulation.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CalculationSimulation\CalculationSimulation\obj\Debug\CalculationSimulation.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CalculationSimulation\CalculationSimulation\obj\Debug\CalculationSimulation.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\CalculationSimulation\CalculationSimulation\obj\Debug\CalculationSimulation.pdb

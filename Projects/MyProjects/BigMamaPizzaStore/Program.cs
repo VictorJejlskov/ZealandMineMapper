@@ -6,8 +6,7 @@ namespace BigMamaPizzaStore
     {
         static void Main(string[] args)
         {
-            Store myStore = new Store();
-            myStore.Start();
+            Store.Start();
         }
     }
 }

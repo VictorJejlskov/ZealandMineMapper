@@ -1,0 +1,7 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\ListBaseCamp\ListBaseCamp\bin\Debug\ListBaseCamp.exe.config
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\ListBaseCamp\ListBaseCamp\bin\Debug\ListBaseCamp.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\ListBaseCamp\ListBaseCamp\bin\Debug\ListBaseCamp.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\ListBaseCamp\ListBaseCamp\obj\Debug\ListBaseCamp.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\ListBaseCamp\ListBaseCamp\obj\Debug\ListBaseCamp.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\ListBaseCamp\ListBaseCamp\obj\Debug\ListBaseCamp.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\ListBaseCamp\ListBaseCamp\obj\Debug\ListBaseCamp.pdb
