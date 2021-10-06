@@ -14,17 +14,18 @@ namespace CalculationSimulation
         private Random _generator;
         private bool _useCache;
         private Cache _cache;
+        public int MaxValue { get; set; }
         #endregion
 
         #region Constructor
         /// <summary>
         /// Only create the cache if specified
         /// </summary>
-        public Simulator()
+        public Simulator(int maxValue)
         {
             _generator = new Random();
             _useCache = true;
-
+            MaxValue = maxValue;
             _cache = (_useCache ? new Cache() : null);
         }
         #endregion
@@ -35,16 +36,16 @@ namespace CalculationSimulation
         /// </summary>
         public int Calculate(int x, int y)
         {
-            int result = -1;
+            int result = Constants.CalculationNoValue;
 
-            if (x < 10 && x >= 0 && y < 10 && y >= 0)
+            if (x < MaxValue && x >= 0 && y < MaxValue && y >= 0)
             {
                 if (_useCache)
                 {
                     result = _cache.Lookup(x, y);
                 }
 
-                if (result == -1)
+                if (result == Constants.CalculationNoValue)
                 {
                     result = DoCalculation(x, y);
 
@@ -63,8 +64,8 @@ namespace CalculationSimulation
         /// </summary>
         private int DoCalculation(int x, int y)
         {
-            Pause(500);
-            return _generator.Next(1, 1000);
+            Pause(Constants.SimulationTimeInMilliSecs);
+            return _generator.Next(Constants.CalculationMinValue, Constants.CalculationMaxValue);
         }
 
         /// <summary>

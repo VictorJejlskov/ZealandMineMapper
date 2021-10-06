@@ -12,7 +12,8 @@ namespace CalculationSimulation
         /// </summary>
         public static void Run()
         {
-            Simulator theSimulator = new Simulator();
+            int maxValue = 10;
+            Simulator theSimulator = new Simulator(maxValue);
             Random theGenerator = new Random();
 
             // Runs the simulation 1000 times

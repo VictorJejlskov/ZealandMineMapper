@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cache.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="InsertCodeHere.cs" />
     <Compile Include="Manager.cs" />
     <Compile Include="Program.cs" />
