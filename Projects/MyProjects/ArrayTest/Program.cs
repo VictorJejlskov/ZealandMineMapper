@@ -27,7 +27,7 @@ namespace ArrayTest
 
             //Fjerner index 0 (tallet 1)
             testList.Remove(testList[0]);
-            //Fjerner tallet 15
+            //Fjerner tallet 15 
             testList.Remove(15);
 
             Console.WriteLine("Her starter listen:");
@@ -67,10 +67,12 @@ namespace ArrayTest
             Console.WriteLine($"Den højeste værdi er: {ArrayHelper.MaxValue(TestArray)}");
             Console.WriteLine($"Gennemsnitsværdien er: {ArrayHelper.AverageValue(TestArray)}");
 
-            int upper = TestArray.GetUpperBound(0);
-            int lower = TestArray.GetLowerBound(0);
-            Console.WriteLine($"GetLowerBound: {lower}\n" +
-                              $"GetUpperBound: {upper}");
+
+
+            //int upper = TestArray.GetUpperBound(0);
+            //int lower = TestArray.GetLowerBound(0);
+            //Console.WriteLine($"GetLowerBound: {lower}\n" +
+            //                  $"GetUpperBound: {upper}");
         }
     }
 }
