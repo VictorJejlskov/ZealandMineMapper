@@ -45,11 +45,15 @@ namespace ArrayTest
                 Console.Write($"{i},");
             }
 
+            Console.WriteLine();
+            Console.WriteLine($"array length: {TestArray.Length}");
 
             int indexToRemove = 5;
             //Int for hvor i mit index, at tallet skal fjernes med Where funktionen
 
             Console.WriteLine();
+
+            //Ikke gør det her =)
             //MitArraY er lig med MitArray hvor index ikke er lig med IndexToRemove.toArray
             TestArray = TestArray.Where((source, Index) =>Index!= indexToRemove).ToArray();
 
@@ -60,6 +64,8 @@ namespace ArrayTest
                 Console.Write($"{i},");
             }
 
+            Console.WriteLine();
+            Console.WriteLine($"array length: {TestArray.Length}");
             //Som du kan se, er tallet (6) med Indexet 5 i min liste, fjernet
 
 
