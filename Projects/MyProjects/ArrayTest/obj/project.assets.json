@@ -8,32 +8,26 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\victo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Victur\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\ArrayTest\\ArrayTest.csproj",
+      "projectUniqueName": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\MyProjects\\ArrayTest\\ArrayTest.csproj",
       "projectName": "ArrayTest",
-      "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\ArrayTest\\ArrayTest.csproj",
-      "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\ArrayTest\\obj\\",
+      "projectPath": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\MyProjects\\ArrayTest\\ArrayTest.csproj",
+      "packagesPath": "C:\\Users\\Victur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\MyProjects\\ArrayTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Victur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "netcoreapp3.1": {

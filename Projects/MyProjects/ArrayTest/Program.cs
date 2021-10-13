@@ -7,7 +7,10 @@ namespace ArrayTest
     class Program
     {
 
-
+        public static List<string> TestStringList = new List<string>()
+        {
+            "lol";
+        }
         static void Main(string[] args)
         {
             int[] TestArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 125 };

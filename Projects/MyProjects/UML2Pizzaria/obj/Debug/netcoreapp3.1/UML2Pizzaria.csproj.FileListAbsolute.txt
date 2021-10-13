@@ -1,0 +1,14 @@
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\bin\Debug\netcoreapp3.1\UML2Pizzaria.exe
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\bin\Debug\netcoreapp3.1\UML2Pizzaria.deps.json
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\bin\Debug\netcoreapp3.1\UML2Pizzaria.runtimeconfig.json
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\bin\Debug\netcoreapp3.1\UML2Pizzaria.runtimeconfig.dev.json
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\bin\Debug\netcoreapp3.1\UML2Pizzaria.dll
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\bin\Debug\netcoreapp3.1\UML2Pizzaria.pdb
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\obj\Debug\netcoreapp3.1\UML2Pizzaria.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\obj\Debug\netcoreapp3.1\UML2Pizzaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\obj\Debug\netcoreapp3.1\UML2Pizzaria.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\obj\Debug\netcoreapp3.1\UML2Pizzaria.AssemblyInfo.cs
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\obj\Debug\netcoreapp3.1\UML2Pizzaria.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\obj\Debug\netcoreapp3.1\UML2Pizzaria.dll
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\obj\Debug\netcoreapp3.1\UML2Pizzaria.pdb
+C:\Users\andre\Desktop\Zealand\Github\Programmering\Projects\UML2Pizzaria\obj\Debug\netcoreapp3.1\UML2Pizzaria.genruntimeconfig.cache

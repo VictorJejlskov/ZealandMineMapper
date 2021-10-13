@@ -8,7 +8,12 @@ namespace ArrayTest
 {
     class ArrayHelper
     {
-        public static int LowValue(int[] input)
+
+        public static List<string> TestStringList = new List<string>
+        {
+            "lol"
+        };
+    public static int LowValue(int[] input)
         {
             int lowValue = input[0];
             foreach (int i in input)
