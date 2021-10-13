@@ -30,7 +30,7 @@ namespace ArrayTest
 
             //Fjerner index 0 (tallet 1)
             testList.Remove(testList[0]);
-            //Fjerner tallet 15
+            //Fjerner tallet 15 
             testList.Remove(15);
 
             Console.WriteLine("Her starter listen:");
@@ -48,11 +48,15 @@ namespace ArrayTest
                 Console.Write($"{i},");
             }
 
+            Console.WriteLine();
+            Console.WriteLine($"array length: {TestArray.Length}");
 
             int indexToRemove = 5;
             //Int for hvor i mit index, at tallet skal fjernes med Where funktionen
 
             Console.WriteLine();
+
+            //Ikke gør det her =)
             //MitArraY er lig med MitArray hvor index ikke er lig med IndexToRemove.toArray
             TestArray = TestArray.Where((source, Index) =>Index!= indexToRemove).ToArray();
 
@@ -63,6 +67,8 @@ namespace ArrayTest
                 Console.Write($"{i},");
             }
 
+            Console.WriteLine();
+            Console.WriteLine($"array length: {TestArray.Length}");
             //Som du kan se, er tallet (6) med Indexet 5 i min liste, fjernet
 
 
@@ -70,10 +76,12 @@ namespace ArrayTest
             Console.WriteLine($"Den højeste værdi er: {ArrayHelper.MaxValue(TestArray)}");
             Console.WriteLine($"Gennemsnitsværdien er: {ArrayHelper.AverageValue(TestArray)}");
 
-            int upper = TestArray.GetUpperBound(0);
-            int lower = TestArray.GetLowerBound(0);
-            Console.WriteLine($"GetLowerBound: {lower}\n" +
-                              $"GetUpperBound: {upper}");
+
+
+            //int upper = TestArray.GetUpperBound(0);
+            //int lower = TestArray.GetLowerBound(0);
+            //Console.WriteLine($"GetLowerBound: {lower}\n" +
+            //                  $"GetUpperBound: {upper}");
         }
     }
 }

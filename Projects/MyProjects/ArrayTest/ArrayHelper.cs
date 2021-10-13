@@ -45,17 +45,9 @@ namespace ArrayTest
 
         public static int AverageValue(int[] input)
         {
-            int averageValue = 0;
-            int totalValue = 0;
-            //foreach (int i in input)
-            //{
-            //    totalValue += i;
-            //}
-
-            totalValue = input.Sum();
-            averageValue = Convert.ToInt32(input.Average());
+            int averageValue = Convert.ToInt32(input.Average());
             //averageValue = totalValue / input.Length;
-            return totalValue;
+            return averageValue;
 
         }
     }

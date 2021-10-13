@@ -1,0 +1,14 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\bin\Debug\netcoreapp3.1\DictionaryTest.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\bin\Debug\netcoreapp3.1\DictionaryTest.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\bin\Debug\netcoreapp3.1\DictionaryTest.runtimeconfig.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\bin\Debug\netcoreapp3.1\DictionaryTest.runtimeconfig.dev.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\bin\Debug\netcoreapp3.1\DictionaryTest.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\bin\Debug\netcoreapp3.1\DictionaryTest.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\obj\Debug\netcoreapp3.1\DictionaryTest.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\obj\Debug\netcoreapp3.1\DictionaryTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\obj\Debug\netcoreapp3.1\DictionaryTest.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\obj\Debug\netcoreapp3.1\DictionaryTest.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\obj\Debug\netcoreapp3.1\DictionaryTest.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\obj\Debug\netcoreapp3.1\DictionaryTest.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\obj\Debug\netcoreapp3.1\DictionaryTest.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\DictionaryTest\DictionaryTest\obj\Debug\netcoreapp3.1\DictionaryTest.genruntimeconfig.cache
