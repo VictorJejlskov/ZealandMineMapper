@@ -15,7 +15,6 @@ namespace UML2Pizzaria
         {
             Name = name;
             Price = price;
-            
         }
 
         public override string ToString()
