@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\MyProjects\\UML2Pizzaria\\UML2Pizzaria.csproj",
-      "projectName": "UML2Pizzaria",
-      "projectPath": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\MyProjects\\UML2Pizzaria\\UML2Pizzaria.csproj",
+      "projectUniqueName": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\MyProjects\\UML2MyOwn\\UML2MyOwn\\UML2MyOwn.csproj",
+      "projectName": "UML2MyOwn",
+      "projectPath": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\MyProjects\\UML2MyOwn\\UML2MyOwn\\UML2MyOwn.csproj",
       "packagesPath": "C:\\Users\\Victur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\MyProjects\\UML2Pizzaria\\obj\\",
+      "outputPath": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\MyProjects\\UML2MyOwn\\UML2MyOwn\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Victur\\AppData\\Roaming\\NuGet\\NuGet.Config",
