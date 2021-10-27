@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victo\\source\\repos\\Begreber2 (if, while, foreach) test\\Begreber2 (if, while, foreach) test.csproj": {}
+    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\Begreber2 (if, while, foreach) test\\Begreber2 (if, while, foreach) test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victo\\source\\repos\\Begreber2 (if, while, foreach) test\\Begreber2 (if, while, foreach) test.csproj": {
+    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\Begreber2 (if, while, foreach) test\\Begreber2 (if, while, foreach) test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\source\\repos\\Begreber2 (if, while, foreach) test\\Begreber2 (if, while, foreach) test.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\Begreber2 (if, while, foreach) test\\Begreber2 (if, while, foreach) test.csproj",
         "projectName": "Begreber2 (if, while, foreach) test",
-        "projectPath": "C:\\Users\\victo\\source\\repos\\Begreber2 (if, while, foreach) test\\Begreber2 (if, while, foreach) test.csproj",
+        "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\Begreber2 (if, while, foreach) test\\Begreber2 (if, while, foreach) test.csproj",
         "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\source\\repos\\Begreber2 (if, while, foreach) test\\obj\\",
+        "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\Begreber2 (if, while, foreach) test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
