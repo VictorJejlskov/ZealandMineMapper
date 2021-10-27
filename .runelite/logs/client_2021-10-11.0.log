@@ -1,0 +1,609 @@
+2021-10-11 07:11:38 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.7.25 (launcher version 2.1.3) starting up, args: none
+2021-10-11 07:11:39 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2021-10-11 07:11:39 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2021-10-11 07:11:40 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 1654236623.279
+2021-10-11 07:11:41 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-11 07:11:45 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "skills-tab-progress-bars" version "0.8" commit "edad37606858fb22dcea07ac9bb1f9324d737a80"
+2021-10-11 07:11:45 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "chatbox-opacity" version "dbee9ba4" commit "dbee9ba4e138cae2467354fc169d9c34dcac3162"
+2021-10-11 07:11:45 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "menu-swapper-extended" version "1.8" commit "c4c71b4e24b9e6de9c894eba44a1709203e3b661"
+2021-10-11 07:11:45 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "zalcano" version "e7fde457" commit "e7fde4576c9dbeb76efe5796f656dfe66f3d6fcb"
+2021-10-11 07:11:45 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "quest-helper" version "2.6.0" commit "3d9cc4ad2962b2b3cc363f3bb39502b428e403f4"
+2021-10-11 07:11:45 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "stealing-artefacts" version "1.1" commit "d4ccb8955208137981bf636121ba1c87ab453108"
+2021-10-11 07:11:45 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "inventory-setups" version "v1.12" commit "89f404d05f6e7a34d6cdd954d21f277f804aeb6a"
+2021-10-11 07:11:45 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "not-empty" version "1.0" commit "e49ec7cc3927e911337ad48bd530cb52f5365183"
+2021-10-11 07:11:45 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "profiles-panel" version "1.1.4" commit "c2dd59dcdf324df01c54aeba4cce4577c645f642"
+2021-10-11 07:11:45 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "crab-solver" version "1.2" commit "a81701ff28b1c0f0790bd0bd9a927c140d3a3e97"
+2021-10-11 07:11:45 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "watson-clue-tracker" version "1.0.4" commit "7c098357d4cc593e77df77f5377ad77af676f1ee"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "equipment-inspector" version "1.2" commit "c0018d299bb4a3dd4ef971a72bfdc776a42f0ff8"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "117hd" version "1.0.5" commit "acd6ced91b1c1a4b6dcc1af003fd3abc3dfadc48"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "cox-additions" version "40d2ba90" commit "40d2ba90edd8ad23a578c40e8e6ecaaa5eb226fd"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "gauntlet" version "1.0.0" commit "e928b24970bd234aad16c3ec3d9005735b852c08"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "the-gauntlet" version "4e13d3eb" commit "4e13d3ebdf7da91f96c3a47856b2ac19de1e48c8"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "slash-swapper" version "0870d527" commit "0870d527aa88e8c75ec110127d533b21f0e6b83a"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "pet-info" version "4.0" commit "dce286070830a322969f2024856c5e65fca9c89a"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tab-names" version "1.0.0" commit "524316bc3b36abca7ca0ecbf84636f79f54b376a"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "wom-utils" version "1.3.2" commit "d90ffe1067b582a32bc75a4fc944bc6a9202e00b"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "zulrah-helper" version "1.2.1" commit "a10c7242ee25809705985883ad297e89962b9b85"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "chompy-hunter" version "1.2" commit "dd55d418a7412bfb169fb74e7a27fc872a3dbe01"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "gnome-restaurant" version "1.3" commit "558256e0763eb13f4a032810b6c4ee5227880e26"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "tempoross" version "1.1" commit "d25d396318e7646171deceabaaae66b9e4059ba3"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "banked-experience" version "2.0.8" commit "cb7235902f37254d24699c38971f9f58c5a4c991"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "supplies-tracker" version "2.01" commit "79432ec85d1aafa0d1f8f66451a6c1c6f6f7303e"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "resource-packs" version "1.4.4" commit "febc83db0fbb19172d9fa4a5d740e490cd8cd428"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "picture-in-picture" version "1.4.1" commit "32688a78c119187be8c33c62cf56f990fe9bb688"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "transmog" version "1.2.1" commit "ba64c8ad20fe00f663ef69dfb6f9213efe441cf8"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ping-grapher" version "1.3.1" commit "8b4eb39187d0f59e585d06b4abb7ac4c464da2d2"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bats-locator" version "890cefa0" commit "890cefa0a95a734abc15a6b1f0681276c5c78c4d"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "cox-light-colors" version "1.3.2" commit "6a45d1c702f56bfb9ce146efc4160312fae5d963"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "damage-counter" version "1.6" commit "393187db8d2554ff47e7022b05f379bc31c38663"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "raid-reloader" version "415a4b71" commit "415a4b71a6f94f9f10345f5c825ab1109bc7cb07"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-value-tracker" version "757b7b33" commit "757b7b33bdfc27ba24d57fd22a15456f75558d00"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "elysiumevents-plugin" version "857ab9e3" commit "857ab9e310e22a83a00d5de55024c94166c1834f"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "fight-cave-waves" version "1.2" commit "51790d94159cbb85893de04d90efc5c0c20d819a"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "loot-table" version "1.0.1" commit "1f17b17c7e0b6a6843b27e4305029a0d2ebb2260"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "optimal-quest-guide" version "cbafa444" commit "cbafa4440bc08f6f93727730cd27fe5f15083d87"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ba-minigame" version "1.42" commit "92da92790bd4657bb14e99cde01308bec94a2809"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "improved-tears-of-guthix-interface" version "1.1" commit "adaae7dbe3ff3710e47eba12a32dfe1d71dd14c9"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "crab-stun-timers" version "b0e7ad22" commit "b0e7ad22a6018fed3cdcd105d6a1873a242e75e3"
+2021-10-11 07:11:46 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2021-10-11 07:11:48 [AWT-EventQueue-0] INFO  dekvall.notempty.NotEmptyPlugin - Not Empty started!
+2021-10-11 07:11:50 [pool-3-thread-1] INFO  n.r.client.discord.DiscordService - Discord RPC service is ready with user Victor.
+2021-10-11 07:11:51 [AWT-EventQueue-0] INFO  com.pinggraph.PingGraphPlugin - Ping Graph started!
+2021-10-11 07:11:52 [AWT-EventQueue-0] INFO  dev.dkvl.womutils.WomUtilsPlugin - Wise Old Man started!
+2021-10-11 07:11:52 [AWT-EventQueue-0] INFO  com.zalcano.ZalcanoPlugin - Zalcano plugin started
+2021-10-11 07:11:53 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 14920ms. Uptime: 27483ms
+2021-10-11 07:11:53 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,1920x1040,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,1920x1040,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@6300a95a,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2021-10-11 07:11:54 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-10-11 07:11:54 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6.0 NVIDIA 471.96
+2021-10-11 07:12:09 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.7.25 (launcher version 2.1.3) starting up, args: none
+2021-10-11 07:12:10 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2021-10-11 07:12:11 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2021-10-11 07:12:11 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 1654236623.279
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "skills-tab-progress-bars" version "0.8" commit "edad37606858fb22dcea07ac9bb1f9324d737a80"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "chatbox-opacity" version "dbee9ba4" commit "dbee9ba4e138cae2467354fc169d9c34dcac3162"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "menu-swapper-extended" version "1.8" commit "c4c71b4e24b9e6de9c894eba44a1709203e3b661"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "zalcano" version "e7fde457" commit "e7fde4576c9dbeb76efe5796f656dfe66f3d6fcb"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "quest-helper" version "2.6.0" commit "3d9cc4ad2962b2b3cc363f3bb39502b428e403f4"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "stealing-artefacts" version "1.1" commit "d4ccb8955208137981bf636121ba1c87ab453108"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "inventory-setups" version "v1.12" commit "89f404d05f6e7a34d6cdd954d21f277f804aeb6a"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "not-empty" version "1.0" commit "e49ec7cc3927e911337ad48bd530cb52f5365183"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "profiles-panel" version "1.1.4" commit "c2dd59dcdf324df01c54aeba4cce4577c645f642"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "crab-solver" version "1.2" commit "a81701ff28b1c0f0790bd0bd9a927c140d3a3e97"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "watson-clue-tracker" version "1.0.4" commit "7c098357d4cc593e77df77f5377ad77af676f1ee"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "equipment-inspector" version "1.2" commit "c0018d299bb4a3dd4ef971a72bfdc776a42f0ff8"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "117hd" version "1.0.5" commit "acd6ced91b1c1a4b6dcc1af003fd3abc3dfadc48"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "cox-additions" version "40d2ba90" commit "40d2ba90edd8ad23a578c40e8e6ecaaa5eb226fd"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "gauntlet" version "1.0.0" commit "e928b24970bd234aad16c3ec3d9005735b852c08"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "the-gauntlet" version "4e13d3eb" commit "4e13d3ebdf7da91f96c3a47856b2ac19de1e48c8"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "slash-swapper" version "0870d527" commit "0870d527aa88e8c75ec110127d533b21f0e6b83a"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "pet-info" version "4.0" commit "dce286070830a322969f2024856c5e65fca9c89a"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tab-names" version "1.0.0" commit "524316bc3b36abca7ca0ecbf84636f79f54b376a"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "wom-utils" version "1.3.2" commit "d90ffe1067b582a32bc75a4fc944bc6a9202e00b"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "zulrah-helper" version "1.2.1" commit "a10c7242ee25809705985883ad297e89962b9b85"
+2021-10-11 07:12:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "chompy-hunter" version "1.2" commit "dd55d418a7412bfb169fb74e7a27fc872a3dbe01"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "gnome-restaurant" version "1.3" commit "558256e0763eb13f4a032810b6c4ee5227880e26"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "tempoross" version "1.1" commit "d25d396318e7646171deceabaaae66b9e4059ba3"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "banked-experience" version "2.0.8" commit "cb7235902f37254d24699c38971f9f58c5a4c991"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "supplies-tracker" version "2.01" commit "79432ec85d1aafa0d1f8f66451a6c1c6f6f7303e"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "resource-packs" version "1.4.4" commit "febc83db0fbb19172d9fa4a5d740e490cd8cd428"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "picture-in-picture" version "1.4.1" commit "32688a78c119187be8c33c62cf56f990fe9bb688"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "transmog" version "1.2.1" commit "ba64c8ad20fe00f663ef69dfb6f9213efe441cf8"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ping-grapher" version "1.3.1" commit "8b4eb39187d0f59e585d06b4abb7ac4c464da2d2"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bats-locator" version "890cefa0" commit "890cefa0a95a734abc15a6b1f0681276c5c78c4d"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "cox-light-colors" version "1.3.2" commit "6a45d1c702f56bfb9ce146efc4160312fae5d963"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "damage-counter" version "1.6" commit "393187db8d2554ff47e7022b05f379bc31c38663"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "raid-reloader" version "415a4b71" commit "415a4b71a6f94f9f10345f5c825ab1109bc7cb07"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-value-tracker" version "757b7b33" commit "757b7b33bdfc27ba24d57fd22a15456f75558d00"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "elysiumevents-plugin" version "857ab9e3" commit "857ab9e310e22a83a00d5de55024c94166c1834f"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "fight-cave-waves" version "1.2" commit "51790d94159cbb85893de04d90efc5c0c20d819a"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "loot-table" version "1.0.1" commit "1f17b17c7e0b6a6843b27e4305029a0d2ebb2260"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "optimal-quest-guide" version "cbafa444" commit "cbafa4440bc08f6f93727730cd27fe5f15083d87"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ba-minigame" version "1.42" commit "92da92790bd4657bb14e99cde01308bec94a2809"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "improved-tears-of-guthix-interface" version "1.1" commit "adaae7dbe3ff3710e47eba12a32dfe1d71dd14c9"
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "crab-stun-timers" version "b0e7ad22" commit "b0e7ad22a6018fed3cdcd105d6a1873a242e75e3"
+2021-10-11 07:12:13 [Client] ERROR client-patch - Game crash: 4473 4471 2003
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 728
+	at cp.l(cp.java:192)
+	at di.m(di.java:571)
+	at dh.f(dh.java:442)
+	at ac.q(ac.java:63977)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.na(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-10-11 07:12:13 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2021-10-11 07:12:15 [AWT-EventQueue-0] INFO  dekvall.notempty.NotEmptyPlugin - Not Empty started!
+2021-10-11 07:12:15 [pool-3-thread-1] INFO  n.r.client.discord.DiscordService - Discord RPC service is ready with user Victor.
+2021-10-11 07:12:16 [AWT-EventQueue-0] INFO  com.pinggraph.PingGraphPlugin - Ping Graph started!
+2021-10-11 07:12:17 [AWT-EventQueue-0] INFO  dev.dkvl.womutils.WomUtilsPlugin - Wise Old Man started!
+2021-10-11 07:12:17 [AWT-EventQueue-0] INFO  com.zalcano.ZalcanoPlugin - Zalcano plugin started
+2021-10-11 07:12:18 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 9057ms. Uptime: 10977ms
+2021-10-11 07:12:18 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,1920x1040,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,1920x1040,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@2b50c9b3,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2021-10-11 07:12:20 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-10-11 07:12:20 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6.0 NVIDIA 471.96
+2021-10-11 07:13:11 [AWT-EventQueue-0] ERROR net.runelite.client.RuneLite - Uncaught exception:
+java.lang.NullPointerException: null
+	at net.runelite.client.plugins.party.PartyPlugin.lambda$onPartyChanged$7(PartyPlugin.java:590)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at net.runelite.client.util.SwingUtil.pumpPendingEvents(SwingUtil.java:311)
+	at net.runelite.client.util.SwingUtil.fastRemoveAll(SwingUtil.java:289)
+	at net.runelite.client.util.SwingUtil.fastRemoveAll(SwingUtil.java:283)
+	at net.runelite.client.util.SwingUtil.fastRemoveAll(SwingUtil.java:283)
+	at net.runelite.client.plugins.loottracker.LootTrackerPanel.rebuild(LootTrackerPanel.java:451)
+	at net.runelite.client.plugins.loottracker.LootTrackerPanel.updateIgnoredRecords(LootTrackerPanel.java:443)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at net.runelite.client.util.SwingUtil.pumpPendingEvents(SwingUtil.java:311)
+	at net.runelite.client.util.SwingUtil.fastRemoveAll(SwingUtil.java:289)
+	at net.runelite.client.util.SwingUtil.fastRemoveAll(SwingUtil.java:283)
+	at net.runelite.client.util.SwingUtil.fastRemoveAll(SwingUtil.java:283)
+	at net.runelite.client.util.SwingUtil.fastRemoveAll(SwingUtil.java:283)
+	at net.runelite.client.plugins.loottracker.LootTrackerPanel.rebuild(LootTrackerPanel.java:451)
+	at net.runelite.client.plugins.loottracker.LootTrackerPanel.updateIgnoredRecords(LootTrackerPanel.java:443)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at net.runelite.client.util.SwingUtil.pumpPendingEvents(SwingUtil.java:311)
+	at net.runelite.client.util.SwingUtil.fastRemoveAll(SwingUtil.java:289)
+	at net.runelite.client.util.SwingUtil.fastRemoveAll(SwingUtil.java:283)
+	at net.runelite.client.util.SwingUtil.fastRemoveAll(SwingUtil.java:283)
+	at net.runelite.client.util.SwingUtil.fastRemoveAll(SwingUtil.java:283)
+	at net.runelite.client.plugins.loottracker.LootTrackerPanel.rebuild(LootTrackerPanel.java:451)
+	at net.runelite.client.plugins.loottracker.LootTrackerPanel.updateIgnoredRecords(LootTrackerPanel.java:443)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2021-10-11 07:13:16 [pool-3-thread-1] INFO  m.resourcepacks.ResourcePacksManager - Removing pack "pack-dragonframe"
+2021-10-11 07:13:16 [pool-3-thread-1] INFO  m.resourcepacks.ResourcePacksManager - Removing pack "pack-crazed"
+2021-10-11 07:13:16 [pool-3-thread-1] INFO  m.resourcepacks.ResourcePacksManager - Removing pack "pack-k-purple"
+2021-10-11 07:13:16 [pool-3-thread-1] INFO  m.resourcepacks.ResourcePacksManager - Removing pack "pack-pinkvanilla"
+2021-10-11 07:13:16 [Client] INFO  rs117.hd.HdPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-10-11 07:13:16 [Client] INFO  rs117.hd.HdPlugin - Using driver: 4.6.0 NVIDIA 471.96
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class trevor.chatboxopacity.ChatboxOpacityPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class io.ryoung.menuswapperextended.MenuSwapperPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.zalcano.ZalcanoPlugin"
+2021-10-11 07:13:17 [AWT-EventQueue-0] INFO  com.zalcano.ZalcanoPlugin - Zalcano plugin stopped
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class io.cbitler.stealingartefacts.StealingArtefactsPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class inventorysetups.InventorySetupsPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class dekvall.notempty.NotEmptyPlugin"
+2021-10-11 07:13:17 [AWT-EventQueue-0] INFO  dekvall.notempty.NotEmptyPlugin - Not Empty stopped!
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.thenorsepantheon.profiles.ProfilesPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class thestonedturtle.crabsolver.CrabSolverPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.watsoncluetracker.WatsonPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class equipmentinspector.EquipmentInspectorPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class de0.coxvanguards.CoxVanguardsPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class de0.coxthieving.CoxThievingPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class de0.coxtimers.CoxTimersPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.gauntlet.GauntletPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class ca.gauntlet.TheGauntletPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.SlashSwapper.SlashSwapperPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.micro.petinfo.PetInfoPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class dev.dkvl.womutils.WomUtilsPlugin"
+2021-10-11 07:13:17 [AWT-EventQueue-0] INFO  dev.dkvl.womutils.WomUtilsPlugin - Wise Old Man stopped!
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.zulrahhelper.ZulrahHelperPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class ejedev.chompyhunter.ChompyHunterPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class io.github.mmagicala.gnomeRestaurant.GnomeRestaurantPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class thestonedturtle.bankedexperience.BankedExperiencePlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.suppliestracker.SuppliesTrackerPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class melky.resourcepacks.ResourcePacksPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class io.hydrox.transmog.TransmogrificationPlugin"
+2021-10-11 07:13:17 [AWT-EventQueue-0] WARN  n.r.client.config.ConfigManager - trying to create profile without display name
+2021-10-11 07:13:17 [AWT-EventQueue-0] WARN  n.r.client.config.ConfigManager - trying to create profile without a set username
+2021-10-11 07:13:17 [pool-3-thread-1] WARN  n.r.c.e.ExternalPluginManager - Unable to stop external plugin "io.hydrox.transmog.TransmogrificationPlugin"
+java.lang.reflect.InvocationTargetException: null
+	at java.desktop/java.awt.EventQueue.invokeAndWait(Unknown Source)
+	at java.desktop/java.awt.EventQueue.invokeAndWait(Unknown Source)
+	at java.desktop/javax.swing.SwingUtilities.invokeAndWait(Unknown Source)
+	at net.runelite.client.externalplugins.ExternalPluginManager.refreshPlugins(ExternalPluginManager.java:273)
+	at net.runelite.client.util.RunnableExceptionLogger.run(RunnableExceptionLogger.java:41)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: net.runelite.client.plugins.PluginInstantiationException: java.lang.NullPointerException
+	at net.runelite.client.externalplugins.ExternalPluginManager.lambda$refreshPlugins$2(ExternalPluginManager.java:281)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: net.runelite.client.plugins.PluginInstantiationException: java.lang.NullPointerException
+	at net.runelite.client.plugins.PluginManager.stopPlugin(PluginManager.java:452)
+	at net.runelite.client.externalplugins.ExternalPluginManager.lambda$refreshPlugins$2(ExternalPluginManager.java:277)
+	... 13 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at io.hydrox.transmog.ui.UIManager.shutDown(UIManager.java:104)
+	at io.hydrox.transmog.TransmogrificationPlugin.shutDown(TransmogrificationPlugin.java:128)
+	at net.runelite.client.plugins.PluginManager.stopPlugin(PluginManager.java:445)
+	... 14 common frames omitted
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.pinggraph.PingGraphPlugin"
+2021-10-11 07:13:17 [AWT-EventQueue-0] INFO  com.pinggraph.PingGraphPlugin - Ping Graph stopped!
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.coxlightcolors.CoxLightColorsPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.damagecounter.DamageCounterPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class trevor.raidreloader.RaidReloaderPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.clanevents.ClanEventsPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class at.nightfirec.fightcavewaves.FightCaveWavesPlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.loottable.LootTablePlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.optimalquestguide.GuidePlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.improvedtearsinterface.ImprovedTearsInterfacePlugin"
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.crabstuntimer.CrabStunPlugin"
+2021-10-11 07:13:17 [Client] WARN  n.r.client.callback.ClientThread - Exception in invoke
+java.lang.NullPointerException: null
+	at io.hydrox.transmog.ui.UIManager.getContainer(UIManager.java:128)
+	at io.hydrox.transmog.ui.UIManager.removeCustomUI(UIManager.java:152)
+	at net.runelite.client.callback.ClientThread.lambda$invoke$0(ClientThread.java:48)
+	at net.runelite.client.callback.ClientThread.invoke(ClientThread.java:99)
+	at net.runelite.client.callback.Hooks.clientMainLoop(Hooks.java:195)
+	at client.zc(client.java:29407)
+	at client.ad(client.java)
+	at ay.th(ay.java:390)
+	at ay.run(ay.java:344)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-10-11 07:13:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "kitten-tracker" version "db2b1cc3" commit "db2b1cc3a4dcd93fe1dc38fd4ddb5ef8ebf10716"
+2021-10-11 07:17:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 5:17:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 07:21:48 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 07:22:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 5:22:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 07:26:48 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 07:28:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 5:28:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 07:31:51 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 07:33:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 5:33:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 07:36:49 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 07:38:10 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 5:38:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 07:41:49 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 07:42:10 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 5:42:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 07:46:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 5:46:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 07:46:49 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 07:51:08 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at java.base/java.util.LinkedList.node(Unknown Source)
+	at java.base/java.util.LinkedList.get(Unknown Source)
+	at com.pinggraph.PingGraphPlugin.getMaxMinFromList(PingGraphPlugin.java:151)
+	at com.pinggraph.PingGraphPlugin.onClientTick(PingGraphPlugin.java:122)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:70)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:223)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:169)
+	at client.sl(client.java:15170)
+	at client.na(client.java:3201)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-10-11 07:51:50 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 07:52:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 5:52:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 07:56:50 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 07:57:10 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 5:57:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 08:01:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 6:01:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 08:01:50 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 08:06:50 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 08:08:10 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 6:08:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 08:11:51 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 08:13:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 6:13:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 08:16:52 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 08:19:10 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 6:19:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 08:21:52 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 08:26:52 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 08:28:10 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 6:28:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 08:31:52 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 08:35:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 6:35:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 08:36:53 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 08:41:10 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 6:41:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 08:41:53 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 08:51:54 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 08:53:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 6:53:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 08:56:57 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 09:08:10 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 7:08:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 09:08:15 [OkHttp https://crystalmathlabs.com/...] WARN  n.r.c.p.xpupdater.XpUpdaterPlugin - Error submitting CrystalMathLabs update, caused by timeout.
+2021-10-11 09:22:21 [Client] ERROR client-patch - Game crash: 4473 4471 2003
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 728
+	at cp.l(cp.java:192)
+	at di.m(di.java:571)
+	at dh.f(dh.java:442)
+	at ac.q(ac.java:63977)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.na(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-10-11 09:22:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 7:22:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 09:29:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 7:29:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 09:31:56 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 09:36:10 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 7:36:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 09:36:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 7:36:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 09:36:56 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 09:46:57 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 09:47:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 7:47:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 09:49:40 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 7:49:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 09:51:57 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 09:55:10 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 7:55:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 09:56:10 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 7:56:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 09:57:10 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 7:57:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 09:59:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 7:59:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 10:00:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 8:00:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 10:04:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 8:04:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 10:06:59 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 10:08:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 8:08:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 10:11:59 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 10:17:00 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 10:22:00 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 10:27:00 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 10:29:06 [Client] ERROR client-patch - Game crash: 4473 4471 2003
+java.lang.ArrayIndexOutOfBoundsException: null
+2021-10-11 10:29:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 8:29:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 10:32:00 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 10:37:00 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 10:42:01 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 10:47:01 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 10:49:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 8:49:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 10:51:10 [Client] ERROR client-patch - Game crash: 4473 4478 2003
+java.lang.ArrayIndexOutOfBoundsException: null
+2021-10-11 10:52:01 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 10:57:02 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 10:57:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 8:57:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 10:58:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 8:58:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:01:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 6 configuration values: {"timestamp":"Oct 11, 2021 9:01:22 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:02:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 6 configuration values: {"timestamp":"Oct 11, 2021 9:02:52 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:04:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:04:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:05:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:05:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:06:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:06:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:07:02 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 11:07:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:07:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:07:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:07:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:08:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:08:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:09:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:09:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:09:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 7 configuration values: {"timestamp":"Oct 11, 2021 9:09:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:11:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 9:11:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:12:03 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 11:12:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:12:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:13:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:13:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:13:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:13:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:14:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 9:14:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:14:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:14:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:15:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:15:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:16:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:16:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:16:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:16:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:17:03 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 11:17:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:17:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:17:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:17:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:18:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:18:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:19:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:19:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:20:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:20:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:21:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:21:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:22:03 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 11:22:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 9:22:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:23:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:23:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:23:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:23:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:24:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:24:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:25:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:25:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:25:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:25:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:26:02 [Client] ERROR client-patch - Game crash: 4473 4478 2003
+java.lang.ArrayIndexOutOfBoundsException: null
+2021-10-11 11:26:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:26:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:27:03 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 11:27:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:27:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:27:41 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:27:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:28:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 9:28:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:29:11 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:29:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:30:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:30:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:30:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:30:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:31:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:31:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:31:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:31:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:32:04 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 11:32:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:32:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:33:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:33:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:33:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:33:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:34:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:34:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:34:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:34:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:35:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:35:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:35:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:35:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:36:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 9:36:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:37:04 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 11:37:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:37:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:37:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:37:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:38:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 5 configuration values: {"timestamp":"Oct 11, 2021 9:38:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:38:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 4 configuration values: {"timestamp":"Oct 11, 2021 9:38:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:41:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 4 configuration values: {"timestamp":"Oct 11, 2021 9:41:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:41:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 4 configuration values: {"timestamp":"Oct 11, 2021 9:41:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:42:04 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 11:43:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 9:43:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:43:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:43:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:45:13 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:45:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:45:59 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+2021-10-11 11:47:04 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 11:47:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:47:23 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:47:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 9:47:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 11:52:05 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 11:57:05 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 12:02:05 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 12:07:06 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 12:12:06 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 12:14:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:14:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:17:06 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 12:19:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 10:19:53 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:25:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:25:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:27:07 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 12:27:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:27:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:30:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:30:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:32:07 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 12:33:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:33:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:35:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:35:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:37:08 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 12:37:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 10:37:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:38:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 10:38:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:40:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:40:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:42:08 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 12:42:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:42:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:44:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:44:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:47:08 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 12:47:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:47:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:49:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 10:49:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:49:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 10:49:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:51:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:51:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:52:09 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 12:54:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:54:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:56:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 10:56:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:57:11 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 12:57:17 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 10:57:28 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:58:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:58:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 12:59:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 10:59:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:02:09 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 13:02:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:02:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:04:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:04:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:06:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:06:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:07:10 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 13:08:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:08:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:11:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:11:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:12:10 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 13:13:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:13:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:16:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:16:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:17:10 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 13:18:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:18:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:20:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:20:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:22:11 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 13:23:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:23:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:25:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:25:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:27:11 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 13:27:13 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:27:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:29:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:29:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:31:45 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:31:57 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:32:11 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 13:34:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:34:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:36:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:36:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:37:12 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 13:39:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:39:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:41:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:41:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:42:12 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 13:44:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 11:44:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:47:12 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 13:47:43 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 6 configuration values: {"timestamp":"Oct 11, 2021 11:47:55 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:48:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 11:48:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:49:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 5 configuration values: {"timestamp":"Oct 11, 2021 11:49:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:49:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 4 configuration values: {"timestamp":"Oct 11, 2021 11:49:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:52:13 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 13:57:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 11:57:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:58:16 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 11:58:27 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:59:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 11:59:24 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 13:59:43 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 11:59:54 AM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:00:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:00:54 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:01:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:01:54 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:02:13 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 14:02:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:02:54 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:03:13 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:03:24 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:03:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:03:54 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:04:43 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:04:55 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:05:12 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:05:24 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:06:42 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:06:54 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:07:13 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 14:07:43 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:07:54 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:08:43 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:08:54 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:09:13 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:09:24 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:10:13 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:10:24 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:11:13 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:11:24 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:12:13 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:12:24 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:12:13 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 14:12:43 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 5 configuration values: {"timestamp":"Oct 11, 2021 12:12:54 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:13:13 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 4 configuration values: {"timestamp":"Oct 11, 2021 12:13:24 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:15:43 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 11, 2021 12:15:54 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:15:44 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-10-11 14:15:44 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6.0 NVIDIA 471.96
+2021-10-11 14:16:13 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 12:16:24 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 14:17:14 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-11 15:10:14 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 11, 2021 1:10:14 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.25/config"}
+2021-10-11 18:20:14 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+ps: null
+	at ce.q(ce.java:61)
+	at mj.an(mj.java:52)
+	at mj.ay(mj.java:45)
+	at ba.h(ba.java:238)
+	at ci.y(ci.java:183)
+	at ci.f(ci.java:173)
+	at ci.isFriend(ci.java)
+	at net.runelite.client.plugins.playerindicators.PlayerIndicatorsPlugin.getDecorations(PlayerIndicatorsPlugin.java:193)
+	at net.runelite.client.plugins.playerindicators.PlayerIndicatorsPlugin.onClientTick(PlayerIndicatorsPlugin.java:167)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:70)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:223)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:169)
+	at client.sl(client.java:15170)
+	at client.na(client.java:3201)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: null
+	at mj.an(mj.java:51)
+	... 16 common frames omitted
+2021-10-11 19:28:18 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-10-11 19:28:18 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6.0 NVIDIA 471.96

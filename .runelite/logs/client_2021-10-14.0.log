@@ -1,0 +1,603 @@
+2021-10-14 15:01:30 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.7.26 (launcher version 2.1.3) starting up, args: none
+2021-10-14 15:01:31 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2021-10-14 15:01:32 [Preloader] WARN  net.runelite.client.rs.ClientLoader - Cached patch hash mismatches, regenerating patch
+2021-10-14 15:01:33 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 1676059458.286
+2021-10-14 15:01:34 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-14 15:01:35 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "skills-tab-progress-bars" version "0.8" commit "edad37606858fb22dcea07ac9bb1f9324d737a80"
+2021-10-14 15:01:35 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "chatbox-opacity" version "dbee9ba4" commit "dbee9ba4e138cae2467354fc169d9c34dcac3162"
+2021-10-14 15:01:35 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "menu-swapper-extended" version "1.8" commit "c4c71b4e24b9e6de9c894eba44a1709203e3b661"
+2021-10-14 15:01:35 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "zalcano" version "e7fde457" commit "e7fde4576c9dbeb76efe5796f656dfe66f3d6fcb"
+2021-10-14 15:01:35 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "quest-helper" version "2.6.0" commit "3d9cc4ad2962b2b3cc363f3bb39502b428e403f4"
+2021-10-14 15:01:35 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "inventory-setups" version "v1.12" commit "89f404d05f6e7a34d6cdd954d21f277f804aeb6a"
+2021-10-14 15:01:35 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "stealing-artefacts" version "1.1" commit "d4ccb8955208137981bf636121ba1c87ab453108"
+2021-10-14 15:01:35 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "not-empty" version "1.0" commit "e49ec7cc3927e911337ad48bd530cb52f5365183"
+2021-10-14 15:01:35 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "profiles-panel" version "1.1.4" commit "c2dd59dcdf324df01c54aeba4cce4577c645f642"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "crab-solver" version "1.2" commit "a81701ff28b1c0f0790bd0bd9a927c140d3a3e97"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "watson-clue-tracker" version "1.0.4" commit "7c098357d4cc593e77df77f5377ad77af676f1ee"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "equipment-inspector" version "1.2" commit "c0018d299bb4a3dd4ef971a72bfdc776a42f0ff8"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "cox-additions" version "40d2ba90" commit "40d2ba90edd8ad23a578c40e8e6ecaaa5eb226fd"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "gauntlet" version "1.0.0" commit "e928b24970bd234aad16c3ec3d9005735b852c08"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "the-gauntlet" version "4e13d3eb" commit "4e13d3ebdf7da91f96c3a47856b2ac19de1e48c8"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "slash-swapper" version "0870d527" commit "0870d527aa88e8c75ec110127d533b21f0e6b83a"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "pet-info" version "4.0" commit "dce286070830a322969f2024856c5e65fca9c89a"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tab-names" version "1.0.0" commit "524316bc3b36abca7ca0ecbf84636f79f54b376a"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "wom-utils" version "1.3.2" commit "d90ffe1067b582a32bc75a4fc944bc6a9202e00b"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "zulrah-helper" version "1.2.1" commit "a10c7242ee25809705985883ad297e89962b9b85"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "chompy-hunter" version "1.2" commit "dd55d418a7412bfb169fb74e7a27fc872a3dbe01"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "gnome-restaurant" version "1.3" commit "558256e0763eb13f4a032810b6c4ee5227880e26"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "tempoross" version "1.1" commit "d25d396318e7646171deceabaaae66b9e4059ba3"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "banked-experience" version "2.0.8" commit "cb7235902f37254d24699c38971f9f58c5a4c991"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "supplies-tracker" version "2.01" commit "79432ec85d1aafa0d1f8f66451a6c1c6f6f7303e"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "resource-packs" version "1.4.4" commit "febc83db0fbb19172d9fa4a5d740e490cd8cd428"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "picture-in-picture" version "1.4.1" commit "32688a78c119187be8c33c62cf56f990fe9bb688"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "transmog" version "1.2.1" commit "ba64c8ad20fe00f663ef69dfb6f9213efe441cf8"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ping-grapher" version "1.3.1" commit "8b4eb39187d0f59e585d06b4abb7ac4c464da2d2"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bats-locator" version "890cefa0" commit "890cefa0a95a734abc15a6b1f0681276c5c78c4d"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "cox-light-colors" version "1.3.2" commit "6a45d1c702f56bfb9ce146efc4160312fae5d963"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "117hd" version "1.0.6" commit "803c7136ee133484ee8ca80e16974897def85bb5"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "damage-counter" version "1.6" commit "393187db8d2554ff47e7022b05f379bc31c38663"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "raid-reloader" version "415a4b71" commit "415a4b71a6f94f9f10345f5c825ab1109bc7cb07"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-value-tracker" version "757b7b33" commit "757b7b33bdfc27ba24d57fd22a15456f75558d00"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "elysiumevents-plugin" version "857ab9e3" commit "857ab9e310e22a83a00d5de55024c94166c1834f"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "fight-cave-waves" version "1.2" commit "51790d94159cbb85893de04d90efc5c0c20d819a"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "loot-table" version "1.0.1" commit "1f17b17c7e0b6a6843b27e4305029a0d2ebb2260"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "optimal-quest-guide" version "cbafa444" commit "cbafa4440bc08f6f93727730cd27fe5f15083d87"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ba-minigame" version "1.42" commit "92da92790bd4657bb14e99cde01308bec94a2809"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "improved-tears-of-guthix-interface" version "1.1" commit "adaae7dbe3ff3710e47eba12a32dfe1d71dd14c9"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "crab-stun-timers" version "b0e7ad22" commit "b0e7ad22a6018fed3cdcd105d6a1873a242e75e3"
+2021-10-14 15:01:36 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2021-10-14 15:01:38 [AWT-EventQueue-0] INFO  dekvall.notempty.NotEmptyPlugin - Not Empty started!
+2021-10-14 15:01:38 [pool-3-thread-1] INFO  n.r.client.discord.DiscordService - Discord RPC service is ready with user Victor.
+2021-10-14 15:01:39 [AWT-EventQueue-0] INFO  com.pinggraph.PingGraphPlugin - Ping Graph started!
+2021-10-14 15:01:39 [AWT-EventQueue-0] INFO  dev.dkvl.womutils.WomUtilsPlugin - Wise Old Man started!
+2021-10-14 15:01:39 [AWT-EventQueue-0] INFO  com.zalcano.ZalcanoPlugin - Zalcano plugin started
+2021-10-14 15:01:40 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 9740ms. Uptime: 14945ms
+2021-10-14 15:01:40 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,1920x1040,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,1920x1040,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@5394d917,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2021-10-14 15:01:41 [Client] INFO  rs117.hd.HdPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-10-14 15:01:41 [Client] INFO  rs117.hd.HdPlugin - Using driver: 4.6.0 NVIDIA 471.96
+2021-10-14 15:02:06 [Client] ERROR client-patch - Client error: 4473 4471 2003
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 728
+	at cp.l(cp.java:192)
+	at di.m(di.java:571)
+	at dh.f(dh.java:442)
+	at ac.q(ac.java:57577)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.pt(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-10-14 15:02:09 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.7.26 (launcher version 2.1.3) starting up, args: none
+2021-10-14 15:02:10 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2021-10-14 15:02:11 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2021-10-14 15:02:11 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 1676059458.286
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "skills-tab-progress-bars" version "0.8" commit "edad37606858fb22dcea07ac9bb1f9324d737a80"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "chatbox-opacity" version "dbee9ba4" commit "dbee9ba4e138cae2467354fc169d9c34dcac3162"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "menu-swapper-extended" version "1.8" commit "c4c71b4e24b9e6de9c894eba44a1709203e3b661"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "zalcano" version "e7fde457" commit "e7fde4576c9dbeb76efe5796f656dfe66f3d6fcb"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "quest-helper" version "2.6.0" commit "3d9cc4ad2962b2b3cc363f3bb39502b428e403f4"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "inventory-setups" version "v1.12" commit "89f404d05f6e7a34d6cdd954d21f277f804aeb6a"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "stealing-artefacts" version "1.1" commit "d4ccb8955208137981bf636121ba1c87ab453108"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "not-empty" version "1.0" commit "e49ec7cc3927e911337ad48bd530cb52f5365183"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "profiles-panel" version "1.1.4" commit "c2dd59dcdf324df01c54aeba4cce4577c645f642"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "crab-solver" version "1.2" commit "a81701ff28b1c0f0790bd0bd9a927c140d3a3e97"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "watson-clue-tracker" version "1.0.4" commit "7c098357d4cc593e77df77f5377ad77af676f1ee"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "equipment-inspector" version "1.2" commit "c0018d299bb4a3dd4ef971a72bfdc776a42f0ff8"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "cox-additions" version "40d2ba90" commit "40d2ba90edd8ad23a578c40e8e6ecaaa5eb226fd"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "gauntlet" version "1.0.0" commit "e928b24970bd234aad16c3ec3d9005735b852c08"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "the-gauntlet" version "4e13d3eb" commit "4e13d3ebdf7da91f96c3a47856b2ac19de1e48c8"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "slash-swapper" version "0870d527" commit "0870d527aa88e8c75ec110127d533b21f0e6b83a"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "pet-info" version "4.0" commit "dce286070830a322969f2024856c5e65fca9c89a"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tab-names" version "1.0.0" commit "524316bc3b36abca7ca0ecbf84636f79f54b376a"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "wom-utils" version "1.3.2" commit "d90ffe1067b582a32bc75a4fc944bc6a9202e00b"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "zulrah-helper" version "1.2.1" commit "a10c7242ee25809705985883ad297e89962b9b85"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "chompy-hunter" version "1.2" commit "dd55d418a7412bfb169fb74e7a27fc872a3dbe01"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "gnome-restaurant" version "1.3" commit "558256e0763eb13f4a032810b6c4ee5227880e26"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "tempoross" version "1.1" commit "d25d396318e7646171deceabaaae66b9e4059ba3"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "banked-experience" version "2.0.8" commit "cb7235902f37254d24699c38971f9f58c5a4c991"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "supplies-tracker" version "2.01" commit "79432ec85d1aafa0d1f8f66451a6c1c6f6f7303e"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "resource-packs" version "1.4.4" commit "febc83db0fbb19172d9fa4a5d740e490cd8cd428"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "picture-in-picture" version "1.4.1" commit "32688a78c119187be8c33c62cf56f990fe9bb688"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "transmog" version "1.2.1" commit "ba64c8ad20fe00f663ef69dfb6f9213efe441cf8"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ping-grapher" version "1.3.1" commit "8b4eb39187d0f59e585d06b4abb7ac4c464da2d2"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bats-locator" version "890cefa0" commit "890cefa0a95a734abc15a6b1f0681276c5c78c4d"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "cox-light-colors" version "1.3.2" commit "6a45d1c702f56bfb9ce146efc4160312fae5d963"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "117hd" version "1.0.6" commit "803c7136ee133484ee8ca80e16974897def85bb5"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "damage-counter" version "1.6" commit "393187db8d2554ff47e7022b05f379bc31c38663"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "raid-reloader" version "415a4b71" commit "415a4b71a6f94f9f10345f5c825ab1109bc7cb07"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-value-tracker" version "757b7b33" commit "757b7b33bdfc27ba24d57fd22a15456f75558d00"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "elysiumevents-plugin" version "857ab9e3" commit "857ab9e310e22a83a00d5de55024c94166c1834f"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "fight-cave-waves" version "1.2" commit "51790d94159cbb85893de04d90efc5c0c20d819a"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "loot-table" version "1.0.1" commit "1f17b17c7e0b6a6843b27e4305029a0d2ebb2260"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "optimal-quest-guide" version "cbafa444" commit "cbafa4440bc08f6f93727730cd27fe5f15083d87"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ba-minigame" version "1.42" commit "92da92790bd4657bb14e99cde01308bec94a2809"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "improved-tears-of-guthix-interface" version "1.1" commit "adaae7dbe3ff3710e47eba12a32dfe1d71dd14c9"
+2021-10-14 15:02:13 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "crab-stun-timers" version "b0e7ad22" commit "b0e7ad22a6018fed3cdcd105d6a1873a242e75e3"
+2021-10-14 15:02:14 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2021-10-14 15:02:15 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-10-14 15:02:15 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6.0 NVIDIA 471.96
+2021-10-14 15:02:15 [AWT-EventQueue-0] INFO  dekvall.notempty.NotEmptyPlugin - Not Empty started!
+2021-10-14 15:02:15 [AWT-EventQueue-0] INFO  com.pinggraph.PingGraphPlugin - Ping Graph started!
+2021-10-14 15:02:16 [pool-3-thread-1] INFO  n.r.client.discord.DiscordService - Discord RPC service is ready with user Victor.
+2021-10-14 15:02:16 [AWT-EventQueue-0] INFO  dev.dkvl.womutils.WomUtilsPlugin - Wise Old Man started!
+2021-10-14 15:02:16 [AWT-EventQueue-0] INFO  com.zalcano.ZalcanoPlugin - Zalcano plugin started
+2021-10-14 15:02:18 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 8554ms. Uptime: 10635ms
+2021-10-14 15:02:18 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,1920x1040,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,1920x1040,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@2b50c9b3,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2021-10-14 15:02:19 [Client] INFO  rs117.hd.HdPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-10-14 15:02:19 [Client] INFO  rs117.hd.HdPlugin - Using driver: 4.6.0 NVIDIA 471.96
+2021-10-14 15:02:57 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-10-14 15:02:57 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6.0 NVIDIA 471.96
+2021-10-14 15:02:59 [pool-3-thread-1] INFO  m.resourcepacks.ResourcePacksManager - Removing pack "pack-dragonframe"
+2021-10-14 15:02:59 [pool-3-thread-1] INFO  m.resourcepacks.ResourcePacksManager - Removing pack "pack-crazed"
+2021-10-14 15:02:59 [pool-3-thread-1] INFO  m.resourcepacks.ResourcePacksManager - Removing pack "pack-k-purple"
+2021-10-14 15:02:59 [pool-3-thread-1] INFO  m.resourcepacks.ResourcePacksManager - Removing pack "pack-pinkvanilla"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class trevor.chatboxopacity.ChatboxOpacityPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class io.ryoung.menuswapperextended.MenuSwapperPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.zalcano.ZalcanoPlugin"
+2021-10-14 15:03:00 [AWT-EventQueue-0] INFO  com.zalcano.ZalcanoPlugin - Zalcano plugin stopped
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class inventorysetups.InventorySetupsPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class io.cbitler.stealingartefacts.StealingArtefactsPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class dekvall.notempty.NotEmptyPlugin"
+2021-10-14 15:03:00 [AWT-EventQueue-0] INFO  dekvall.notempty.NotEmptyPlugin - Not Empty stopped!
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.thenorsepantheon.profiles.ProfilesPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class thestonedturtle.crabsolver.CrabSolverPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.watsoncluetracker.WatsonPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class equipmentinspector.EquipmentInspectorPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class de0.coxvanguards.CoxVanguardsPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class de0.coxthieving.CoxThievingPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class de0.coxtimers.CoxTimersPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.gauntlet.GauntletPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class ca.gauntlet.TheGauntletPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.SlashSwapper.SlashSwapperPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.micro.petinfo.PetInfoPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class dev.dkvl.womutils.WomUtilsPlugin"
+2021-10-14 15:03:00 [AWT-EventQueue-0] INFO  dev.dkvl.womutils.WomUtilsPlugin - Wise Old Man stopped!
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.zulrahhelper.ZulrahHelperPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class ejedev.chompyhunter.ChompyHunterPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class io.github.mmagicala.gnomeRestaurant.GnomeRestaurantPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class thestonedturtle.bankedexperience.BankedExperiencePlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.suppliestracker.SuppliesTrackerPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class melky.resourcepacks.ResourcePacksPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class io.hydrox.transmog.TransmogrificationPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] WARN  n.r.c.e.ExternalPluginManager - Unable to stop external plugin "io.hydrox.transmog.TransmogrificationPlugin"
+java.lang.reflect.InvocationTargetException: null
+	at java.desktop/java.awt.EventQueue.invokeAndWait(Unknown Source)
+	at java.desktop/java.awt.EventQueue.invokeAndWait(Unknown Source)
+	at java.desktop/javax.swing.SwingUtilities.invokeAndWait(Unknown Source)
+	at net.runelite.client.externalplugins.ExternalPluginManager.refreshPlugins(ExternalPluginManager.java:273)
+	at net.runelite.client.util.RunnableExceptionLogger.run(RunnableExceptionLogger.java:41)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: net.runelite.client.plugins.PluginInstantiationException: java.lang.NullPointerException
+	at net.runelite.client.externalplugins.ExternalPluginManager.lambda$refreshPlugins$2(ExternalPluginManager.java:281)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: net.runelite.client.plugins.PluginInstantiationException: java.lang.NullPointerException
+	at net.runelite.client.plugins.PluginManager.stopPlugin(PluginManager.java:452)
+	at net.runelite.client.externalplugins.ExternalPluginManager.lambda$refreshPlugins$2(ExternalPluginManager.java:277)
+	... 13 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at io.hydrox.transmog.ui.UIManager.shutDown(UIManager.java:104)
+	at io.hydrox.transmog.TransmogrificationPlugin.shutDown(TransmogrificationPlugin.java:128)
+	at net.runelite.client.plugins.PluginManager.stopPlugin(PluginManager.java:445)
+	... 14 common frames omitted
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.pinggraph.PingGraphPlugin"
+2021-10-14 15:03:00 [AWT-EventQueue-0] INFO  com.pinggraph.PingGraphPlugin - Ping Graph stopped!
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.coxlightcolors.CoxLightColorsPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.damagecounter.DamageCounterPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class trevor.raidreloader.RaidReloaderPlugin"
+2021-10-14 15:03:00 [Client] WARN  n.r.client.callback.ClientThread - Exception in invoke
+java.lang.NullPointerException: null
+	at io.hydrox.transmog.ui.UIManager.getContainer(UIManager.java:128)
+	at io.hydrox.transmog.ui.UIManager.removeCustomUI(UIManager.java:152)
+	at net.runelite.client.callback.ClientThread.lambda$invoke$0(ClientThread.java:48)
+	at net.runelite.client.callback.ClientThread.invoke(ClientThread.java:99)
+	at net.runelite.client.callback.Hooks.clientMainLoop(Hooks.java:195)
+	at client.an(client.java:5519)
+	at client.ad(client.java)
+	at ay.h(ay.java:390)
+	at ay.run(ay.java:344)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.clanevents.ClanEventsPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class at.nightfirec.fightcavewaves.FightCaveWavesPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.loottable.LootTablePlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.optimalquestguide.GuidePlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.improvedtearsinterface.ImprovedTearsInterfacePlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class com.crabstuntimer.CrabStunPlugin"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "c-engineer-completed" version "0.2.1" commit "f7eafb03e65639fddd214d701fdf2cd262189ac1"
+2021-10-14 15:03:00 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "kitten-tracker" version "db2b1cc3" commit "db2b1cc3a4dcd93fe1dc38fd4ddb5ef8ebf10716"
+2021-10-14 15:03:03 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 1:03:06 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 15:03:33 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 3 configuration values: {"timestamp":"Oct 14, 2021 1:03:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 15:04:03 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 14, 2021 1:04:06 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 15:08:03 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 1:08:06 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 15:16:38 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 15:17:33 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 1:17:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 15:21:39 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 15:25:33 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 1:25:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 15:26:33 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 14, 2021 1:26:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 15:26:39 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 15:31:39 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 15:32:03 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 1:32:06 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 15:36:39 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 15:40:33 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 1:40:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 15:41:39 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 15:50:33 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 1:50:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 15:51:40 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 15:59:03 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 1:59:06 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 16:01:40 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 16:03:01 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at net.runelite.client.util.Text.sanitizeMultilineText(Text.java:146)
+	at com.watsoncluetracker.WatsonPlugin.optionSelected(WatsonPlugin.java:149)
+	at com.watsoncluetracker.NpcDialogTracker.optionSelected(NpcDialogTracker.java:254)
+	at com.watsoncluetracker.NpcDialogTracker.onScriptPostFired(NpcDialogTracker.java:214)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:70)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:223)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:169)
+	at client.wt(client.java:10181)
+	at ac.q(ac.java:38344)
+	at hq.l(hq.java:110)
+	at client.fp(client.java:3236)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-10-14 16:04:33 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 2:04:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 16:06:41 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 16:09:15 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [57] to null
+2021-10-14 16:09:20 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [56] to null
+2021-10-14 16:09:24 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [55] to null
+2021-10-14 16:10:11 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [304] to null
+2021-10-14 16:11:29 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [227] to null
+2021-10-14 16:11:38 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [226] to null
+2021-10-14 16:11:41 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [225] to null
+2021-10-14 16:11:41 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 16:11:48 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [224] to null
+2021-10-14 16:11:50 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [223] to null
+2021-10-14 16:11:54 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [254] to KILLING_OF_A_KING
+2021-10-14 16:11:54 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [0, 2, 0, 0, 0]
+2021-10-14 16:12:33 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 2:12:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 16:16:42 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 16:19:33 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 2:19:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 16:21:42 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 16:25:33 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 2:25:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 16:26:23 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-14 16:26:23 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [293] to null
+2021-10-14 16:26:28 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-14 16:26:28 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [293] to RADAS_JOURNEY
+2021-10-14 16:26:28 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [1, 1, 1, 1, 1]
+2021-10-14 16:26:39 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [267] to null
+2021-10-14 16:26:43 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 16:26:50 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [280] to IDEOLOGY_OF_DARKNESS
+2021-10-14 16:26:50 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [3, 3, 0, 3, 0]
+2021-10-14 16:27:10 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [345] to null
+2021-10-14 16:27:38 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-14 16:27:38 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [254] to TRANSVERGENCE_THEORY
+2021-10-14 16:27:38 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [1, 1, 1, 1, 1]
+2021-10-14 16:28:01 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [241] to RADAS_CENSUS
+2021-10-14 16:28:01 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [0, 0, 0, 0, 2]
+2021-10-14 16:31:43 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 16:33:03 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 2:33:06 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 16:36:44 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 16:39:03 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 2:39:06 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 16:41:44 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 16:45:33 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 2:45:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 16:46:45 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 16:51:03 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 2:51:06 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 16:51:45 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 17:02:33 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 3:02:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 17:06:46 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 17:07:03 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 3:07:06 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 17:11:46 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 17:12:34 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 3:12:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 17:16:47 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 17:20:34 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 3:20:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 17:21:04 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 14, 2021 3:21:06 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 17:21:34 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 3:21:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 17:21:47 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 17:29:34 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 3:29:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 17:31:18 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-14 17:31:18 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [95] to RICKTORS_DIARY_7
+2021-10-14 17:31:18 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [1, 1, 1, 1, 1]
+2021-10-14 17:31:31 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [108] to null
+2021-10-14 17:31:38 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [121] to null
+2021-10-14 17:31:48 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 17:32:10 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [290] to null
+2021-10-14 17:32:14 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [292] to null
+2021-10-14 17:32:20 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [277] to null
+2021-10-14 17:32:23 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [279] to null
+2021-10-14 17:32:33 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [331] to null
+2021-10-14 17:32:37 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [303] to null
+2021-10-14 17:32:42 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [305] to null
+2021-10-14 17:32:46 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [329] to null
+2021-10-14 17:32:56 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [318] to null
+2021-10-14 17:32:59 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [316] to null
+2021-10-14 17:33:16 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [342] to null
+2021-10-14 17:33:19 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [344] to null
+2021-10-14 17:33:34 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [225] to null
+2021-10-14 17:33:44 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [238, 260] to null
+2021-10-14 17:33:49 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [240] to null
+2021-10-14 17:33:54 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [266] to null
+2021-10-14 17:33:59 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [251] to null
+2021-10-14 17:34:17 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [147] to null
+2021-10-14 17:34:28 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [134] to null
+2021-10-14 17:34:54 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [56] to null
+2021-10-14 17:35:02 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [28] to null
+2021-10-14 17:35:06 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [30] to null
+2021-10-14 17:35:16 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [41] to null
+2021-10-14 17:35:22 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [43] to null
+2021-10-14 17:36:12 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [280] to null
+2021-10-14 17:36:17 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [281] to null
+2021-10-14 17:36:31 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [279] to null
+2021-10-14 17:36:34 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 3:36:36 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 17:36:45 [OkHttp https://crystalmathlabs.com/...] WARN  n.r.c.p.xpupdater.XpUpdaterPlugin - Error submitting CrystalMathLabs update, caused by timeout.
+2021-10-14 17:36:48 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 17:37:19 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [285] to null
+2021-10-14 17:37:31 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [300] to null
+2021-10-14 17:38:17 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-14 17:38:17 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [95] to null
+2021-10-14 17:38:28 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [271] to null
+2021-10-14 17:38:31 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [270] to null
+2021-10-14 17:38:34 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [269] to null
+2021-10-14 17:38:36 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [268] to null
+2021-10-14 17:38:39 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [267] to KILLING_OF_A_KING
+2021-10-14 17:38:39 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [1, 1, 1, 1, 1]
+2021-10-14 17:38:42 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [267] to KILLING_OF_A_KING
+2021-10-14 17:38:42 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [1, 1, 1, 1, 1]
+2021-10-14 17:38:46 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [299] to null
+2021-10-14 17:38:53 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [293] to IDEOLOGY_OF_DARKNESS
+2021-10-14 17:38:53 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [2, 2, 0, 0, 0]
+2021-10-14 17:40:13 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [306] to RADAS_JOURNEY
+2021-10-14 17:40:13 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [3, 3, 0, 0, 0]
+2021-10-14 17:41:57 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [122] to null
+2021-10-14 17:42:00 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [109] to EATHRAM_RADA_EXTRACT
+2021-10-14 17:42:00 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [0, 5, 0, 0, 0]
+2021-10-14 17:45:04 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 3:45:06 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 17:46:49 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 17:50:27 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at java.base/java.util.LinkedList.node(Unknown Source)
+	at java.base/java.util.LinkedList.get(Unknown Source)
+	at com.pinggraph.PingGraphPlugin.getMaxMinFromList(PingGraphPlugin.java:151)
+	at com.pinggraph.PingGraphPlugin.onClientTick(PingGraphPlugin.java:122)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:70)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:223)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:169)
+	at client.ya(client.java:20386)
+	at client.fp(client.java:3201)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-10-14 17:50:34 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 3:50:37 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 17:51:08 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.7.26 (launcher version 2.1.3) starting up, args: none
+2021-10-14 17:51:09 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2021-10-14 17:51:10 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2021-10-14 17:51:10 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 1676059458.286
+2021-10-14 17:51:10 [RuneLite] INFO  n.r.client.account.SessionManager - No session file exists
+2021-10-14 17:51:12 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-14 17:51:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "117hd" version "1.0.6" commit "803c7136ee133484ee8ca80e16974897def85bb5"
+2021-10-14 17:51:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "skills-tab-progress-bars" version "0.8" commit "edad37606858fb22dcea07ac9bb1f9324d737a80"
+2021-10-14 17:51:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-value-tracker" version "757b7b33" commit "757b7b33bdfc27ba24d57fd22a15456f75558d00"
+2021-10-14 17:51:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ba-minigame" version "1.42" commit "92da92790bd4657bb14e99cde01308bec94a2809"
+2021-10-14 17:51:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "tempoross" version "1.1" commit "d25d396318e7646171deceabaaae66b9e4059ba3"
+2021-10-14 17:51:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "quest-helper" version "2.6.0" commit "3d9cc4ad2962b2b3cc363f3bb39502b428e403f4"
+2021-10-14 17:51:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "picture-in-picture" version "1.4.1" commit "32688a78c119187be8c33c62cf56f990fe9bb688"
+2021-10-14 17:51:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tab-names" version "1.0.0" commit "524316bc3b36abca7ca0ecbf84636f79f54b376a"
+2021-10-14 17:51:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "c-engineer-completed" version "0.2.1" commit "f7eafb03e65639fddd214d701fdf2cd262189ac1"
+2021-10-14 17:51:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "kitten-tracker" version "db2b1cc3" commit "db2b1cc3a4dcd93fe1dc38fd4ddb5ef8ebf10716"
+2021-10-14 17:51:12 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bats-locator" version "890cefa0" commit "890cefa0a95a734abc15a6b1f0681276c5c78c4d"
+2021-10-14 17:51:13 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2021-10-14 17:51:15 [pool-3-thread-1] INFO  n.r.client.discord.DiscordService - Discord RPC service is ready with user Victor.
+2021-10-14 17:51:15 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 6828ms. Uptime: 9788ms
+2021-10-14 17:51:15 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,1920x1040,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,1920x1040,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@553c02ac,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2021-10-14 17:51:16 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-10-14 17:51:16 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6.0 NVIDIA 471.96
+2021-10-14 17:51:39 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [27] to null
+2021-10-14 17:51:42 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [26] to null
+2021-10-14 17:51:50 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 17:52:29 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [114] to null
+2021-10-14 17:52:31 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [115] to null
+2021-10-14 17:52:34 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [90] to null
+2021-10-14 17:52:36 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [91] to null
+2021-10-14 17:52:39 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [92] to null
+2021-10-14 17:52:45 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [93] to null
+2021-10-14 17:52:50 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [94] to null
+2021-10-14 17:52:55 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [96] to null
+2021-10-14 17:52:59 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [95] to null
+2021-10-14 17:53:04 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [97] to null
+2021-10-14 17:53:07 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [98] to null
+2021-10-14 17:53:10 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [99] to null
+2021-10-14 17:53:12 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [100] to null
+2021-10-14 17:53:15 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [101] to null
+2021-10-14 17:53:18 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [102] to null
+2021-10-14 17:53:21 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [103] to null
+2021-10-14 17:53:25 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [104] to null
+2021-10-14 17:53:27 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [105] to null
+2021-10-14 17:53:31 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [106] to null
+2021-10-14 17:53:33 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [107] to null
+2021-10-14 17:53:42 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [108] to null
+2021-10-14 17:53:45 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [109] to EATHRAM_RADA_EXTRACT
+2021-10-14 17:53:45 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [2, 2, 2, 2, 2]
+2021-10-14 17:53:55 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [122] to null
+2021-10-14 17:54:23 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [42] to null
+2021-10-14 17:54:27 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [44] to HOSIDIUS_LETTER
+2021-10-14 17:54:27 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [0, 4, 0, 0, 0]
+2021-10-14 17:56:34 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 3:56:37 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 17:56:50 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 18:02:34 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 4:02:37 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 18:25:07 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.7.26 (launcher version 2.1.3) starting up, args: none
+2021-10-14 18:25:08 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2021-10-14 18:25:08 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2021-10-14 18:25:09 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 1676059458.286
+2021-10-14 18:25:09 [RuneLite] INFO  n.r.client.account.SessionManager - No session file exists
+2021-10-14 18:25:10 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-14 18:25:10 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "117hd" version "1.0.6" commit "803c7136ee133484ee8ca80e16974897def85bb5"
+2021-10-14 18:25:10 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "skills-tab-progress-bars" version "0.8" commit "edad37606858fb22dcea07ac9bb1f9324d737a80"
+2021-10-14 18:25:10 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-value-tracker" version "757b7b33" commit "757b7b33bdfc27ba24d57fd22a15456f75558d00"
+2021-10-14 18:25:10 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ba-minigame" version "1.42" commit "92da92790bd4657bb14e99cde01308bec94a2809"
+2021-10-14 18:25:10 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "tempoross" version "1.1" commit "d25d396318e7646171deceabaaae66b9e4059ba3"
+2021-10-14 18:25:10 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "quest-helper" version "2.6.0" commit "3d9cc4ad2962b2b3cc363f3bb39502b428e403f4"
+2021-10-14 18:25:10 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "picture-in-picture" version "1.4.1" commit "32688a78c119187be8c33c62cf56f990fe9bb688"
+2021-10-14 18:25:10 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tab-names" version "1.0.0" commit "524316bc3b36abca7ca0ecbf84636f79f54b376a"
+2021-10-14 18:25:10 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "c-engineer-completed" version "0.2.1" commit "f7eafb03e65639fddd214d701fdf2cd262189ac1"
+2021-10-14 18:25:10 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "kitten-tracker" version "db2b1cc3" commit "db2b1cc3a4dcd93fe1dc38fd4ddb5ef8ebf10716"
+2021-10-14 18:25:10 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bats-locator" version "890cefa0" commit "890cefa0a95a734abc15a6b1f0681276c5c78c4d"
+2021-10-14 18:25:11 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2021-10-14 18:25:11 [Client] ERROR client-patch - Client error: 4473 4471 2003
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 728
+	at cp.l(cp.java:192)
+	at di.m(di.java:571)
+	at dh.f(dh.java:442)
+	at ac.q(ac.java:57577)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.pt(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-10-14 18:25:13 [pool-3-thread-1] INFO  n.r.client.discord.DiscordService - Discord RPC service is ready with user Victor.
+2021-10-14 18:25:13 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 6231ms. Uptime: 8284ms
+2021-10-14 18:25:13 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,1920x1040,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,1920x1040,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@4fa191d9,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2021-10-14 18:25:14 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-10-14 18:25:14 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6.0 NVIDIA 471.96
+2021-10-14 18:25:34 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: {"timestamp":"Oct 14, 2021 4:25:37 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 18:28:12 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [279] to null
+2021-10-14 18:28:15 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [278] to null
+2021-10-14 18:28:17 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [277] to null
+2021-10-14 18:28:20 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [276] to null
+2021-10-14 18:28:29 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [275] to null
+2021-10-14 18:28:31 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [274] to null
+2021-10-14 18:28:34 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [273] to null
+2021-10-14 18:28:37 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [272] to null
+2021-10-14 18:28:43 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [291] to null
+2021-10-14 18:28:45 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [292] to null
+2021-10-14 18:28:50 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [293] to IDEOLOGY_OF_DARKNESS
+2021-10-14 18:28:50 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [1, 1, 1, 1, 1]
+2021-10-14 18:28:58 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [280] to null
+2021-10-14 18:29:07 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [267] to KILLING_OF_A_KING
+2021-10-14 18:29:07 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [3, 3, 0, 0, 0]
+2021-10-14 18:29:27 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [226] to TRANSPORTATION_INCANTATIONS
+2021-10-14 18:29:27 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [4, 4, 0, 0, 0]
+2021-10-14 18:29:40 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [148] to WINTERTODT_PARABLE
+2021-10-14 18:29:40 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [0, 5, 0, 0, 0]
+2021-10-14 18:30:34 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 4:30:37 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 18:31:52 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 18:36:53 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 18:37:04 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 4:37:07 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 18:37:17 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 1 configuration values: {"timestamp":"Oct 14, 2021 4:37:19 PM","status":401,"error":"Unauthorized","message":"Access denied","path":"/runelite-1.7.26/config"}
+2021-10-14 18:37:17 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 401 - 
+2021-10-14 19:02:09 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-14 19:02:09 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [18] to null
+2021-10-14 19:02:12 [AWT-EventQueue-0] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-14 19:02:16 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [18] to null
+2021-10-14 19:02:18 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [17] to null
+2021-10-14 19:02:23 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [16] to null
+2021-10-14 19:02:30 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [15] to null
+2021-10-14 19:02:34 [Client] WARN  n.r.c.ui.overlay.OverlayRenderer - Error during overlay rendering
+java.lang.NullPointerException: null
+	at java.desktop/sun.java2d.marlin.DMarlinRenderingEngine.strokeTo(Unknown Source)
+	at java.desktop/sun.java2d.marlin.DMarlinRenderingEngine.strokeTo(Unknown Source)
+	at java.desktop/sun.java2d.marlin.DMarlinRenderingEngine.getAATileGenerator(Unknown Source)
+	at java.desktop/sun.java2d.pipe.AAShapePipe.renderPath(Unknown Source)
+	at java.desktop/sun.java2d.pipe.AAShapePipe.draw(Unknown Source)
+	at java.desktop/sun.java2d.pipe.PixelToParallelogramConverter.draw(Unknown Source)
+	at java.desktop/sun.java2d.pipe.ValidatePipe.draw(Unknown Source)
+	at java.desktop/sun.java2d.SunGraphics2D.draw(Unknown Source)
+	at net.runelite.client.ui.overlay.OverlayUtil.renderPolygon(OverlayUtil.java:65)
+	at net.runelite.client.ui.overlay.OverlayUtil.renderPolygon(OverlayUtil.java:57)
+	at net.runelite.client.ui.overlay.OverlayUtil.renderPolygon(OverlayUtil.java:52)
+	at net.runelite.client.plugins.kourendlibrary.KourendLibraryOverlay.render(KourendLibraryOverlay.java:228)
+	at net.runelite.client.ui.overlay.OverlayRenderer.safeRender(OverlayRenderer.java:750)
+	at net.runelite.client.ui.overlay.OverlayRenderer.renderOverlays(OverlayRenderer.java:262)
+	at net.runelite.client.ui.overlay.OverlayRenderer.renderOverlayLayer(OverlayRenderer.java:196)
+	at net.runelite.client.callback.Hooks.drawScene(Hooks.java:430)
+	at hy.vr(hy.java:60618)
+	at cx.gf(cx.java:4356)
+	at bp.id(bp.java:9987)
+	at d.iz(d.java:9876)
+	at client.km(client.java:4140)
+	at client.ad(client.java:1080)
+	at ay.h(ay.java:390)
+	at ay.run(ay.java:344)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-10-14 19:02:34 [Client] WARN  n.r.c.ui.overlay.OverlayRenderer - Error during overlay rendering
+java.lang.NullPointerException: null
+2021-10-14 19:02:36 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [14] to null
+2021-10-14 19:02:44 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [19] to null
+2021-10-14 19:02:48 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [20] to null
+2021-10-14 19:02:54 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [21] to null
+2021-10-14 19:03:07 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [22] to null
+2021-10-14 19:03:10 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [23] to null
+2021-10-14 19:03:13 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [24] to null
+2021-10-14 19:03:16 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [25] to null
+2021-10-14 19:05:16 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [12] to null
+2021-10-14 19:05:19 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [11] to EATHRAM_RADA_EXTRACT
+2021-10-14 19:05:19 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [2, 2, 0, 2, 2]
+2021-10-14 19:06:04 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [11] to EATHRAM_RADA_EXTRACT
+2021-10-14 19:06:04 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [2, 2, 0, 2, 2]
+2021-10-14 19:06:21 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [141] to null
+2021-10-14 19:06:40 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [128] to null
+2021-10-14 19:06:46 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [156] to null
+2021-10-14 19:06:55 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [232] to null
+2021-10-14 19:06:57 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [234, 263] to TRISTESSAS_TRAGEDY
+2021-10-14 19:07:09 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [247] to null
+2021-10-14 19:07:21 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [221] to null
+2021-10-14 19:07:50 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [286] to null
+2021-10-14 19:07:58 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [273] to RICKTORS_DIARY_7
+2021-10-14 19:07:58 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [0, 0, 0, 0, 8]
+2021-10-14 20:12:17 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-10-14 20:12:17 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [37] to null
+2021-10-14 20:12:32 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [49] to null
+2021-10-14 20:14:28 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [50] to null
+2021-10-14 20:20:01 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [327] to null
+2021-10-14 22:35:40 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [328] to null
+2021-10-14 22:36:45 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [150] to null
+2021-10-14 22:36:48 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [149] to null
+2021-10-14 22:36:54 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [148] to null
+2021-10-14 22:36:57 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [147] to null
+2021-10-14 22:37:01 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [146] to null
+2021-10-14 22:37:03 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [145] to null
+2021-10-14 22:37:09 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [143] to null
+2021-10-14 22:37:12 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [144] to null
+2021-10-14 22:37:17 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [142] to null
+2021-10-14 22:37:19 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [141] to null
+2021-10-14 22:37:25 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [140] to null
+2021-10-14 22:37:29 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [139] to null
+2021-10-14 22:37:32 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [138] to TRANSVERGENCE_THEORY
+2021-10-14 22:37:32 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [1, 1, 1, 1, 1]
+2021-10-14 22:37:42 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [125] to RADAS_JOURNEY
+2021-10-14 22:37:42 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [2, 2, 2, 2, 0]
+2021-10-14 22:38:34 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Setting bookcase [6] to BYRNES_CORONATION_SPEECH
+2021-10-14 22:38:34 [Client] INFO  n.r.c.plugins.kourendlibrary.Library - Certainty is now [0, 3, 0, 0, 0]
+2021-10-14 23:54:21 [Client] ERROR client-patch - Client error: null
+com.jogamp.opengl.GLException: Error swapping buffers
+	at jogamp.opengl.windows.wgl.WindowsWGLDrawable.swapBuffersImpl(WindowsWGLDrawable.java:93)
+	at jogamp.opengl.GLDrawableImpl.swapBuffers(GLDrawableImpl.java:88)
+	at net.runelite.client.plugins.gpu.GpuPlugin.drawFrame(GpuPlugin.java:1276)
+	at net.runelite.client.plugins.gpu.GpuPlugin.lambda$draw$7(GpuPlugin.java:1004)
+	at net.runelite.client.plugins.gpu.GpuPlugin.invokeOnMainThread(GpuPlugin.java:1706)
+	at net.runelite.client.plugins.gpu.GpuPlugin.draw(GpuPlugin.java:1004)
+	at ay.t(ay.java:31915)
+	at ay.run(ay.java:345)
+	at java.base/java.lang.Thread.run(Unknown Source)
