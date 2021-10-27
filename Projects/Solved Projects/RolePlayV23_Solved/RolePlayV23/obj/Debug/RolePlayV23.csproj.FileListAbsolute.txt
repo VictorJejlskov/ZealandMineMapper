@@ -1,0 +1,7 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\Solved Projects\RolePlayV23_Solved\RolePlayV23\bin\Debug\RolePlayV23.exe.config
+C:\Users\victo\Desktop\ZealandMapper\Projects\Solved Projects\RolePlayV23_Solved\RolePlayV23\bin\Debug\RolePlayV23.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\Solved Projects\RolePlayV23_Solved\RolePlayV23\bin\Debug\RolePlayV23.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\Solved Projects\RolePlayV23_Solved\RolePlayV23\obj\Debug\RolePlayV23.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\Solved Projects\RolePlayV23_Solved\RolePlayV23\obj\Debug\RolePlayV23.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\Solved Projects\RolePlayV23_Solved\RolePlayV23\obj\Debug\RolePlayV23.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\Solved Projects\RolePlayV23_Solved\RolePlayV23\obj\Debug\RolePlayV23.pdb

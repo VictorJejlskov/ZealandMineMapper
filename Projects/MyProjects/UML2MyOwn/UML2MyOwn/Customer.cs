@@ -26,7 +26,7 @@ namespace UML2MyOwn
             CustomerAge = customerAge;
             HasFavourite = false;
         }
-
+        
         public override string ToString()
         {
             if (HasFavourite)

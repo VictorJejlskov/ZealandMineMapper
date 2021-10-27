@@ -345,5 +345,13 @@ namespace UML2MyOwn
             Console.ReadKey();
             Store.RunStore();
         }
+
+        public static void PrintToppings()
+        {
+            foreach (string pizzaTopping in AvailableToppings)
+            {
+                Console.WriteLine($"{AvailableToppings.IndexOf(pizzaTopping) + 1}. {pizzaTopping}");
+            }
+        }
     }
 }

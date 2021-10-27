@@ -12,3 +12,17 @@ C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\UML2MyOwn\UML2MyOw
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\obj\Debug\netcoreapp3.1\UML2MyOwn.dll
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\obj\Debug\netcoreapp3.1\UML2MyOwn.pdb
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\obj\Debug\netcoreapp3.1\UML2MyOwn.genruntimeconfig.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\bin\Debug\netcoreapp3.1\UML2MyOwn.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\bin\Debug\netcoreapp3.1\UML2MyOwn.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\bin\Debug\netcoreapp3.1\UML2MyOwn.runtimeconfig.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\bin\Debug\netcoreapp3.1\UML2MyOwn.runtimeconfig.dev.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\bin\Debug\netcoreapp3.1\UML2MyOwn.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\bin\Debug\netcoreapp3.1\UML2MyOwn.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\obj\Debug\netcoreapp3.1\UML2MyOwn.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\obj\Debug\netcoreapp3.1\UML2MyOwn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\obj\Debug\netcoreapp3.1\UML2MyOwn.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\obj\Debug\netcoreapp3.1\UML2MyOwn.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\obj\Debug\netcoreapp3.1\UML2MyOwn.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\obj\Debug\netcoreapp3.1\UML2MyOwn.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\obj\Debug\netcoreapp3.1\UML2MyOwn.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\UML2MyOwn\UML2MyOwn\obj\Debug\netcoreapp3.1\UML2MyOwn.genruntimeconfig.cache

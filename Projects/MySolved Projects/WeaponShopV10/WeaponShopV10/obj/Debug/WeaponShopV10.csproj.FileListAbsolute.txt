@@ -1,0 +1,7 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WeaponShopV10\WeaponShopV10\bin\Debug\WeaponShopV10.exe.config
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WeaponShopV10\WeaponShopV10\bin\Debug\WeaponShopV10.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WeaponShopV10\WeaponShopV10\bin\Debug\WeaponShopV10.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WeaponShopV10\WeaponShopV10\obj\Debug\WeaponShopV10.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WeaponShopV10\WeaponShopV10\obj\Debug\WeaponShopV10.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WeaponShopV10\WeaponShopV10\obj\Debug\WeaponShopV10.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\WeaponShopV10\WeaponShopV10\obj\Debug\WeaponShopV10.pdb

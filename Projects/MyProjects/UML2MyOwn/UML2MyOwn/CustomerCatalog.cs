@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 
 namespace UML2MyOwn
@@ -9,6 +10,7 @@ namespace UML2MyOwn
         public static Random rnd = new Random();
         public static List<Customer> CustomerList = new List<Customer>()
         {
+            new Customer("Guest", 0),
             new Customer("Allan", 30, MenuCatalog.PizzaList[rnd.Next(0,10)]),
             new Customer("Thomas", 86),
             new Customer("Connor", 19, MenuCatalog.PizzaList[rnd.Next(0,10)]),
@@ -202,6 +204,48 @@ namespace UML2MyOwn
             {
                 Console.WriteLine(cus);
             }
+        }
+
+        public static Customer AddNewCustomer()
+        {
+            Console.WriteLine($"Vil du købe som gæst, eller ny kunde\n1: Gæst | 2: ny kunde");
+            try
+            {
+                int userInput = Convert.ToInt32(Console.ReadLine());
+                switch (userInput)
+                {
+                    //Gæst
+                    case 1:
+                        return CustomerList[0];
+                    case 2:
+                        //Navn, Alder, FavoritPizza(ikke et must)
+                        Console.WriteLine("Hvad er dit navn?");
+                        string newCusName = Console.ReadLine();
+                        Console.WriteLine("Hvor gammel er du?");
+                        try
+                        {
+                            int newCusAge = Convert.ToInt32(Console.ReadLine());
+                            Customer newCustomer = new Customer(newCusName, newCusAge);
+                            return newCustomer;
+                        }
+                        catch
+                        {
+                            Console.WriteLine("Ugyldigt input");
+                            Console.ReadKey();
+                            return null;
+                        }
+                    default:
+                        Console.WriteLine("Ugyldigt input");
+                        Console.ReadKey();
+                        return null;
+                }
+            }
+            catch
+            { 
+                Console.WriteLine("Ugyldigt input");
+                return null;
+            }
+
         }
 
     }
