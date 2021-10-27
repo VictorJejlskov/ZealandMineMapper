@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Begreber2 (if, while, foreach) test/1.0.0": {
+        "runtime": {
+          "Begreber2 (if, while, foreach) test.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Begreber2 (if, while, foreach) test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

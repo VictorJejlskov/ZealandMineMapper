@@ -1,0 +1,14 @@
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\bin\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.exe
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\bin\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.deps.json
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\bin\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.runtimeconfig.json
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\bin\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.runtimeconfig.dev.json
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\bin\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.dll
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\bin\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.pdb
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\obj\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\obj\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\obj\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.AssemblyInfoInputs.cache
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\obj\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.AssemblyInfo.cs
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\obj\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\obj\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.dll
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\obj\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.pdb
+C:\Users\victo\source\repos\Begreber2 (if, while, foreach) test\obj\Debug\netcoreapp3.1\Begreber2 (if, while, foreach) test.genruntimeconfig.cache
