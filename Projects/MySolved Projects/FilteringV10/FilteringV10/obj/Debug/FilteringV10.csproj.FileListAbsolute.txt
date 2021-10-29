@@ -1,0 +1,7 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\FilteringV10\FilteringV10\bin\Debug\FilteringV10.exe.config
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\FilteringV10\FilteringV10\bin\Debug\FilteringV10.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\FilteringV10\FilteringV10\bin\Debug\FilteringV10.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\FilteringV10\FilteringV10\obj\Debug\FilteringV10.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\FilteringV10\FilteringV10\obj\Debug\FilteringV10.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\FilteringV10\FilteringV10\obj\Debug\FilteringV10.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\MySolved Projects\FilteringV10\FilteringV10\obj\Debug\FilteringV10.pdb
