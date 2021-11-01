@@ -6,7 +6,7 @@ namespace EjendomsMægleren
 {
     class Estate : Property
     {
-        public Estate(int propertyID, string propertyType, string propertyAddress, double propertyPrice,
+        public Estate(int propertyID, PropertyTypes propertyType, string propertyAddress, double propertyPrice,
             double propertySize) : base(propertyID, propertyType, propertyAddress, propertyPrice, propertySize)
         {
 

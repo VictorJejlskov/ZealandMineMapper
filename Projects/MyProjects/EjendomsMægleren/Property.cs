@@ -7,12 +7,17 @@ namespace EjendomsMægleren
     public class Property
     {
         public int PropertyID { get; set; }
-        public string PropertyType { get; set; }
+
+        public enum PropertyTypes
+        {
+            Apartment, Estate, Mansion
+        }
+        public PropertyTypes PropertyType { get; set; }
         public string PropertyAddress { get; set; }
         public double PropertyPrice { get; set; }
         public double PropertySize { get; set; }
 
-        public Property(int propertyID, string propertyType, string propertyAddress, double propertyPrice,
+        public Property(int propertyID, PropertyTypes propertyType, string propertyAddress, double propertyPrice,
             double propertySize)
         {
             PropertyID = propertyID;

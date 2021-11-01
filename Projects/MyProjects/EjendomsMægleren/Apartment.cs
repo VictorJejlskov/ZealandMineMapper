@@ -8,7 +8,7 @@ namespace EjendomsMægleren
     {
 
         public int Rooms { get; set; }
-        public Apartment(int propertyID, string propertyType, string propertyAddress, double propertyPrice,
+        public Apartment(int propertyID, PropertyTypes propertyType, string propertyAddress, double propertyPrice,
             double propertySize) : base(propertyID, propertyType, propertyAddress, propertyPrice, propertySize)
         {
 

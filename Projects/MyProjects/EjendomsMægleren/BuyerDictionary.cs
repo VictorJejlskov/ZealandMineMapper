@@ -13,7 +13,7 @@ namespace EjendomsMægleren
 
         public static void AddToDictionary(Buyer newBuyer)
         {
-            BuyerDic.Add(newBuyer.BuyerID, newBuyer);
+            BuyerDic.Add(newBuyer.PersonID, newBuyer);
         }
     }
 }

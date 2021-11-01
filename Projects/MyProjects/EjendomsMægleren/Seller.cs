@@ -4,21 +4,12 @@ using System.Text;
 
 namespace EjendomsMægleren
 {
-    class Seller
+    class Seller : Person
     {
-        public int SellerID { get; set; }
-        public string SellerName { get; set; }
-        public string SellerAddress { get; set; }
-        public string SellerNumber { get; set; }
-        public string SellerEmail { get; set; }
 
-        public Seller(int sellerId, string sellerName, string sellerAddress, string sellerNumber, string sellerEmail)
+        public Seller(int personID, string personName, string personAddress, string personNumber, string personEmail, PersonTypes personType) : base(personID, personName, personAddress, personNumber, personEmail, personType)
         {
-            SellerID = sellerId;
-            SellerName = sellerName;
-            SellerAddress = sellerAddress;
-            SellerNumber = sellerNumber;
-            SellerEmail = sellerEmail;
+
         }
     }
 }
