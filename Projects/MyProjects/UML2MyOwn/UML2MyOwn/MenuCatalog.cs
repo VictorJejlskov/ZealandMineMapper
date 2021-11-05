@@ -50,11 +50,11 @@ namespace UML2MyOwn
             }),
             new Pizza("Salatpizza med Kebab", 65,new List<string>()
             {
-                "Cheese", "Tomato Sauce", "Salad", "Kebab", "Dressing"
+                "Cheese", "Tomato Sauce", "Kebab", "Salad", "Dressing"
             }),
             new Pizza("Salatpizza med Kylling", 65,new List<string>()
             {
-                "Cheese", "Tomato Sauce", "Salad", "Chicken", "Dressing"
+                "Cheese", "Tomato Sauce", "Chicken", "Salad", "Dressing"
             })
         };
         public static void AssignPizzaNumber()
@@ -353,5 +353,6 @@ namespace UML2MyOwn
                 Console.WriteLine($"{AvailableToppings.IndexOf(pizzaTopping) + 1}. {pizzaTopping}");
             }
         }
+
     }
 }

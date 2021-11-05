@@ -247,6 +247,18 @@ namespace UML2MyOwn
             }
 
         }
+        public static Customer SelectCustomer(int userInput)
+        {
+            foreach (Customer cus in CustomerList)
+            {
+                if (userInput == cus.CustomerID)
+                {
+                    return cus;
+                }
+            }
+
+            return CustomerList[0];
+        }
 
     }
 

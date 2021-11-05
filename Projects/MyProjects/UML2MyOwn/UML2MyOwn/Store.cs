@@ -17,7 +17,8 @@ namespace UML2MyOwn
             "7. Delete a customer",
             "8. Update a customer",
             "9. Display the list of current customers",
-            "10. Buy a pizza"
+            "10. Buy a pizza",
+            "11. Display previous orders"
         };
 
         public static int MenuChoice(List<string> menuItems)
@@ -117,9 +118,16 @@ namespace UML2MyOwn
                     break;
                 //"10. Buy a pizza"
                 //Ask for customer / guest
-
                 case 10:
-                    Console.Clear();
+                    OrderCatalog.StartPurchase();
+                    RunStore();
+                    break;
+                //"11. Edit order"
+                //case 11:
+                //    OrderCatalog.EditOrder();
+                //    break;
+                case 11:
+                    OrderCatalog.PrintOrders();
                     break;
             }
         }

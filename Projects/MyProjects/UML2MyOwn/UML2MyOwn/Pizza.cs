@@ -10,7 +10,6 @@ namespace UML2MyOwn
         public int PizzaPrice { get; set; }
         public int PizzaNumber { get; set; }
         public List<string> PizzaToppings { get; set; }
-
         public Pizza(string pizzaName, int pizzaPrice, List<string> pizzaToppings)
         {
             PizzaName = pizzaName;
@@ -22,6 +21,14 @@ namespace UML2MyOwn
         public override string ToString()
         {
             return $"{PizzaNumber}. {PizzaName} - {PizzaPrice},-";
+        }
+
+        public void PrintToppings()
+        {
+            foreach (string pizzaTopping in PizzaToppings)
+            {
+                Console.WriteLine($"{PizzaToppings.IndexOf(pizzaTopping) + 1}. {pizzaTopping}");
+            }
         }
     }
 }
