@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\UML2MyOwn\\UML2MyOwn\\UML2MyOwn.csproj": {}
+    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\ConsoleStuff\\MyProjects\\UML2MyOwn\\UML2MyOwn\\UML2MyOwn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\UML2MyOwn\\UML2MyOwn\\UML2MyOwn.csproj": {
+    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\ConsoleStuff\\MyProjects\\UML2MyOwn\\UML2MyOwn\\UML2MyOwn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\UML2MyOwn\\UML2MyOwn\\UML2MyOwn.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\ConsoleStuff\\MyProjects\\UML2MyOwn\\UML2MyOwn\\UML2MyOwn.csproj",
         "projectName": "UML2MyOwn",
-        "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\UML2MyOwn\\UML2MyOwn\\UML2MyOwn.csproj",
+        "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\ConsoleStuff\\MyProjects\\UML2MyOwn\\UML2MyOwn\\UML2MyOwn.csproj",
         "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\UML2MyOwn\\UML2MyOwn\\obj\\",
+        "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\ConsoleStuff\\MyProjects\\UML2MyOwn\\UML2MyOwn\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
