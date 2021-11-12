@@ -1,0 +1,14 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\bin\Debug\netcoreapp3.1\Exceptions, stack.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\bin\Debug\netcoreapp3.1\Exceptions, stack.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\bin\Debug\netcoreapp3.1\Exceptions, stack.runtimeconfig.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\bin\Debug\netcoreapp3.1\Exceptions, stack.runtimeconfig.dev.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\bin\Debug\netcoreapp3.1\Exceptions, stack.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\bin\Debug\netcoreapp3.1\Exceptions, stack.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\obj\Debug\netcoreapp3.1\Exceptions, stack.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\obj\Debug\netcoreapp3.1\Exceptions, stack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\obj\Debug\netcoreapp3.1\Exceptions, stack.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\obj\Debug\netcoreapp3.1\Exceptions, stack.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\obj\Debug\netcoreapp3.1\Exceptions, stack.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\obj\Debug\netcoreapp3.1\Exceptions, stack.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\obj\Debug\netcoreapp3.1\Exceptions, stack.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\Exceptions, stack\obj\Debug\netcoreapp3.1\Exceptions, stack.genruntimeconfig.cache

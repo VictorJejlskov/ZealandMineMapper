@@ -67,6 +67,10 @@ namespace EjendomsMægleren
             PropertyCatalogue.AddProperty(newEstate5);
             PropertyCatalogue.AddProperty(newEstate6);
 
+
+
+            Property propTest1 = new Property();
+
         }
     }
 }

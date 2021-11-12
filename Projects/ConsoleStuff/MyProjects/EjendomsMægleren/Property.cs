@@ -26,6 +26,7 @@ namespace EjendomsMægleren
             PropertyPrice = propertyPrice;
             PropertySize = propertySize;
         }
+        public Property(){}
 
         public override string ToString()
         {
