@@ -266,6 +266,7 @@ namespace UML2MyOwn
                         }
                     }
                 }
+                Store.RunStore();
             }
             catch
             {
