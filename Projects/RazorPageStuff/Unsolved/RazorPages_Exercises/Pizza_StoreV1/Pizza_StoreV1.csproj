@@ -7,7 +7,7 @@
   <ItemGroup>
     <None Include="wwwroot\Images\Aubergine_pizza.jfif" />
     <None Include="wwwroot\Images\Bufalla_pizza.jfif" />
-    <None Include="wwwroot\Images\Cheeze_pizza.jfif" />
+    <None Include="wwwroot\Images\Cheese_pizza.jfif" />
     <None Include="wwwroot\Images\Chicken_pizza.jfif" />
     <None Include="wwwroot\Images\Margherita_pizza.jfif" />
     <None Include="wwwroot\Images\Mozzarella_pizza.jfif" />
