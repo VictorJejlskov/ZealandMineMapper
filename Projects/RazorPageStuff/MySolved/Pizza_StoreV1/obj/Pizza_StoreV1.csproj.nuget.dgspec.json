@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\RazorPageStuff\\Unsolved\\RazorPages_Exercises\\Pizza_StoreV1\\Pizza_StoreV1.csproj": {}
+    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\RazorPageStuff\\MySolved\\Pizza_StoreV1\\Pizza_StoreV1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\RazorPageStuff\\Unsolved\\RazorPages_Exercises\\Pizza_StoreV1\\Pizza_StoreV1.csproj": {
+    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\RazorPageStuff\\MySolved\\Pizza_StoreV1\\Pizza_StoreV1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\RazorPageStuff\\Unsolved\\RazorPages_Exercises\\Pizza_StoreV1\\Pizza_StoreV1.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\RazorPageStuff\\MySolved\\Pizza_StoreV1\\Pizza_StoreV1.csproj",
         "projectName": "Pizza_StoreV1",
-        "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\RazorPageStuff\\Unsolved\\RazorPages_Exercises\\Pizza_StoreV1\\Pizza_StoreV1.csproj",
+        "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\RazorPageStuff\\MySolved\\Pizza_StoreV1\\Pizza_StoreV1.csproj",
         "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\RazorPageStuff\\Unsolved\\RazorPages_Exercises\\Pizza_StoreV1\\obj\\",
+        "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\RazorPageStuff\\MySolved\\Pizza_StoreV1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

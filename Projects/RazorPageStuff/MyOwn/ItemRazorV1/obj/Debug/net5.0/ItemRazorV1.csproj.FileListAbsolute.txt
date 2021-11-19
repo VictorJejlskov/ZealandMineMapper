@@ -39,3 +39,4 @@ C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\ItemRazorV1\o
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\ItemRazorV1\obj\Debug\net5.0\ItemRazorV1.genruntimeconfig.cache
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\ItemRazorV1\obj\Debug\net5.0\ItemRazorV1.csproj.CopyComplete
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\ItemRazorV1\obj\Debug\net5.0\Razor\Pages\Item\GetAllItems.cshtml.g.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\ItemRazorV1\obj\Debug\net5.0\Razor\Pages\Item\CreateItem.cshtml.g.cs

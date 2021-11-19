@@ -1,0 +1,23 @@
+﻿@page
+@using ItemRazorV1.Models
+@model ItemRazorV1.Pages.Item.CreateItemModel
+@{
+}
+<h1>Create New Item</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="@Model.Item.ItemID"></label>
+        <input asp-for="@Model.Item.ItemID" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Item.ItemName"></label>
+        <input asp-for="@Model.Item.ItemName" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Item.ItemPrice"></label>
+        <input asp-for="@Model.Item.ItemPrice" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary"/>
+    </div>
+</form>
