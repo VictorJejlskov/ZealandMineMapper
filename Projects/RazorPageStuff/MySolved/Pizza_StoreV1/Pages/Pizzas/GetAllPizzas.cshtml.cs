@@ -4,23 +4,25 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Pizza_StoreV1.PizzaCatalogs;
+using Pizza_StoreV1.Models;
+using Pizza_StoreV1.Service;
 
 namespace Pizza_StoreV1
 {
     public class GetAllPizzasModel : PageModel
     {
-        private PizzaCatalog catalog;
-
-        public GetAllPizzasModel()
+        private PizzaService _pizzaService;
+        public GetAllPizzasModel(PizzaService pizzaService)
         {
-            catalog = new PizzaCatalog();
+            _pizzaService = pizzaService;
         }
-        public Dictionary<int, Models.Pizza> Pizzas { get; set; }
+        public Dictionary<int, Pizza> Pizzas { get; private set; }
+
+
 
         public IActionResult OnGet()
         {
-            Pizzas = catalog.AllPizzas();
+            Pizzas = _pizzaService.GetPizzas();
             return Page();
         }
     }

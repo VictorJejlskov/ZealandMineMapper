@@ -1,0 +1,32 @@
+﻿@page
+@using Pizza_StoreV1.Models
+@model Pizza_StoreV1.Pages.Pizzas.CreatePizzaModel
+@{
+}
+<h1>Create a new pizza</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="@Model.Pizza.Id"></label>
+        <input asp-for="@Model.Pizza.Id" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Pizza.Name"></label>
+        <input asp-for="@Model.Pizza.Name" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Pizza.Description"></label>
+        <input asp-for="@Model.Pizza.Description" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Pizza.Price"></label>
+        <input asp-for="@Model.Pizza.Price" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Pizza.ImageName"></label>
+        <input asp-for="@Model.Pizza.ImageName" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary"/>
+    </div>
+</form>

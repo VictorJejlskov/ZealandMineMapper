@@ -2,7 +2,6 @@
 @using Pizza_StoreV1.Models
 @model Pizza_StoreV1.GetAllPizzasModel
 @{
-    ViewData["Title"] = "GetAllPizzas";
 }
 <h1>GetAllPizzas</h1>
 
@@ -27,25 +26,39 @@
     </tr>
     </thead>
     <tbody>
-    @foreach (var item in Model.Pizzas)
+    table start
+    @if (Model.Pizzas != null)
     {
-        <tr>
-            <td>
-                @item.Value.Id
-            </td>
-            <td>
-                @item.Value.Name
-            </td>
-            <td>
-                @item.Value.Description
-            </td>
-            <td>
-                @item.Value.Price
-            </td>
-            <td>
-                <img src="~/Images/@item.Value.ImageName" width="60" height="70"/>
-            </td>
-        </tr>
+        @foreach (Pizza item in Model.Pizzas.Values)
+        {
+            <tr>
+                <td>
+                    test
+                    @item.Id
+                </td>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.Description
+                </td>
+                <td>
+                    @item.Price
+                </td>
+                <td>
+                    <img src="~/Images/@item.ImageName" width="60" height="70"/>
+                </td>
+            </tr>
+        }
     }
+    else if (Model.Pizzas.Count <= 3)
+    {
+        <tr>it was 0 or less than 3</tr>
+    }
+
+    table end
     </tbody>
 </table>
+<p>
+    <a class="btn btn-primary" asp-page="CreatePizza">Create New Pizza</a>
+</p>
