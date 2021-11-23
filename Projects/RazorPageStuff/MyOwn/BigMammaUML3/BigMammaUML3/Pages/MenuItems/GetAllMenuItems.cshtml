@@ -1,0 +1,72 @@
+﻿@page
+@using BigMammaUML3.Models
+@using System.Diagnostics.Eventing.Reader
+@model BigMammaUML3.Pages.MenuItems.GetAllMenuItemsModel
+@{
+}
+
+
+<h1>All Menu Items</h1>
+
+<form method="post" asp-page="GetAllMenuItemsModel">
+    <input type="submit" value="Show All" asp-page-handler="Method1" class="btn btn-outline-dark"/>    <input type="submit" value="Deep Pan Pizzas" asp-page-handler="Method2" class="btn btn-outline-dark"/>
+    <input type="submit" value="Most Expensive" asp-page-handler="Method4" class="btn btn-outline-dark"/>    <input type="submit" value="Alcoholic Beverage" asp-page-handler="Method3" class="btn btn-outline-dark"/>
+</form>
+<table class="table table-striped">
+    <thead class="table-dark">
+    <tr>
+        <th>
+            #
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+            
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @if (Model.MenuItems != null)
+    {
+        foreach (MenuItem menuItem in Model.MenuItems)
+        {
+            <tr>
+                <td>
+                    @menuItem.Number
+                </td>
+                <td>
+                    @menuItem.Name
+                </td>
+                <td>
+                    @menuItem.Description
+                </td>
+                <td>
+                    @menuItem.Price,-
+                </td>
+                @if (menuItem is Beverage)
+                {
+                    <td>
+                        @(((Beverage)menuItem).AlcoholicDescrip)
+                    </td>
+                }
+                @if (menuItem is Pizza)
+                {
+                    <td>
+                        @(((Pizza)menuItem).DeepPanDescription)
+                    </td>
+                }
+            </tr>
+        }
+    }
+    </tbody>
+</table>
+<p>
+    <a class="btn btn-primary" asp-page="CreateBeverage">Create A New Beverage</a>    <a class="btn btn-primary" asp-page="CreatePizza">Create A New Pizza</a>
+</p>

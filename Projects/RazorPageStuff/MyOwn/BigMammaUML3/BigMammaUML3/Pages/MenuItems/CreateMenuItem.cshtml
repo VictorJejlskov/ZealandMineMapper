@@ -1,0 +1,34 @@
+﻿@page
+@model BigMammaUML3.Pages.MenuItems.CreateMenuItemModel
+@{
+}
+
+<h1>Create new Menu Item</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="@Model.NewMenuItem.Number"></label>
+        <input asp-for="@Model.NewMenuItem.Number" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.NewMenuItem.Name"></label>
+        <input asp-for="@Model.NewMenuItem.Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.NewMenuItem.Description"></label>
+        <input asp-for="@Model.NewMenuItem.Description" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.NewMenuItem.Price"></label>
+        <input asp-for="@Model.NewMenuItem.Price" class="form-control" />
+    </div>
+    <div></div>
+
+    <label>Select Type</label>
+    @Html.DropDownListFor(s=>s.TypeID, Model.NewItemType, "Select One")
+    
+
+    <div></div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
