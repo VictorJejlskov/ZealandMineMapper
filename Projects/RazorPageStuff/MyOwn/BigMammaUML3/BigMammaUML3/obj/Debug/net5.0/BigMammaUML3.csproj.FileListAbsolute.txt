@@ -87,3 +87,4 @@ C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.genruntimeconfig.cache
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.csproj.CopyComplete
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\EditPizza.cshtml.g.cs
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\EditMenuItem.cshtml.g.cs

@@ -29,21 +29,19 @@ namespace BigMammaUML3.Services
 
         public MenuItem Search(int number)
         {
-            throw new NotImplementedException();
+            foreach (MenuItem menuItem in _menuItems)
+            {
+                if (number == menuItem.Number)
+                {
+                    return menuItem;
+                }
+            }
+            return null;
         }
 
         public List<MenuItem> SearchByName(string str)
         {
-            List<MenuItem> searchList = new List<MenuItem>();
-            if (string.IsNullOrEmpty(str)) return _menuItems;
-            foreach (MenuItem menuItem in _menuItems)
-            {
-                if (menuItem.Name.ToLower().Contains(str.ToLower()))
-                {
-                    searchList.Add(menuItem);
-                }
-            }
-            return searchList;
+            throw new NotImplementedException();
         }
 
         public List<MenuItem> SearchByDescription(string str)
@@ -68,7 +66,8 @@ namespace BigMammaUML3.Services
 
         public void Update(int number, MenuItem theMenuItem)
         {
-            throw new NotImplementedException();
+            MenuItem searchitem = Search(number);
+            searchitem = theMenuItem;
         }
 
         public List<MenuItem> FindAllDeepPan()

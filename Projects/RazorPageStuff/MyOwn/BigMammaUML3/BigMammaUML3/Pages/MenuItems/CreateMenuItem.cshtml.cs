@@ -22,9 +22,13 @@ namespace BigMammaUML3.Pages.MenuItems
         }
 
         [BindProperty] public bool SpecialCondition { get; set; }
+
+
         [Display(Name = "Nr:")]
         [Required(ErrorMessage = "Der skal indtastes et nummer")]
         [BindProperty] public int Number { get; set; }
+
+
         [Display(Name = "Navn:")]
         [Required(ErrorMessage = "Der skal indtastes et navn"), MaxLength(20)]
         [BindProperty] public string Name { get; set; }
