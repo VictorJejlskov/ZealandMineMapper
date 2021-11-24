@@ -12,7 +12,7 @@ namespace BigMammaUML3.Pages.MenuItems
     {
         public List<Models.MenuItem> MenuItems { get; private set; }
         private MenuCatalog _menuCatalog;
-
+        [BindProperty] public string SearchInput { get; set; }
         public GetAllMenuItemsModel(MenuCatalog menuCatalog)
         {
             _menuCatalog = menuCatalog;
@@ -22,21 +22,29 @@ namespace BigMammaUML3.Pages.MenuItems
             MenuItems = _menuCatalog.GetAll();
         }
 
-        public void OnPostMethod1()
+        public void OnPostShowAll()
         {
             MenuItems = _menuCatalog.GetAll();
         }        
-        public void OnPostMethod2()
+        public void OnPostFindDeepPan()
         {
             MenuItems = _menuCatalog.FindAllDeepPan();
         }        
-        public void OnPostMethod3()
+        public void OnPostAlcoholic()
         {
             MenuItems = _menuCatalog.FindAllNonAlcoholic();
         }        
-        public void OnPostMethod4()
+        public void OnPostMostExpensive()
         {
             MenuItems = _menuCatalog.MostExpensiveMenuItem();
+        }
+        public void OnPostNameSearch()
+        {
+            MenuItems = _menuCatalog.SearchByName(SearchInput);
+        }
+        public void OnPostDescriptionSearch()
+        {
+            MenuItems = _menuCatalog.SearchByDescription(SearchInput);
         }
     }
 }

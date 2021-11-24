@@ -10,6 +10,8 @@ namespace BigMammaUML3.Services
     {
         void Add(MenuItem aMenuItem);
         MenuItem Search(int number);
+        List<MenuItem> SearchByName(string str);
+        List<MenuItem> SearchByDescription(string str);
         void Delete(int number);
         void Update(int number, MenuItem theMenuItem);
         List<MenuItem> FindAllDeepPan();

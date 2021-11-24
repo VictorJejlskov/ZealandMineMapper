@@ -7,10 +7,17 @@
 
 
 <h1>All Menu Items</h1>
-
+<p>
+    <a class="btn btn-primary" asp-page="CreateMenuItem">Create A Menu Item</a>
+</p>
 <form method="post" asp-page="GetAllMenuItemsModel">
-    <input type="submit" value="Show All" asp-page-handler="Method1" class="btn btn-outline-dark"/>    <input type="submit" value="Deep Pan Pizzas" asp-page-handler="Method2" class="btn btn-outline-dark"/>
-    <input type="submit" value="Most Expensive" asp-page-handler="Method4" class="btn btn-outline-dark"/>    <input type="submit" value="Alcoholic Beverage" asp-page-handler="Method3" class="btn btn-outline-dark"/>
+    <input type="submit" value="Show All" asp-page-handler="ShowAll" class="btn btn-outline-dark"/>    <input type="submit" value="Deep Pan Pizzas" asp-page-handler="FindDeepPan" class="btn btn-outline-dark"/>
+    <input type="submit" value="Most Expensive" asp-page-handler="MostExpensive" class="btn btn-outline-dark"/>    <input type="submit" value="Alcoholic Beverage" asp-page-handler="Alcoholic" class="btn btn-outline-dark"/>
+    <div>
+        Søg efter inventar:
+        <input asp-for="SearchInput"/><input type="submit" value="Navn" asp-page-handler="NameSearch"/><input type="submit" value="Beskrivelse" asp-page-handler="DescriptionSearch" />
+    </div>
+
 </form>
 <table class="table table-striped">
     <thead class="table-dark">
@@ -27,9 +34,8 @@
         <th>
             Price
         </th>
-        <th>
-            
-        </th>
+        <th></th>
+        <th></th>
     </tr>
     </thead>
     <tbody>
@@ -62,11 +68,13 @@
                         @(((Pizza)menuItem).DeepPanDescription)
                     </td>
                 }
+                <td>
+                    <p>
+                        <a asp-page="EditPizza" asp-route-id="@menuItem.Number">Edit</a>
+                    </p>
+                </td>
             </tr>
         }
     }
     </tbody>
 </table>
-<p>
-    <a class="btn btn-primary" asp-page="CreateBeverage">Create A New Beverage</a>    <a class="btn btn-primary" asp-page="CreatePizza">Create A New Pizza</a>
-</p>

@@ -6,29 +6,33 @@
 <h1>Create new Menu Item</h1>
 <form method="post">
     <div class="form-group">
-        <label asp-for="@Model.NewMenuItem.Number"></label>
-        <input asp-for="@Model.NewMenuItem.Number" class="form-control" />
+        <label asp-for="Number"></label>
+        <input asp-for="Number" class="form-control" name="Number"/>
+        <span asp-validation-for="Number" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="@Model.NewMenuItem.Name"></label>
-        <input asp-for="@Model.NewMenuItem.Name" class="form-control" />
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" name="Name"/>
     </div>
     <div class="form-group">
-        <label asp-for="@Model.NewMenuItem.Description"></label>
-        <input asp-for="@Model.NewMenuItem.Description" class="form-control" />
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" name="Description"/>
     </div>
     <div class="form-group">
-        <label asp-for="@Model.NewMenuItem.Price"></label>
-        <input asp-for="@Model.NewMenuItem.Price" class="form-control" />
+        <label asp-for="@Model.Price"></label>
+        <input asp-for="@Model.Price" class="form-control" name="Price"/>
     </div>
-    <div></div>
-
-    <label>Select Type</label>
-    @Html.DropDownListFor(s=>s.TypeID, Model.NewItemType, "Select One")
-    
-
-    <div></div>
+    <div>
+        <label>Select Type: </label>
+        <select id="TypeID" name="TypeID">
+            <option selected="selected" value="1">Pizza</option>
+            <option value="2">Beverage</option>
+        </select>
+    </div>
+    <div>
+        Alcoholic Beverage / Deep Pan Pizza: <input type="checkbox" asp-for="SpecialCondition" data-val="true" data-val-required="The IsChecked field is required." id="SpecialCondition" name="SpecialCondition">
+    </div>
     <div class="form-group">
         <input type="submit" value="Create" class="btn btn-primary" />
     </div>
-</form>
+</form> 

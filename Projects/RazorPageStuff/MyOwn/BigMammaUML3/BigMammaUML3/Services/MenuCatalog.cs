@@ -32,6 +32,34 @@ namespace BigMammaUML3.Services
             throw new NotImplementedException();
         }
 
+        public List<MenuItem> SearchByName(string str)
+        {
+            List<MenuItem> searchList = new List<MenuItem>();
+            if (string.IsNullOrEmpty(str)) return _menuItems;
+            foreach (MenuItem menuItem in _menuItems)
+            {
+                if (menuItem.Name.ToLower().Contains(str.ToLower()))
+                {
+                    searchList.Add(menuItem);
+                }
+            }
+            return searchList;
+        }
+
+        public List<MenuItem> SearchByDescription(string str)
+        {
+            List<MenuItem> searchList = new List<MenuItem>();
+            if (string.IsNullOrEmpty(str)) return _menuItems;
+            foreach (MenuItem menuItem in _menuItems)
+            {
+                if (menuItem.Description.ToLower().Contains(str.ToLower()))
+                {
+                    searchList.Add(menuItem);
+                }
+            }
+            return searchList;
+        }
+
         public void Delete(int number)
         {
             throw new NotImplementedException();
