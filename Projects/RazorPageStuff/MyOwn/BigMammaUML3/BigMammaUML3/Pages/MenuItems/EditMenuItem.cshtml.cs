@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Reflection.Metadata.Ecma335;
+using System.Threading;
 using System.Threading.Tasks;
 using BigMammaUML3.Models;
 using BigMammaUML3.Services;
@@ -71,31 +73,29 @@ namespace BigMammaUML3.Pages.MenuItems
                     Price = _beverage.Price;
                 }
             }
-            else
-            {
-                throw new AccessViolationException();
-            }
-
             return Page();
         }
 
-        public IActionResult OnPost()
+        public IActionResult OnPost(int id)
         {
+            _searchedItem = _menuCatalog.Search(id);
             if (_searchedItem is Pizza)
             {
+                _pizza = (Pizza) _searchedItem;
                 _pizza.DeepPan = SpecialCondition;
                 _pizza.Name = Name;
                 _pizza.Description = Description;
                 _pizza.Price = Price;
-                _menuCatalog.Update(_searchedItem.Number, _pizza);
+                _menuCatalog.Update(_pizza.Number, _pizza);
             }
             else if (_searchedItem is Beverage)
             {
+                _beverage = (Beverage) _searchedItem;
                 _beverage.Alcohol = SpecialCondition;
                 _beverage.Name = Name;
                 _beverage.Description = Description;
                 _beverage.Price = Price;
-                _menuCatalog.Update(_searchedItem.Number, _beverage);
+                _menuCatalog.Update(_beverage.Number, _beverage);
             }
             return RedirectToPage("GetAllMenuItems");
         }

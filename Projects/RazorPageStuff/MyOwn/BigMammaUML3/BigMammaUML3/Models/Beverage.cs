@@ -8,7 +8,7 @@ namespace BigMammaUML3.Models
     public class Beverage : MenuItem
     {
         public bool Alcohol { get; set; }
-        public string AlcoholicDescrip { get; }
+        public string AlcoholicDescrip { get; set; }
 
         public Beverage()
         {
@@ -31,6 +31,18 @@ namespace BigMammaUML3.Models
         public override string ToString()
         {
             return $"{base.ToString()}, {nameof(Alcohol)}: {Alcohol}";
+        }
+
+        public override void UpdateDescription()
+        {
+            if (Alcohol)
+            {
+                AlcoholicDescrip = "Alcoholic";
+            }
+            else
+            {
+                AlcoholicDescrip = "Non-Alcoholic";
+            }
         }
     }
 }

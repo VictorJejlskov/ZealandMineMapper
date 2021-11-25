@@ -9,7 +9,7 @@ namespace BigMammaUML3.Models
     public class Pizza : MenuItem
     {
         public bool DeepPan { get; set; } = false;
-        public string DeepPanDescription { get; }
+        public string DeepPanDescription { get; set; }
         public Pizza()
         {
             
@@ -30,6 +30,18 @@ namespace BigMammaUML3.Models
         public override string ToString()
         {
             return $"{base.ToString()}, {nameof(DeepPan)}: {DeepPan}";
+        }
+
+        public override void UpdateDescription()
+        {
+            if (DeepPan)
+            {
+                DeepPanDescription = "Deep Pan";
+            }
+            else
+            {
+                DeepPanDescription = "Regular";
+            }
         }
     }
 }

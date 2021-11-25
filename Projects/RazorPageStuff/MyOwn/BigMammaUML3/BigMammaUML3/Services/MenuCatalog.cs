@@ -68,6 +68,7 @@ namespace BigMammaUML3.Services
         {
             MenuItem searchitem = Search(number);
             searchitem = theMenuItem;
+            searchitem.UpdateDescription();
         }
 
         public List<MenuItem> FindAllDeepPan()

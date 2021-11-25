@@ -29,6 +29,8 @@ namespace BigMammaUML3.Models
         {
             return $"{nameof(Number)}: {Number}, {nameof(Name)}: {Name}, {nameof(Description)}: {Description}, {nameof(Price)}: {Price}";
         }
+
+        public abstract void UpdateDescription();
     }
 
 
