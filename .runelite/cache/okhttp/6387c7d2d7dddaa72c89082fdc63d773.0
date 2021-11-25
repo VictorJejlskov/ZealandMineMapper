@@ -13,21 +13,21 @@ x-xss-protection: 1; mode=block
 x-github-request-id: 4ACA:24B4:22AAA46:246DC03:616691CB
 accept-ranges: bytes
 content-length: 49145
-date: Wed, 27 Oct 2021 18:14:27 GMT
+date: Thu, 11 Nov 2021 13:56:45 GMT
 via: 1.1 varnish
 cache-control: max-age=300
 etag: W/"be94cba3c7539539bf44d8542215d6b5af3507d1cd700e39afcfa38bd477b880"
-x-served-by: cache-cph20632-CPH
+x-served-by: cache-cph20620-CPH
 x-cache: HIT
 x-cache-hits: 1
-x-timer: S1635358467.278339,VS0,VE121
+x-timer: S1636639006.645547,VS0,VE170
 vary: Authorization,Accept-Encoding,Origin
 access-control-allow-origin: *
-x-fastly-request-id: 6804a4b84a1293dcfc847ccc19ba669f28855c1e
-expires: Wed, 27 Oct 2021 18:19:27 GMT
+x-fastly-request-id: ea44d91ac5ff000c8aab7ada08889664f17310c9
+expires: Thu, 11 Nov 2021 14:01:45 GMT
 source-age: 0
-OkHttp-Sent-Millis: 1635358464348
-OkHttp-Received-Millis: 1635358464486
+OkHttp-Sent-Millis: 1636639002363
+OkHttp-Received-Millis: 1636639002541
 
 TLS_AES_128_GCM_SHA256
 2

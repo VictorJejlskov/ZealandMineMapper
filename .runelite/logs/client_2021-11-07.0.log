@@ -1,0 +1,442 @@
+2021-11-07 00:52:40 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "better-skill-tooltips" version "1.1" commit "1873e94adae057b644024e64493af294ab13bfdb"
+2021-11-07 00:53:12 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "menuhp" version "1.1.1" commit "5217b8f9f14ddadad739527c33e609a2c1b8b3fd"
+2021-11-07 00:54:17 [pool-3-thread-1] INFO  n.r.c.e.ExternalPluginManager - Stopping external plugin "class io.hydrox.betterskilltooltips.BetterSkillTooltipsPlugin"
+2021-11-07 10:54:54 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.8.1 (launcher version 2.1.3) starting up, args: none
+2021-11-07 10:54:55 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2021-11-07 10:54:55 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2021-11-07 10:54:56 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 1743293556.307
+2021-11-07 10:54:56 [RuneLite] INFO  n.r.client.account.SessionManager - No session file exists
+2021-11-07 10:54:56 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "menuhp" version "1.1.1" commit "5217b8f9f14ddadad739527c33e609a2c1b8b3fd"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "skills-tab-progress-bars" version "0.8" commit "edad37606858fb22dcea07ac9bb1f9324d737a80"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "spring-garden" version "1.1.0" commit "a107035b8e77cd82ea5a2c007c913531611130ed"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "picture-in-picture" version "1.4.1" commit "32688a78c119187be8c33c62cf56f990fe9bb688"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-memory" version "1.1.2" commit "9521135d3c696071c018f48d9709320f389eda89"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "not-empty" version "1.0" commit "e49ec7cc3927e911337ad48bd530cb52f5365183"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "c-engineer-completed" version "0.2.1" commit "f7eafb03e65639fddd214d701fdf2cd262189ac1"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "kitten-tracker" version "10e37f7e" commit "10e37f7ed5f2a171310987c44530878db4b8d011"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bats-locator" version "890cefa0" commit "890cefa0a95a734abc15a6b1f0681276c5c78c4d"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tag-layouts" version "1.4.7" commit "efad26a27e73da4a80e482980383afb433a85be0"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-xp-value" version "1.1" commit "076d21a191b5cec70ae9b6a78c42d0f848c337d7"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-value-tracker" version "757b7b33" commit "757b7b33bdfc27ba24d57fd22a15456f75558d00"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "fight-cave-waves" version "1.2" commit "51790d94159cbb85893de04d90efc5c0c20d819a"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ba-minigame" version "1.42" commit "92da92790bd4657bb14e99cde01308bec94a2809"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "117hd" version "1.0.8" commit "1d290f6d64c44acd306dfdc84553952ebc96b03e"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "quest-helper" version "2.6.1" commit "68a62a0f64174b4ddfeac810557f1e04ec54423b"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "tempoross" version "1.2" commit "af72eacca6df48b132232cb4dd5775b225fa2e5e"
+2021-11-07 10:54:58 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tab-names" version "1.0.0" commit "524316bc3b36abca7ca0ecbf84636f79f54b376a"
+2021-11-07 10:54:59 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2021-11-07 10:55:00 [AWT-EventQueue-0] INFO  dekvall.notempty.NotEmptyPlugin - Not Empty started!
+2021-11-07 10:55:01 [pool-3-thread-1] INFO  n.r.client.discord.DiscordService - Discord RPC service is ready with user Victor.
+2021-11-07 10:55:01 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 7681ms. Uptime: 11261ms
+2021-11-07 10:55:01 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,1920x1040,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,1920x1040,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@143225dd,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2021-11-07 10:55:02 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-11-07 10:55:02 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6.0 NVIDIA 496.49
+2021-11-07 14:20:43 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.8.1 (launcher version 2.1.3) starting up, args: none
+2021-11-07 14:20:44 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2021-11-07 14:20:45 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2021-11-07 14:20:45 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 1743293556.307
+2021-11-07 14:20:45 [RuneLite] INFO  n.r.client.account.SessionManager - No session file exists
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "menuhp" version "1.1.1" commit "5217b8f9f14ddadad739527c33e609a2c1b8b3fd"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "skills-tab-progress-bars" version "0.8" commit "edad37606858fb22dcea07ac9bb1f9324d737a80"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "spring-garden" version "1.1.0" commit "a107035b8e77cd82ea5a2c007c913531611130ed"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "picture-in-picture" version "1.4.1" commit "32688a78c119187be8c33c62cf56f990fe9bb688"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-memory" version "1.1.2" commit "9521135d3c696071c018f48d9709320f389eda89"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "not-empty" version "1.0" commit "e49ec7cc3927e911337ad48bd530cb52f5365183"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "c-engineer-completed" version "0.2.1" commit "f7eafb03e65639fddd214d701fdf2cd262189ac1"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "kitten-tracker" version "10e37f7e" commit "10e37f7ed5f2a171310987c44530878db4b8d011"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bats-locator" version "890cefa0" commit "890cefa0a95a734abc15a6b1f0681276c5c78c4d"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tag-layouts" version "1.4.7" commit "efad26a27e73da4a80e482980383afb433a85be0"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-xp-value" version "1.1" commit "076d21a191b5cec70ae9b6a78c42d0f848c337d7"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-value-tracker" version "757b7b33" commit "757b7b33bdfc27ba24d57fd22a15456f75558d00"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "fight-cave-waves" version "1.2" commit "51790d94159cbb85893de04d90efc5c0c20d819a"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ba-minigame" version "1.42" commit "92da92790bd4657bb14e99cde01308bec94a2809"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "117hd" version "1.0.8" commit "1d290f6d64c44acd306dfdc84553952ebc96b03e"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "quest-helper" version "2.6.1" commit "68a62a0f64174b4ddfeac810557f1e04ec54423b"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "tempoross" version "1.2" commit "af72eacca6df48b132232cb4dd5775b225fa2e5e"
+2021-11-07 14:20:46 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tab-names" version "1.0.0" commit "524316bc3b36abca7ca0ecbf84636f79f54b376a"
+2021-11-07 14:20:47 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2021-11-07 14:20:48 [AWT-EventQueue-0] INFO  dekvall.notempty.NotEmptyPlugin - Not Empty started!
+2021-11-07 14:20:49 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 5435ms. Uptime: 7792ms
+2021-11-07 14:20:49 [pool-3-thread-1] INFO  n.r.client.discord.DiscordService - Discord RPC service is ready with user Victor.
+2021-11-07 14:20:49 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,1920x1040,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,1920x1040,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@2b50c9b3,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2021-11-07 14:20:50 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-11-07 14:20:50 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6.0 NVIDIA 496.49
+2021-11-07 19:02:29 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at net.runelite.client.plugins.npcunaggroarea.NpcAggroAreaPlugin.isNpcMatch(NpcAggroAreaPlugin.java:269)
+	at net.runelite.client.plugins.npcunaggroarea.NpcAggroAreaPlugin.checkAreaNpcs(NpcAggroAreaPlugin.java:297)
+	at net.runelite.client.plugins.npcunaggroarea.NpcAggroAreaPlugin.recheckActive(NpcAggroAreaPlugin.java:310)
+	at net.runelite.client.plugins.npcunaggroarea.NpcAggroAreaPlugin.onGameStateChanged(NpcAggroAreaPlugin.java:473)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:70)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:223)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:169)
+	at client.hi(client.java:7485)
+	at gi.fd(gi.java:1709)
+	at mo.ft(mo.java:3065)
+	at client.fn(client.java:3009)
+	at client.h(client.java:1541)
+	at ai.oz(ai.java:387)
+	at ai.run(ai.java:366)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 19:05:38 [OkHttp https://crystalmathlabs.com/...] WARN  n.r.c.p.xpupdater.XpUpdaterPlugin - Error submitting CrystalMathLabs update, caused by timeout.
+2021-11-07 19:31:05 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - Error submitting loot: 502 - 
+2021-11-07 20:38:56 [OkHttp https://api.runelite.net/...] WARN  net.runelite.http.api.xp.XpClient - Error submitting xp track
+java.net.SocketTimeoutException: timeout
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.newTimeoutException(Http2Stream.java:678)
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.exitAndThrowIfTimedOut(Http2Stream.java:686)
+	at okhttp3.internal.http2.Http2Stream.takeHeaders(Http2Stream.java:154)
+	at okhttp3.internal.http2.Http2ExchangeCodec.readResponseHeaders(Http2ExchangeCodec.java:136)
+	at okhttp3.internal.connection.Exchange.readResponseHeaders(Exchange.java:115)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:94)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at net.runelite.client.RuneLite.lambda$setupCache$4(RuneLite.java:393)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at net.runelite.http.api.RuneLiteAPI$1.intercept(RuneLiteAPI.java:99)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:43)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229)
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172)
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 20:39:07 [OkHttp https://crystalmathlabs.com/...] WARN  n.r.c.p.xpupdater.XpUpdaterPlugin - Error submitting CrystalMathLabs update, caused by timeout.
+2021-11-07 22:26:03 [OkHttp https://api.runelite.net/...] WARN  net.runelite.http.api.xp.XpClient - Error submitting xp track
+javax.net.ssl.SSLException: Read timed out
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at okhttp3.internal.connection.RealConnection.connectTls(RealConnection.java:336)
+	at okhttp3.internal.connection.RealConnection.establishProtocol(RealConnection.java:300)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:185)
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224)
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108)
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88)
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229)
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172)
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(Unknown Source)
+	... 28 common frames omitted
+2021-11-07 22:26:03 [OkHttp https://templeosrs.com/...] WARN  n.r.c.p.xpupdater.XpUpdaterPlugin - Error submitting TempleOSRS update, caused by Read timed out.
+2021-11-07 22:26:03 [OkHttp https://wiseoldman.net/...] WARN  n.r.c.p.xpupdater.XpUpdaterPlugin - Error submitting Wise Old Man update, caused by Read timed out.
+2021-11-07 22:26:03 [OkHttp https://crystalmathlabs.com/...] WARN  n.r.c.p.xpupdater.XpUpdaterPlugin - Error submitting CrystalMathLabs update, caused by Read timed out.
+2021-11-07 22:26:06 [pool-5-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool183.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:878)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:836)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 22:26:09 [pool-5-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool184.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:878)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:836)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 22:26:12 [pool-5-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool185.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:878)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:836)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 22:26:14 [OkHttp https://api.runelite.net/...] WARN  n.r.h.a.l.LootTrackerClient - unable to submit loot
+java.net.NoRouteToHostException: No route to host: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:130)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:263)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:183)
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224)
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108)
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88)
+	at okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229)
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172)
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 22:26:15 [pool-5-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool186.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:878)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:836)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 22:26:18 [pool-5-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool187.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:878)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:836)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 22:26:21 [pool-5-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool188.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:878)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:836)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 22:26:24 [pool-5-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool189.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:878)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:836)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 22:26:27 [pool-5-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool190.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:878)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:836)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 22:26:30 [pool-5-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool191.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:878)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:836)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 22:26:33 [pool-5-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool192.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:878)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:836)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 22:26:36 [pool-5-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool193.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:878)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:836)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 22:26:42 [pool-5-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool194.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:878)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:836)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-07 22:26:45 [pool-5-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool195.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:878)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:836)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)

@@ -2,27 +2,28 @@ https://pbs.twimg.com/profile_images/1280108209588633601/GFYz0mEm_normal.jpg
 GET
 0
 HTTP/1.1 200 
-20
+21
+content-type: image/jpeg
+content-length: 2111
 accept-ranges: bytes
 access-control-allow-origin: *
 access-control-expose-headers: Content-Length
-age: 383231
+age: 35713
 cache-control: max-age=604800, must-revalidate
-content-type: image/jpeg
-date: Wed, 20 Oct 2021 16:27:01 GMT
+date: Sat, 20 Nov 2021 18:29:42 GMT
 last-modified: Mon, 06 Jul 2020 11:53:55 GMT
 server: ECS (ska/F715)
 strict-transport-security: max-age=631138519
 surrogate-key: profile_images profile_images/bucket/7 profile_images/1280108209588633601
 timing-allow-origin: https://twitter.com, https://mobile.twitter.com
 x-cache: HIT
-x-connection-hash: 230d7baa683976251d4d04dc0966baea33edab0328582614be7e42551e709fc3
+x-connection-hash: 47748f236590ba49cedd9e2f86ad63e8815f1996c8fc5edc35d68eb2d271d88f
 x-content-type-options: nosniff
+x-response-time: 116
 x-tw-cdn: VZ
 x-tw-cdn: VZ
-content-length: 2111
-OkHttp-Sent-Millis: 1634747219520
-OkHttp-Received-Millis: 1634747219549
+OkHttp-Sent-Millis: 1637432981993
+OkHttp-Received-Millis: 1637432982030
 
 TLS_AES_256_GCM_SHA384
 2

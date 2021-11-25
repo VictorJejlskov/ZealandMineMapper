@@ -3,7 +3,7 @@ GET
 0
 HTTP/1.1 200 
 18
-date: Fri, 22 Oct 2021 14:43:13 GMT
+date: Mon, 15 Nov 2021 19:36:02 GMT
 content-type: text/html; charset=ISO-8859-1
 cache-control: no-cache
 pragma: no-cache
@@ -15,12 +15,12 @@ set-cookie: JGSTAFFNAME=; version=1; path=/; domain=.runescape.com; secure;
 cf-cache-status: DYNAMIC
 expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 set-cookie: JGSTAFFPASS=; version=1; path=/; domain=.runescape.com; secure;
-set-cookie: __cf_bm=SEMZgYn8O_LiGIcAxyt0tL09kIArkRDy1yvkpotW5Hk-1634913793-0-Ad+LLzMUN30jkDf94jxaxZvmFM1ryREI4jGQRsRUCKU1XN157IcJYb4Da37UoyarKOKLUSapGQGaI8fFcJojXbDMkGXXIoi2GGMgzjUrSgau; path=/; expires=Fri, 22-Oct-21 15:13:13 GMT; domain=.runescape.com; HttpOnly; Secure; SameSite=None
+set-cookie: __cf_bm=YZECu8Tdsl6_wtKp4lWJQu2jWGOTxE1zegJm7LwI9EU-1637004962-0-AXQbzmKIv5EXr/QmXRzKrCe1kZj/V257dZylLCqoTCZipLEEgGtQi0CxycqMKrVHmQOCot9Fqp/k9RKlC2+aM0+QvER6AcTyVIkFX7jMGsKw; path=/; expires=Mon, 15-Nov-21 20:06:02 GMT; domain=.runescape.com; HttpOnly; Secure; SameSite=None
 server: cloudflare
-cf-ray: 6a237f26ba14736b-CPH
+cf-ray: 6aeaed13a89d1d0e-CPH
 content-encoding: gzip
-OkHttp-Sent-Millis: 1634913793157
-OkHttp-Received-Millis: 1634913793756
+OkHttp-Sent-Millis: 1637004961890
+OkHttp-Received-Millis: 1637004962454
 
 TLS_AES_128_GCM_SHA256
 2

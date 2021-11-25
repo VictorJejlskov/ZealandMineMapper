@@ -8,22 +8,22 @@ content-length: 2187
 accept-ranges: bytes
 access-control-allow-origin: *
 access-control-expose-headers: Content-Length
-age: 98
+age: 5169
 cache-control: max-age=604800, must-revalidate
-date: Thu, 21 Oct 2021 16:01:42 GMT
+date: Thu, 25 Nov 2021 17:26:17 GMT
 last-modified: Thu, 07 Oct 2021 15:58:00 GMT
 server: ECS (ska/F704)
 strict-transport-security: max-age=631138519
 surrogate-key: profile_images profile_images/bucket/4 profile_images/1446143280656363521
 timing-allow-origin: https://twitter.com, https://mobile.twitter.com
 x-cache: HIT
-x-connection-hash: 47fdcf264359c51df09df1f9516ccc82eb7b98417881097dfd6b71da3c576a4a
+x-connection-hash: ad2b2414ba0cdbb28f6a6c35d5e2d7bb1335dc7c99e3cdc4718d82a411e3169f
 x-content-type-options: nosniff
-x-response-time: 121
+x-response-time: 110
 x-tw-cdn: VZ
 x-tw-cdn: VZ
-OkHttp-Sent-Millis: 1634832102533
-OkHttp-Received-Millis: 1634832102562
+OkHttp-Sent-Millis: 1637861174900
+OkHttp-Received-Millis: 1637861174944
 
 TLS_AES_256_GCM_SHA384
 2

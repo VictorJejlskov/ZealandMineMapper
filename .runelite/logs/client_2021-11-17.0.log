@@ -1,0 +1,103 @@
+2021-11-17 15:20:54 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.8.3 (launcher version 2.1.3) starting up, args: none
+2021-11-17 15:20:55 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2021-11-17 15:20:56 [Preloader] WARN  net.runelite.client.rs.ClientLoader - Cached patch hash mismatches, regenerating patch
+2021-11-17 15:20:57 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 1791749418.321
+2021-11-17 15:20:59 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "menuhp" version "1.1.1" commit "5217b8f9f14ddadad739527c33e609a2c1b8b3fd"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "spring-garden" version "1.1.0" commit "a107035b8e77cd82ea5a2c007c913531611130ed"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "emote-clue-items" version "3.2.1" commit "a4ae4ad4e62801234bd71fe3ff981e67b74c9dc9"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "picture-in-picture" version "1.4.1" commit "32688a78c119187be8c33c62cf56f990fe9bb688"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-memory" version "1.1.2" commit "9521135d3c696071c018f48d9709320f389eda89"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "not-empty" version "1.0" commit "e49ec7cc3927e911337ad48bd530cb52f5365183"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "c-engineer-completed" version "0.2.1" commit "f7eafb03e65639fddd214d701fdf2cd262189ac1"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "kitten-tracker" version "10e37f7e" commit "10e37f7ed5f2a171310987c44530878db4b8d011"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bats-locator" version "890cefa0" commit "890cefa0a95a734abc15a6b1f0681276c5c78c4d"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tag-layouts" version "1.4.7" commit "efad26a27e73da4a80e482980383afb433a85be0"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "quest-helper" version "2.6.2" commit "78d70921432152bf92a2543c6e9f623be4bdb46d"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "banked-experience" version "2.0.9" commit "288bc92bc61e623a7466c31702bdda2488843489"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-value-tracker" version "757b7b33" commit "757b7b33bdfc27ba24d57fd22a15456f75558d00"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "fight-cave-waves" version "1.2" commit "51790d94159cbb85893de04d90efc5c0c20d819a"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "skills-tab-progress-bars" version "1.1" commit "18047c3808d093a5f906036db1ae7f9a137f653e"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ba-minigame" version "1.42" commit "92da92790bd4657bb14e99cde01308bec94a2809"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "117hd" version "1.0.8" commit "1d290f6d64c44acd306dfdc84553952ebc96b03e"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "tempoross" version "1.2" commit "af72eacca6df48b132232cb4dd5775b225fa2e5e"
+2021-11-17 15:21:01 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tab-names" version "1.0.0" commit "524316bc3b36abca7ca0ecbf84636f79f54b376a"
+2021-11-17 15:21:02 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2021-11-17 15:21:04 [pool-3-thread-1] INFO  n.r.client.discord.DiscordService - Discord RPC service is ready with user Victor.
+2021-11-17 15:21:04 [AWT-EventQueue-0] INFO  dekvall.notempty.NotEmptyPlugin - Not Empty started!
+2021-11-17 15:21:06 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 11599ms. Uptime: 16648ms
+2021-11-17 15:21:06 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,2560x1400,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,2560x1400,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@78978e2,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2021-11-17 15:21:07 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-11-17 15:21:07 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6.0 NVIDIA 496.49
+2021-11-17 15:31:47 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.8.3 (launcher version 2.1.3) starting up, args: none
+2021-11-17 15:31:48 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2021-11-17 15:31:49 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2021-11-17 15:31:49 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 1791749418.321
+2021-11-17 15:31:51 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "menuhp" version "1.1.1" commit "5217b8f9f14ddadad739527c33e609a2c1b8b3fd"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "spring-garden" version "1.1.0" commit "a107035b8e77cd82ea5a2c007c913531611130ed"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "emote-clue-items" version "3.2.1" commit "a4ae4ad4e62801234bd71fe3ff981e67b74c9dc9"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "picture-in-picture" version "1.4.1" commit "32688a78c119187be8c33c62cf56f990fe9bb688"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-memory" version "1.1.2" commit "9521135d3c696071c018f48d9709320f389eda89"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "not-empty" version "1.0" commit "e49ec7cc3927e911337ad48bd530cb52f5365183"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "c-engineer-completed" version "0.2.1" commit "f7eafb03e65639fddd214d701fdf2cd262189ac1"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "kitten-tracker" version "10e37f7e" commit "10e37f7ed5f2a171310987c44530878db4b8d011"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bats-locator" version "890cefa0" commit "890cefa0a95a734abc15a6b1f0681276c5c78c4d"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tag-layouts" version "1.4.7" commit "efad26a27e73da4a80e482980383afb433a85be0"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "quest-helper" version "2.6.2" commit "78d70921432152bf92a2543c6e9f623be4bdb46d"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "banked-experience" version "2.0.9" commit "288bc92bc61e623a7466c31702bdda2488843489"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-value-tracker" version "757b7b33" commit "757b7b33bdfc27ba24d57fd22a15456f75558d00"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "fight-cave-waves" version "1.2" commit "51790d94159cbb85893de04d90efc5c0c20d819a"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "skills-tab-progress-bars" version "1.1" commit "18047c3808d093a5f906036db1ae7f9a137f653e"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "ba-minigame" version "1.42" commit "92da92790bd4657bb14e99cde01308bec94a2809"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "117hd" version "1.0.8" commit "1d290f6d64c44acd306dfdc84553952ebc96b03e"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "tempoross" version "1.2" commit "af72eacca6df48b132232cb4dd5775b225fa2e5e"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.c.e.ExternalPluginManager - Loading external plugin "bank-tab-names" version "1.0.0" commit "524316bc3b36abca7ca0ecbf84636f79f54b376a"
+2021-11-17 15:31:52 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2021-11-17 15:31:54 [pool-3-thread-1] INFO  n.r.client.discord.DiscordService - Discord RPC service is ready with user Victor.
+2021-11-17 15:31:55 [AWT-EventQueue-0] INFO  dekvall.notempty.NotEmptyPlugin - Not Empty started!
+2021-11-17 15:31:56 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 8313ms. Uptime: 11705ms
+2021-11-17 15:31:56 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,2560x1400,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,2560x1400,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@49a1f7e4,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2021-11-17 15:31:57 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: NVIDIA GeForce RTX 2080/PCIe/SSE2
+2021-11-17 15:31:57 [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6.0 NVIDIA 496.76
+2021-11-17 18:37:34 [OkHttp https://crystalmathlabs.com/...] WARN  n.r.c.p.xpupdater.XpUpdaterPlugin - Error submitting CrystalMathLabs update, caused by timeout.
+2021-11-17 21:00:52 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - failed to synchronize some of 2 configuration values: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.16.1</center>
+</body>
+</html>
+
+2021-11-17 21:01:32 [OkHttp https://api.runelite.net/...] WARN  n.r.http.api.config.ConfigClient - Unable to synchronize configuration item
+java.net.SocketTimeoutException: timeout
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.newTimeoutException(Http2Stream.java:678)
+	at okhttp3.internal.http2.Http2Stream$StreamTimeout.exitAndThrowIfTimedOut(Http2Stream.java:686)
+	at okhttp3.internal.http2.Http2Stream.takeHeaders(Http2Stream.java:154)
+	at okhttp3.internal.http2.Http2ExchangeCodec.readResponseHeaders(Http2ExchangeCodec.java:136)
+	at okhttp3.internal.connection.Exchange.readResponseHeaders(Exchange.java:115)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:94)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at net.runelite.client.RuneLite.lambda$setupCache$4(RuneLite.java:393)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at net.runelite.http.api.RuneLiteAPI$1.intercept(RuneLiteAPI.java:99)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:43)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229)
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172)
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)

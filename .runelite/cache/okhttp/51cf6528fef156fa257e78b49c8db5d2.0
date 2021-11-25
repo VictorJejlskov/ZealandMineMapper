@@ -3,27 +3,27 @@ GET
 0
 HTTP/1.1 200 
 21
+content-type: image/jpeg
+content-length: 2035
 accept-ranges: bytes
 access-control-allow-origin: *
 access-control-expose-headers: Content-Length
-age: 218480
+age: 27681
 cache-control: max-age=604800, must-revalidate
-content-type: image/jpeg
-date: Sat, 23 Oct 2021 22:06:19 GMT
+date: Thu, 25 Nov 2021 17:06:20 GMT
 last-modified: Wed, 22 Jun 2016 16:28:49 GMT
 server: ECS (ska/F715)
 strict-transport-security: max-age=631138519
 surrogate-key: profile_images profile_images/bucket/0 profile_images/745655292180959232
 timing-allow-origin: https://twitter.com, https://mobile.twitter.com
 x-cache: HIT
-x-connection-hash: bf2eb96dd65e02e6968765adafc86d0a9aff64f5856f4d5963d9c76582d17b47
+x-connection-hash: 08d399964e4623c74efffe2c28903a9f7bcb62433aa0c83ac567580231403849
 x-content-type-options: nosniff
-x-response-time: 115
+x-response-time: 111
 x-tw-cdn: VZ
 x-tw-cdn: VZ
-content-length: 2035
-OkHttp-Sent-Millis: 1635026780204
-OkHttp-Received-Millis: 1635026780277
+OkHttp-Sent-Millis: 1637859977626
+OkHttp-Received-Millis: 1637859977651
 
 TLS_AES_256_GCM_SHA384
 2

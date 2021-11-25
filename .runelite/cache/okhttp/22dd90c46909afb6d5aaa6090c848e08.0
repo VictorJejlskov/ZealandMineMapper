@@ -3,23 +3,23 @@ GET
 0
 HTTP/1.1 200 
 17
-date: Tue, 26 Oct 2021 16:59:17 GMT
+date: Tue, 23 Nov 2021 13:29:32 GMT
 content-type: text/html; charset=UTF-8
 strict-transport-security: max-age=63072000; includeSubdomains
 x-frame-options: DENY
 x-content-type-options: nosniff
 access-control-allow-origin: *
-set-cookie: flood=5876eba60d2cf8c5a3a7877198bca7f3; expires=Fri, 26-Nov-2021 16:59:10 GMT; Max-Age=2678400; domain=crystalmathlabs.com
+set-cookie: flood=477023bc566efb5c121b71833d693312; expires=Fri, 24-Dec-2021 13:29:25 GMT; Max-Age=2678400; domain=crystalmathlabs.com
 cf-cache-status: DYNAMIC
 expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5UQ%2Bdrc6%2BUGcpZ8RGGMzSqsJPqwoYQO%2FFYX%2F87fxOwh9v9wQ9nwha5j5HKlARHLncegCIxZx1LJWPS4xrjHXM3d5261iOwzCXw%2BtlajNnWYN1dBHj0%2BUYOoVrXPVOQX3d2adF9QR"}],"group":"cf-nel","max_age":604800}
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=txet5TCM1xH%2BwXN28QWBRugUAnWGxe6YryFajxYB0EaKQaxQQ4AcGyzs0m8yi9RjnNVkkgruDo01Tnva5hIk1UXZ3h1TSKJB888VvJnBQNDG4GwHTGrD%2FFIKGvnbR%2BU3MhCVDzZz"}],"group":"cf-nel","max_age":604800}
 nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 server: cloudflare
-cf-ray: 6a453bcb0b771d0e-CPH
+cf-ray: 6b2abf109e92419c-AMS
 content-encoding: gzip
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
-OkHttp-Sent-Millis: 1635267550256
-OkHttp-Received-Millis: 1635267557591
+OkHttp-Sent-Millis: 1637674165992
+OkHttp-Received-Millis: 1637674172189
 
 TLS_AES_128_GCM_SHA256
 2

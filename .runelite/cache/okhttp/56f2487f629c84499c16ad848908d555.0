@@ -2,27 +2,28 @@ https://pbs.twimg.com/profile_images/1180872263987552256/DVd8rtCY_normal.jpg
 GET
 0
 HTTP/1.1 200 
-20
+21
 content-type: image/jpeg
 content-length: 2111
 accept-ranges: bytes
 access-control-allow-origin: *
 access-control-expose-headers: Content-Length
-age: 13109
+age: 42219
 cache-control: max-age=604800, must-revalidate
-date: Mon, 18 Oct 2021 09:47:18 GMT
+date: Mon, 22 Nov 2021 18:16:52 GMT
 last-modified: Sun, 06 Oct 2019 15:45:41 GMT
 server: ECS (ska/F71A)
 strict-transport-security: max-age=631138519
 surrogate-key: profile_images profile_images/bucket/3 profile_images/1180872263987552256
 timing-allow-origin: https://twitter.com, https://mobile.twitter.com
 x-cache: HIT
-x-connection-hash: adf9e67abbde8a0a26a4d7c451757669dd2f3493cf77a036a86c835115dea852
+x-connection-hash: 397725693242ca6cf4c62b3fb8d19349c02be87107842e149a0ab6d7f260a7cf
 x-content-type-options: nosniff
+x-response-time: 116
 x-tw-cdn: VZ
 x-tw-cdn: VZ
-OkHttp-Sent-Millis: 1634550438213
-OkHttp-Received-Millis: 1634550438254
+OkHttp-Sent-Millis: 1637605012888
+OkHttp-Received-Millis: 1637605012917
 
 TLS_AES_256_GCM_SHA384
 2

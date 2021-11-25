@@ -2,27 +2,28 @@ https://pbs.twimg.com/profile_images/1346393388678078465/KXIJrEah_normal.png
 GET
 0
 HTTP/1.1 200 
-20
+21
+content-type: image/png
+content-length: 4771
 accept-ranges: bytes
 access-control-allow-origin: *
 access-control-expose-headers: Content-Length
-age: 35632
+age: 209885
 cache-control: max-age=604800, must-revalidate
-content-type: image/png
-date: Wed, 20 Oct 2021 15:43:33 GMT
+date: Fri, 05 Nov 2021 16:40:28 GMT
 last-modified: Tue, 05 Jan 2021 09:47:33 GMT
 server: ECS (ska/F70F)
 strict-transport-security: max-age=631138519
 surrogate-key: profile_images profile_images/bucket/5 profile_images/1346393388678078465
 timing-allow-origin: https://twitter.com, https://mobile.twitter.com
 x-cache: HIT
-x-connection-hash: e8dc5fac1173f8f004d2c7e322427accfc3e7c26f9589d1f3f15fef8d5be7e3c
+x-connection-hash: 6eb5ba6c7c6eeb00f6ba1319fdd11041339b208f83a4d11fc1f1b6adbf76dc5e
 x-content-type-options: nosniff
+x-response-time: 117
 x-tw-cdn: VZ
 x-tw-cdn: VZ
-content-length: 4771
-OkHttp-Sent-Millis: 1634744611919
-OkHttp-Received-Millis: 1634744611947
+OkHttp-Sent-Millis: 1636130426843
+OkHttp-Received-Millis: 1636130426872
 
 TLS_AES_256_GCM_SHA384
 2

@@ -2,27 +2,31 @@ https://pbs.twimg.com/profile_images/1328668531836248064/Tqommavs_normal.jpg
 GET
 0
 HTTP/1.1 200 
-20
+24
+content-type: image/jpeg
+content-length: 2187
+akamai-request-bc: [a=95.100.155.247,b=367730504,c=g,n=DK__BALLERUP,o=20940]
+server-timing: x-cache;HIT, x-tw-cdn;AK
+x-client-network: EIP
 accept-ranges: bytes
 access-control-allow-origin: *
 access-control-expose-headers: Content-Length
-age: 124074
+age: 198
 cache-control: max-age=604800, must-revalidate
-content-type: image/jpeg
-date: Wed, 20 Oct 2021 00:53:33 GMT
+date: Mon, 22 Nov 2021 14:36:48 GMT
 last-modified: Tue, 17 Nov 2020 11:55:18 GMT
 server: ECS (ska/F713)
 strict-transport-security: max-age=631138519
 surrogate-key: profile_images profile_images/bucket/8 profile_images/1328668531836248064
 timing-allow-origin: https://twitter.com, https://mobile.twitter.com
 x-cache: HIT
-x-connection-hash: 76d560d31dd028a1096a469bdd34d69b2b14c526d00529d7d22c02e332fe4e62
+x-connection-hash: a770bb9caebf5efe942b055a5409ad979674a6748d1e75fd347ff190bf0838de
 x-content-type-options: nosniff
+x-response-time: 110
 x-tw-cdn: VZ
 x-tw-cdn: VZ
-content-length: 2187
-OkHttp-Sent-Millis: 1634691214214
-OkHttp-Received-Millis: 1634691214242
+OkHttp-Sent-Millis: 1637591805984
+OkHttp-Received-Millis: 1637591806052
 
 TLS_AES_256_GCM_SHA384
 2

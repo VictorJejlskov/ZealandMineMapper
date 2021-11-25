@@ -10,25 +10,25 @@ strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
 x-frame-options: deny
 x-xss-protection: 1; mode=block
-x-github-request-id: 5196:4508:7A41BA:86A2E6:6169F49F
+x-github-request-id: 5D4A:9E71:5CB272:60D709:6182782D
 content-encoding: gzip
 accept-ranges: bytes
-content-length: 2894
-date: Wed, 27 Oct 2021 18:14:21 GMT
+content-length: 2871
+date: Thu, 11 Nov 2021 13:56:42 GMT
 via: 1.1 varnish
 cache-control: max-age=300
-etag: W/"eea06e9eaccbf18e0a25670da07b4d2c8f6c41ee9c7b63dbde3313015ac998ac"
-x-served-by: cache-cph20632-CPH
+etag: W/"a1b4c520933eb73d661ed337a4db293d809b2c5d2f900d69f070cd9fc0ed7939"
+x-served-by: cache-cph20620-CPH
 x-cache: HIT
 x-cache-hits: 1
-x-timer: S1635358461.007567,VS0,VE113
+x-timer: S1636639002.176046,VS0,VE95
 vary: Authorization,Accept-Encoding,Origin
 access-control-allow-origin: *
-x-fastly-request-id: c7c25da6b4014727798e088f69cdb007fb136528
-expires: Wed, 27 Oct 2021 18:19:21 GMT
+x-fastly-request-id: 517ef29b4c05d7ad7c7c273d0700ab7082916cbd
+expires: Thu, 11 Nov 2021 14:01:42 GMT
 source-age: 0
-OkHttp-Sent-Millis: 1635358458073
-OkHttp-Received-Millis: 1635358458198
+OkHttp-Sent-Millis: 1636638998893
+OkHttp-Received-Millis: 1636638998995
 
 TLS_AES_128_GCM_SHA256
 2
