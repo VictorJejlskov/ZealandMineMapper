@@ -1,0 +1,66 @@
+[
+  {
+    "Alcohol": false,
+    "AlcoholicDescrip": "Non-Alcoholic",
+    "Number": 23,
+    "Name": "Sodavand 0.33 L d\u00E5se",
+    "Description": "Valg af: Coca-Cola, Coca-Cola Zero, Egekilde, Fanta, Faxe Kondi og flere.",
+    "Price": 16
+  },
+  {
+    "Alcohol": false,
+    "AlcoholicDescrip": "Non-Alcoholic",
+    "Number": 24,
+    "Name": "Sodavand 0.50 L",
+    "Description": "Valg af: Coca-Cola, Coca-Cola Zero, Fanta, Faxe Kondi og flere.",
+    "Price": 26
+  },
+  {
+    "Alcohol": false,
+    "AlcoholicDescrip": "Non-Alcoholic",
+    "Number": 25,
+    "Name": "Sodavand 1.50 L",
+    "Description": "Valg af: Coca-Cola, Coca-Cola Zero, Fanta, Faxe Kondi og flere.",
+    "Price": 36
+  },
+  {
+    "Alcohol": false,
+    "AlcoholicDescrip": "Non-Alcoholic",
+    "Number": 26,
+    "Name": "Cocio",
+    "Description": "Chokolade-drik",
+    "Price": 21
+  },
+  {
+    "Alcohol": false,
+    "AlcoholicDescrip": "Non-Alcoholic",
+    "Number": 27,
+    "Name": "Red Bull",
+    "Description": "Energi-drik",
+    "Price": 21
+  },
+  {
+    "Alcohol": true,
+    "AlcoholicDescrip": "Alcoholic",
+    "Number": 28,
+    "Name": "\u00D8l D\u00E5se",
+    "Description": "Tuborg",
+    "Price": 21
+  },
+  {
+    "Alcohol": true,
+    "AlcoholicDescrip": "Alcoholic",
+    "Number": 29,
+    "Name": "Vin Flaske",
+    "Description": "Valg af: Hvidvin eller R\u00F8dvin",
+    "Price": 60
+  },
+  {
+    "Alcohol": true,
+    "AlcoholicDescrip": "Alcoholic",
+    "Number": 31,
+    "Name": "TestBeverage#31",
+    "Description": "Fra den lokale brygger",
+    "Price": 160
+  }
+]

@@ -69,9 +69,7 @@ C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.RazorCoreGenerate.cache
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\CreateBeverage.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\CreateMenuItem.cshtml.g.cs
-C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\CreatePizza.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\GetAllMenuItems.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
@@ -88,3 +86,4 @@ C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.csproj.CopyComplete
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\EditMenuItem.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\EditMenuItem.cshtml.g.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\DeleteMenuItem.cshtml.g.cs

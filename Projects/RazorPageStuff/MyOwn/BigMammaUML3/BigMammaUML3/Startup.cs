@@ -26,6 +26,7 @@ namespace BigMammaUML3
         {
             services.AddRazorPages();
             services.AddSingleton<MenuCatalog, MenuCatalog>();
+            services.AddTransient<JsonFileItemService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

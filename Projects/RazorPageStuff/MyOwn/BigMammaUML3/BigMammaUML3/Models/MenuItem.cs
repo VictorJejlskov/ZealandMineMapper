@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BigMammaUML3.Models
 {
-    public abstract class MenuItem
+    public abstract class MenuItem : IComparable<MenuItem>
     {
         public int Number { get; set; }
         public string Name { get; set; }
@@ -17,12 +17,33 @@ namespace BigMammaUML3.Models
         {
             
         }
+        public MenuItem(string name, string description, double price)
+        {
+            Name = name;
+            Description = description;
+            Price = price;
+        }        
         public MenuItem(int number, string name, string description, double price)
         {
             Number = number;
             Name = name;
             Description = description;
             Price = price;
+        }
+
+        public int CompareTo(MenuItem? other)
+        {
+            if (this.Number > other.Number)
+            {
+                return 1;
+            }
+
+            if (this.Number == other.Number)
+            {
+                return 0;
+            }
+
+            return -1;
         }
 
         public override string ToString()

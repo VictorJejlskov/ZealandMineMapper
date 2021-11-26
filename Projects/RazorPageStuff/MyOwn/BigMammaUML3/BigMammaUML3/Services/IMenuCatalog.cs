@@ -18,5 +18,7 @@ namespace BigMammaUML3.Services
         List<MenuItem> FindAllNonAlcoholic();
         List<MenuItem> MostExpensiveMenuItem();
         List<MenuItem> GetAll();
+        void AssignID();
+        void SortByID(List<MenuItem> menuItems);
     }
 }

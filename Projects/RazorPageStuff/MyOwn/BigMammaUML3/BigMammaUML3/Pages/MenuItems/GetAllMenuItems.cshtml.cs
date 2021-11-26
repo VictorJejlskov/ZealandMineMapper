@@ -20,6 +20,7 @@ namespace BigMammaUML3.Pages.MenuItems
         public void OnGet()
         {
             MenuItems = _menuCatalog.GetAll();
+            _menuCatalog.SortByID(MenuItems);
         }
 
         public void OnPostShowAll()

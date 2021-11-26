@@ -1,0 +1,12 @@
+﻿@page
+@model BigMammaUML3.Pages.MenuItems.DeleteMenuItemModel
+@{
+}
+<h1>Delete Item</h1>
+<div>
+    <p id="DeleteText">You're deleting: @Model.SearchedItem.Name</p>
+</div>
+<form method="post">
+    <input type="submit" value="Confirm" class="btn btn-success"/>
+    <a asp-page="GetAllMenuItems" class="btn btn-danger">Cancel</a>
+</form>

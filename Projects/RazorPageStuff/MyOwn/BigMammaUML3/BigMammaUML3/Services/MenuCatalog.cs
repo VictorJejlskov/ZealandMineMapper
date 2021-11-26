@@ -11,10 +11,13 @@ namespace BigMammaUML3.Services
     {
 
         private List<MenuItem> _menuItems;
+        private JsonFileItemService JsonFileItemService { get; set; }
 
-        public MenuCatalog()
+        public MenuCatalog(JsonFileItemService jsonFileItemService)
         {
-            _menuItems = MockMenuItems.GetMenuItems();
+            JsonFileItemService = jsonFileItemService;
+            //_menuItems = MockMenuItems.GetMenuItems();
+            _menuItems = JsonFileItemService.GetJsonItems().ToList();
         }
 
         public List<MenuItem> GetAll()
@@ -22,9 +25,24 @@ namespace BigMammaUML3.Services
             return _menuItems;
         }
 
+        public void AssignID()
+        {
+            foreach (MenuItem menIt in _menuItems)
+            {
+                menIt.Number = _menuItems.IndexOf(menIt)+1;
+            }
+        }
+
+        public void SortByID(List<MenuItem> menuItems)
+        {
+            menuItems.Sort();
+        }
+
         public void Add(MenuItem aMenuItem)
         {
             _menuItems.Add(aMenuItem);
+            AssignID();
+            JsonFileItemService.SaveJsonItems(_menuItems);
         }
 
         public MenuItem Search(int number)
@@ -60,7 +78,9 @@ namespace BigMammaUML3.Services
 
         public void Delete(int number)
         {
-            throw new NotImplementedException();
+            _menuItems.RemoveAt(number-1);
+            AssignID();
+            JsonFileItemService.SaveJsonItems(_menuItems);
         }
 
 
@@ -69,6 +89,7 @@ namespace BigMammaUML3.Services
             MenuItem searchitem = Search(number);
             searchitem = theMenuItem;
             searchitem.UpdateDescription();
+            JsonFileItemService.SaveJsonItems(_menuItems);
         }
 
         public List<MenuItem> FindAllDeepPan()

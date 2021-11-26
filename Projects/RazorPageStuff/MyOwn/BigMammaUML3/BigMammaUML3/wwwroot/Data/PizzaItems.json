@@ -1,0 +1,186 @@
+[
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 1,
+    "Name": "Magherita",
+    "Description": "Tomato \u0026 Cheese",
+    "Price": 69
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 2,
+    "Name": "Vesuvio",
+    "Description": "Tomato, cheese \u0026 ham",
+    "Price": 75
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 3,
+    "Name": "Capricciosa",
+    "Description": "Tomato, cheese, ham \u0026 mushrooms",
+    "Price": 80
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 4,
+    "Name": "Calzone",
+    "Description": "Baked Pizza with tomato, cheese, ham \u0026 mushrooms",
+    "Price": 80
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 5,
+    "Name": "Quattro Stagioni",
+    "Description": "Tomato, cheese, ham, mushrooms, shrimp \u0026 peppers",
+    "Price": 85
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 6,
+    "Name": "Marinara",
+    "Description": "Tomator, cheese, shrimp, mussels \u0026 garlic",
+    "Price": 85
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 7,
+    "Name": "Vegetarian",
+    "Description": "Tomato, cheese \u0026 vegetables",
+    "Price": 80
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 8,
+    "Name": "Italiana",
+    "Description": "Tomato, cheese, onion \u0026 meat sauce",
+    "Price": 75
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 9,
+    "Name": "Gorgonzola",
+    "Description": "Tomato gorgonzola, onion \u0026 mushroom",
+    "Price": 85
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 10,
+    "Name": "Contadina",
+    "Description": "Tomato, cheese, mushrooms \u0026 olives",
+    "Price": 75
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 11,
+    "Name": "Naples",
+    "Description": "Tomato, cheese, anchovies \u0026 olives",
+    "Price": 79
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 12,
+    "Name": "Vichinga",
+    "Description": "Tomato, cheese, ham, mushrooms, peppers, garlic \u0026 chili (strong)",
+    "Price": 80
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 13,
+    "Name": "Calzone Special",
+    "Description": "(Not Baked) tomato, cheese, shrimp, ham \u0026 meat sauce",
+    "Price": 80
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 14,
+    "Name": "Esotica",
+    "Description": "Tomato, cheese, ham, shrimp \u0026 pineapple",
+    "Price": 80
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 15,
+    "Name": "Tonno",
+    "Description": "Tomato, cheese, tuna \u0026 shrimp",
+    "Price": 85
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 16,
+    "Name": "Sardegna",
+    "Description": "Tomato, cheese, cocktail sausages, bacon, onions \u0026 eggs",
+    "Price": 80
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 17,
+    "Name": "Romana",
+    "Description": "Tomato, cheese, ham, bacon \u0026 onion",
+    "Price": 78
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 18,
+    "Name": "Sole",
+    "Description": "Tomato, cheese, ham, bacon \u0026 eggs",
+    "Price": 78
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 19,
+    "Name": "Big Mamma",
+    "Description": "Tomato, gorgonzola, shrimp, aspargus \u0026 parma ham",
+    "Price": 90
+  },
+  {
+    "DeepPan": true,
+    "DeepPanDescription": "Deep Pan",
+    "Number": 20,
+    "Name": "Magherita",
+    "Description": "Tomato \u0026 Cheese",
+    "Price": 69
+  },
+  {
+    "DeepPan": true,
+    "DeepPanDescription": "Deep Pan",
+    "Number": 21,
+    "Name": "Vesuvio",
+    "Description": "Tomato, cheese \u0026 ham",
+    "Price": 75
+  },
+  {
+    "DeepPan": true,
+    "DeepPanDescription": "Deep Pan",
+    "Number": 22,
+    "Name": "Capricciosa",
+    "Description": "Tomato, cheese, ham \u0026 mushrooms",
+    "Price": 80
+  },
+  {
+    "DeepPan": false,
+    "DeepPanDescription": "Regular",
+    "Number": 30,
+    "Name": "TestPizza#30",
+    "Description": "Lidt af hvert",
+    "Price": 125
+  }
+]

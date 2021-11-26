@@ -14,7 +14,19 @@ namespace BigMammaUML3.Models
         {
             
         }
-        public Pizza(bool deepPan, int number, string name, string description, double price):base(number, name, description, price)
+        public Pizza(bool deepPan, string name, string description, double price):base(name, description, price)
+        {
+            DeepPan = deepPan;
+            if (DeepPan)
+            {
+                DeepPanDescription = "Deep Pan";
+            }
+            else
+            {
+                DeepPanDescription = "Regular";
+            }
+        }
+        public Pizza(bool deepPan, int number, string name, string description, double price) : base(number, name, description, price)
         {
             DeepPan = deepPan;
             if (DeepPan)
