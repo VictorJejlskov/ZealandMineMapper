@@ -40,8 +40,6 @@ C:\Users\Victur\Desktop\ZealandMineMapper\Projects\RazorPageStuff\MyOwn\BigMamma
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.genruntimeconfig.cache
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\BigMammaUML3.csproj.CopyComplete
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\CreateMenuItem.cshtml.g.cs
-C:\Users\Victur\Desktop\ZealandMineMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\CreateBeverage.cshtml.g.cs
-C:\Users\Victur\Desktop\ZealandMineMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\CreatePizza.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\bin\Debug\net5.0\appsettings.json
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\bin\Debug\net5.0\BigMammaUML3.exe
@@ -87,3 +85,4 @@ C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\EditMenuItem.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\EditMenuItem.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\DeleteMenuItem.cshtml.g.cs
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\RazorPageStuff\MyOwn\BigMammaUML3\BigMammaUML3\obj\Debug\net5.0\Razor\Pages\MenuItems\DeleteMenuItem.cshtml.g.cs
