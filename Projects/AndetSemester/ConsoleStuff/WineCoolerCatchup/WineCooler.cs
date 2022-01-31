@@ -8,34 +8,30 @@ namespace WineCoolerCatchup
 {
     class WineCooler
     {
-        private int _id = 1;
+        private static int _id = 1;
 
-        public int Id
-        {
-            get { return _id;}
-            set { _id = value; }
-        }
+        public int Id { get; set; }
 
         public double Temperature { get; set; }
         public int Capacity { get; set; }
-        public List<Wine> Wines { get; set; }
+        private List<Wine> _wines;
 
         public WineCooler(double temperature, int capacity)
         {
             Temperature = temperature;
             Capacity = capacity;
-            Wines = new List<Wine>();
+            _wines = new List<Wine>();
             Id = _id++;
         }
 
         public void Add(Wine wine)
         {
-            Wines.Add(wine);
+            _wines.Add(wine);
         }
 
         public void PrintAll()
         {
-            foreach (Wine wine in Wines)
+            foreach (Wine wine in _wines)
             {
                 Console.WriteLine(wine);
             }
@@ -44,14 +40,13 @@ namespace WineCoolerCatchup
         public List<Wine> GetWhiteWine()
         {
             List<Wine> tempList = new List<Wine>();
-            foreach (Wine wine in Wines)
+            foreach (Wine wine in _wines)
             {
                 if (wine.WineType == "Hvidvin")
                 {
                     tempList.Add(wine);
                 }
             }
-
             return tempList;
         }
 
