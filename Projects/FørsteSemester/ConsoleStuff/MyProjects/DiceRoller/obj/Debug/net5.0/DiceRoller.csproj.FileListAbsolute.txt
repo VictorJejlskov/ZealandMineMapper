@@ -1,0 +1,16 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\bin\Debug\net5.0\DiceRoller.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\bin\Debug\net5.0\DiceRoller.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\bin\Debug\net5.0\DiceRoller.runtimeconfig.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\bin\Debug\net5.0\DiceRoller.runtimeconfig.dev.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\bin\Debug\net5.0\DiceRoller.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\bin\Debug\net5.0\ref\DiceRoller.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\bin\Debug\net5.0\DiceRoller.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\obj\Debug\net5.0\DiceRoller.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\obj\Debug\net5.0\DiceRoller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\obj\Debug\net5.0\DiceRoller.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\obj\Debug\net5.0\DiceRoller.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\obj\Debug\net5.0\DiceRoller.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\obj\Debug\net5.0\DiceRoller.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\obj\Debug\net5.0\ref\DiceRoller.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\obj\Debug\net5.0\DiceRoller.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\ConsoleStuff\MyProjects\DiceRoller\obj\Debug\net5.0\DiceRoller.genruntimeconfig.cache
