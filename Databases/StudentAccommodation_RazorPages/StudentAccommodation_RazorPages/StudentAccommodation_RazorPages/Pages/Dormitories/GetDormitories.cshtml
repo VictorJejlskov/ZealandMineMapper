@@ -1,0 +1,33 @@
+﻿@page
+@model StudentAccommodation_RazorPages.Pages.Dormitories.GetDormitoriesModel
+@{
+}
+<h1>List of Dormitories</h1>
+<form>
+    <p>
+
+    </p>
+</form>
+<h4>List of Dormitories</h4>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Dorm no.</th>
+        <th>Name</th>
+        <th>Address</th>
+    </tr>
+    </thead>
+    <tbody>
+    @if (Model.Dormitories != null)
+    {
+        @foreach (var dorm in Model.Dormitories)
+        {
+            <tr>
+                <td>@dorm.Dormitory_No</td>
+                <td>@dorm.Name</td>
+                <td>@dorm.Address</td>
+            </tr>
+        }
+    }
+    </tbody>
+</table>

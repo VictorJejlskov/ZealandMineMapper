@@ -1,0 +1,35 @@
+﻿@page
+@model StudentAccommodation_RazorPages.Pages.Rooms.GetRoomsModel
+@{
+}
+<h1>List of Rooms</h1>
+<form>
+    <p>
+
+    </p>
+</form>
+<h4>List of Rooms</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Room No.</th>
+            <th>Dorm no.</th>
+            <th>Type</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Rooms != null)
+        {
+            @foreach (var room in Model.Rooms)
+            {
+                <tr>
+                    <td>@room.Room_No</td>
+                    <td>@room.Dormitory_No</td>
+                    <td>@room.Types</td>
+                    <td>@room.Price</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
