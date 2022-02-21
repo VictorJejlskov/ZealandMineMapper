@@ -8,6 +8,7 @@ namespace StudentAccommodation_RazorPages.Interfaces
 {
     public interface ILeasingService
     {
-        public IEnumerable<Leasing> GetLeasings();
+        IEnumerable<Leasing> GetLeasings();
+        IEnumerable<Leasing> GetLeasingPerStudent(int id);
     }
 }

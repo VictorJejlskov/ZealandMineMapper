@@ -9,5 +9,6 @@ namespace StudentAccommodation_RazorPages.Interfaces
     public interface IRoomService
     {
         public IEnumerable<Room> GetRooms();
+        IEnumerable<Room> GetRoomsPerDormitory(int dormId);
     }
 }

@@ -1,0 +1,16 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\bin\Debug\net5.0\UnitTestExceptions.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\bin\Debug\net5.0\UnitTestExceptions.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\bin\Debug\net5.0\UnitTestExceptions.runtimeconfig.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\bin\Debug\net5.0\UnitTestExceptions.runtimeconfig.dev.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\bin\Debug\net5.0\UnitTestExceptions.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\bin\Debug\net5.0\ref\UnitTestExceptions.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\bin\Debug\net5.0\UnitTestExceptions.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\obj\Debug\net5.0\UnitTestExceptions.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\obj\Debug\net5.0\UnitTestExceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\obj\Debug\net5.0\UnitTestExceptions.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\obj\Debug\net5.0\UnitTestExceptions.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\obj\Debug\net5.0\UnitTestExceptions.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\obj\Debug\net5.0\UnitTestExceptions.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\obj\Debug\net5.0\ref\UnitTestExceptions.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\obj\Debug\net5.0\UnitTestExceptions.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\UnitTestExceptions\obj\Debug\net5.0\UnitTestExceptions.genruntimeconfig.cache

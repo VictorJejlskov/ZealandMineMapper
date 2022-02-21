@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Victur\\Desktop\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages.csproj": {}
+    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Databases\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Victur\\Desktop\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages.csproj": {
+    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Databases\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victur\\Desktop\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Databases\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages.csproj",
         "projectName": "StudentAccommodation_RazorPages",
-        "projectPath": "C:\\Users\\Victur\\Desktop\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages.csproj",
-        "packagesPath": "C:\\Users\\Victur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victur\\Desktop\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\obj\\",
+        "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Databases\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Databases\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\StudentAccommodation_RazorPages\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Victur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -69,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

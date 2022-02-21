@@ -13,5 +13,19 @@ namespace StudentAccommodation_RazorPages.Services.LeasingService
         {
             return ADO_Leasing.GetLeasing();
         }
+
+        public IEnumerable<Leasing> GetLeasingPerStudent(int id)
+        {
+            List<Leasing> tempList = new List<Leasing>();
+            foreach (Leasing lease in GetLeasings())
+            {
+                if (lease.Student_No == id)
+                {
+                    tempList.Add(lease);
+                }
+            }
+
+            return tempList;
+        }
     }
 }

@@ -29,5 +29,10 @@ namespace StudentAccommodation_RazorPages.Pages.Leasings
             else
                 Leasings = _leasingService.GetLeasings();
         }
+
+        public void OnGetLeasingsPerStudent(int id)
+        {
+            Leasings = _leasingService.GetLeasingPerStudent(id);
+        }
     }
 }

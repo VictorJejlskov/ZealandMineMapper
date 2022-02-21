@@ -1,0 +1,7 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\DataStructureCompare\DataStructureCompare\bin\Debug\DataStructureCompare.exe.config
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\DataStructureCompare\DataStructureCompare\bin\Debug\DataStructureCompare.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\DataStructureCompare\DataStructureCompare\bin\Debug\DataStructureCompare.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\DataStructureCompare\DataStructureCompare\obj\Debug\DataStructureCompare.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\DataStructureCompare\DataStructureCompare\obj\Debug\DataStructureCompare.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\DataStructureCompare\DataStructureCompare\obj\Debug\DataStructureCompare.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\DataStructureCompare\DataStructureCompare\obj\Debug\DataStructureCompare.pdb
