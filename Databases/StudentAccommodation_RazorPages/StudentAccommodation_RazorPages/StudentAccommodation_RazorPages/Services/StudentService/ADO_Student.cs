@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using StudentAccommodation_RazorPages.Models;
+using StudentAccommodation_RazorPages.ViewModels;
 
 namespace StudentAccommodation_RazorPages.Services.StudentService
 {
@@ -32,6 +33,32 @@ namespace StudentAccommodation_RazorPages.Services.StudentService
                     }
 
                     return studentList;
+                }
+            }
+        }
+
+        public static List<Student_Room> GetRoomPerStudent(int dormId)
+        {
+            List<Student_Room> studRoomList = new List<Student_Room>();
+            string query = $"Select Student.Name, Room.Room_No, Room.Types, Room.Dormitory_No, Leasing.Date_To from Leasing inner join Room on Leasing.Room_No = Room.Room_No and Leasing.Dormitory_No = Room.Dormitory_No inner join Student on Student.Student_No = Leasing.Student_No where Room.Dormitory_No = '{dormId}' ORDER BY Student.Name";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand(query, connection);
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Student_Room stuRoom = new Student_Room();
+                        stuRoom.StudentName = Convert.ToString(reader[0]);
+                        stuRoom.RoomNo = Convert.ToInt32(reader[1]);
+                        stuRoom.RoomType = Convert.ToChar(reader[2]);
+                        stuRoom.DormitoryNo = Convert.ToInt32(reader[3]);
+                        stuRoom.EndDate = Convert.ToDateTime(reader[4]);
+                        studRoomList.Add(stuRoom);
+                    }
+                    return studRoomList;
                 }
             }
         }

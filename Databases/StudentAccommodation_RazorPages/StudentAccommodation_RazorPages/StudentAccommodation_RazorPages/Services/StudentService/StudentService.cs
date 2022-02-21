@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using StudentAccommodation_RazorPages.ViewModels;
 
 namespace StudentAccommodation_RazorPages.Services.StudentService
 {
@@ -12,6 +13,11 @@ namespace StudentAccommodation_RazorPages.Services.StudentService
         public IEnumerable<Student> GetStudents()
         {
             return ADO_Student.GetStudents();
+        }
+
+        public IEnumerable<Student_Room> GetRoomPerStudent(int dormId)
+        {
+            return ADO_Student.GetRoomPerStudent(dormId);
         }
     }
 }

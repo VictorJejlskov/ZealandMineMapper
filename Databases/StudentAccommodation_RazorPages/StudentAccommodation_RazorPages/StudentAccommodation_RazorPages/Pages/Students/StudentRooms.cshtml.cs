@@ -14,8 +14,19 @@ namespace StudentAccommodation_RazorPages.Pages.Students
         [BindProperty(SupportsGet = true)] public string FilterCriteria { get; set; }
         public IEnumerable<Student_Room> StudentRooms { get; set; }
         private IStudentService _studentService;
+
+        public StudentRoomsModel(IStudentService studentService)
+        {
+            _studentService = studentService;
+        }
         public void OnGet()
         {
+            
+        }
+
+        public void OnGetStudentsRooms(int id)
+        {
+            StudentRooms = _studentService.GetRoomPerStudent(id);
         }
     }
 }

@@ -29,6 +29,9 @@
                 <td>
                     <a asp-page="/Rooms/GetRooms" asp-page-handler="DormRooms" asp-route-id="@dorm.Dormitory_No">Rooms for this dorm</a>
                 </td>
+                <td>
+                    <a asp-page="/Students/StudentRooms" asp-page-handler="StudentsRooms" asp-route-id="@dorm.Dormitory_No">Students and their rooms</a>
+                </td>
             </tr>
         }
     }

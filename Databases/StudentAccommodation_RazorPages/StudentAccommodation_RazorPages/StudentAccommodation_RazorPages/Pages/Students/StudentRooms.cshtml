@@ -2,3 +2,36 @@
 @model StudentAccommodation_RazorPages.Pages.Students.StudentRoomsModel
 @{
 }
+<h1>List of StudentRooms</h1>
+<form>
+    <p>
+
+    </p>
+</form>
+<h4>List of StudentRooms</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Room No</th>
+            <th>Student Name</th>
+            <th>Room Type</th>
+            <th>Dorm No</th>
+            <th>End Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.StudentRooms != null)
+        {
+            @foreach (var studRoom in Model.StudentRooms)
+            {
+                <tr>
+                    <td>@studRoom.RoomNo</td>
+                    <td>@studRoom.StudentName</td>
+                    <td>@studRoom.RoomType</td>
+                    <td>@studRoom.DormitoryNo</td>
+                    <th>@studRoom.EndDate</th>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
