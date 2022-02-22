@@ -1,1 +1,6 @@
-﻿Select Student.Name, Room.Room_No, Room.Types, Room.Dormitory_No from Leasing inner join Room on Leasing.Room_No = Room.Room_No and Leasing.Dormitory_No = Room.Dormitory_No inner join Student on Student.Student_No = Leasing.Student_No where Room.Dormitory_No = 3
+﻿--Select Student.Name, Room.Room_No, Room.Types, Room.Dormitory_No, CONVERT(VARCHAR(10), Leasing.Date_To, 103) from Leasing inner join Room on Leasing.Room_No = Room.Room_No and Leasing.Dormitory_No = Room.Dormitory_No inner join Student on Student.Student_No = Leasing.Student_No where Room.Dormitory_No = 3 ORDER BY Student.Name
+
+--select Dormitory.Name, Room.Room_No, Leasing.Date_From, Leasing.Date_To, Student.Name, Room.Types, Room.Price from Leasing inner join Dormitory on Leasing.Dormitory_No = Dormitory.Dormitory_No inner join Room on Leasing.Room_No = Room.Room_No and Dormitory.Dormitory_No = Room.Dormitory_No inner join Student on Leasing.Student_No = Student.Student_No where Room.Dormitory_No = 3 and Room.Room_No = 2
+--Select Student.Name, Room.Room_No, Room.Types, Room.Dormitory_No, Leasing.Date_To from Leasing inner join Room on Leasing.Room_No = Room.Room_No and Leasing.Dormitory_No = Room.Dormitory_No inner join Student on Student.Student_No = Leasing.Student_No where Room.Dormitory_No = '{dormId}' and Leasing.Date_From between '2019-06-30' and '2019-12-30' ORDER BY Student.Name
+
+

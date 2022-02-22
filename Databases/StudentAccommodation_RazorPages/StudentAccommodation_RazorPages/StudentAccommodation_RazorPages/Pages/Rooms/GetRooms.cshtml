@@ -3,11 +3,7 @@
 @{
 }
 <h1>List of Rooms</h1>
-<form>
-    <p>
-
-    </p>
-</form>
+<h3>Amount of Rooms @Model.Rooms.Count()</h3>
 <h4>List of Rooms</h4>
 <table class="table">
     <thead>
@@ -28,7 +24,7 @@
                     <td>@room.Dormitory_No</td>
                     <td>@room.Types</td>
                     <td>@room.Price</td>
-                    <a asp-page="">Leases for this roon</a>
+                    <td><a asp-page="/Leasings/GetStudentLeasings" asp-page-handler="LeasingsAndStudents" asp-route-did="@room.Dormitory_No" asp-route-rid="@room.Room_No">Leases for this roon</a></td>
                 </tr>
             }
         }

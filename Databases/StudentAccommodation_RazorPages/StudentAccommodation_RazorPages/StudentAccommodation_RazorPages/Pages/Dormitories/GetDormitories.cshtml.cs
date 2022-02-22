@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.VisualBasic.CompilerServices;
 using StudentAccommodation_RazorPages.Interfaces;
 using StudentAccommodation_RazorPages.Models;
 
@@ -12,7 +13,10 @@ namespace StudentAccommodation_RazorPages.Pages.Dormitories
     public class GetDormitoriesModel : PageModel
     {
         [BindProperty(SupportsGet = true)] public string FilterCriteria { get; set; }
+        [BindProperty(SupportsGet = true)] public string Semester { get; set; }
         public IEnumerable<Dormitory> Dormitories { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
         private IDormitoryService _dormitoryService;
 
         public GetDormitoriesModel(IDormitoryService dormitoryService)
@@ -29,6 +33,14 @@ namespace StudentAccommodation_RazorPages.Pages.Dormitories
             }
             else
                 Dormitories = _dormitoryService.GetDormitories();
+        }
+
+        public IActionResult OnPost()
+        {
+            List<string> test = new List<string>();
+            test.Add(FilterCriteria);
+            test.Add(Semester);
+            return RedirectToPage("/Rooms/GetRooms", "SpecificDorm", test);
         }
     }
 }

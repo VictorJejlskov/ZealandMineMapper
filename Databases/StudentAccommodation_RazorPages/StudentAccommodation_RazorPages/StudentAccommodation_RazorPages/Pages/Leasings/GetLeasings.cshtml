@@ -1,13 +1,10 @@
 ﻿@page
+@using StudentAccommodation_RazorPages.ViewModels
 @model StudentAccommodation_RazorPages.Pages.Leasings.GetLeasingsModel
 @{
 }
 <h1>List of Leasings</h1>
-<form>
-    <p>
-        
-    </p>
-</form>
+<h3>Amount of Leasings @Model.Leasings.Count()</h3>
 <h4>List of Leasings</h4>
 <table class="table">
     <thead>

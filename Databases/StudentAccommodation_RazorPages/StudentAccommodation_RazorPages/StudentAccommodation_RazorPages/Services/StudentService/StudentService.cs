@@ -19,5 +19,10 @@ namespace StudentAccommodation_RazorPages.Services.StudentService
         {
             return ADO_Student.GetRoomPerStudent(dormId);
         }
+
+        public List<Lease_Student> GetLeasesStudents(int dormId, int roomNo)
+        {
+            return ADO_Student.GetLeasesStudents(dormId, roomNo);
+        }
     }
 }

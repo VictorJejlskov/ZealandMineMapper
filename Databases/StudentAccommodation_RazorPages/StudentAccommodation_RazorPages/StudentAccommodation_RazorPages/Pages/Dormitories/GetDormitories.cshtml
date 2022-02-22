@@ -3,11 +3,7 @@
 @{
 }
 <h1>List of Dormitories</h1>
-<form>
-    <p>
-
-    </p>
-</form>
+<h3>Amount of Dormitories @Model.Dormitories.Count()</h3>
 <h4>List of Dormitories</h4>
 <table class="table">
     <thead>
@@ -15,6 +11,8 @@
         <th>Dorm no.</th>
         <th>Name</th>
         <th>Address</th>
+        <th></th>
+        <th></th>
     </tr>
     </thead>
     <tbody>
@@ -30,10 +28,19 @@
                     <a asp-page="/Rooms/GetRooms" asp-page-handler="DormRooms" asp-route-id="@dorm.Dormitory_No">Rooms for this dorm</a>
                 </td>
                 <td>
-                    <a asp-page="/Students/StudentRooms" asp-page-handler="StudentsRooms" asp-route-id="@dorm.Dormitory_No">Students and their rooms</a>
+                    <a asp-page="/Students/StudentRooms" asp-page-handler="StudentsRooms" asp-route-id="@dorm.Dormitory_No">1st semester Student & Rooms</a>
                 </td>
             </tr>
         }
     }
     </tbody>
 </table>
+
+<form method="post">
+    <input asp-for="FilterCriteria" /> <select name="Semester" asp-for="Semester">
+        <option value="1stSemester">Første Semester</option>
+        <option value="2ndSemester">Andet Semester</option>
+        <option value="3rdSemester">Tredje Semester</option>
+        <option value="4thSemester">Fjerde Semester</option>
+    </select> <button type="submit" class="btn btn-primary">Submit</button>
+</form>

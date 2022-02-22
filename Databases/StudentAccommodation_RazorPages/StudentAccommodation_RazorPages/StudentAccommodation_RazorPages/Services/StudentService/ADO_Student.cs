@@ -40,12 +40,13 @@ namespace StudentAccommodation_RazorPages.Services.StudentService
         public static List<Student_Room> GetRoomPerStudent(int dormId)
         {
             List<Student_Room> studRoomList = new List<Student_Room>();
-            string query = $"Select Student.Name, Room.Room_No, Room.Types, Room.Dormitory_No, Leasing.Date_To from Leasing inner join Room on Leasing.Room_No = Room.Room_No and Leasing.Dormitory_No = Room.Dormitory_No inner join Student on Student.Student_No = Leasing.Student_No where Room.Dormitory_No = '{dormId}' ORDER BY Student.Name";
+            string query = $"Select Student.Name, Room.Room_No, Room.Types, Room.Dormitory_No, Leasing.Date_To from Leasing inner join Room on Leasing.Room_No = Room.Room_No and Leasing.Dormitory_No = Room.Dormitory_No inner join Student on Student.Student_No = Leasing.Student_No where Room.Dormitory_No = @dormId and Leasing.Date_From between '2019-06-30' and '2019-12-30' ORDER BY Student.Name";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
                 SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@dormId", dormId);
                 using (SqlDataReader reader = command.ExecuteReader())
                 {
                     while (reader.Read())
@@ -55,10 +56,44 @@ namespace StudentAccommodation_RazorPages.Services.StudentService
                         stuRoom.RoomNo = Convert.ToInt32(reader[1]);
                         stuRoom.RoomType = Convert.ToChar(reader[2]);
                         stuRoom.DormitoryNo = Convert.ToInt32(reader[3]);
-                        stuRoom.EndDate = Convert.ToDateTime(reader[4]);
+                        stuRoom.StartDate = Convert.ToDateTime(reader[4]);
+                        stuRoom.DateString = stuRoom.StartDate.ToShortDateString();
+                        //stuRoom.DateString = stuRoom.EndDate.Date.ToString("dd/MM/yyyy");
                         studRoomList.Add(stuRoom);
                     }
                     return studRoomList;
+                }
+            }
+        }
+
+        public static List<Lease_Student> GetLeasesStudents(int dormId, int roomNo)
+        {
+            List<Lease_Student> leaseStudList = new List<Lease_Student>();
+            string query = $"select Dormitory.Name, Room.Room_No, Leasing.Date_From, Leasing.Date_To, Student.Name, Room.Types, Room.Price from Leasing inner join Dormitory on Leasing.Dormitory_No = Dormitory.Dormitory_No inner join Room on Leasing.Room_No = Room.Room_No and Dormitory.Dormitory_No = Room.Dormitory_No inner join Student on Leasing.Student_No = Student.Student_No where Room.Dormitory_No = @dormId and Room.Room_No = @roomNo";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@dormId", dormId);
+                command.Parameters.AddWithValue("@roomNo", roomNo);
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Lease_Student leaseStud = new Lease_Student();
+                        leaseStud.DormName = Convert.ToString(reader[0]);
+                        leaseStud.RoomId = Convert.ToInt32(reader[1]);
+                        leaseStud.DateStart = Convert.ToDateTime(reader[2]);
+                        leaseStud.DateStartString = leaseStud.DateStart.ToShortDateString();
+                        leaseStud.DateEnd = Convert.ToDateTime(reader[3]);
+                        leaseStud.DateEndString = leaseStud.DateEnd.ToShortDateString();
+                        leaseStud.StudentName = Convert.ToString(reader[4]);
+                        leaseStud.RoomTypes = Convert.ToChar(reader[5]);
+                        leaseStud.RoomPrice = Convert.ToInt32(reader[6]);
+                        leaseStudList.Add(leaseStud);
+                    }
+
+                    return leaseStudList;
                 }
             }
         }

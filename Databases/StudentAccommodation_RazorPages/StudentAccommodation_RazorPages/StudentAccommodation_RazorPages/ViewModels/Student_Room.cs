@@ -11,6 +11,7 @@ namespace StudentAccommodation_RazorPages.ViewModels
         public int RoomNo { get; set; }
         public char RoomType { get; set; }
         public int DormitoryNo { get; set; }
-        public DateTime EndDate { get; set; }
+        public DateTime StartDate { get; set; }
+        public string DateString { get; set; }
     }
 }
