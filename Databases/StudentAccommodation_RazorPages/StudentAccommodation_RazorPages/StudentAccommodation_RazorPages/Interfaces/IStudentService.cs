@@ -13,5 +13,7 @@ namespace StudentAccommodation_RazorPages.Interfaces
         public IEnumerable<Student_Room> GetRoomPerStudent(int dormId);
         public List<Lease_Student> GetLeasesStudents(int dormId, int roomNo);
         public List<Student_Room> GetStudentRoomsPerDorm(string dormName, string dateStart);
+        public void DeleteStudent(Student student);
+        public Student GetStudentById(int id);
     }
 }

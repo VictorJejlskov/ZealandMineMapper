@@ -30,5 +30,11 @@ namespace StudentAccommodation_RazorPages.Pages.Students
             else
                 Students = _studentService.GetStudents();
         }
+
+        public void OnGetDeleteStudent(int id)
+        {
+            _studentService.DeleteStudent(_studentService.GetStudentById(id));
+            Students = _studentService.GetStudents();
+        }
     }
 }

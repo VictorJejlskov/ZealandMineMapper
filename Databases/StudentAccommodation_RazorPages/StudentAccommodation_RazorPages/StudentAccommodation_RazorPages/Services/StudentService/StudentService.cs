@@ -29,5 +29,22 @@ namespace StudentAccommodation_RazorPages.Services.StudentService
         {
             return ADO_Student.GetStudentRoomsPerDorm(dormName, dateStart);
         }
+
+        public void DeleteStudent(Student student)
+        {
+            ADO_Student.DeleteStudent(student);
+        }
+
+        public Student GetStudentById(int id)
+        {
+            foreach (var stud in GetStudents())
+            {
+                if (stud.Student_No == id)
+                {
+                    return stud;
+                }
+            }
+            return null;
+        }
     }
 }

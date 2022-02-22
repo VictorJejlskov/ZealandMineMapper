@@ -22,6 +22,7 @@ CREATE TABLE Room(
 	FOREIGN KEY (Dormitory_No) REFERENCES Dormitory (Dormitory_No)
 	ON UPDATE CASCADE ON DELETE NO ACTION,
 	Primary KEY (Room_No, Dormitory_No)
+
 );
 
 CREATE TABLE Student (
@@ -39,6 +40,7 @@ CREATE TABLE Leasing(
      Room_No   int   NOT NULL,
      FOREIGN KEY(Student_No) REFERENCES Student(Student_No),
 	 FOREIGN KEY(Room_No, Dormitory_No) REFERENCES Room(Room_No, Dormitory_No)
+     on delete cascade
 );
 
 		

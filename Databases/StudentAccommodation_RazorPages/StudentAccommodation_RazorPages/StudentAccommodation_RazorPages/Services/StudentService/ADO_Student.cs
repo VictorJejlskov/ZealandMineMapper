@@ -31,12 +31,24 @@ namespace StudentAccommodation_RazorPages.Services.StudentService
                         student.Address = Convert.ToString(reader[2]);
                         studentList.Add(student);
                     }
-
                     return studentList;
                 }
             }
         }
 
+        public static void DeleteStudent(Student student)
+        {
+            string query = $"DELETE from Student where Student_No=@id";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@id", student.Student_No);
+                    int affectedRows = command.ExecuteNonQuery();
+                }
+            }
+        }
         public static List<Student_Room> GetRoomPerStudent(int dormId)
         {
             List<Student_Room> studRoomList = new List<Student_Room>();

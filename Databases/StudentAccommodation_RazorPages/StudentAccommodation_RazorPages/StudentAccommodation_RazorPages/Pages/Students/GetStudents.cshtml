@@ -25,6 +25,9 @@
                 <td>
                     <a asp-page="/Leasings/GetLeasings" asp-page-handler="LeasingsPerStudent" asp-route-id="@stud.Student_No">Leasings</a>
                 </td>
+                <td>
+                    <a asp-page="GetStudents" asp-page-handler="DeleteStudent" asp-route-id="@stud.Student_No" class="text-danger">Delete Student</a>
+                </td>
             </tr>
         }
     }
