@@ -40,7 +40,7 @@ namespace StudentAccommodation_RazorPages.Services.StudentService
         public static List<Student_Room> GetRoomPerStudent(int dormId)
         {
             List<Student_Room> studRoomList = new List<Student_Room>();
-            string query = $"Select Student.Name, Room.Room_No, Room.Types, Room.Dormitory_No, Leasing.Date_To from Leasing inner join Room on Leasing.Room_No = Room.Room_No and Leasing.Dormitory_No = Room.Dormitory_No inner join Student on Student.Student_No = Leasing.Student_No where Room.Dormitory_No = @dormId and Leasing.Date_From between '2019-06-30' and '2019-12-30' ORDER BY Student.Name";
+            string query = $"Select Student.Name, Room.Room_No, Room.Types, Dormitory.Name, Leasing.Date_From from Leasing inner join Room on Leasing.Room_No = Room.Room_No and Leasing.Dormitory_No = Room.Dormitory_No inner join Student on Student.Student_No = Leasing.Student_No inner join Dormitory on Room.Dormitory_No = Dormitory.Dormitory_No where Room.Dormitory_No = @dormId and Leasing.Date_From between '2019-06-30' and '2019-12-30' ORDER BY Student.Name";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -55,7 +55,7 @@ namespace StudentAccommodation_RazorPages.Services.StudentService
                         stuRoom.StudentName = Convert.ToString(reader[0]);
                         stuRoom.RoomNo = Convert.ToInt32(reader[1]);
                         stuRoom.RoomType = Convert.ToChar(reader[2]);
-                        stuRoom.DormitoryNo = Convert.ToInt32(reader[3]);
+                        stuRoom.DormName = Convert.ToString(reader[3]);
                         stuRoom.StartDate = Convert.ToDateTime(reader[4]);
                         stuRoom.DateString = stuRoom.StartDate.ToShortDateString();
                         //stuRoom.DateString = stuRoom.EndDate.Date.ToString("dd/MM/yyyy");
@@ -94,6 +94,33 @@ namespace StudentAccommodation_RazorPages.Services.StudentService
                     }
 
                     return leaseStudList;
+                }
+            }
+        }
+        public static List<Student_Room> GetStudentRoomsPerDorm(string dormName, string dateStart)
+        {
+            List<Student_Room> studRoomList = new List<Student_Room>();
+            string query = $"Select Student.Name, Room.Room_No, Room.Types, Dormitory.Name, Leasing.Date_From from Leasing inner join Room on Leasing.Room_No = Room.Room_No and Leasing.Dormitory_No = Room.Dormitory_No inner join Student on Student.Student_No = Leasing.Student_No inner join Dormitory on Room.Dormitory_No = Dormitory.Dormitory_No where (Dormitory.Name LIKE '%{dormName}%') and (Leasing.Date_From = CONVERT(date, '{dateStart}', 1)) ORDER BY Student.Name";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand(query, connection);
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    Console.WriteLine(query);
+                    while (reader.Read())
+                    {
+                        Student_Room stuRoom = new Student_Room();
+                        stuRoom.StudentName = Convert.ToString(reader[0]);
+                        stuRoom.RoomNo = Convert.ToInt32(reader[1]);
+                        stuRoom.RoomType = Convert.ToChar(reader[2]);
+                        stuRoom.DormName = Convert.ToString(reader[3]);
+                        stuRoom.StartDate = Convert.ToDateTime(reader[4]);
+                        stuRoom.DateString = stuRoom.StartDate.ToShortDateString();
+                        //stuRoom.DateString = stuRoom.EndDate.Date.ToString("dd/MM/yyyy");
+                        studRoomList.Add(stuRoom);
+                    }
+                    return studRoomList;
                 }
             }
         }

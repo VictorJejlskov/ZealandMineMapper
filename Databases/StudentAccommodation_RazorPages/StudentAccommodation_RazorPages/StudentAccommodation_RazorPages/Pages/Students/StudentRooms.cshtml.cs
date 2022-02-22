@@ -28,5 +28,9 @@ namespace StudentAccommodation_RazorPages.Pages.Students
         {
             StudentRooms = _studentService.GetRoomPerStudent(id);
         }
+        public void OnGetSpecificDorm(List<string> filterList)
+        {
+            StudentRooms = _studentService.GetStudentRoomsPerDorm(filterList[0], filterList[1]);
+        }
     }
 }

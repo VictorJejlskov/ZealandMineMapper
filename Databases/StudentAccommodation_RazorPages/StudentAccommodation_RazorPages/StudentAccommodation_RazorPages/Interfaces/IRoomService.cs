@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using StudentAccommodation_RazorPages.ViewModels;
 
 namespace StudentAccommodation_RazorPages.Interfaces
 {

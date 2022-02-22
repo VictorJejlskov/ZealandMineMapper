@@ -37,10 +37,25 @@ namespace StudentAccommodation_RazorPages.Pages.Dormitories
 
         public IActionResult OnPost()
         {
-            List<string> test = new List<string>();
-            test.Add(FilterCriteria);
-            test.Add(Semester);
-            return RedirectToPage("/Rooms/GetRooms", "SpecificDorm", test);
+            List<string> filterList = new List<string>();
+            filterList.Add(FilterCriteria);
+            switch (Semester)
+            {
+                case "1stSemester":
+                    filterList.Add("20190101");
+                    break;
+                case "2ndSemester":
+                    filterList.Add("20190701");
+                    break;
+                case "3rdSemester":
+                    filterList.Add("20200101");
+                    break;
+                case "4thSemester":
+                    filterList.Add("20200701");
+                    break;
+            }
+            return RedirectToPage("/Students/StudentRooms", "SpecificDorm", new { filterList });
+
         }
     }
 }

@@ -36,9 +36,5 @@ namespace StudentAccommodation_RazorPages.Pages.Rooms
             Rooms = _roomService.GetRoomsPerDormitory(id);
         }
 
-        public void OnGetSpecificDorm(List<string> test)
-        {
-
-        }
     }
 }

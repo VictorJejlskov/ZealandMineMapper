@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using StudentAccommodation_RazorPages.Models;
+using StudentAccommodation_RazorPages.ViewModels;
 
 namespace StudentAccommodation_RazorPages.Services.RoomService
 {
@@ -36,5 +37,6 @@ namespace StudentAccommodation_RazorPages.Services.RoomService
                 }
             }
         }
+        
     }
 }

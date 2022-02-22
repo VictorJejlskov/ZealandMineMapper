@@ -236,3 +236,4 @@ C:\Users\Victur\Desktop\ZealandMineMapper\Databases\StudentAccommodation_RazorPa
 C:\Users\Victur\Desktop\ZealandMineMapper\Databases\StudentAccommodation_RazorPages\StudentAccommodation_RazorPages\StudentAccommodation_RazorPages\obj\Debug\netcoreapp3.1\StudentAccommodation_RazorPages.genruntimeconfig.cache
 C:\Users\victo\Desktop\ZealandMapper\Databases\StudentAccommodation_RazorPages\StudentAccommodation_RazorPages\StudentAccommodation_RazorPages\obj\Debug\netcoreapp3.1\Razor\Pages\Students\StudentRooms.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Databases\StudentAccommodation_RazorPages\StudentAccommodation_RazorPages\StudentAccommodation_RazorPages\obj\Debug\netcoreapp3.1\Razor\Pages\Leasings\GetStudentLeasings.cshtml.g.cs
+C:\Users\Victur\Desktop\ZealandMineMapper\Databases\StudentAccommodation_RazorPages\StudentAccommodation_RazorPages\StudentAccommodation_RazorPages\obj\Debug\netcoreapp3.1\Razor\Pages\Leasings\GetStudentLeasings.cshtml.g.cs

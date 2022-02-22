@@ -24,5 +24,10 @@ namespace StudentAccommodation_RazorPages.Services.StudentService
         {
             return ADO_Student.GetLeasesStudents(dormId, roomNo);
         }
+
+        public List<Student_Room> GetStudentRoomsPerDorm(string dormName, string dateStart)
+        {
+            return ADO_Student.GetStudentRoomsPerDorm(dormName, dateStart);
+        }
     }
 }
