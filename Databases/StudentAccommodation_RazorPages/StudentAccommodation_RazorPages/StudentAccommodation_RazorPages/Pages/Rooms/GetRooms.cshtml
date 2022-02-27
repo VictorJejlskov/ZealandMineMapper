@@ -5,13 +5,14 @@
 <h1>List of Rooms</h1>
 <h3>Amount of Rooms @Model.Rooms.Count()</h3>
 <h4>List of Rooms</h4>
-<table class="table">
-    <thead>
+<table class="table table-bordered table-striped">
+    <thead  class="bg-primary">
         <tr>
             <th>Room No.</th>
             <th>Dorm no.</th>
             <th>Type</th>
             <th>Price</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -24,7 +25,7 @@
                     <td>@room.Dormitory_No</td>
                     <td>@room.Types</td>
                     <td>@room.Price</td>
-                    <td><a asp-page="/Leasings/GetStudentLeasings" asp-page-handler="LeasingsAndStudents" asp-route-did="@room.Dormitory_No" asp-route-rid="@room.Room_No">Leases for this roon</a></td>
+                    <td><a asp-page="/Leasings/GetStudentLeasings" asp-page-handler="LeasingsAndStudents" asp-route-did="@room.Dormitory_No" asp-route-rid="@room.Room_No" class="text-info">Leases for this roon</a></td>
                 </tr>
             }
         }

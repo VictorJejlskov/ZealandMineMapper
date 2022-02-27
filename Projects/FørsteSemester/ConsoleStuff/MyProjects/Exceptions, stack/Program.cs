@@ -6,7 +6,7 @@ namespace Exceptions__stack
     {
         static void Main(string[] args)
         {
-            MyStack stack = new MyStack(5);
+            MyStack<int> stack = new MyStack<int>(5);
 
             while (true)
             {

@@ -26,9 +26,19 @@ namespace StudentAccommodation_RazorPages.Services.LeasingService
                         Leasing lease = new Leasing();
                         lease.Leasing_No = Convert.ToInt32(reader[0]);
                         lease.Dormitory_No = Convert.ToInt32(reader[1]);
-                        lease.Student_No = Convert.ToInt32(reader[2]);
+                        if (reader[2] == DBNull.Value)
+                        {
+                            lease.Student_No = -1;
+                        }
+                        else
+                        {
+                            lease.Student_No = Convert.ToInt32(reader[2]);
+                        }
+
                         lease.Date_From = Convert.ToDateTime(reader[3]);
+                        lease.DateFromString = lease.Date_From.ToShortDateString();
                         lease.Date_To = Convert.ToDateTime(reader[4]);
+                        lease.DateToString = lease.Date_To.ToShortDateString();
                         lease.Room_No = Convert.ToInt32(reader[5]);
                         leasingList.Add(lease);
                     }

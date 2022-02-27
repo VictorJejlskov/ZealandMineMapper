@@ -6,8 +6,8 @@
 <h1>List of Leasings</h1>
 <h3>Amount of Leasings @Model.Leasings.Count()</h3>
 <h4>List of Leasings</h4>
-<table class="table">
-    <thead>
+<table class="table table-bordered table-striped">
+    <thead  class="bg-primary">
     <tr>
         <th>Id</th>
         <th>Student No.</th>
@@ -27,8 +27,8 @@
                 <td>@lease.Student_No</td>
                 <td>@lease.Dormitory_No</td>
                 <td>@lease.Room_No</td>
-                <td>@lease.Date_From</td>
-                <td>@lease.Date_To</td>
+                <td>@lease.DateFromString</td>
+                <td>@lease.DateToString</td>
             </tr>
         }
     }

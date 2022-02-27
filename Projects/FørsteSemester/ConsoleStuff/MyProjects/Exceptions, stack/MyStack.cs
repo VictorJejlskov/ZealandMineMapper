@@ -5,12 +5,12 @@ using System.Text;
 
 namespace Exceptions__stack
 {
-    class MyStack
+    class MyStack<T>
     {
-        private int[] _stack;
+        private T[] _stack;
         private int _top = 0;
 
-        public int Pop()
+        public T Pop()
         {
             try
             {
@@ -25,10 +25,10 @@ namespace Exceptions__stack
 
         public MyStack(int size)
         {
-            _stack = new int[size];
+            _stack = new T[size];
         }
 
-        public void Push(int element)
+        public void Push(T element)
         {
             try
             {
@@ -38,7 +38,6 @@ namespace Exceptions__stack
             {
                 throw new MyStackIsFullException("Stakken er fuld");
             }
-
         }
 
         public override string ToString()

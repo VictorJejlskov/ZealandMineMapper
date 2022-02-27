@@ -5,8 +5,8 @@
 <h1>List of Dormitories</h1>
 <h3>Amount of Dormitories @Model.Dormitories.Count()</h3>
 <h4>List of Dormitories</h4>
-<table class="table">
-    <thead>
+<table class="table table-bordered table-striped">
+    <thead  class="bg-primary">
     <tr>
         <th>Dorm no.</th>
         <th>Name</th>
@@ -25,10 +25,10 @@
                 <td>@dorm.Name</td>
                 <td>@dorm.Address</td>
                 <td>
-                    <a asp-page="/Rooms/GetRooms" asp-page-handler="DormRooms" asp-route-id="@dorm.Dormitory_No">Rooms for this dorm</a>
+                    <a asp-page="/Rooms/GetRooms" asp-page-handler="DormRooms" asp-route-id="@dorm.Dormitory_No" class="text-info">Rooms for this dorm</a>
                 </td>
                 <td>
-                    <a asp-page="/Students/StudentRooms" asp-page-handler="StudentsRooms" asp-route-id="@dorm.Dormitory_No">1st semester Student & Rooms</a>
+                    <a asp-page="/Students/StudentRooms" asp-page-handler="StudentsRooms" asp-route-id="@dorm.Dormitory_No" class="text-info">1st semester Student & Rooms</a>
                 </td>
             </tr>
         }

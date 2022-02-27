@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\ConsoleStuff\\MyProjects\\Exceptions, stack\\Exceptions, stack.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\FørsteSemester\\ConsoleStuff\\MyProjects\\Exceptions, stack\\Exceptions, stack.csproj",
       "projectName": "Exceptions, stack",
-      "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\ConsoleStuff\\MyProjects\\Exceptions, stack\\Exceptions, stack.csproj",
+      "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\FørsteSemester\\ConsoleStuff\\MyProjects\\Exceptions, stack\\Exceptions, stack.csproj",
       "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\ConsoleStuff\\MyProjects\\Exceptions, stack\\obj\\",
+      "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\FørsteSemester\\ConsoleStuff\\MyProjects\\Exceptions, stack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
