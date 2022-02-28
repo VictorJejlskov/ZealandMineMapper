@@ -6,9 +6,23 @@
 <div class="row">
     <button id="locationButton" type="button" class="btn btn-default" onclick="getLocation()">Use Actual Location</button>
 </div>
-<div>
-    
-</div>
+
+<body>
+<h4 id="long">This will be Longitude</h4>
+<h4 id="lat">This will be Latitude</h4>
+</body>
+
+<div id="map" style="height: 400px; width: 400px"></div>
+<script>
+    var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: -34.397, lng: 150.644},
+            zoom: 8
+        });
+    }
+</script>
+
 <script type="text/javascript">
     function getLocation() {
         if (navigator.geolocation) {
@@ -17,6 +31,20 @@
     };
 
     function useLocation(position) {
-        window.location.replace('?longitude=' + position.coords.longitude + '&latitude=' + position.coords.latitude);
+        document.getElementById("long").innerHTML = position.coords.longitude;
+        document.getElementById("lat").innerHTML = position.coords.latitude;
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: { lat: position.coords.latitude, lng: position.coords.longitude},
+            zoom: 13
+        });
+        var marker = new google.maps.Marker({
+            position: {
+                lat: position.coords.latitude,
+                lng: position.coords.longitude
+            },
+            map: map
+        });
     };
 </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUbDlQIcUQq0ZJHunpby7ykwCF9RLEoio&callback=initMap"
+        async defer></script>

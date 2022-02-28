@@ -11,6 +11,7 @@ namespace GeoTest.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
+        public string Test { get; set; } = "x";
 
         public IndexModel(ILogger<IndexModel> logger)
         {
