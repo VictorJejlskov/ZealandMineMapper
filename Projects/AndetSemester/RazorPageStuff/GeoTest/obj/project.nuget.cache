@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "euJkmLtPa3rJe78p0E6MbJZ4A+9Xn1+RpACnfvy/2A2y4f/6oAYnDmRRy1MLQSDwjsGDjDKcg2G78jenwcXisQ==",
+  "dgSpecHash": "Np5L+1K/LAGIGMrcv5eOufrlQh9LsHUjRfYGL7Fwnnai4kvSSdiDQnZ/a5+nIg8ZC6kU/4xFsl9a02brxyRRzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\AndetSemester\\RazorPageStuff\\GeoTest\\GeoTest.csproj",
+  "projectFilePath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\GeoTest\\GeoTest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Victur\\.nuget\\packages\\microsoft-web-helpers\\2.1.20710.2\\microsoft-web-helpers.2.1.20710.2.nupkg.sha512",
-    "C:\\Users\\Victur\\.nuget\\packages\\microsoft.aspnet.razor\\2.0.20505\\microsoft.aspnet.razor.2.0.20505.nupkg.sha512",
-    "C:\\Users\\Victur\\.nuget\\packages\\microsoft.aspnet.webpages\\2.0.20505\\microsoft.aspnet.webpages.2.0.20505.nupkg.sha512",
-    "C:\\Users\\Victur\\.nuget\\packages\\microsoft.aspnet.webpages.data\\2.0.20505\\microsoft.aspnet.webpages.data.2.0.20505.nupkg.sha512",
-    "C:\\Users\\Victur\\.nuget\\packages\\microsoft.aspnet.webpages.webdata\\2.0.20505\\microsoft.aspnet.webpages.webdata.2.0.20505.nupkg.sha512",
-    "C:\\Users\\Victur\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512"
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft-web-helpers\\2.1.20710.2\\microsoft-web-helpers.2.1.20710.2.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnet.razor\\2.0.20505\\microsoft.aspnet.razor.2.0.20505.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnet.webpages\\2.0.20505\\microsoft.aspnet.webpages.2.0.20505.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnet.webpages.data\\2.0.20505\\microsoft.aspnet.webpages.data.2.0.20505.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnet.webpages.webdata\\2.0.20505\\microsoft.aspnet.webpages.webdata.2.0.20505.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512"
   ],
   "logs": [
     {

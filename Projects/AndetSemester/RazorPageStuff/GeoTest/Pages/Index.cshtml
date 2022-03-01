@@ -5,34 +5,39 @@
 }
 <div class="row">
     <button id="locationButton" type="button" class="btn btn-default" onclick="getLocation()">Use Actual Location</button>
+    <button id="location1" type="button" class="btn btn-primary" onclick="gotoLocation1()">Go to Location 1</button>
+    <button id="pinLocation" type="button" class="btn btn-primary" onclick="pinLocation()">Add Pin</button>
+
 </div>
 
-<body>
-<h4 id="long">This will be Longitude</h4>
-<h4 id="lat">This will be Latitude</h4>
-</body>
 
-<div id="map" style="height: 400px; width: 400px"></div>
+<div id="map" style="height: 800px; width: 800px"></div>
+
+
+
 <script>
-    var map;
+    let map;
+    let markers = [];
+    const zealandSchool = { lat: 55.63088297071046, lng: 12.078155982992433 };
+
     function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: -34.397, lng: 150.644},
-            zoom: 8
+        const map = new google.maps.Map(document.getElementById('map'), {
+            center: zealandSchool,
+            zoom: 15
         });
     }
-</script>
-
-<script type="text/javascript">
     function getLocation() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(useLocation);
         }
     };
-
+    function gotoLocation1() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: { lat: 56.2839786255812, lng: 13.279067044328727},
+            zoom: 13
+        });
+    }
     function useLocation(position) {
-        document.getElementById("long").innerHTML = position.coords.longitude;
-        document.getElementById("lat").innerHTML = position.coords.latitude;
         map = new google.maps.Map(document.getElementById('map'), {
             center: { lat: position.coords.latitude, lng: position.coords.longitude},
             zoom: 13
@@ -42,9 +47,17 @@
                 lat: position.coords.latitude,
                 lng: position.coords.longitude
             },
-            map: map
+            map: map,
+            draggable: true
         });
     };
+    function pinLocation() {
+        var marker = new google.maps.Marker({
+            position: map.getCenter(),
+            map: map,
+            draggable: true
+        });
+    }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUbDlQIcUQq0ZJHunpby7ykwCF9RLEoio&callback=initMap"
         async defer></script>

@@ -88,3 +88,13 @@ C:\Users\Victur\Desktop\ZealandMineMapper\Projects\AndetSemester\RazorPageStuff\
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\AndetSemester\RazorPageStuff\GeoTest\bin\Debug\net5.0\WebMatrix.WebData.dll
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\AndetSemester\RazorPageStuff\GeoTest\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\AndetSemester\RazorPageStuff\GeoTest\obj\Debug\net5.0\Razor\wwwroot\MapAddress.cshtml.g.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\GeoTest\bin\Debug\net5.0\Microsoft.Web.Helpers.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\GeoTest\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\GeoTest\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\GeoTest\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\GeoTest\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\GeoTest\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\GeoTest\bin\Debug\net5.0\WebMatrix.Data.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\GeoTest\bin\Debug\net5.0\WebMatrix.WebData.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\GeoTest\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\GeoTest\obj\Debug\net5.0\Razor\wwwroot\MapAddress.cshtml.g.cs
