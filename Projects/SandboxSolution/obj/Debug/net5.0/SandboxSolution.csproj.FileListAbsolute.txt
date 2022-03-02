@@ -1,0 +1,16 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\bin\Debug\net5.0\SandboxSolution.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\bin\Debug\net5.0\SandboxSolution.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\bin\Debug\net5.0\SandboxSolution.runtimeconfig.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\bin\Debug\net5.0\SandboxSolution.runtimeconfig.dev.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\bin\Debug\net5.0\SandboxSolution.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\bin\Debug\net5.0\ref\SandboxSolution.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\bin\Debug\net5.0\SandboxSolution.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\obj\Debug\net5.0\SandboxSolution.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\obj\Debug\net5.0\SandboxSolution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\obj\Debug\net5.0\SandboxSolution.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\obj\Debug\net5.0\SandboxSolution.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\obj\Debug\net5.0\SandboxSolution.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\obj\Debug\net5.0\SandboxSolution.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\obj\Debug\net5.0\ref\SandboxSolution.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\obj\Debug\net5.0\SandboxSolution.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\SandboxSolution\obj\Debug\net5.0\SandboxSolution.genruntimeconfig.cache

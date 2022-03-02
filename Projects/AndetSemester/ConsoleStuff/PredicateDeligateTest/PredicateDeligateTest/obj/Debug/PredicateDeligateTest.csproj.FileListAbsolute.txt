@@ -1,0 +1,6 @@
+c:\users\henrik høltzer\documents\visual studio 2015\Projects\PredicateDeligateTest\PredicateDeligateTest\bin\Debug\PredicateDeligateTest.exe.config
+c:\users\henrik høltzer\documents\visual studio 2015\Projects\PredicateDeligateTest\PredicateDeligateTest\bin\Debug\PredicateDeligateTest.exe
+c:\users\henrik høltzer\documents\visual studio 2015\Projects\PredicateDeligateTest\PredicateDeligateTest\bin\Debug\PredicateDeligateTest.pdb
+c:\users\henrik høltzer\documents\visual studio 2015\Projects\PredicateDeligateTest\PredicateDeligateTest\obj\Debug\PredicateDeligateTest.csprojResolveAssemblyReference.cache
+c:\users\henrik høltzer\documents\visual studio 2015\Projects\PredicateDeligateTest\PredicateDeligateTest\obj\Debug\PredicateDeligateTest.exe
+c:\users\henrik høltzer\documents\visual studio 2015\Projects\PredicateDeligateTest\PredicateDeligateTest\obj\Debug\PredicateDeligateTest.pdb
