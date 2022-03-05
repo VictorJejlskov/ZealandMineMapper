@@ -38,3 +38,4 @@ C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Porto
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Portofolie.pdb
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Portofolie.genruntimeconfig.cache
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Portofolie.csproj.CopyComplete
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\bin\Debug\net5.0\Newtonsoft.Json.dll

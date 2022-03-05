@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XukPwAeeLMZsEGMXa5TEIVMNr1JFn9QyAL+VNW17rhKimfyq96mNdt6bnq/wmBJ6rtQjRL6Yux3+M8kR74EukQ==",
+  "dgSpecHash": "xqTz2W7e9EA2psIh5wzW9wzb/lSCASI9K7CzTgfG/5VYEb9ocVw1up6/+OewMLwfSh3MUefXarEI39L4qUBBZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\AndetSemester\\RazorPageStuff\\Portofolie\\Portofolie.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\Portofolie\\Portofolie.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\victo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
