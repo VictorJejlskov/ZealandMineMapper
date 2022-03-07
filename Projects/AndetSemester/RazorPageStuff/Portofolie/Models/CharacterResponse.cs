@@ -7,8 +7,8 @@ namespace Portofolie.Models
 {
     public class CharacterResponse
     {
-        public string Key { get; set; }
-        public string Value { get; set; }
+        public string key { get; set; }
+        public string value { get; set; }
 
         public CharacterResponse()
         {

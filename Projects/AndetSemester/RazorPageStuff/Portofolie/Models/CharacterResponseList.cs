@@ -7,6 +7,6 @@ namespace Portofolie.Models
 {
     public class CharacterResponseList
     {
-        public List<CharacterResponse> Assets { get; set; }
+        public List<CharacterResponse> assets { get; set; }
     }
 }

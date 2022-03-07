@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Portofolie.Models;
+using Portofolie.Services;
 
 namespace Portofolie.Pages
 {
@@ -19,52 +20,35 @@ namespace Portofolie.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         private HttpClient _client;
+        private APIService _apiService;
 
-        private string _reqUrl = $"https://eu.api.blizzard.com/profile/wow/character/silvermoon/terondashi/character-media?namespace=profile-eu&locale=en_US&access_token=USZjXDprFQClIuu7dDr4Yi7ETRR5WbEcCC";
+        private string _reqUrl = $"https://eu.api.blizzard.com/profile/wow/character/silvermoon/terondashi/character-media?namespace=profile-eu&locale=en_US&access_token=USlEUoaX7H1Mrt6vjqFrjYtfSPkAseloh5";
+        private string oauthToken;
         public string ImgStr { get; set; }
         [Display(Name = "Character Name"), Required(ErrorMessage = "Name is required!")]
         [BindProperty] public string SearchName { get; set; } = "terondashi";
         [Display(Name = "Realm Name"), Required(ErrorMessage = "Name is required!")]
         [BindProperty] public string SearchRealm { get; set; } = "silvermoon";
-        public IndexModel(ILogger<IndexModel> logger, HttpClient client)
+        public IndexModel(ILogger<IndexModel> logger, HttpClient client, APIService apiService)
         {
             _logger = logger;
             _client = client;
+            _apiService = apiService;
         }
 
-        public void OnGet()
+        public async Task<IActionResult> OnGet()
         {
-
+            ImgStr = await _apiService.GetCharacterImgString(SearchRealm, SearchName);
+            return Page();
         }
 
         public async Task<IActionResult> OnPostAsync()
         {
-            _reqUrl =
-                $"https://eu.api.blizzard.com/profile/wow/character/{SearchRealm.ToLower()}/{SearchName.ToLower()}/character-media?namespace=profile-eu&locale=en_US&access_token=USZjXDprFQClIuu7dDr4Yi7ETRR5WbEcCC";
-            var response =
-                await _client.GetAsync(_reqUrl);
-            var result = await response.Content.ReadAsStringAsync();
-            if (response.StatusCode != HttpStatusCode.OK)
-            {
-                _reqUrl = $"https://eu.api.blizzard.com/profile/wow/character/silvermoon/terondashi/character-media?namespace=profile-eu&locale=en_US&access_token=USZjXDprFQClIuu7dDr4Yi7ETRR5WbEcCC";
-                response =
-                    await _client.GetAsync(_reqUrl);
-                result = await response.Content.ReadAsStringAsync();
-                CharacterResponseList jsonAssets = JsonConvert.DeserializeObject<CharacterResponseList>(result);
-                ImgStr = jsonAssets.Assets.FirstOrDefault(asset => asset.Key.Equals("main-raw")).Value;
-            }
-            else
-            {
-                CharacterResponseList jsonAssets = JsonConvert.DeserializeObject<CharacterResponseList>(result);
-                ImgStr = jsonAssets.Assets.FirstOrDefault(asset => asset.Key.Equals("main-raw")).Value;
-            }
-
-            
-            
-            //var test = obj["assets"][3]["value"];
-            //ImgStr = test.ToString();
-            //JsonSerializer.Deserialize<DeliveryDriver[]>(jsonFileReader.ReadToEnd());
+            ImgStr = await _apiService.GetCharacterImgString(SearchRealm, SearchName); 
             return Page();
         }
     }
 }
+
+
+
