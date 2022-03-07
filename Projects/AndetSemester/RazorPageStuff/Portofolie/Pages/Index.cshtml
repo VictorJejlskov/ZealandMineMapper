@@ -5,37 +5,43 @@
 }
 
 <form method="post">
-    <label asp-for="@Model.SearchName"></label>
-    <input asp-for="@Model.SearchName" />
-    <span asp-validation-for="SearchName"></span>
-
-    <label asp-for="@Model.SearchRealm"></label>
-    <input asp-for="@Model.SearchRealm" />
-    <span asp-validation-for="SearchRealm"></span>
-    <button type="submit" class="btn btn-primary">Search!</button>
+    <div> 
+        <div>
+            <label asp-for="@Model.SearchName"></label>
+            <input asp-for="@Model.SearchName" />
+            <span asp-validation-for="SearchName"></span>
+        </div>
+        <div>
+            <label asp-for="@Model.SearchRealm"></label>
+            <input asp-for="@Model.SearchRealm" />
+            <span asp-validation-for="SearchRealm"></span>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary">Search!</button>
+        </div>
+    </div>
 </form>
-@if (Model.ImgStr != null)
-{
-    <img src="@Model.ImgStr" style="width: 600px; height: 600px" />
-}
-else
-{
-    <div>It's null</div>
-}
 
 <header>
     <div>
         <h1>
-            My Portfolio - Terondashi
+            My Portfolio - @Model.SearchName
         </h1>
     </div>
 </header>
 <body>
-    <div>
-        <img class="img-fluid" src="~/images/pic2.png" />
-        <p>Phoenix</p>
-    </div>
+<div>
+    @if (Model.ImgStr != null)
+    {
+        <img src="@Model.ImgStr" style="width: 600px; height: 600px"/>
+    }
+    else
+    {
+        <div>It's null</div>
+    }
+</div>
 </body>
+
 
 @section scripts{
     <partial name="Shared/_ValidationScriptsPartial"/>

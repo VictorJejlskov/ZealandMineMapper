@@ -4,27 +4,30 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
+    <link rel="icon" href="/images/WoW_icon.png"/>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <a class="navbar-brand" asp-page="index">Portofolie</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-            <ul class="navbar-nav flex-grow-1">
-                <li class="nav-item"><a class="nav-link text-dark" href="https://worldofwarcraft.com/en-gb/character/eu/silvermoon/terondashi" target="_blank">Armory Page</a></li>
-                <li class="nav-item"><a class="nav-link text-dark" href="https://www.warcraftlogs.com/character/eu/silvermoon/Terondashi" target="_blank">Warcraftlogs</a></li>
-                <li class="nav-item"><a class="nav-link text-dark" href="https://www.wowprogress.com/guild/eu/silvermoon/Phoenix" target="_blank">Wowprogress</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
+<nav class="navbar bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" asp-page="index">Portofolie</a>
+        
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Links -->
+    <div class="navbar-collapse collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item"><a class="nav-link text-light" href="https://worldofwarcraft.com/en-gb/character/eu/silvermoon/terondashi" target="_blank">Armory Page</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="https://www.warcraftlogs.com/character/eu/silvermoon/Terondashi" target="_blank">Warcraftlogs</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="https://www.wowprogress.com/guild/eu/silvermoon/Phoenix" target="_blank">Wowprogress</a></li>
+        </ul>
+    </div>
+</nav>
 <div  class="container container-fixer">
     <main role="main" class="pb-3">
         @RenderBody()

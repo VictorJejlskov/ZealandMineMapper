@@ -1,0 +1,8 @@
+c:\users\henrikh\documents\visual studio 2013\Projects\LinqHotelsExercice\LinqHotelsExercice\bin\Debug\LinqHotelsExercice.exe.config
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\LinqHotelsExercice\LinqHotelsExercice\bin\Debug\LinqHotelsExercice.exe.config
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\LinqHotelsExercice\LinqHotelsExercice\bin\Debug\LinqHotelsExercice.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\LinqHotelsExercice\LinqHotelsExercice\bin\Debug\LinqHotelsExercice.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\LinqHotelsExercice\LinqHotelsExercice\obj\Debug\LinqHotelsExercice.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\LinqHotelsExercice\LinqHotelsExercice\obj\Debug\LinqHotelsExercice.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\LinqHotelsExercice\LinqHotelsExercice\obj\Debug\LinqHotelsExercice.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\LinqHotelsExercice\LinqHotelsExercice\obj\Debug\LinqHotelsExercice.pdb
