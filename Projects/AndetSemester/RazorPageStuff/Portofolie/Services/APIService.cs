@@ -55,5 +55,20 @@ namespace Portofolie.Services
             imgString = jsonAssets.assets.FirstOrDefault(asset => asset.key.Equals("main-raw")).value;
             return imgString;
         }
+
+        public async Task GetCharacterInfo(string searchRealm, string searchName)
+        {
+            string oauthToken = await GetBnetOAuth();
+            string reqUrl =
+                $"https://eu.api.blizzard.com/profile/wow/character/{searchRealm}/{searchName}?namespace=profile-eu&locale=en_US&access_token={oauthToken}";
+        }
+        public async Task<string> GetSpecIconString(int specId)
+        {
+            string oauthToken = await GetBnetOAuth();
+            string reqUrl =
+                $"https://eu.api.blizzard.com/data/wow/media/playable-specialization/{specId}?namespace=static-eu&locale=en_US&access_token={oauthToken}";
+            
+
+        }
     }
 }
