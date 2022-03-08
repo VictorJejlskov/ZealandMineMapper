@@ -2,10 +2,11 @@
 @model IndexModel
 @{
     ViewData["Title"] = "MediocoreGamer";
+    <link rel="icon" href="@Model.SpecIcon" />
 }
 
 <form method="post">
-    <div> 
+    <div>
         <div>
             <label asp-for="@Model.SearchName"></label>
             <input asp-for="@Model.SearchName" />
@@ -30,21 +31,21 @@
     </div>
 </header>
 <body>
-<div>
-    @if (Model.ImgStr != null)
-    {
-        <img src="@Model.ImgStr" style="width: 600px; height: 600px"/>
-    }
-    else
-    {
-        <div>It's null</div>
-    }
-</div>
+    <div>
+        @if (Model.ImgStr != null)
+        {
+            <img src="@Model.ImgStr" style="width: 600px; height: 600px" />
+        }
+        else
+        {
+            <div>It's null</div>
+        }
+    </div>
 </body>
 
 
 @section scripts{
-    <partial name="Shared/_ValidationScriptsPartial"/>
+    <partial name="Shared/_ValidationScriptsPartial" />
 }
 
 @*<img src="https://render.worldofwarcraft.com/eu/character/silvermoon/86/149529174-main-raw.png"/>*@

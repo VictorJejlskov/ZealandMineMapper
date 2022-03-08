@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Portofolie.Models;
+using Portofolie.Models.CharacterStuff;
 using Portofolie.Services;
 
 namespace Portofolie.Pages
@@ -29,6 +30,9 @@ namespace Portofolie.Pages
         [BindProperty] public string SearchName { get; set; } = "terondashi";
         [Display(Name = "Realm Name"), Required(ErrorMessage = "Name is required!")]
         [BindProperty] public string SearchRealm { get; set; } = "silvermoon";
+
+        public string SpecIcon { get; set; } =
+            "https://render-eu.worldofwarcraft.com/icons/56/spell_shadow_metamorphosis.jpg";
         public IndexModel(ILogger<IndexModel> logger, HttpClient client, APIService apiService)
         {
             _logger = logger;

@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Portofolie.Models;
+using Portofolie.Models.CharacterStuff;
 using RestSharp;
 
 namespace Portofolie.Services
@@ -46,29 +48,15 @@ namespace Portofolie.Services
         {
             string imgString = "";
             string oauthToken = await GetBnetOAuth();
-            string _reqUrl =
+            string reqUrl =
                 $"https://eu.api.blizzard.com/profile/wow/character/{searchRealm.ToLower()}/{searchName.ToLower()}/character-media?namespace=profile-eu&locale=en_US&access_token={oauthToken}";
             var response =
-                await _client.GetAsync(_reqUrl);
+                await _client.GetAsync(reqUrl);
             var result = await response.Content.ReadAsStringAsync();
             CharacterResponseList jsonAssets = JsonConvert.DeserializeObject<CharacterResponseList>(result);
             imgString = jsonAssets.assets.FirstOrDefault(asset => asset.key.Equals("main-raw")).value;
             return imgString;
         }
 
-        public async Task GetCharacterInfo(string searchRealm, string searchName)
-        {
-            string oauthToken = await GetBnetOAuth();
-            string reqUrl =
-                $"https://eu.api.blizzard.com/profile/wow/character/{searchRealm}/{searchName}?namespace=profile-eu&locale=en_US&access_token={oauthToken}";
-        }
-        public async Task<string> GetSpecIconString(int specId)
-        {
-            string oauthToken = await GetBnetOAuth();
-            string reqUrl =
-                $"https://eu.api.blizzard.com/data/wow/media/playable-specialization/{specId}?namespace=static-eu&locale=en_US&access_token={oauthToken}";
-            
-
-        }
     }
 }

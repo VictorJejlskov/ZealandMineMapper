@@ -5,10 +5,8 @@ using System.Threading.Tasks;
 
 namespace Portofolie.Models.CharacterStuff
 {
-    public class CharacterSpec
+    public class CharacterSpecImgList
     {
-        public string Key { get; set; }
-        public string Name { get; set; }
-        public int Id { get; set; }
+        public List<CharacterSpecImg> Assets { get; set; }
     }
 }
