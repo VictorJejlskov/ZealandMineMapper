@@ -3,7 +3,9 @@
 @{
     ViewData["Title"] = $"{@Model.CharInfo.name} - {@Model.CharInfo.guild.name}";
 }
-
+<head>
+    <link rel="icon" href="@Model.CharSpecMedia" />
+</head>
 <form method="post">
     <div>
         <div>
@@ -21,11 +23,10 @@
         </div>
     </div>
 </form>
-Your hat is: @Model.Equipment.equipped_items[0].name
 <header>
     <div>
         <h1>
-            My Portfolio - @Model.SearchName
+            @Model.CharInfo.name - @Model.CharInfo.guild.name
         </h1>
     </div>
 </header>
@@ -47,5 +48,3 @@ Your hat is: @Model.Equipment.equipped_items[0].name
     <partial name="Shared/_ValidationScriptsPartial" />
 }
 
-@*<img src="https://render.worldofwarcraft.com/eu/character/silvermoon/86/149529174-main-raw.png"/>*@
-https://us.api.blizzard.com/profile/wow/character/tichondrius/charactername/appearance?namespace=profile-us&locale=en_US&access_token=USWQ8Y22PZH2nnZ1Qe4ZLRl3uvWHJRJbWu

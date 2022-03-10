@@ -1,0 +1,29 @@
+﻿@page
+@model Portofolie.Pages.Guild.RosterModel
+@{
+    Layout = "Shared/_GuildLayout";
+}
+
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Race</th>
+            <th>Class</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var var in @Model.Members)
+    {
+        <tr>
+
+            <td>@Model.IdAsRank(var.rank)</td>
+            <td><a asp-page="/Index" asp-page-handler="Specific" asp-route-sr="@Model.GuildInfo.guild.realm.name" asp-route-sn="@var.character.name">@var.character.name</a></td>
+            <td>@Model.IdAsRace(var.character.playable_race.id)</td>
+            <td>@Model.IdAsClass(var.character.playable_class.id)</td>
+
+        </tr>
+    }
+    </tbody>
+</table>

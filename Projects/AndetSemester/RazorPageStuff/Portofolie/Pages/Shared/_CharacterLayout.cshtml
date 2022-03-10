@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container">
+
+                <!-- Brand -->
+                <a class="navbar-brand" asp-page="index">Home</a>
+
+                <!-- Links -->
+                <div class="navbar-collapse collapse">
+                    <ul class="nav-item nav-item-fixer">
+                        <li class="navbar-nav flex-grow-1"><a class="nav-link text-light" asp-page="/Guild/Roster">Phoenix Roster</a></li>
+                    </ul>
+                    <ul class="nav-item nav-item-fixer">
+                        <li class="navbar-nav flex-grow-1"><a class="nav-link text-light" href="https://worldofwarcraft.com/en-gb/character/eu/silvermoon/terondashi" target="_blank">Armory Page</a></li>
+                    </ul>
+                    <ul class="nav-item nav-item-fixer">
+                        <li class="navbar-nav flex-grow-1"><a class="nav-link text-light" href="https://www.warcraftlogs.com/character/eu/silvermoon/Terondashi" target="_blank">Warcraftlogs</a></li>
+                    </ul>
+                    <ul class="nav-item nav-item-fixer">
+                        <li class="navbar-nav flex-grow-1"><a class="nav-link text-light" href="https://www.wowprogress.com/guild/eu/silvermoon/Phoenix" target="_blank">Wowprogress</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+<div class="container container-fixer">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<footer class="footer border-top text-muted">
+    <div class="container container-fixer">
+        <b>Contact info: </b> <i class="bi bi-discord"></i> Discord: Victor#6895 | <img style="width: 16px; height: 16px" src="~/images/bnet.png"/>BNet: Mitz#2761 | <a class="nav-item text-dark" href="mailto:victorwilliamjejlskov@gmail.com">Mail me :)</a>
+    </div>
+</footer>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
