@@ -90,10 +90,18 @@ namespace LinqHotelsExercice
             //    Console.WriteLine(hotel);
             //}
 
+
             // 2) List full details of all hotels in Roskilde:
 
             //var roskildeHotels = from hotel in hotels where hotel.Address.ToLower().Contains("roskilde") select hotel;
             //foreach (var hotel in roskildeHotels)
+            //{
+            //    Console.WriteLine(hotel);
+            //}
+
+            //var query2 = hotels
+            //    .Where(h => h.Address.Contains("Roskilde"));
+            //foreach (var hotel in query2)
             //{
             //    Console.WriteLine(hotel);
             //}
@@ -106,6 +114,14 @@ namespace LinqHotelsExercice
             //    Console.WriteLine(hotel);
             //}
 
+            //var query3 = hotels
+            //    .Where(h => h.Address.Contains("Roskilde"))
+            //    .Select(h => h.Name);
+            //foreach (var hotel in query3)
+            //{
+            //    Console.WriteLine(hotel);
+            //}
+
             // 4) List all double rooms with a price below 400 pr night:
 
             //var doubleRooms = from room in rooms where room.Price < 400 && room.Types.Equals('D') select room;
@@ -114,6 +130,12 @@ namespace LinqHotelsExercice
             //    Console.WriteLine(room);
             //}
 
+            //var query4 = rooms
+            //    .Where(r => r.Price < 400 && r.Types.Equals('D'));
+            //foreach (var room in query4)
+            //{
+            //    Console.WriteLine(room);
+            //}
             // 5) List all double or family rooms with a price below 400 pr night in ascending order of price:
 
             //var roomList = from room in rooms
@@ -121,6 +143,13 @@ namespace LinqHotelsExercice
             //    orderby room.Price
             //    select room;
             //foreach (var room in roomList)
+            //{
+            //    Console.WriteLine(room);
+            //}
+
+            //var query5 = rooms
+            //    .Where(r => r.Price < 400 && (r.Types.Equals('D') || r.Types.Equals('F')));
+            //foreach (var room in query5)
             //{
             //    Console.WriteLine(room);
             //}
@@ -133,6 +162,9 @@ namespace LinqHotelsExercice
             //{
             //    Console.WriteLine(hotel);
             //}
+            //var query6 = hotels
+            //    .Count(h => h.Name.StartsWith("P"));
+            //Console.WriteLine(query6);
 
 
             // 7) List the number of hotels:
@@ -149,12 +181,12 @@ namespace LinqHotelsExercice
             //Console.WriteLine(average);
 
             //10) what is the avarage price of a room at Hotel Scandic:
-            var avgRoom = rooms.Where(r => r.Hotel.Name.Equals("Scandic")).Average(r => r.Price);
-            Console.WriteLine(avgRoom);
+            //var avgRoom = rooms.Where(r => r.Hotel.Name.Equals("Scandic")).Average(r => r.Price);
+            //Console.WriteLine(avgRoom);
 
             //11) what is the total reveneue per night from all double rooms:
-            var totalRev = rooms.Where(r => r.Types.Equals('D')).Sum(r => r.Price);
-            Console.WriteLine(totalRev);
+            //var totalRev = rooms.Where(r => r.Types.Equals('D')).Sum(r => r.Price);
+            //Console.WriteLine(totalRev);
 
             //12) List price and type of all rooms at Hotel Prindsen:
             //var priceNType = (
@@ -167,17 +199,34 @@ namespace LinqHotelsExercice
             //    Console.WriteLine($"Price: {varia.price} - Type: {varia.type}");   
             //}
 
+            //var query12 = rooms
+            //    .Where(r => r.Hotel.Name.Equals("Prindsen"))
+            //    .Select(r => new {r.Price, r.Types});
+            //foreach (var room in query12)
+            //{
+            //    Console.WriteLine(room);
+            //}
+
             //13) List distinct price and type of all rooms at Hotel Prindsen:
 
-            var priceNTypes = (
-                from room in rooms
-                join hotel in hotels on room.Hotel.HotelNo equals hotel.HotelNo
-                where hotel.Name.Equals("Prindsen")
-                select new { price = room.Price, type = room.Types }).Distinct();
-            foreach (var varia in priceNTypes)
-            {
-                Console.WriteLine($"Price: {varia.price} - Type: {varia.type}");
-            }
+            //var priceNTypes = (
+            //    from room in rooms
+            //    join hotel in hotels on room.Hotel.HotelNo equals hotel.HotelNo
+            //    where hotel.Name.Equals("Prindsen")
+            //    select new { price = room.Price, type = room.Types }).Distinct();
+            //foreach (var varia in priceNTypes)
+            //{
+            //    Console.WriteLine($"Price: {varia.price} - Type: {varia.type}");
+            //}
+
+            //var query13 = rooms
+            //    .Where(room => room.Hotel.Name.Equals("Prindsen"))
+            //    .Select(room => new {room.Price, room.Types}).Distinct();
+
+            //foreach (var room in query13)
+            //{
+            //    Console.WriteLine(room);
+            //}
 
             Console.WriteLine("...");
             Console.ReadKey();

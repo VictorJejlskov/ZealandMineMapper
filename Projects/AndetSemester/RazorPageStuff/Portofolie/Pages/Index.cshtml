@@ -1,8 +1,7 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "MediocoreGamer";
-    <link rel="icon" href="@Model.SpecIcon" />
+    ViewData["Title"] = $"{@Model.CharInfo.name} - {@Model.CharInfo.guild.name}";
 }
 
 <form method="post">
@@ -22,7 +21,7 @@
         </div>
     </div>
 </form>
-
+Your hat is: @Model.Equipment.equipped_items[0].name
 <header>
     <div>
         <h1>

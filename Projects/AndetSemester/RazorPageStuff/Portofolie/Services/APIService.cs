@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Portofolie.Models;
 using Portofolie.Models.CharacterStuff;
+using Portofolie.Models.EquipmentStuff;
 using RestSharp;
 
 namespace Portofolie.Services
@@ -58,5 +59,38 @@ namespace Portofolie.Services
             return imgString;
         }
 
+        public async Task<CharInfo> GetCharacterInfo(string searchRealm, string searchCharacter)
+        {
+            string oauthToken = await GetBnetOAuth();
+            string reqUrl =
+                $"https://eu.api.blizzard.com/profile/wow/character/{searchRealm}/{searchCharacter}?namespace=profile-eu&locale=en_US&access_token={oauthToken}";
+            var response = await _client.GetAsync(reqUrl);
+            var result = await response.Content.ReadAsStringAsync();
+            CharInfo charInfo = JsonConvert.DeserializeObject<CharInfo>(result);
+            return charInfo;
+        }
+
+        public async Task<string> GetSpecMedia(string searchRealm, string searchCharacter)
+        {
+            string oauthToken = await GetBnetOAuth();
+            string reqUrl =
+                $"https://eu.api.blizzard.com/data/wow/media/playable-specialization/{GetCharacterInfo(searchRealm, searchCharacter).Result.active_spec.id}?namespace=static-eu&locale=en_US&access_token={oauthToken}";
+            var response = await _client.GetAsync(reqUrl);
+            var result = await response.Content.ReadAsStringAsync();
+            CharSpecMedia specMedia = JsonConvert.DeserializeObject<CharSpecMedia>(result);
+            string specMediaString = specMedia.assets.FirstOrDefault(asset => asset.key.Equals("icon")).value;
+            return specMediaString;
+        }
+
+        public async Task<EquipmentInfo> GetCharacterEquipment(string searchRealm, string searchCharacter)
+        {
+            string oauthToken = await GetBnetOAuth();
+            string reqUrl =
+                $"https://eu.api.blizzard.com/profile/wow/character/{searchRealm}/{searchCharacter}/equipment?namespace=profile-eu&locale=en_US&access_token={oauthToken}";
+            var response = await _client.GetAsync(reqUrl);
+            var result = await response.Content.ReadAsStringAsync();
+            EquipmentInfo equipment = JsonConvert.DeserializeObject<EquipmentInfo>(result);
+            return equipment;
+        }
     }
 }

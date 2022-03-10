@@ -81,3 +81,4 @@ C:\Users\Victur\Desktop\ZealandMineMapper\Projects\AndetSemester\RazorPageStuff\
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Portofolie.pdb
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Portofolie.genruntimeconfig.cache
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\bin\Debug\net5.0\RestSharp.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\bin\Debug\net5.0\RestSharp.dll
