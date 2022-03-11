@@ -7,10 +7,42 @@
 <table class="table table-bordered table-striped table-hover">
     <thead>
         <tr>
-            <th>Rank</th>
-            <th>Name</th>
-            <th>Race</th>
-            <th>Class</th>
+            <th>
+                <div>
+                    Rank
+                </div>
+                <div>
+                    <a data-toggle="tooltip" title="Sort By Rank" asp-page-handler="SortByRank"><i class="fa fa-angle-up"></i></a>
+                    <a data-toggle="tooltip" title="Sort By Rank Descending" asp-page-handler="SortByRankDescending"><i class="fa fa-angle-down"></i></a>
+                </div>
+            </th>
+            <th>
+                <div>
+                    Name
+                </div>
+                <div>
+                    <a data-toggle="tooltip" title="Sort By Name" asp-page-handler="SortByName"><i class="fa fa-angle-up"></i></a>
+                    <a data-toggle="tooltip" title="Sort By Name Descending" asp-page-handler="SortByNameDescending"><i class="fa fa-angle-down"></i></a>
+                </div>
+            </th>
+            <th>
+                <div>
+                    Class
+                </div>
+                <div>
+                    <a data-toggle="tooltip" title="Sort By Class" asp-page-handler="SortByClass"><i class="fa fa-angle-up"></i></a>
+                    <a data-toggle="tooltip" title="Sort By Class Descending" asp-page-handler="SortByClassDescending"><i class="fa fa-angle-down"></i></a>
+                </div>
+            </th>
+            <th>
+                <div>
+                    Race
+                </div>
+                <div>
+                    <a data-toggle="tooltip" title="Sort By Race" asp-page-handler="SortByRace"><i class="fa fa-angle-up"></i></a>
+                    <a data-toggle="tooltip" title="Sort By Race Descending" asp-page-handler="SortByRaceDescending"><i class="fa fa-angle-down"></i></a>
+                </div>
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -20,9 +52,8 @@
 
             <td>@Model.IdAsRank(var.rank)</td>
             <td><a asp-page="/Index" asp-page-handler="Specific" asp-route-sr="@Model.GuildInfo.guild.realm.name" asp-route-sn="@var.character.name">@var.character.name</a></td>
-            <td>@Model.IdAsRace(var.character.playable_race.id)</td>
             <td>@Model.IdAsClass(var.character.playable_class.id)</td>
-
+            <td>@Model.IdAsRace(var.character.playable_race.id)</td>
         </tr>
     }
     </tbody>

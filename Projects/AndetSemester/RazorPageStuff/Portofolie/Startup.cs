@@ -28,6 +28,7 @@ namespace Portofolie
             services.AddRazorPages();
             services.AddSingleton<HttpClient>();
             services.AddSingleton<APIService>();
+            services.AddSingleton<GuildService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

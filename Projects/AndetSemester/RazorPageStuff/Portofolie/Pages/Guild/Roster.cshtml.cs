@@ -13,9 +13,11 @@ namespace Portofolie.Pages.Guild
     public class RosterModel : PageModel
     {
         private APIService _apiService;
-        public RosterModel(APIService apiService)
+        private GuildService _guildService;
+        public RosterModel(APIService apiService, GuildService guildService)
         {
             _apiService = apiService;
+            _guildService = guildService;
         }
 
         public GuildInfo GuildInfo { get; set; }
@@ -24,17 +26,56 @@ namespace Portofolie.Pages.Guild
         public async Task<IActionResult> OnGet()
         {
             GuildInfo = await _apiService.GetGuildInfo("phoenix", "silvermoon");
-            SortedMembers = GuildInfo.members.OrderBy(m => m.rank).ToList();
-            Members.AddRange(SortedMembers.Where(x => x.rank == 0));
-            Members.AddRange(SortedMembers.Where(x => x.rank == 1));
-            Members.AddRange(SortedMembers.Where(x => x.rank == 3));
-            Members.AddRange(SortedMembers.Where(x => x.rank == 4));
-            Members.AddRange(SortedMembers.Where(x => x.rank == 2));
-            Members.AddRange(SortedMembers.Where(x => x.rank == 5));
-            Members.AddRange(SortedMembers.Where(x => x.rank == 6));
-            Members.AddRange(SortedMembers.Where(x => x.rank == 7));
-            Members.AddRange(SortedMembers.Where(x => x.rank == 8));
-            Members.AddRange(SortedMembers.Where(x => x.rank == 9));
+            Members = _guildService.SortByRank(GuildInfo.members);
+            return Page();
+        }
+
+        public async Task<IActionResult> OnGetSortByRank()
+        {
+            GuildInfo = await _apiService.GetGuildInfo("phoenix", "silvermoon");
+            Members = _guildService.SortByRank(GuildInfo.members);
+            return Page();
+        }
+        public async Task<IActionResult> OnGetSortByRankDescending()
+        {
+            GuildInfo = await _apiService.GetGuildInfo("phoenix", "silvermoon");
+            Members = _guildService.SortByRankDescending(GuildInfo.members);
+            return Page();
+        }
+        public async Task<IActionResult> OnGetSortByName()
+        {
+            GuildInfo = await _apiService.GetGuildInfo("phoenix", "silvermoon");
+            Members = _guildService.SortByName(GuildInfo.members);
+            return Page();
+        }
+        public async Task<IActionResult> OnGetSortByNameDescending()
+        {
+            GuildInfo = await _apiService.GetGuildInfo("phoenix", "silvermoon");
+            Members = _guildService.SortByNameDescending(GuildInfo.members);
+            return Page();
+        }
+        public async Task<IActionResult> OnGetSortByClass()
+        {
+            GuildInfo = await _apiService.GetGuildInfo("phoenix", "silvermoon");
+            Members = _guildService.SortByClass(GuildInfo.members);
+            return Page();
+        }
+        public async Task<IActionResult> OnGetSortByClassDescending()
+        {
+            GuildInfo = await _apiService.GetGuildInfo("phoenix", "silvermoon");
+            Members = _guildService.SortByClassDescending(GuildInfo.members);
+            return Page();
+        }
+        public async Task<IActionResult> OnGetSortByRace()
+        {
+            GuildInfo = await _apiService.GetGuildInfo("phoenix", "silvermoon");
+            Members = _guildService.SortByRace(GuildInfo.members);
+            return Page();
+        }
+        public async Task<IActionResult> OnGetSortByClassRace()
+        {
+            GuildInfo = await _apiService.GetGuildInfo("phoenix", "silvermoon");
+            Members = _guildService.SortByRaceDescending(GuildInfo.members);
             return Page();
         }
 
@@ -52,7 +93,7 @@ namespace Portofolie.Pages.Guild
         {
             return _apiService.IdAsRace(id);
         }
-
+        
 
 
     }

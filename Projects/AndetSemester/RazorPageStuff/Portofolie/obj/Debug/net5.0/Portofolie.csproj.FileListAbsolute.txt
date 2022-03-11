@@ -26,7 +26,6 @@ C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Porto
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
-C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
@@ -84,3 +83,6 @@ C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Porto
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Guild\Roster.cshtml.g.cs
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Shared\_CharacterLayout.cshtml.g.cs
 C:\Users\Victur\Desktop\ZealandMineMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Shared\_GuildLayout.cshtml.g.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Guild\Roster.cshtml.g.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Shared\_CharacterLayout.cshtml.g.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Shared\_GuildLayout.cshtml.g.cs

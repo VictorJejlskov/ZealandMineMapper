@@ -246,5 +246,6 @@ namespace Portofolie.Services
 
             return "Human";
         }
+
     }
 }
