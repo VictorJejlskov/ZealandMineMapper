@@ -72,7 +72,7 @@ namespace Portofolie.Pages.Guild
             Members = _guildService.SortByRace(GuildInfo.members);
             return Page();
         }
-        public async Task<IActionResult> OnGetSortByClassRace()
+        public async Task<IActionResult> OnGetSortByRaceDescending()
         {
             GuildInfo = await _apiService.GetGuildInfo("phoenix", "silvermoon");
             Members = _guildService.SortByRaceDescending(GuildInfo.members);
