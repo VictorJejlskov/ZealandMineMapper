@@ -1,0 +1,16 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\bin\Debug\net5.0\Lightswitch.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\bin\Debug\net5.0\Lightswitch.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\bin\Debug\net5.0\Lightswitch.runtimeconfig.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\bin\Debug\net5.0\Lightswitch.runtimeconfig.dev.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\bin\Debug\net5.0\Lightswitch.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\bin\Debug\net5.0\ref\Lightswitch.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\bin\Debug\net5.0\Lightswitch.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\obj\Debug\net5.0\Lightswitch.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\obj\Debug\net5.0\Lightswitch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\obj\Debug\net5.0\Lightswitch.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\obj\Debug\net5.0\Lightswitch.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\obj\Debug\net5.0\Lightswitch.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\obj\Debug\net5.0\Lightswitch.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\obj\Debug\net5.0\ref\Lightswitch.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\obj\Debug\net5.0\Lightswitch.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\Lightswitch\obj\Debug\net5.0\Lightswitch.genruntimeconfig.cache
