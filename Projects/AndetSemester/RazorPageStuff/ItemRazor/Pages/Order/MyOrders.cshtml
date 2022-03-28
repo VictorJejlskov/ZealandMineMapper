@@ -1,0 +1,33 @@
+﻿@page
+@model ItemRazor.Pages.Order.MyOrdersModel
+@{
+}
+<div>
+    <table class="table table-bordered table-hover table-striped">
+        <thead>
+        <tr class="btn-secondary active">
+            <th><h5>Order ID</h5></th>
+            <th><h5>Order Date</h5></th>
+            <th><h5>Item Id</h5></th>
+            <th><h5>Item Name</h5></th>
+            <th><h5>Item Price</h5></th>
+            <th><h5>Count</h5></th>
+            <th><h5>Total Order Price</h5></th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var ord in Model.Orders)
+        {
+            <tr class="btn-secondary">
+                <td>@ord.OrderId</td>
+                <td>@ord.Date</td>
+                <td>@ord.ItemId</td>
+                <td>@ord.ItemName</td>
+                <td>@ord.Price</td>
+                <td>@ord.Count</td>
+                <td>@(ord.Price * ord.Count)</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

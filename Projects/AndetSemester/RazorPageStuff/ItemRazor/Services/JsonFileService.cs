@@ -9,29 +9,29 @@ using Microsoft.AspNetCore.Hosting;
 
 namespace ItemRazor.Services
 {
-    public class JsonFileItemService
+    public class JsonFileService<T>
     {
         public IWebHostEnvironment WebHostEnvironment { get;}
 
-        public JsonFileItemService(IWebHostEnvironment webHostEnvironment)
+        public JsonFileService(IWebHostEnvironment webHostEnvironment)
         {
             WebHostEnvironment = webHostEnvironment;
         }
 
         private string JsonFileName
         {
-            get { return Path.Combine(WebHostEnvironment.WebRootPath, "Data", "Items.json"); }
+            get { return Path.Combine(WebHostEnvironment.WebRootPath, "Data", typeof(T).Name + "s.json"); }
         }
 
-        public IEnumerable<Item> GetJsonItems()
+        public IEnumerable<T> GetJsonObjects()
         {
             using (var jsonFileReader = File.OpenText(JsonFileName))
             {
-                return JsonSerializer.Deserialize<Item[]>(jsonFileReader.ReadToEnd());
+                return JsonSerializer.Deserialize<T[]>(jsonFileReader.ReadToEnd());
             }
         }
 
-        public void SaveJsonItems(List<Item> items)
+        public void SaveJsonObjects(List<T> objects)
         {
             using (var jsonFileWriter = File.Create(JsonFileName))
             {
@@ -40,7 +40,7 @@ namespace ItemRazor.Services
                     SkipValidation = false,
                     Indented = true
                 });
-                JsonSerializer.Serialize<Item[]>(jsonWriter, items.ToArray());
+                JsonSerializer.Serialize<T[]>(jsonWriter, objects.ToArray());
             }
         }
     }

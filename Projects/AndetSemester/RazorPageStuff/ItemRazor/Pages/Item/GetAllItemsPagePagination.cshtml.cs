@@ -37,6 +37,43 @@ namespace ItemRazor.Pages.Item
         //    return Page();
         //}
 
+        public IActionResult OnGetSortById()
+        {
+            Items = itemService.SortById().ToList();
+            return Page();
+        }
+
+        public IActionResult OnGetSortByIdDescending()
+        {
+            Items = itemService.SortByIdDescending().ToList();
+            return Page();
+        }
+
+        public IActionResult OnGetSortByName()
+        {
+            Items = itemService.SortByName().ToList();
+            return Page();
+        }
+
+        public IActionResult OnGetSortByNameDescending()
+        {
+            Items = itemService.SortByNameDescending().ToList();
+            return Page();
+        }
+
+        public IActionResult OnGetSortByPrice()
+        {
+            Items = itemService.SortByPrice().ToList();
+            return Page();
+        }
+
+        public IActionResult OnGetSortByPriceDescending()
+        {
+            Items = itemService.SortByPriceDescending().ToList();
+            return Page();
+        }
+
+
         public IActionResult OnPostNameSearch()
         {
             Items = itemService.NameSearch(SearchString).ToList();

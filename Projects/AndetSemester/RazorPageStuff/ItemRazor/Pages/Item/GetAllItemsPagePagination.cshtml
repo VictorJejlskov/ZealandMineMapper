@@ -2,7 +2,8 @@
 @model ItemRazor.Pages.Item.GetAllItemsPagePaginationModel
 @{
 }
-<h1>GetAllItems</h1>
+<br />
+<h1>Computer Items</h1>
 <br />
 <div class="row">
     <div class="col-4"><h5>Search Name</h5></div>
@@ -39,20 +40,43 @@
 <br />
 <div class="test">
     <table class="table table-bordered table-hover table-striped" width="60%">
-        <col style="width: 5%">
-        <col style="width: 77%">
-        <col style="width: 9%">
+        <col style="width: 7%">
+        <col style="width: 74%">
+        <col style="width: 10%">
         <col style="width: 9%">
         <thead>
             <tr class="btn-secondary active">
                 <th>
-                    <h5>Id</h5>
+                    <div class="d-flex justify-content-between p-0">
+                        <div><h5>Id </h5></div>
+                        <div>
+                            <a data-toggle="tooltip" title="Sort By Id" asp-page-handler="SortById"><i class="fa fa-angle-up"></i></a>
+                            <a data-toggle="tooltip" title="Sort By Id Descending" asp-page-handler="SortByIdDescending"><i class="fa fa-angle-down"></i></a>
+                        </div>
+                    </div>
                 </th>
                 <th>
-                    <h5>Name</h5>
+                    <div class="d-flex justify-content-between p-0">
+                        <div>
+                            <h5>Name </h5>
+                        </div>
+                        <div>
+                            <a data-toggle="tooltip" title="Sort By Name" asp-page-handler="SortByName"><i class="fa fa-angle-up"></i></a>
+                            <a data-toggle="tooltip" title="Sort By Name Descending" asp-page-handler="SortByNameDescending"><i class="fa fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                   
                 </th>
                 <th>
-                    <h5>Price</h5>
+                    <div class="d-flex justify-content-between p-0">
+                        <div>
+                            <h5>Price </h5>
+                        </div>
+                        <div>
+                            <a data-toggle="tooltip" title="Sort By Price" asp-page-handler="SortByPrice"><i class="fa fa-angle-up"></i></a>
+                            <a data-toggle="tooltip" title="Sort By Price Descending" asp-page-handler="SortByPriceDescending"><i class="fa fa-angle-down"></i></a>
+                        </div>
+                    </div>
                 </th>
                 <th>
                     <h5>Action</h5>

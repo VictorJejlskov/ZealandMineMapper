@@ -23,7 +23,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
                     <li class="nav-item">
                         <a class="nav-link " asp-area="" asp-page="/Index">Home</a>
@@ -40,6 +40,39 @@
                     <li class="nav-item">
                         <a class="nav-link" asp-area="" asp-page="/Item/GelAllItemsAsCards">Items As Cards</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-page="/Order/MyOrders">My Orders</a>
+                    </li>
+                    @{
+                        if (Context.User.Identity != null && Context.User.Identity.Name == "admin")
+                        {
+                            <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Admin/CreateUser">Create User</a>
+                    </li>
+                    }
+}
+                </ul>
+                <ul class="navbar-nav">
+                    @{
+                        if (Context.User.Identity.Name==null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-page="/LogIn/LoginPage">Login</a>
+                            </li>
+                        }
+                        else
+                        {
+                            if (Context.User.Identity.Name != null)
+                            {
+                                <li class="nav-item nav-link mr-3">
+                                 User:  @Context.User.Identity.Name
+                                </li>
+                            }
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-page="/LogIn/LogoutPage">Logout</a>
+                            </li>
+                        } 
+                    }
                 </ul>
             </div>
         </div>

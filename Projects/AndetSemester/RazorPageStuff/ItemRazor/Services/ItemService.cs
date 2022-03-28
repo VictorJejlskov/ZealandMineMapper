@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using ItemRazor.Comperators;
 using ItemRazor.Models;
 using ItemRazor.MockData;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 
 namespace ItemRazor.Services
@@ -13,19 +14,29 @@ namespace ItemRazor.Services
     {
 
         private List<Item> items;
-        private JsonFileItemService JsonFileItemService { get; set; }
+        private JsonFileService<Item> JsonFileService { get; set; }
+        public DbGenericService<Item> DbService { get; set; }
 
-        public ItemService(JsonFileItemService jsonFileItemService)
+        public ItemService(JsonFileService<Item> jsonFileService, DbGenericService<Item> dbService)
         {
-            JsonFileItemService = jsonFileItemService;
+            JsonFileService = jsonFileService;
+            DbService = dbService;
             //items = MockItems.GetMockItems();
-            items = JsonFileItemService.GetJsonItems().ToList();
+            items = JsonFileService.GetJsonObjects().ToList();
+            //foreach (Item item in items)
+            //{
+            //    dbService.AddObjectAsync(item);
+            //}
+
+            items = dbService.GetObjectsAsync().Result.ToList();
+
         }
 
         public void AddItem(Item item)
         {
             items.Add(item);
-            JsonFileItemService.SaveJsonItems(items);
+            //JsonFileService.SaveJsonObjects(items);
+            DbService.AddObjectAsync(item);
         }
 
         public IEnumerable<Item> GetItems()
@@ -56,7 +67,8 @@ namespace ItemRazor.Services
             if (itemToBeDeleted != null)
             {
                 items.Remove(itemToBeDeleted);
-                JsonFileItemService.SaveJsonItems(items);
+                //JsonFileService.SaveJsonObjects(items);
+                DbService.DeleteObjectAsync(itemToBeDeleted);
             }
             return itemToBeDeleted;
         }
@@ -66,67 +78,146 @@ namespace ItemRazor.Services
         {
             if (item != null)
             {
-                foreach (Item i in items)
-                {
-                    if (i.Id == item.Id)
-                    {
-                        i.Name = item.Name;
-                        i.Price = item.Price;
-                    }
-                }
-                JsonFileItemService.SaveJsonItems(items);
+                //foreach (Item i in items)
+                //{
+                //    if (i.Id == item.Id)
+                //    {
+                //        i.Name = item.Name;
+                //        i.Price = item.Price;
+                //    }
+                //}
+                //JsonFileService.SaveJsonObjects(items);
+                DbService.UpdateObjectAsync(item);
             }
         }
 
+        //public IEnumerable<Item> NameSearch(string str)
+        //{
+        //    List<Item> nameSearch = new List<Item>();
+        //    foreach (Item item in items)
+        //    {
+        //        if (item.Name.ToLower().Contains(str.ToLower()))
+        //        {
+        //            nameSearch.Add(item);
+        //        }
+        //    }
+
+        //    return nameSearch;
+        //}
+
+
+        //public IEnumerable<Item> NameSearch(string str)
+        //{
+        //    if (string.IsNullOrEmpty(str)) return items;
+        //    return items.FindAll(item => item.Name.ToLower().Contains(str.ToLower()));
+        //}
+
+
         public IEnumerable<Item> NameSearch(string str)
         {
-            var nameSearch = items.Where(i => i.Name.ToLower().Contains(str.ToLower()));
-            return nameSearch;
+            if (string.IsNullOrEmpty(str)) return items;
+            return from item in items where item.Name.ToLower().Contains(str.ToLower()) select item;
         }
+
+
+
+
+        //public IEnumerable<Item> PriceFilter(int maxPrice, int minPrice = 0)
+        //{
+        //    List<Item> filterList = new List<Item>();
+        //    foreach (Item item in items)
+        //    {
+        //        if ((minPrice==0 && item.Price<=maxPrice) || (maxPrice==0 && item.Price>=minPrice)||(item.Price>=minPrice && item.Price<=maxPrice))
+        //        {
+        //            filterList.Add(item);
+        //        }
+        //    }
+
+        //    return filterList;
+        //}
+
+
+        //public IEnumerable<Item> PriceFilter(int maxPrice, int minPrice = 0)
+        //{
+
+        //    return items.FindAll(item =>
+        //        (minPrice == 0 && item.Price <= maxPrice) || 
+        //        (maxPrice == 0 && item.Price >= minPrice) ||
+        //        (item.Price >= minPrice && item.Price <= maxPrice));
+        //}
 
         public IEnumerable<Item> PriceFilter(int maxPrice, int minPrice = 0)
         {
-            var filterList = items.Where(i => (i.Price >= maxPrice && i.Price <= minPrice));
-            return filterList;
+            return  from item in items
+                    where (minPrice == 0 && item.Price <= maxPrice) ||
+                      (maxPrice == 0 && item.Price >= minPrice) ||
+                      (item.Price >= minPrice && item.Price <= maxPrice)
+                    select item;
         }
+
+
+        //public IEnumerable<Item> SortById()
+        //{
+        //    items.Sort();
+        //    return items;
+        //}
 
         public IEnumerable<Item> SortById()
         {
-            var sortedList = items.OrderBy(it => it.Id);
-            return sortedList;
+            return  from item in items
+                    orderby item.Id
+                    select item;
         }
 
         public IEnumerable<Item> SortByIdDescending()
         {
-            var sortedList = items.OrderByDescending(it => it.Id);
-            return sortedList;
+            return from item in items
+                orderby item.Id descending 
+                select item;
         }
+
+
+
+        //public IEnumerable<Item> SortByName()
+        //{
+        //    items.Sort(new NameComperator());
+        //    return items;
+        //}
+
         public IEnumerable<Item> SortByName()
         {
-            var sortedList = items.OrderBy(it => it.Name);
-            return sortedList;
+            return  from item in items
+                    orderby item.Name
+                    select item;
         }
 
         public IEnumerable<Item> SortByNameDescending()
         {
-            var sortedList = items.OrderByDescending(it => it.Name);
-            return sortedList;
+            return from item in items
+                orderby item.Name descending 
+                select item;
         }
+
+
+        //public IEnumerable<Item> SortByPrice()
+        //{
+        //    items.Sort(new PriceComperator());
+        //    return items;
+        //}
 
         public IEnumerable<Item> SortByPrice()
         {
-            var sortedList = items.OrderBy(it => it.Price);
-            return sortedList;
+            return  from item in items
+                    orderby item.Price 
+                    select item ;
         }
 
         public IEnumerable<Item> SortByPriceDescending()
         {
-            var sortedList = items.OrderByDescending(it => it.Price);
-            return sortedList;
+            return from item in items
+                orderby item.Price descending
+                select item;
         }
-
-
-
 
         //Page Pagination
         public async Task<List<Item>> GetPaginatedResult(int currentPage, int pageSize = 10)

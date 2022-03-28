@@ -1,12 +1,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using ItemRazor.Models;
 using ItemRazor.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,8 +30,44 @@ namespace ItemRazor
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddSingleton<ItemService, ItemService>();
-            services.AddTransient<JsonFileItemService>();
+            services.AddDbContext<ItemDbContext>();
+            services.AddTransient<ItemService>();
+            services.AddTransient<UserService>();
+            services.AddTransient<OrderService>();
+            services.AddTransient<UserDbService>();
+            services.AddTransient<JsonFileService<Item>>();
+            services.AddTransient<JsonFileService<User>>();
+     //       services.AddSingleton<DbService, DbService>();
+            services.AddTransient<DbGenericService<Item>>();
+            services.AddTransient<DbGenericService<User>>();
+            services.AddTransient<DbGenericService<Order>>();
+
+
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                // This lambda determines whether user consent for non-essential cookies is needed for a given request. 
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(cookieOptions =>
+            {
+                cookieOptions.LoginPath = "/Login/LoginPage";
+            });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("Administrator", policy =>
+                    policy.RequireClaim(ClaimTypes.Role, "admin"));
+            });
+
+            
+
+            services.AddMvc().AddRazorPagesOptions(options =>
+            {
+              options.Conventions.AuthorizeFolder("/Item");
+              options.Conventions.AuthorizeFolder("/Order");
+            }).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,7 +88,7 @@ namespace ItemRazor
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

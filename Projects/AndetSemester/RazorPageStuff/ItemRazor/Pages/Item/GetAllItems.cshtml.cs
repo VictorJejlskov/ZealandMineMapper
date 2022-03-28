@@ -66,14 +66,7 @@ namespace ItemRazor.Pages
 
         public IActionResult OnPostNameSearch()
         {
-            if (!string.IsNullOrEmpty(SearchString))
-            {
-                Items = itemService.NameSearch(SearchString).ToList();
-            }
-            else
-            {
-                Items = itemService.GetItems().ToList();
-            }
+            Items = itemService.NameSearch(SearchString).ToList();
             return Page();
         }
 

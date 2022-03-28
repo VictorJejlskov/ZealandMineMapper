@@ -1,0 +1,19 @@
+﻿@page
+@model ItemRazor.Pages.Order.OrderItemModel
+@{
+}
+<div>
+    <div>
+        @Model.OrderUser.UserName
+    </div>
+    <div>
+        @Model.Item.Name - @Model.Item.Price
+    </div>
+    <div>
+        <form method="post">
+            How many do you wanna order? =)<br/>
+            <input asp-for="Count"/>
+            <button class="btn btn-danger"></button>
+        </form>
+    </div>
+</div>
