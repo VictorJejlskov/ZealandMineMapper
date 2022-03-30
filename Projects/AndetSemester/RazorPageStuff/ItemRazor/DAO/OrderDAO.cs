@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ItemRazor.Models;
 
 namespace ItemRazor.DAO
 {
@@ -9,11 +10,9 @@ namespace ItemRazor.DAO
     {
         public int OrderId { get; set; }
         public DateTime Date { get; set; }
-        public int ItemId { get; set; }
-        public string ItemName { get; set; }
         public decimal Price { get; set; }
         public int UserId { get; set; }
         public string UserName { get; set; }
-        public int Count { get; set; }
+        public List<OrderLine> Items { get; set; }
     }
 }

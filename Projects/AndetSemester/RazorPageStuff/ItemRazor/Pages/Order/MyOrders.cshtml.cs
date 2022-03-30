@@ -13,7 +13,7 @@ namespace ItemRazor.Pages.Order
     public class MyOrdersModel : PageModel
     {
         private UserService _userService;
-        public List<OrderDAO> Orders { get; set; }
+        public IEnumerable<Models.Order> Orders { get; set; }
 
         public MyOrdersModel(UserService userService)
         {
@@ -22,7 +22,7 @@ namespace ItemRazor.Pages.Order
         public void OnGet()
         {
             User currentUser = _userService.GetUserByUserName(HttpContext.User.Identity.Name);
-            Orders = _userService.GetUserOrders(currentUser);
+            Orders = _userService.GetUserOrders(currentUser).Orders;
         }
     }
 }

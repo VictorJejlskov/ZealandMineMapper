@@ -16,22 +16,19 @@ namespace ItemRazor.Models
         [Required]
         public int UserId { get; set; }
         public User User { get; set; }
-        [Required]
-        public int ItemId { get; set; }
-        public Item Item { get; set; }
-        [Range(1, 10000)]
-        public int Count { get; set; }
+        [Required] 
+        public List<OrderLine> OrderLines { get; set; } = new List<OrderLine>();
 
         public Order()
         {
             
         }
 
-        public Order(User user, Item item)
+        public Order(User user, List<OrderLine> items)
         {
             Date = DateTime.Now;
             User = user;
-            Item = item;
+            OrderLines = items;
         }
     }
 }

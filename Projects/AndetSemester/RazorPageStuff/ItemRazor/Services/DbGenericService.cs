@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ItemRazor.Services
 {
-    public class DbGenericService<T> : IService<T> where T : class
+    public class DbGenericService<T>  where T : class
     {
       
 
@@ -54,5 +54,6 @@ namespace ItemRazor.Services
                 return await context.Set<T>().FindAsync(id);
             }
         }
+
     }
 }

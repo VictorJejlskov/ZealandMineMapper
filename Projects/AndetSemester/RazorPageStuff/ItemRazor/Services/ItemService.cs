@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ItemRazor.Services
 {
-    public class ItemService : IItemService
+    public class ItemService
     {
 
         private List<Item> items;
@@ -22,16 +22,20 @@ namespace ItemRazor.Services
             JsonFileService = jsonFileService;
             DbService = dbService;
             //items = MockItems.GetMockItems();
-            items = JsonFileService.GetJsonObjects().ToList();
-            //foreach (Item item in items)
-            //{
-            //    dbService.AddObjectAsync(item);
-            //}
+
+            //items = JsonFileService.GetJsonObjects().ToList();
+            //InitList();
 
             items = dbService.GetObjectsAsync().Result.ToList();
 
         }
-
+        public void InitList()
+        {
+            foreach (var item in items)
+            {
+                DbService.AddObjectAsync(item);
+            }
+        }
         public void AddItem(Item item)
         {
             items.Add(item);

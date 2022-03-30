@@ -20,8 +20,14 @@ namespace ItemRazor.Services
         public async Task AddOrder(Order ord)
         {
             Orders.Add(ord);
+            //using (var context = new ItemDbContext())
+            //{
+            //    ord.Items.Remove(ord.Items[0]);
+            //    context.Set<Order>().Add(ord);
+            //    await context.SaveChangesAsync();
+            //}
             await _orderService.AddObjectAsync(ord);
-
         }
+
     }
 }

@@ -15,8 +15,8 @@ namespace ItemRazor.Pages.Order
         private UserService _userService;
         private OrderService _orderService;
         public Models.User OrderUser { get; set; }
-        public Models.Item Item { get; set; }
         public Models.Order Order { get; set; } = new Models.Order();
+        public OrderLine OrderLine { get; set; } = new OrderLine();
         [BindProperty]public int Count { get; set; }
 
         public OrderItemModel(ItemService itemService, UserService userService, OrderService orderService)
@@ -27,7 +27,7 @@ namespace ItemRazor.Pages.Order
         }
         public void OnGet(int id)
         {
-            Item = _itemService.GetItem(id);
+            OrderLine.Item = _itemService.GetItem(id);
             OrderUser = _userService.GetUserByUserName(HttpContext.User.Identity.Name);
         }
 
@@ -38,12 +38,18 @@ namespace ItemRazor.Pages.Order
                 return Page();
             }
 
-            Item = _itemService.GetItem(id);
+            OrderLine.Item = _itemService.GetItem(id);
+
+
             OrderUser = _userService.GetUserByUserName(HttpContext.User.Identity.Name);
             Order.UserId = OrderUser.UserId;
-            Order.ItemId = Item.Id;
+            
             Order.Date = DateTime.Now;
-            Order.Count = Count;
+            Order.OrderLines.Add(OrderLine);
+            Order.OrderLines[0].Count = Count;
+
+            //Order.Items[0].ItemId = Item.Id;
+
             await _orderService.AddOrder(Order);
             return RedirectToPage("../Item/GetAllItems");
         }

@@ -21,11 +21,23 @@ namespace ItemRazor.Services
             JsonFileService = jsonFileService;
             DbService = userDbService;
             //Users = MockUsers.GetMockUsers();
+
             //Users = JsonFileService.GetJsonObjects().ToList();
+            //InitList();
+
             Users = DbService.GetObjectsAsync().Result.ToList();
+
+
             //JsonFileService.SaveJsonObjects(Users);
         }
 
+        public void InitList()
+        {
+            foreach (var user in Users)
+            {
+                DbService.AddObjectAsync(user);
+            }
+        }
         public void AddUser(User user)
         {
             Users.Add(user);
@@ -39,9 +51,9 @@ namespace ItemRazor.Services
             return Users.Find(user => user.UserName == username);
         }
 
-        public List<OrderDAO> GetUserOrders(User user)
+        public User GetUserOrders(User user)
         {
-            return DbService.GetOrdersByIdAsync(user.UserId).Result.ToList();
+            return DbService.GetOrdersByUserIdAsync(user.UserId).Result;
         }
     }
 }

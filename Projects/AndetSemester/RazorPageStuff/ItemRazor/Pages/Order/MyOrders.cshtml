@@ -21,11 +21,21 @@
             <tr class="btn-secondary">
                 <td>@ord.OrderId</td>
                 <td>@ord.Date</td>
-                <td>@ord.ItemId</td>
-                <td>@ord.ItemName</td>
-                <td>@ord.Price</td>
-                <td>@ord.Count</td>
-                <td>@(ord.Price * ord.Count)</td>
+                @if (ord.OrderLines.Count != 0)
+                {
+                    @foreach (var ordLine in ord.OrderLines)
+                    {
+                        <td>@ordLine.Item.Id</td>
+                        <td>@ordLine.Item.Name</td>
+                        <td>@ordLine.Item.Price</td>
+                        <td>@ord.OrderLines.Count</td>
+                        <td>@(ordLine.Item.Price * ord.OrderLines.Count)</td>
+                    }
+                }
+                else
+                {
+                    <div>Listen er tom</div>
+                }
             </tr>
         }
         </tbody>
