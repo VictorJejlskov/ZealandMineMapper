@@ -13,8 +13,7 @@ namespace ItemRazor.Models
         public int OrderLineId { get; set; }
         [Required]
         public int ItemId { get; set; }
-        [NotMapped]
-        public Item Item { get; set; }
+        public virtual Item Item { get; set; }
         [Range(1, 10000)]
         public int Count { get; set; }
     }
