@@ -35,13 +35,13 @@ namespace ItemRazor.Pages.Admin
         //    return Page();
         //}
 
-        public IActionResult OnPost()
+        public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
             {
                 return Page();
             }
-            _userService.AddUser(new User(UserName, passwordHasher.HashPassword(null, Password)));
+            await _userService.AddUserAsync(new User(UserName, passwordHasher.HashPassword(null, Password)));
             return RedirectToPage("/Item/GetAllItems");
         }
     }

@@ -30,7 +30,7 @@ namespace ItemRazor.Pages.Item
 
         public IActionResult OnPost()
         {
-            Models.Item deletedItem = itemService.DeleteItem(Item.Id);
+            Models.Item deletedItem = itemService.DeleteItemAsync(Item.Id).Result;
             if (deletedItem == null)
                 return RedirectToPage("/NotFound"); //NotFound er ikke defineret endnu
             return RedirectToPage("GetAllItems");

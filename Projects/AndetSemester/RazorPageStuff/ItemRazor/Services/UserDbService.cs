@@ -42,7 +42,7 @@ namespace ItemRazor.Services
         public async Task<User> GetOrdersByUserIdAsync(int id)
         {
             User user;
-            using (var context = new ItemDbContext())
+            await using (var context = new ItemDbContext())
             {
                 user = context.Users
                     .Include(u => u.Orders)

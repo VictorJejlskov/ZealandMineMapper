@@ -27,13 +27,13 @@ namespace ItemRazor.Pages
         {
             return Page();
         }
-        public IActionResult OnPost()
+        public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
             {
                 return Page();
             }
-            itemService.AddItem(Item);
+            await itemService.AddItemAsync(Item);
             return RedirectToPage("GetAllItems");
         }
 

@@ -31,18 +31,18 @@ namespace ItemRazor.Services
             //JsonFileService.SaveJsonObjects(Users);
         }
 
-        public void InitList()
+        public async Task InitList()
         {
             foreach (var user in Users)
             {
-                DbService.AddObjectAsync(user);
+                await DbService.AddObjectAsync(user);
             }
         }
-        public void AddUser(User user)
+        public async Task AddUserAsync(User user)
         {
             Users.Add(user);
             //JsonFileService.SaveJsonObjects(Users);
-            DbService.AddObjectAsync(user);
+            await DbService.AddObjectAsync(user);
         }
 
         public User GetUserByUserName(string username)

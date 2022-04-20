@@ -93,10 +93,10 @@ namespace ItemRazor.Pages.Item
         public bool ShowFirst => CurrentPage != 1;
         public bool ShowLast => CurrentPage != TotalPages;
 
-        public async Task OnGetAsync()
+        public void OnGet()
         {
-            Items = await itemService.GetPaginatedResult(CurrentPage, PageSize);
-            Count = await itemService.GetCount();
+            Items = itemService.GetPaginatedResult(CurrentPage, PageSize);
+            Count = itemService.GetCount();
         }
     }
 

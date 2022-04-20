@@ -37,7 +37,7 @@ namespace ItemRazor.Pages.LogIn
       
         public async Task<IActionResult> OnPost()
         {
-            List<User> users = _userService.Users;
+            var users = _userService.Users;
             foreach (User user in users)
             {
                 if (UserName == user.UserName)

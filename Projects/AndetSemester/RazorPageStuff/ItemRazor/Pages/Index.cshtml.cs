@@ -14,7 +14,7 @@ namespace ItemRazor.Pages
     public class IndexModel : PageModel
     {
        
-        public async Task OnGet()
+        public void OnGet()
         {
            
         }

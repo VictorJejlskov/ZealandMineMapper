@@ -29,18 +29,18 @@ namespace ItemRazor.Services
             items = dbService.GetObjectsAsync().Result.ToList();
 
         }
-        public void InitList()
+        public async Task InitList()
         {
             foreach (var item in items)
             {
-                DbService.AddObjectAsync(item);
+                await DbService.AddObjectAsync(item);
             }
         }
-        public void AddItem(Item item)
+        public async Task AddItemAsync(Item item)
         {
             items.Add(item);
             //JsonFileService.SaveJsonObjects(items);
-            DbService.AddObjectAsync(item);
+            await DbService.AddObjectAsync(item);
         }
 
         public IEnumerable<Item> GetItems()
@@ -57,7 +57,7 @@ namespace ItemRazor.Services
             return null;
         }
 
-        public Item DeleteItem(int itemId)
+        public async Task<Item> DeleteItemAsync(int itemId)
         {
             Item itemToBeDeleted = null;
             foreach (Item i in items)
@@ -72,26 +72,17 @@ namespace ItemRazor.Services
             {
                 items.Remove(itemToBeDeleted);
                 //JsonFileService.SaveJsonObjects(items);
-                DbService.DeleteObjectAsync(itemToBeDeleted);
+                await DbService.DeleteObjectAsync(itemToBeDeleted);
             }
             return itemToBeDeleted;
         }
 
 
-        public void UpdateItem(Item item)
+        public async Task UpdateItemAsync(Item item)
         {
             if (item != null)
             {
-                //foreach (Item i in items)
-                //{
-                //    if (i.Id == item.Id)
-                //    {
-                //        i.Name = item.Name;
-                //        i.Price = item.Price;
-                //    }
-                //}
-                //JsonFileService.SaveJsonObjects(items);
-                DbService.UpdateObjectAsync(item);
+                await DbService.UpdateObjectAsync(item);
             }
         }
 
@@ -224,13 +215,13 @@ namespace ItemRazor.Services
         }
 
         //Page Pagination
-        public async Task<List<Item>> GetPaginatedResult(int currentPage, int pageSize = 10)
+        public List<Item> GetPaginatedResult(int currentPage, int pageSize = 10)
         {
             var data = items;
             return data.OrderBy(d => d.Id).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
         }
 
-        public async Task<int> GetCount()
+        public int GetCount()
         {
             return items.Count;
         }

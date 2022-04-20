@@ -1,0 +1,16 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\bin\Debug\net5.0\ThreadFun.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\bin\Debug\net5.0\ThreadFun.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\bin\Debug\net5.0\ThreadFun.runtimeconfig.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\bin\Debug\net5.0\ThreadFun.runtimeconfig.dev.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\bin\Debug\net5.0\ThreadFun.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\bin\Debug\net5.0\ref\ThreadFun.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\bin\Debug\net5.0\ThreadFun.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\obj\Debug\net5.0\ThreadFun.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\obj\Debug\net5.0\ThreadFun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\obj\Debug\net5.0\ThreadFun.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\obj\Debug\net5.0\ThreadFun.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\obj\Debug\net5.0\ThreadFun.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\obj\Debug\net5.0\ThreadFun.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\obj\Debug\net5.0\ref\ThreadFun.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\obj\Debug\net5.0\ThreadFun.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\ConsoleStuff\ThreadFun\obj\Debug\net5.0\ThreadFun.genruntimeconfig.cache
