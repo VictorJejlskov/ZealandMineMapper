@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\ItemRazor.csproj": {}
+    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\ConsoleStuff\\SandboxProject\\SandboxProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\ItemRazor.csproj": {
+    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\ConsoleStuff\\SandboxProject\\SandboxProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\ItemRazor.csproj",
-        "projectName": "ItemRazor",
-        "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\ItemRazor.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\ConsoleStuff\\SandboxProject\\SandboxProject.csproj",
+        "projectName": "SandboxProject",
+        "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\ConsoleStuff\\SandboxProject\\SandboxProject.csproj",
         "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\obj\\",
+        "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\ConsoleStuff\\SandboxProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -41,24 +41,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.4, )"
-            }
-          },
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -70,9 +54,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

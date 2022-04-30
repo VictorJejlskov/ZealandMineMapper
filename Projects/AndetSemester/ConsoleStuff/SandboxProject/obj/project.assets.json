@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\ConsoleStuff\\ThreadFun\\ThreadFun.csproj",
-      "projectName": "ThreadFun",
-      "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\ConsoleStuff\\ThreadFun\\ThreadFun.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\ConsoleStuff\\SandboxProject\\SandboxProject.csproj",
+      "projectName": "SandboxProject",
+      "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\ConsoleStuff\\SandboxProject\\SandboxProject.csproj",
       "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\ConsoleStuff\\ThreadFun\\obj\\",
+      "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\ConsoleStuff\\SandboxProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
