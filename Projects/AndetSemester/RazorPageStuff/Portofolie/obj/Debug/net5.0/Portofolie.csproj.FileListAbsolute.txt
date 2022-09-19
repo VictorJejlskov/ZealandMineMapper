@@ -5,7 +5,6 @@ C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Porto
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\bin\Debug\net5.0\Portofolie.runtimeconfig.json
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\bin\Debug\net5.0\Portofolie.runtimeconfig.dev.json
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\bin\Debug\net5.0\Portofolie.dll
-C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\bin\Debug\net5.0\ref\Portofolie.dll
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\bin\Debug\net5.0\Portofolie.pdb
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\bin\Debug\net5.0\Portofolie.Views.dll
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\bin\Debug\net5.0\Portofolie.Views.pdb
@@ -18,7 +17,6 @@ C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Porto
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Portofolie.RazorAssemblyInfo.cache
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Portofolie.RazorAssemblyInfo.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\staticwebassets\Portofolie.StaticWebAssets.Manifest.cache
-C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\staticwebassets\Portofolie.StaticWebAssets.xml
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\scopedcss\bundle\Portofolie.styles.css
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Portofolie.TagHelpers.input.cache
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Portofolie.TagHelpers.output.cache
@@ -86,3 +84,5 @@ C:\Users\Victur\Desktop\ZealandMineMapper\Projects\AndetSemester\RazorPageStuff\
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Guild\Roster.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Shared\_CharacterLayout.cshtml.g.cs
 C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\Razor\Pages\Shared\_GuildLayout.cshtml.g.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\bin\Debug\net5.0\Portofolie.StaticWebAssets.xml
+C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\obj\Debug\net5.0\refint\Portofolie.dll

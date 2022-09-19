@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "z7ER8nakqhNxzlYF9XJRzKf8Zi7cv9jpyWE/Qz04VpbZMQDay39B94D5nRJ0jXOwWtZBp6mQwWB9sxWyJgj5RQ==",
+  "dgSpecHash": "ZB5rgmPha0JvLgpayjRyoMHPxyNMMLuBkP4slT+DWuBPwXk+7vctMlqQhopneKIC3SQxjem05nKRyOs6RaP6UA==",
   "success": true,
   "projectFilePath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\Portofolie\\Portofolie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\victo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\restsharp\\107.3.0\\restsharp.107.3.0.nupkg.sha512",
-    "C:\\Users\\victo\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+    "C:\\Users\\victo\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

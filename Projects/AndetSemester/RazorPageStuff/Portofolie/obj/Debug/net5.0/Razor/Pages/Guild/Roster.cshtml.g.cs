@@ -21,7 +21,9 @@ using Portofolie;
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3d3cfd78db9eb839676164520700fb7d64db5f6a", @"/Pages/Guild/Roster.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2f62e225dc6fc1a2200c5be39fe022aac96a6016", @"/Pages/_ViewImports.cshtml")]
+    #nullable restore
     public class Pages_Guild_Roster : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
+    #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("data-toggle", new global::Microsoft.AspNetCore.Html.HtmlString("tooltip"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("title", new global::Microsoft.AspNetCore.Html.HtmlString("Sort By Rank"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -75,7 +77,7 @@ using Portofolie;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<table class=\"table table-bordered table-striped table-hover\">\r\n    <thead>\r\n        <tr>\r\n            <th>\r\n                <div>\r\n                    Rank\r\n                </div>\r\n                <div>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a9808", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a9854", async() => {
                 WriteLiteral("<i class=\"fa fa-angle-up\"></i>");
             }
             );
@@ -93,7 +95,7 @@ using Portofolie;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a11180", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a11226", async() => {
                 WriteLiteral("<i class=\"fa fa-angle-down\"></i>");
             }
             );
@@ -111,7 +113,7 @@ using Portofolie;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </div>\r\n            </th>\r\n            <th>\r\n                <div>\r\n                    Name\r\n                </div>\r\n                <div>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a12726", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a12772", async() => {
                 WriteLiteral("<i class=\"fa fa-angle-up\"></i>");
             }
             );
@@ -129,7 +131,7 @@ using Portofolie;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a14099", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a14145", async() => {
                 WriteLiteral("<i class=\"fa fa-angle-down\"></i>");
             }
             );
@@ -147,7 +149,7 @@ using Portofolie;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </div>\r\n            </th>\r\n            <th>\r\n                <div>\r\n                    Class\r\n                </div>\r\n                <div>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a15646", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a15692", async() => {
                 WriteLiteral("<i class=\"fa fa-angle-up\"></i>");
             }
             );
@@ -165,7 +167,7 @@ using Portofolie;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a17021", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a17067", async() => {
                 WriteLiteral("<i class=\"fa fa-angle-down\"></i>");
             }
             );
@@ -183,7 +185,7 @@ using Portofolie;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </div>\r\n            </th>\r\n            <th>\r\n                <div>\r\n                    Race\r\n                </div>\r\n                <div>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a18570", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a18616", async() => {
                 WriteLiteral("<i class=\"fa fa-angle-up\"></i>");
             }
             );
@@ -201,7 +203,7 @@ using Portofolie;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a19946", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a19992", async() => {
                 WriteLiteral("<i class=\"fa fa-angle-down\"></i>");
             }
             );
@@ -236,7 +238,7 @@ using Portofolie;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n            <td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a22002", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d3cfd78db9eb839676164520700fb7d64db5f6a22048", async() => {
 #nullable restore
 #line 54 "C:\Users\victo\Desktop\ZealandMapper\Projects\AndetSemester\RazorPageStuff\Portofolie\Pages\Guild\Roster.cshtml"
                                                                                                                                                 Write(var.character.name);
@@ -312,16 +314,26 @@ using Portofolie;
             WriteLiteral("    </tbody>\r\n</table>");
         }
         #pragma warning restore 1998
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<Portofolie.Pages.Guild.RosterModel> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<Portofolie.Pages.Guild.RosterModel> Html { get; private set; } = default!;
+        #nullable disable
         public global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<Portofolie.Pages.Guild.RosterModel> ViewData => (global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<Portofolie.Pages.Guild.RosterModel>)PageContext?.ViewData;
         public Portofolie.Pages.Guild.RosterModel Model => ViewData.Model;
     }

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Calculator</name>
+    </assembly>
+    <members>
+        <member name="M:Calculator.Calculator.Add(System.Double,System.Double)">
+            <summary>
+            Calculates the value of adding together number1 and number2
+            </summary>
+            <param name="number1"></param>
+            <param name="number2"></param>
+            <returns>Double</returns>
+        </member>
+        <member name="M:Calculator.Calculator.Subtract(System.Double,System.Double)">
+            <summary>
+            Calculates the value of subtracting the value of number2 from number1
+            </summary>
+            <param name="number1"></param>
+            <param name="number2"></param>
+            <returns>Double</returns>
+        </member>
+        <member name="M:Calculator.Calculator.Multiply(System.Double,System.Double)">
+            <summary>
+            Calculates the value of multiplying the value of number1 with number2
+            </summary>
+            <param name="number1"></param>
+            <param name="number2"></param>
+            <returns>Double</returns>
+        </member>
+        <member name="M:Calculator.Calculator.Divide(System.Double,System.Double)">
+            <summary>
+            Calculates the value of dividing the value of number1 by number2
+            </summary>
+            <param name="number1"></param>
+            <param name="number2"></param>
+            <returns>Double</returns>
+        </member>
+        <member name="M:Calculator.Calculator.PowerOf(System.Double,System.Double)">
+            <summary>
+            Calculates the value of putting number1 in the power of number2
+            </summary>
+            <param name="number1"></param>
+            <param name="number2"></param>
+            <returns>Double</returns>
+        </member>
+        <member name="M:Calculator.Calculator.Cosinus(System.Double)">
+            <summary>
+            Calculates the cosinus value for number1
+            </summary>
+            <param name="number1"></param>
+            <returns>Double</returns>
+        </member>
+        <member name="M:Calculator.Calculator.Sinus(System.Double)">
+            <summary>
+            Calculates the sinus value for number1 
+            </summary>
+            <param name="number1"></param>
+            <returns>Double</returns>
+        </member>
+        <member name="M:Calculator.Calculator.Squareroot(System.Double)">
+            <summary>
+            Calculates the square root of number1
+            </summary>
+            <param name="number1"></param>
+            <returns>Double</returns>
+        </member>
+        <member name="M:Calculator.Calculator.Pi">
+            <summary>
+            Returns the value of Pi
+            </summary>
+            <returns>Double</returns>
+        </member>
+    </members>
+</doc>
