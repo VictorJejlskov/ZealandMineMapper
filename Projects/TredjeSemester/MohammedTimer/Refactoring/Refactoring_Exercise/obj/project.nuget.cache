@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "14F/hG5EcgkCjJMZxfdvrdXGK61JXXJVAuaNjCRMpaC+qsKqHkGECPsD6Jqx3qZZ2cenZxBWs9v0s1EZHnAoew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\victo\\Desktop\\Refactoring\\Refactoring\\Refactoring_Exercise\\Refactoring_Exercise.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
