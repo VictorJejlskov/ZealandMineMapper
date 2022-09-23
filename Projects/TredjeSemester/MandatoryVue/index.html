@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://unpkg.com/vue@next"></script>
+    <title>Document</title>
+</head>
+<body id=app>
+    Message: <input placeholder="Message here" v-model="inputWord">
+    Times to repeat: <input type="number" placeholder="Times" v-model="times">
+    <button @click="repeatWords" class="btn btn-primary">Go!</button>
+    <div>
+        {{result}}
+    </div>
+    <script src="/js/index.js"></script>
+    <script>const mountedApp = app.mount("#app");</script>
+</body>
+</html>
