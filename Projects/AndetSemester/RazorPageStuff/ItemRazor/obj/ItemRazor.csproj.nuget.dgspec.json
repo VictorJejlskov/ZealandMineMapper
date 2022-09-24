@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\ItemRazor.csproj": {}
+    "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\ItemRazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\ItemRazor.csproj": {
+    "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\ItemRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\ItemRazor.csproj",
+        "projectUniqueName": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\ItemRazor.csproj",
         "projectName": "ItemRazor",
-        "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\ItemRazor.csproj",
-        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\obj\\",
+        "projectPath": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\ItemRazor.csproj",
+        "packagesPath": "C:\\Users\\Victur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\AndetSemester\\RazorPageStuff\\ItemRazor\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Victur\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,7 +61,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -77,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://unpkg.com/vue@next"></script>
+    <title>Document</title>
+</head>
+<body id="app">
+    <div >
+        <input v-model="number1" type="number" placeholder="number 1">
+        <select v-model="operation" name="operation">
+            <option value="+">plus</option>
+            <option value="-">minus</option>
+            <option value="*">times</option>
+            <option value="/">divided by</option>
+        </select>
+        <input v-model="number2" type="number" placeholder="number 2">
+        <button @click="calculate" class="btn btn-primary">=</button>
+        {{result}}
+    </div>
+    <script src="js/index.js"></script>
+    <script>const mountedApp = app.mount("#app");</script>
+</body>
+</html>

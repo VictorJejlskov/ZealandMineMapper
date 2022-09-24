@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Np5L+1K/LAGIGMrcv5eOufrlQh9LsHUjRfYGL7Fwnnai4kvSSdiDQnZ/a5+nIg8ZC6kU/4xFsl9a02brxyRRzw==",
+  "dgSpecHash": "XLly3eGWVxuF4wI3kM19RHuIPW8qFpNFmtuKI6FElM7B8K/0Bb5eKKJXlQdkCWZqOaiXeViCgSKPCfVDPH8piA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\AndetSemester\\RazorPageStuff\\GeoTest\\GeoTest.csproj",
+  "projectFilePath": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\AndetSemester\\RazorPageStuff\\GeoTest\\GeoTest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\victo\\.nuget\\packages\\microsoft-web-helpers\\2.1.20710.2\\microsoft-web-helpers.2.1.20710.2.nupkg.sha512",
-    "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnet.razor\\2.0.20505\\microsoft.aspnet.razor.2.0.20505.nupkg.sha512",
-    "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnet.webpages\\2.0.20505\\microsoft.aspnet.webpages.2.0.20505.nupkg.sha512",
-    "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnet.webpages.data\\2.0.20505\\microsoft.aspnet.webpages.data.2.0.20505.nupkg.sha512",
-    "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnet.webpages.webdata\\2.0.20505\\microsoft.aspnet.webpages.webdata.2.0.20505.nupkg.sha512",
-    "C:\\Users\\victo\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512"
+    "C:\\Users\\Victur\\.nuget\\packages\\microsoft-web-helpers\\2.1.20710.2\\microsoft-web-helpers.2.1.20710.2.nupkg.sha512",
+    "C:\\Users\\Victur\\.nuget\\packages\\microsoft.aspnet.razor\\2.0.20505\\microsoft.aspnet.razor.2.0.20505.nupkg.sha512",
+    "C:\\Users\\Victur\\.nuget\\packages\\microsoft.aspnet.webpages\\2.0.20505\\microsoft.aspnet.webpages.2.0.20505.nupkg.sha512",
+    "C:\\Users\\Victur\\.nuget\\packages\\microsoft.aspnet.webpages.data\\2.0.20505\\microsoft.aspnet.webpages.data.2.0.20505.nupkg.sha512",
+    "C:\\Users\\Victur\\.nuget\\packages\\microsoft.aspnet.webpages.webdata\\2.0.20505\\microsoft.aspnet.webpages.webdata.2.0.20505.nupkg.sha512",
+    "C:\\Users\\Victur\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512"
   ],
   "logs": [
     {
@@ -36,7 +36,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'microsoft-web-helpers 2.1.20710.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'microsoft-web-helpers 2.1.20710.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "microsoft-web-helpers",
       "targetGraphs": [
         "net5.0"
@@ -46,7 +46,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Razor 2.0.20505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.Razor 2.0.20505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Razor",
       "targetGraphs": [
         "net5.0"
@@ -56,7 +56,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebPages 2.0.20505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.WebPages 2.0.20505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebPages",
       "targetGraphs": [
         "net5.0"
@@ -66,7 +66,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebPages.Data 2.0.20505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.WebPages.Data 2.0.20505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebPages.Data",
       "targetGraphs": [
         "net5.0"
@@ -76,7 +76,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebPages.WebData 2.0.20505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.WebPages.WebData 2.0.20505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebPages.WebData",
       "targetGraphs": [
         "net5.0"
@@ -86,7 +86,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Web.Infrastructure",
       "targetGraphs": [
         "net5.0"
