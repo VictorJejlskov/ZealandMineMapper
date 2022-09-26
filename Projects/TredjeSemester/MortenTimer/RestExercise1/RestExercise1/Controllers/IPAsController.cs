@@ -19,11 +19,23 @@ namespace RestExercise1.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<IEnumerable<IPA>> Get([FromQuery] string? substring, [FromQuery] double? minProof, [FromQuery] double? maxProof)
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<IEnumerable<IPA>> Get([FromQuery] string? substring, [FromQuery] double? minProof, [FromQuery] double? maxProof, [FromHeader] string? amount)
         {
             var list = _manager.GetAll(substring, minProof, maxProof);
             if (list == null) return NotFound("No such list was found");
             if (list.Count == 0) return NoContent();
+            if (amount == null) return Ok(list);
+            try
+            {
+                int amountToTake = Convert.ToInt32(amount);
+                list = list.Take(amountToTake).ToList();
+            }
+            catch
+            {
+                return BadRequest("Amount skal være et helt positivt tal");
+            }
+            Response.Headers.Add("TotalAmount", list.Count.ToString());
             return Ok(list);
         }
 

@@ -1,0 +1,12 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\StringUtility\StringUtility\bin\Debug\net6.0\StringUtility.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\StringUtility\StringUtility\bin\Debug\net6.0\StringUtility.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\StringUtility\StringUtility\bin\Debug\net6.0\StringUtility.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\StringUtility\StringUtility\obj\Debug\net6.0\StringUtility.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\StringUtility\StringUtility\obj\Debug\net6.0\StringUtility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\StringUtility\StringUtility\obj\Debug\net6.0\StringUtility.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\StringUtility\StringUtility\obj\Debug\net6.0\StringUtility.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\StringUtility\StringUtility\obj\Debug\net6.0\StringUtility.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\StringUtility\StringUtility\obj\Debug\net6.0\StringUtility.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\StringUtility\StringUtility\obj\Debug\net6.0\refint\StringUtility.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\StringUtility\StringUtility\obj\Debug\net6.0\StringUtility.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\StringUtility\StringUtility\obj\Debug\net6.0\ref\StringUtility.dll
