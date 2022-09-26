@@ -70,5 +70,32 @@ namespace RestExercise1Console
                 return await response.Content.ReadFromJsonAsync<IPA>();
             }
         }
+        public async Task<IPA> Put(int id, IPA updatedIPA)
+        {
+            var ipa = Get(id).Result;
+            if(updatedIPA.Brand != null) ipa.Brand = updatedIPA.Brand;
+            if(updatedIPA.Proof != 0) ipa.Proof = updatedIPA.Proof;
+            if(updatedIPA.Name != null) ipa.Name = updatedIPA.Name;
+            if(updatedIPA.Grain != null) ipa.Grain = updatedIPA.Grain;
+            JsonContent serializedIPA = JsonContent.Create(ipa);
+            using (var client = new HttpClient())
+            {
+                var response = await client.PutAsync(URL + "/" + id, serializedIPA);
+                Console.WriteLine("Status kode: " + response.StatusCode);
+                if(!response.IsSuccessStatusCode) Console.WriteLine("Content: " + response.Content.ReadAsStringAsync().Result);
+                return await response.Content.ReadFromJsonAsync<IPA>();
+
+            }
+        }
+        public async Task<IPA> Get(int id)
+        {
+            using (var client = new HttpClient())
+            {
+                var response = await client.GetAsync(URL + "/" + id);
+                Console.WriteLine("Status kode: " + response.StatusCode);
+                if (!response.IsSuccessStatusCode) Console.WriteLine("Content: " + response.Content.ReadAsStringAsync().Result);
+                return await response.Content.ReadFromJsonAsync<IPA>();
+            }
+        }
     }
 }
