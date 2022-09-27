@@ -21,7 +21,7 @@ namespace RestExercise1Console
             }
             Console.WriteLine("\n\n");
             Console.WriteLine("Post:");
-            IPA newIPA = new IPA { Brand = "Carlsberg", Proof = 8, Name = "NY IPA LOL XD", Grain = "Humle"};
+            IPA newIPA = new IPA { Brand = "Carlsberg", Proof = 8, Name = "My New IPA", Grain = "Humle"};
             newIPA = Post(newIPA).Result;
             Console.WriteLine($"New ipa has name: {newIPA.Name} and ID: {newIPA.Id}");
             Console.WriteLine("\n\n");
@@ -35,10 +35,13 @@ namespace RestExercise1Console
                 Console.WriteLine(ip.Name);
             }
 
+            Console.WriteLine("\n");
+
+
         }
         public async Task<IEnumerable<IPA>> GetAll()
         {
-            using (HttpClient client = new HttpClient())
+            using (var client = new HttpClient())
             {
                 client.DefaultRequestHeaders.Add("amount", "50");
                 var response = await client.GetAsync(URL);
@@ -52,7 +55,7 @@ namespace RestExercise1Console
         public async Task<IPA> Post(IPA ipa)
         {
             JsonContent serializedIPA = JsonContent.Create(ipa);
-            using (HttpClient client = new HttpClient())
+            using (var client = new HttpClient())
             {
                 var response = await client.PostAsync(URL, serializedIPA);
                 Console.WriteLine("Status kode: " + response.StatusCode);
@@ -62,7 +65,7 @@ namespace RestExercise1Console
         }
         public async Task<IPA> Delete(int id)
         {
-            using (HttpClient client = new HttpClient())
+            using (var client = new HttpClient())
             {
                 var response = await client.DeleteAsync(URL + "/" + id);
                 Console.WriteLine("Status kode: " + response.StatusCode);
