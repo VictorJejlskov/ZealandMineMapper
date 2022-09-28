@@ -4,6 +4,8 @@
     {
         public int CountOccurences(string stringToCheck, string stringToFind)
         {
+            if (string.IsNullOrWhiteSpace(stringToCheck)) stringToCheck = "";
+            if (string.IsNullOrWhiteSpace(stringToFind)) return 0;
             var stringAsCharArray = stringToCheck.ToLower().ToCharArray();
             var stringToCheckForAsChar = stringToFind.ToLower().ToCharArray()[0];
             var occuranceCount = 0;

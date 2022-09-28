@@ -1,0 +1,12 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\SchoolAdministrationV10\SchoolAdministrationV10\bin\Debug\net6.0\SchoolAdministrationV10.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\SchoolAdministrationV10\SchoolAdministrationV10\bin\Debug\net6.0\SchoolAdministrationV10.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\SchoolAdministrationV10\SchoolAdministrationV10\bin\Debug\net6.0\SchoolAdministrationV10.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\SchoolAdministrationV10\SchoolAdministrationV10\obj\Debug\net6.0\SchoolAdministrationV10.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\SchoolAdministrationV10\SchoolAdministrationV10\obj\Debug\net6.0\SchoolAdministrationV10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\SchoolAdministrationV10\SchoolAdministrationV10\obj\Debug\net6.0\SchoolAdministrationV10.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\SchoolAdministrationV10\SchoolAdministrationV10\obj\Debug\net6.0\SchoolAdministrationV10.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\SchoolAdministrationV10\SchoolAdministrationV10\obj\Debug\net6.0\SchoolAdministrationV10.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\SchoolAdministrationV10\SchoolAdministrationV10\obj\Debug\net6.0\SchoolAdministrationV10.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\SchoolAdministrationV10\SchoolAdministrationV10\obj\Debug\net6.0\refint\SchoolAdministrationV10.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\SchoolAdministrationV10\SchoolAdministrationV10\obj\Debug\net6.0\SchoolAdministrationV10.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\SchoolAdministrationV10\SchoolAdministrationV10\obj\Debug\net6.0\ref\SchoolAdministrationV10.dll

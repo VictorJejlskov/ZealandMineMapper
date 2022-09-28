@@ -1,0 +1,12 @@
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\Library105\Library105\bin\Debug\net6.0\Library105.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\Library105\Library105\bin\Debug\net6.0\Library105.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\Library105\Library105\bin\Debug\net6.0\Library105.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\Library105\Library105\obj\Debug\net6.0\Library105.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\Library105\Library105\obj\Debug\net6.0\Library105.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\Library105\Library105\obj\Debug\net6.0\Library105.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\Library105\Library105\obj\Debug\net6.0\Library105.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\Library105\Library105\obj\Debug\net6.0\Library105.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\Library105\Library105\obj\Debug\net6.0\Library105.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\Library105\Library105\obj\Debug\net6.0\refint\Library105.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\Library105\Library105\obj\Debug\net6.0\Library105.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\TredjeSemester\MohammedTimer\Library105\Library105\obj\Debug\net6.0\ref\Library105.dll
