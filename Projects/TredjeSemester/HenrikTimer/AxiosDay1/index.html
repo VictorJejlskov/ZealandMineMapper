@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>API Test Project</h1>
+  <div id="app">
+    <h2>Get All</h2>
+    <button id="getAllButton" @click="getAllResults" class="btn btn-primary">Get All</button><button id="createNewButton" @click="createNew" class="btn btn-success">Add New</button>
+
+    <input v-model="searchId" placeholder="id" type="number"> <button id="getByIdButton" @click="getById(searchId)" class="btn btn-success">Search</button>
+    <br>
+    <div v-if="objects.length">
+      <table class="table table-striped table-bordered">
+      <tr>
+        <th v-for="(value,name) in objects[0]">{{name}}</th>
+        <th></th>
+      </tr>
+      <tr v-for="row in objects">
+        <td v-for="d in row">{{d}}</td>
+        <td>
+          <button id="selectButton" class="btn btn-primary" @click="selectObject(row.id)">Select</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div v-else-if="object">
+    <table class="table table-striped table-bordered">
+      <tr>
+        <th v-for="(value,name) in object">{{name}}</th>
+        <th></th>
+      </tr>
+      <tr v-if="isEditing">
+        <td v-for="(value, name) in object"><input v-model.trim="object[name]"></td>
+        <td>
+          <button id="editButton" class="btn btn-success" @click="putById(object.id)">Confirm</button>
+          <button id="deleteButton" class="btn btn-danger" @click="deleteById(object.id)">Delete</button>
+        </td>
+      </tr>
+      <tr v-if=!isEditing>
+        <td v-for="(value, name) in object">{{value}}</td>
+        <td>
+          <button id="editButton" class="btn btn-primary" @click="editObject()">Edit</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div v-else-if="isAddingNew">
+    <table class="table table-striped table-bordered">
+      <tr>
+        <th v-for="(value,name) in newObject">{{name}}</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td v-for="(value, name) in newObject"><input v-model.trim="newObject[name]"></td>
+        <td><button id="saveButton" class="btn btn-success" @click="postObject()">Save</button></td>
+      </tr>
+    </table>
+  </div>
+
+  <div v-else>
+    No todos
+  </div>
+</table>
+<div>
+  {{object}}
+  {{newObject}}
+  {{updateMessage}}
+</div>
+  </div>
+
+
+  <script src="/js/main.js"></script>
+  <script>
+          const mountedApp = app.mount("#app");
+  </script>
+</body>
+</html>
