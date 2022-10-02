@@ -1,6 +1,3 @@
-const baseUrl = "https://anbo-restbookquerystring.azurewebsites.net/api/Books";
-// const baseUrl = "http://localhost:5099/FootballPlayers";
-
 const app = Vue.createApp({
     data(){
         return{
@@ -10,13 +7,13 @@ const app = Vue.createApp({
             searchId : undefined,
             isEditing : false,
             isAddingNew: false,
-            updateMessage: ""
-
+            updateMessage: "",
+            apiUrl: "https://anbo-restbookquerystring.azurewebsites.net/api/Books"
         }
     },
     methods: {
         getAllResults(){
-            this.helperGetAndShow(baseUrl)
+            this.helperGetAndShow(this.apiUrl)
             this.searchId = undefined;
         },
         selectObject(id){
@@ -29,7 +26,7 @@ const app = Vue.createApp({
         async createNew(){
             try
             {
-                const response = await axios.get(baseUrl)
+                const response = await axios.get(this.apiUrl)
                 this.objects = await response.data
                 this.newObject = this.objects[0];
                 Object.keys(this.newObject).forEach(key => {
@@ -49,7 +46,7 @@ const app = Vue.createApp({
                 Object.keys(this.newObject).forEach(key => {
                     if(!isNaN(parseInt(this.newObject[key]))) this.newObject[key] = parseInt(this.newObject[key])
                 })
-                const response = await axios.post(baseUrl, this.newObject)
+                const response = await axios.post(this.apiUrl, this.newObject)
                 this.newObject = await response.data
                 this.objects = []
                 this.updateMessage = "response " + response.status + " " + response.statusText
@@ -62,7 +59,7 @@ const app = Vue.createApp({
             }
         },
         async getById(id){
-            const url = baseUrl + "/" + id
+            const url = this.apiUrl + "/" + id
             try
             {
                 const response = await axios.get(url)
@@ -91,12 +88,12 @@ const app = Vue.createApp({
             }
         },
         async deleteById(id){
-            const url = baseUrl + "/" + id
+            const url = this.apiUrl + "/" + id
             try
             {
                 const response = await axios.delete(url)
                 this.searchId = undefined
-                this.helperGetAndShow(baseUrl)
+                this.helperGetAndShow(this.apiUrl)
             }
             catch (ex)
             {
@@ -104,7 +101,7 @@ const app = Vue.createApp({
             }
         },
         async putById(id){
-            const url = baseUrl + "/" + id
+            const url = this.apiUrl + "/" + id
             try
             {
                 const response = await axios.put(url, this.object)
@@ -116,6 +113,9 @@ const app = Vue.createApp({
             {
                 alert(ex.message)
             }
+        },
+        clearUrl(){
+            this.apiUrl = "";
         }
         
 
