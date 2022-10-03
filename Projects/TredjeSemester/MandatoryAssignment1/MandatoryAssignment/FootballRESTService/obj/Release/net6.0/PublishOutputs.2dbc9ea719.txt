@@ -1,0 +1,13 @@
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\TredjeSemester\MandatoryAssignment1\MandatoryAssignment\FootballRESTService\obj\Release\net6.0\PubTmp\Out\FootballRESTService.exe
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\TredjeSemester\MandatoryAssignment1\MandatoryAssignment\FootballRESTService\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\TredjeSemester\MandatoryAssignment1\MandatoryAssignment\FootballRESTService\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\TredjeSemester\MandatoryAssignment1\MandatoryAssignment\FootballRESTService\obj\Release\net6.0\PubTmp\Out\FootballRESTService.dll
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\TredjeSemester\MandatoryAssignment1\MandatoryAssignment\FootballRESTService\obj\Release\net6.0\PubTmp\Out\FootballRESTService.deps.json
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\TredjeSemester\MandatoryAssignment1\MandatoryAssignment\FootballRESTService\obj\Release\net6.0\PubTmp\Out\FootballRESTService.runtimeconfig.json
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\TredjeSemester\MandatoryAssignment1\MandatoryAssignment\FootballRESTService\obj\Release\net6.0\PubTmp\Out\FootballRESTService.pdb
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\TredjeSemester\MandatoryAssignment1\MandatoryAssignment\FootballRESTService\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\TredjeSemester\MandatoryAssignment1\MandatoryAssignment\FootballRESTService\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\TredjeSemester\MandatoryAssignment1\MandatoryAssignment\FootballRESTService\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\TredjeSemester\MandatoryAssignment1\MandatoryAssignment\FootballRESTService\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\TredjeSemester\MandatoryAssignment1\MandatoryAssignment\FootballRESTService\obj\Release\net6.0\PubTmp\Out\MandatoryAssignment.dll
+C:\Users\Victur\Desktop\ZealandMineMapper\Projects\TredjeSemester\MandatoryAssignment1\MandatoryAssignment\FootballRESTService\obj\Release\net6.0\PubTmp\Out\MandatoryAssignment.pdb
