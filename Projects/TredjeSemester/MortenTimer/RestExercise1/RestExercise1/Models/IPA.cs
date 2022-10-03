@@ -2,6 +2,7 @@
 {
     public class IPA
     {
+
         public int Id { get; set; }
         public double Proof { get; set; }
         public string Name { get; set; }

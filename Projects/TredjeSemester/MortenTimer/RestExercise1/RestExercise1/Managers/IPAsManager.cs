@@ -3,7 +3,7 @@ using RestExercise1.Models;
 
 namespace RestExercise1.Managers
 {
-    public class IPAsManager
+    public class IPAsManager : IIPAsManager
     {
         private static int _nextId = 1;
         /// <summary>

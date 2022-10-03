@@ -14,7 +14,13 @@ namespace RestExercise1.Controllers
     [ApiController]
     public class IPAsController : Controller
     {
-        private readonly IPAsManager _manager = new IPAsManager();
+        private readonly IIPAsManager _manager;
+
+        public IPAsController(IPAContext context)
+        {
+            _manager = new IPAsManager();
+
+        }
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]

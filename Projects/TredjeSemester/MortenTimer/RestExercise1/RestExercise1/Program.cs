@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using RestExercise1;
+using RestExercise1.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,6 +18,7 @@ builder.Services.AddCors(options =>
         AllowAnyHeader();
     });
 });
+builder.Services.AddDbContext<IPAContext>(options => options.UseSqlServer(Secrets.IpaConnectionString));
 
 var app = builder.Build();
 app.UseSwagger();
