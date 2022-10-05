@@ -12,7 +12,7 @@ namespace TilbudsFinder
     internal class SearchEngine
     {
         static string url = "https://www.tilbudsugen.dk/tilbudsavis";
-        static IWebDriver _driver = new ChromeDriver();
+        static IWebDriver _driver = new ChromeDriver(System.IO.Directory.GetCurrentDirectory());
         static string filePath = System.IO.Directory.GetCurrentDirectory() + "\\Resultater";
         public string TextPath(string input)
         {
