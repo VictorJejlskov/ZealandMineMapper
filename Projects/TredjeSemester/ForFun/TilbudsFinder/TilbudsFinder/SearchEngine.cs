@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +23,7 @@ namespace TilbudsFinder
         {
             _driver.Navigate().GoToUrl(url);
             _driver.Manage().Window.Maximize();
+            
             try
             {
                 var files = System.IO.Directory.GetFiles(filePath);
@@ -53,7 +55,26 @@ namespace TilbudsFinder
             searchBox.SendKeys(input);
             Thread.Sleep(100);
             searchBox.SendKeys(Keys.Enter);
-            Thread.Sleep(10000);
+            Thread.Sleep(500);
+            while (true)
+            {
+                try
+                {
+                    var element = _driver.FindElement(By.Id("offerAgentSpinner"));
+                    if(element.Location.Y < 2000 && element.Location.Y != 0)
+                    {
+                        Thread.Sleep(200);
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                catch
+                {
+                    break;
+                }
+            }
 
             var allResults = _driver
                     .FindElements(By.ClassName("search-result-item"));
