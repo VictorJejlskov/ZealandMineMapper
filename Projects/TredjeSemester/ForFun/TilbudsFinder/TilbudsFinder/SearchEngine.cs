@@ -63,10 +63,12 @@ namespace TilbudsFinder
                     var element = _driver.FindElement(By.Id("offerAgentSpinner"));
                     if(element.Location.Y < 2000 && element.Location.Y != 0)
                     {
+                        Console.WriteLine("I repeated: " + element.Location.Y);
                         Thread.Sleep(200);
                     }
                     else
                     {
+                        Console.WriteLine("I broke: " + element.Location.Y);
                         break;
                     }
                 }
