@@ -11,8 +11,8 @@ while True:
     while True:
         sentence = connectSocket.recv(1024).decode()
         print(sentence, addr)
-        capitalizedsentence = sentence.upper()
-        connectSocket.send(capitalizedsentence.encode())
+        capitalizedSentence = sentence.upper()
+        connectSocket.send(capitalizedSentence.encode())
         if sentence.strip() == "exit":
             print("connection closed")
             connectSocket.close()
