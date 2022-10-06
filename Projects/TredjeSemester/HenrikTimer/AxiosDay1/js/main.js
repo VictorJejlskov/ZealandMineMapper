@@ -3,6 +3,7 @@ const app = Vue.createApp({
         return{
             objects: [],
             object: null,
+            exampleObject: null,
             newObject: null,
             searchId : undefined,
             isEditing : false,
@@ -28,7 +29,8 @@ const app = Vue.createApp({
             {
                 const response = await axios.get(this.apiUrl)
                 this.objects = await response.data
-                this.newObject = this.objects[0];
+                this.newObject = this.objects[0]
+                this.exampleObject = Object.assign({}, this.objects[0])
                 Object.keys(this.newObject).forEach(key => {
                     this.newObject[key] = null;
                 });
@@ -51,7 +53,6 @@ const app = Vue.createApp({
                 this.objects = []
                 this.updateMessage = "response " + response.status + " " + response.statusText
                 this.getAllResults();
-                
             }
             catch (ex)
             {
@@ -116,8 +117,43 @@ const app = Vue.createApp({
         },
         clearUrl(){
             this.apiUrl = "";
+        },
+
+        sortBy(value, key){
+            var button = event.target;
+            button.sortingDirection = !button.sortingDirection
+
+
+            if(!isNaN(parseInt(value))) 
+            {
+                if(button.sortingDirection)this.objects.sort((obj1, obj2) => obj1[key] - obj2[key])
+                else this.objects.sort((obj1, obj2) => obj2[key] - obj1[key])
+            }
+            else if(value.toString().toLowerCase() === "true" || value.toString().toLowerCase() === "false")
+            {
+                if(button.sortingDirection)
+                {
+                    this.objects.sort((obj1, obj2) => obj1[key] === obj2[key] ? 0 : obj1[key]? -1 : 1)
+                }
+                else
+                {
+                    this.objects.sort((obj1, obj2) => obj1[key] === obj2[key] ? 0 : obj2[key]? -1 : 1)
+                }
+            }
+            else
+            {
+                if(button.sortingDirection)this.objects.sort((obj1, obj2) => obj1[key].localeCompare(obj2[key]))
+                else this.objects.sort((obj1, obj2) => obj2[key].localeCompare(obj1[key]))
+            }
+        },
+        getTypeMessage(input){
+            if (input == "number") return "Number"
+            else if(input == "string") return "Text"
+            else if(input == "boolean") return "True / False"
+            return "Nothing"
         }
-        
+    },
+    computed:{
 
     }
 })

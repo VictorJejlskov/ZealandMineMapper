@@ -18,8 +18,8 @@ namespace RestExercise1.Controllers
 
         public IPAsController(IPAContext context)
         {
-            //_manager = new IPAsManager();
-            _manager = new IPAsManagerDB(context);
+            _manager = new IPAsManager();
+            //_manager = new IPAsManagerDB(context);
 
         }
         [HttpGet]

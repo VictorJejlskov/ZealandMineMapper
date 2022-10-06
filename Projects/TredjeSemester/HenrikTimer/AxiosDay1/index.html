@@ -59,7 +59,10 @@
         <div v-if="objects.length">
           <table class="table table-striped table-bordered">
             <tr>
-              <th v-for="(value,name) in objects[0]">{{name}}</th>
+              <th v-for="(value,name) in objects[0]">
+                {{name}}
+                <button id="sortButton" @click="sortBy(value, name)">sort</button>
+              </th>
               <th></th>
             </tr>
             <tr v-for="row in objects">
@@ -132,11 +135,18 @@
                 </button>
               </td>
             </tr>
+            <tr>
+              <td v-for="(value, name) in exampleObject">
+                <input v-model="exampleObject[name]" readonly="readonly"/> {{getTypeMessage(typeof exampleObject[name])}}
+              </td>
+              <td>
+                <div>&#60;&#61; Example Object</div>
+              </td>
+            </tr>
           </table>
         </div>
 
-        <div v-else>No todos</div>
-        <div>{{updateMessage}}</div>
+        <div v-else>No Results</div>
       </div>
     </div>
 
