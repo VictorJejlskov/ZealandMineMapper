@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\TredjeSemester\\HenrikTimer\\CookieClickerSelenium\\CookieClickerSelenium\\CookieClickerSelenium.csproj": {}
+    "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\TredjeSemester\\HenrikTimer\\CookieClickerSelenium\\CookieClickerSelenium\\CookieClickerSelenium.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\TredjeSemester\\HenrikTimer\\CookieClickerSelenium\\CookieClickerSelenium\\CookieClickerSelenium.csproj": {
+    "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\TredjeSemester\\HenrikTimer\\CookieClickerSelenium\\CookieClickerSelenium\\CookieClickerSelenium.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\TredjeSemester\\HenrikTimer\\CookieClickerSelenium\\CookieClickerSelenium\\CookieClickerSelenium.csproj",
+        "projectUniqueName": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\TredjeSemester\\HenrikTimer\\CookieClickerSelenium\\CookieClickerSelenium\\CookieClickerSelenium.csproj",
         "projectName": "CookieClickerSelenium",
-        "projectPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\TredjeSemester\\HenrikTimer\\CookieClickerSelenium\\CookieClickerSelenium\\CookieClickerSelenium.csproj",
-        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\TredjeSemester\\HenrikTimer\\CookieClickerSelenium\\CookieClickerSelenium\\obj\\",
+        "projectPath": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\TredjeSemester\\HenrikTimer\\CookieClickerSelenium\\CookieClickerSelenium\\CookieClickerSelenium.csproj",
+        "packagesPath": "C:\\Users\\Victur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Victur\\Desktop\\ZealandMineMapper\\Projects\\TredjeSemester\\HenrikTimer\\CookieClickerSelenium\\CookieClickerSelenium\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Victur\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

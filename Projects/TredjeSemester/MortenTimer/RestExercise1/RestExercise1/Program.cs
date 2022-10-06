@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>
         AllowAnyHeader();
     });
 });
-builder.Services.AddDbContext<IPAContext>(options => options.UseSqlServer(Secrets.IpaConnectionString));
+//builder.Services.AddDbContext<IPAContext>(options => options.UseSqlServer(Secrets.IpaConnectionString));
 
 var app = builder.Build();
 app.UseSwagger();
