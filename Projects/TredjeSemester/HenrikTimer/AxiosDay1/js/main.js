@@ -122,8 +122,6 @@ const app = Vue.createApp({
         sortBy(value, key){
             var button = event.target;
             button.sortingDirection = !button.sortingDirection
-
-
             if(!isNaN(parseInt(value))) 
             {
                 if(button.sortingDirection)this.objects.sort((obj1, obj2) => obj1[key] - obj2[key])
