@@ -60,7 +60,7 @@ const app = Vue.createApp({
             }
         },
         async getById(id){
-            const url = this.apiUrl + "/" + id
+            const url = `${this.apiUrl}/${id}`
             try
             {
                 const response = await axios.get(url)
@@ -89,7 +89,7 @@ const app = Vue.createApp({
             }
         },
         async deleteById(id){
-            const url = this.apiUrl + "/" + id
+            const url = `${this.apiUrl}/${id}`
             try
             {
                 const response = await axios.delete(url)
@@ -102,7 +102,7 @@ const app = Vue.createApp({
             }
         },
         async putById(id){
-            const url = this.apiUrl + "/" + id
+            const url = `${this.apiUrl}/${id}`
             try
             {
                 const response = await axios.put(url, this.object)
@@ -119,8 +119,8 @@ const app = Vue.createApp({
             this.apiUrl = "";
         },
 
-        sortBy(value, key){
-            var button = event.target;
+        sortBy(value, key, event){
+            let button = event.target;
             button.sortingDirection = !button.sortingDirection
             if(!isNaN(parseInt(value))) 
             {

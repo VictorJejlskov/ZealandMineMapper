@@ -61,7 +61,7 @@
             <tr>
               <th v-for="(value,name) in objects[0]">
                 {{name}}
-                <button id="sortButton" @click="sortBy(value, name)">sort</button>
+                <button id="sortButton" @click="sortBy(value, name, $event)">sort</button>
               </th>
               <th></th>
             </tr>
