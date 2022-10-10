@@ -26,3 +26,17 @@ C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\Fly\Fly\obj\Debug\netco
 C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.dll
 C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.pdb
 C:\Users\victo\Desktop\ZealandMapper\Projects\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.genruntimeconfig.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\bin\Debug\netcoreapp3.1\Fly.exe
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\bin\Debug\netcoreapp3.1\Fly.deps.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\bin\Debug\netcoreapp3.1\Fly.runtimeconfig.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\bin\Debug\netcoreapp3.1\Fly.runtimeconfig.dev.json
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\bin\Debug\netcoreapp3.1\Fly.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\bin\Debug\netcoreapp3.1\Fly.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.csproj.AssemblyReference.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.AssemblyInfoInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.AssemblyInfo.cs
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.csproj.CoreCompileInputs.cache
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.dll
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.pdb
+C:\Users\victo\Desktop\ZealandMapper\Projects\FørsteSemester\ConsoleStuff\MyProjects\Fly\Fly\obj\Debug\netcoreapp3.1\Fly.genruntimeconfig.cache

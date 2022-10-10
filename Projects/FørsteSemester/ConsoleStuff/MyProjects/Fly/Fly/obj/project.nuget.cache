@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "gYKG/zDsmapDGWMp/ziDz50zOmkBEVbk+bfAzRagZctw+rwKjo/DL1uNNjm33+qzW8mEcim1W2LN5CGBUjkspg==",
+  "dgSpecHash": "RKIvl6CuDsoxoCRmBGWEvbkYyRPkGto3zA+8oW6GmwYgBWl0hzc7TK2+l9DR8PTYeCMYkqUkmhIaHngY71IjNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\MyProjects\\Fly\\Fly\\Fly.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\victo\\Desktop\\ZealandMapper\\Projects\\FørsteSemester\\ConsoleStuff\\MyProjects\\Fly\\Fly\\Fly.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
