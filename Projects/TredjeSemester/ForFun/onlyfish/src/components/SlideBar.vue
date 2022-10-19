@@ -39,7 +39,7 @@ export default defineComponent({
   methods:{
     getCss(){
         return this.bounceCss ? "animate-bounce" : ""
-    }
+    },
   },
   watch: {
     sliderState: function(value) {
