@@ -1,6 +1,8 @@
 interface PostUser{
-    name: string,
-    handle: string,
-    profilepicture: string,
+    UserId: number
+    name: string
+    handle: string
+    profilepicture: string
+    bannerpicture: string
 }
 export default PostUser;

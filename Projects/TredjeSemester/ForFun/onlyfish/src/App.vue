@@ -1,16 +1,60 @@
 <template>
   <div class="app">
-    <PostComponent :postUser="testUsers[0]" />
-    <PostComponent :postUser="testUsers[1]" />
-    <PostComponent :postUser="testUsers[2]" />
-    <SlideBar />
+    <div>
+      <div className="grid grid-cols-8">
+        <div className="col-span-2"></div>
+        <div className="col-span-1">
+          <MenuComponent className=" h-full " />
+        </div>
+        <div className="col-span-2">
+          <ul>
+            <li>
+              <PostComponent
+                :postUser="testUsers[0]"
+                :postDetails="[
+                  './assets/imgs/PostPics/FabiFlex.png',
+                  'Me on a sunny morning xoxo',
+                ]" />
+            </li>
+            <li>
+              <PostComponent
+                :postUser="testUsers[0]"
+                :postDetails="[
+                  './assets/imgs/PostPics/UsLater.png',
+                  'NetFish n\' chill?',
+                ]" />
+            </li>
+            <li>
+              <PostComponent
+                :postUser="testUsers[1]"
+                :postDetails="[
+                  './assets/imgs/PostPics/Defaultpic.png',
+                  'No description added',
+                ]" />
+            </li>
+            <li>
+              <PostComponent
+                :postUser="testUsers[2]"
+                :postDetails="[
+                  './assets/imgs/PostPics/Defaultpic.png',
+                  'No description added',
+                ]" />
+            </li>
+          </ul>
+        </div>
+        <div className="col-span-1"></div>
+        <div className="col-span-2"></div>
+      </div>
+    </div>
   </div>
+  <SlideBar />
 </template>
 
 <script lang="ts">
 import { defineComponent, ref } from "vue";
 
 import PostComponent from "./components/PostComponent.vue";
+import MenuComponent from "./components/MenuComponent.vue";
 import SlideBar from "./components/SlideBar.vue";
 
 import PostUser from "./types/PostUser";
@@ -20,41 +64,40 @@ export default defineComponent({
   components: {
     PostComponent,
     SlideBar,
+    MenuComponent,
   },
   setup() {
+    // const testUsers = ref<PostUser[]>([
+    //   {
+    //     id: 1,
+    //     name: "Fabioso",
+    //     handle: "SexyFishMan32",
+    //     profilepicture: "FabiosoAvatar.png",
+    //     bannerpicture: "",
+    //   },
+    //   {
+    //     id: 2,
+    //     name: "Legando",
+    //     handle: "SubparLock",
+    //     profilepicture: "LegandoAvatar.png",
+    //     bannerpicture: "",
+    //   },
+    //   {
+    //     id: 3,
+    //     name: "Troopcd",
+    //     handle: "GreyParser69",
+    //     profilepicture: "TroopAvatar.png",
+    //     bannerpicture: "",
+    //   },
+    // ]);
     const testUsers = ref<PostUser[]>([
-      {
-        name: "Fabioso",
-        handle: "SexyFishMan32",
-        profilepicture: "FabiosoAvatar.png",
-      },
-      {
-        name: "Legando",
-        handle: "SubparLock",
-        profilepicture: "LegandoAvatar.png",
-      },
-      {
-        name: "Troopcd",
-        handle: "GreyParser69",
-        profilepicture: "TroopAvatar.png",
-      },
+      new PostUser(1, "Fabioso", "SexyFishMan32", "FabiosoAvatar.png", ""),
+      new PostUser(2, "Legando", "SubparLock", "LegandoAvatar.png", ""),
+      new PostUser(3, "Troopcd", "GreyParser69", "TroopAvatar.png", ""),
     ]);
-
-    const name = ref("Victor");
-    const age = ref<number | string>(25);
-
-    return { name, age, testUsers };
+    return { testUsers };
   },
-  methods: {
-    changeName(name: string) {
-      this.name = name;
-      return name;
-    },
-    changeAge(age: number | string) {
-      this.age = age;
-      return age;
-    },
-  },
+  methods: {},
 });
 </script>
 

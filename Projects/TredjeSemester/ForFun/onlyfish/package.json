@@ -8,8 +8,10 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@heroicons/vue": "^2.0.12",
     "core-js": "^3.8.3",
     "daisyui": "^2.31.0",
+    "heroicons": "^2.0.12",
     "vue": "^3.2.13"
   },
   "devDependencies": {
