@@ -1,9 +1,9 @@
 import PostUser from "./PostUser";
 
 interface PostObject{
-    PostId: number
-    ThisUser: PostUser
-    Picture: string
-    Description: string
+    postId: number
+    thisUser: PostUser
+    picture: string
+    description: string
 }
 export default PostObject;

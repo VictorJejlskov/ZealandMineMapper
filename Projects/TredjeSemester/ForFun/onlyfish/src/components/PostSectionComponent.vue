@@ -7,7 +7,12 @@ export default defineComponent({
     setup() {
 
     const mockUsers: PostUser[] = [
-      {1, "Fabioso", "SexyFishMan32", "FabiosoAvatar.png", ""},
+      {
+        userId: 1, 
+        name: "Fabioso", 
+        handle: "SexyFishMan32",
+        profilePicture: "FabiosoAvatar.png", 
+        bannerPicture: ""},
       {2, "Legando", "SubparLock", "LegandoAvatar.png", ""},
       {3, "Troopcd", "GreyParser69", "TroopAvatar.png", ""}
     ];
