@@ -7,7 +7,7 @@
       <div className="shrink-0">
         <img
           className="h-12 w-12 rounded-full"
-          v-bind:src="`./assets/imgs/ProfilePics/${postUser.profilepicture}`" />
+          v-bind:src="`./assets/imgs/ProfilePics/${postUser.profilePicture}`" />
       </div>
       <!-- Profile name & handle -->
       <div>

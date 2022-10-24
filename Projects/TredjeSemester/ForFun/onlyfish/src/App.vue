@@ -7,10 +7,11 @@
           <MenuComponent className=" h-full " />
         </div>
         <div className="col-span-2">
-          <ul>
+          <PostSectionComponent/>
+          <!-- <ul>
             <li>
               <PostComponent
-                :postUser="testUsers[0]"
+                :postUser="mockUsers[0]"
                 :postDetails="[
                   './assets/imgs/PostPics/FabiFlex.png',
                   'Me on a sunny morning xoxo',
@@ -18,7 +19,7 @@
             </li>
             <li>
               <PostComponent
-                :postUser="testUsers[0]"
+                :postUser="mockUsers[0]"
                 :postDetails="[
                   './assets/imgs/PostPics/UsLater.png',
                   'NetFish n\' chill?',
@@ -26,7 +27,7 @@
             </li>
             <li>
               <PostComponent
-                :postUser="testUsers[1]"
+                :postUser="mockUsers[1]"
                 :postDetails="[
                   './assets/imgs/PostPics/Defaultpic.png',
                   'No description added',
@@ -34,13 +35,13 @@
             </li>
             <li>
               <PostComponent
-                :postUser="testUsers[2]"
+                :postUser="mockUsers[2]"
                 :postDetails="[
                   './assets/imgs/PostPics/Defaultpic.png',
                   'No description added',
                 ]" />
             </li>
-          </ul>
+          </ul> -->
         </div>
         <div className="col-span-1"></div>
         <div className="col-span-2"></div>
@@ -51,54 +52,33 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from "vue";
+import { defineComponent } from "vue"
 
-import PostComponent from "./components/PostComponent.vue";
-import MenuComponent from "./components/MenuComponent.vue";
-import SlideBar from "./components/SlideBar.vue";
-
-import PostUser from "./types/PostUser";
+// import PostComponent from "./components/PostComponent.vue"
+import PostSectionComponent from "./components/PostSectionComponent.vue"
+import MenuComponent from "./components/MenuComponent.vue"
+import SlideBar from "./components/SlideBar.vue"
 
 export default defineComponent({
   name: "App",
   components: {
-    PostComponent,
+    // PostComponent,
+    PostSectionComponent,
     SlideBar,
     MenuComponent,
   },
   setup() {
-    // const testUsers = ref<PostUser[]>([
-    //   {
-    //     id: 1,
-    //     name: "Fabioso",
-    //     handle: "SexyFishMan32",
-    //     profilepicture: "FabiosoAvatar.png",
-    //     bannerpicture: "",
-    //   },
-    //   {
-    //     id: 2,
-    //     name: "Legando",
-    //     handle: "SubparLock",
-    //     profilepicture: "LegandoAvatar.png",
-    //     bannerpicture: "",
-    //   },
-    //   {
-    //     id: 3,
-    //     name: "Troopcd",
-    //     handle: "GreyParser69",
-    //     profilepicture: "TroopAvatar.png",
-    //     bannerpicture: "",
-    //   },
-    // ]);
-    const testUsers = ref<PostUser[]>([
-      new PostUser(1, "Fabioso", "SexyFishMan32", "FabiosoAvatar.png", ""),
-      new PostUser(2, "Legando", "SubparLock", "LegandoAvatar.png", ""),
-      new PostUser(3, "Troopcd", "GreyParser69", "TroopAvatar.png", ""),
-    ]);
-    return { testUsers };
+    return {}
   },
-  methods: {},
-});
+  data() {
+    return { componentKey: 0 }
+  },
+  methods: {
+    forceRerender() {
+      this.componentKey += 1
+    },
+  },
+})
 </script>
 
 <style></style>
