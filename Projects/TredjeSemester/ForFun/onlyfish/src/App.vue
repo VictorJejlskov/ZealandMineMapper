@@ -7,43 +7,11 @@
           <MenuComponent className=" h-full " />
         </div>
         <div className="col-span-2">
-          <PostSectionComponent/>
-          <!-- <ul>
-            <li>
-              <PostComponent
-                :postUser="mockUsers[0]"
-                :postDetails="[
-                  './assets/imgs/PostPics/FabiFlex.png',
-                  'Me on a sunny morning xoxo',
-                ]" />
-            </li>
-            <li>
-              <PostComponent
-                :postUser="mockUsers[0]"
-                :postDetails="[
-                  './assets/imgs/PostPics/UsLater.png',
-                  'NetFish n\' chill?',
-                ]" />
-            </li>
-            <li>
-              <PostComponent
-                :postUser="mockUsers[1]"
-                :postDetails="[
-                  './assets/imgs/PostPics/Defaultpic.png',
-                  'No description added',
-                ]" />
-            </li>
-            <li>
-              <PostComponent
-                :postUser="mockUsers[2]"
-                :postDetails="[
-                  './assets/imgs/PostPics/Defaultpic.png',
-                  'No description added',
-                ]" />
-            </li>
-          </ul> -->
+          <PostSectionComponent :mockUsers="users" :mockPosts="posts"/>
         </div>
-        <div className="col-span-1"></div>
+        <div className="col-span-1">
+          <SuggestionsComponent :mockUsers="users" :mockPosts="posts"/>
+        </div>
         <div className="col-span-2"></div>
       </div>
     </div>
@@ -56,8 +24,63 @@ import { defineComponent } from "vue"
 
 // import PostComponent from "./components/PostComponent.vue"
 import PostSectionComponent from "./components/PostSectionComponent.vue"
+import SuggestionsComponent from "./components/SuggestionsComponent.vue"
 import MenuComponent from "./components/MenuComponent.vue"
 import SlideBar from "./components/SlideBar.vue"
+
+import PostObject from "./types/PostObject";
+import PostUser from "./types/PostUser";
+
+const mockUsers: PostUser[] = [
+  {
+    userId: 1,
+    name: "Fabioso",
+    handle: "SexyFishMan32",
+    profilePicture: "FabiosoAvatar.png",
+    bannerPicture: "",
+  },
+  {
+    userId: 2,
+    name: "Legando",
+    handle: "SubparLock",
+    profilePicture: "LegandoAvatar.png",
+    bannerPicture: "",
+  },
+  {
+    userId: 3,
+    name: "Troopcd",
+    handle: "GreyParser69",
+    profilePicture: "TroopAvatar.png",
+    bannerPicture: "",
+  },
+];
+const mockPosts: PostObject[] = [
+  {
+    postId: 1,
+    thisUser: mockUsers[0],
+    picture: "./assets/imgs/PostPics/FabiFlex.png",
+    description: "Me on a sunny morning xoxo",
+  },
+  {
+    postId: 2,
+    thisUser: mockUsers[0],
+    picture: "./assets/imgs/PostPics/UsLater.png",
+    description: "NetFish n' chill?",
+  },
+  {
+    postId: 3,
+    thisUser: mockUsers[1],
+    picture: "./assets/imgs/PostPics/Defaultpic.png",
+    description: "No description added",
+  },
+  {
+    postId: 4,
+    thisUser: mockUsers[2],
+    picture: "./assets/imgs/PostPics/Defaultpic.png",
+    description: "No description added",
+  },
+];
+
 
 export default defineComponent({
   name: "App",
@@ -66,17 +89,18 @@ export default defineComponent({
     PostSectionComponent,
     SlideBar,
     MenuComponent,
+    SuggestionsComponent
   },
   setup() {
     return {}
   },
   data() {
-    return { componentKey: 0 }
+    return { 
+      users: mockUsers,
+      posts: mockPosts,
+    }
   },
   methods: {
-    forceRerender() {
-      this.componentKey += 1
-    },
   },
 })
 </script>
