@@ -17,7 +17,6 @@
       </div>
     </div>
   </div>
-  <SlideBar />
 </template>
 
 <script lang="ts">
@@ -27,7 +26,7 @@ import { defineComponent } from "vue"
 import PostSectionComponent from "./components/PostSectionComponent.vue"
 // import SuggestionsComponent from "./components/SuggestionsComponent.vue"
 import MenuComponent from "./components/MenuComponent.vue"
-import SlideBar from "./components/SlideBar.vue"
+// import SlideBar from "./components/SlideBar.vue"
 import SuggestionsBoxComponent from "./components/template/SuggestionsBoxComponent.vue"
 
 import PostObject from "./types/PostObject";
@@ -38,22 +37,22 @@ const mockUsers: PostUser[] = [
     userId: 1,
     name: "Fabioso",
     handle: "SexyFishMan32",
-    profilePicture: "FabiosoAvatar.png",
-    bannerPicture: "",
+    profilePicture: "https://render.worldofwarcraft.com/eu/character/silvermoon/215/143824343-avatar.jpg",
+    bannerPicture: "https://render.worldofwarcraft.com/eu/character/silvermoon/215/143824343-inset.jpg",
   },
   {
     userId: 2,
     name: "Legando",
     handle: "SubparLock",
-    profilePicture: "LegandoAvatar.png",
-    bannerPicture: "",
+    profilePicture: "https://render.worldofwarcraft.com/eu/character/silvermoon/77/192421709-avatar.jpg",
+    bannerPicture: "https://render.worldofwarcraft.com/eu/character/silvermoon/77/192421709-inset.jpg",
   },
   {
     userId: 3,
     name: "Troopcd",
     handle: "GreyParser69",
-    profilePicture: "TroopAvatar.png",
-    bannerPicture: "",
+    profilePicture: "https://render.worldofwarcraft.com/eu/character/silvermoon/136/108575368-avatar.jpg",
+    bannerPicture: "https://render.worldofwarcraft.com/eu/character/silvermoon/136/108575368-inset.jpg",
   },
 ];
 const mockPosts: PostObject[] = [
@@ -89,7 +88,6 @@ export default defineComponent({
   components: {
     // PostComponent,
     PostSectionComponent,
-    SlideBar,
     MenuComponent,
     SuggestionsBoxComponent
     // SuggestionsComponent

@@ -1,21 +1,23 @@
 <template>
-    <div>
-        Atom
-        <img :src="profilePicture" alt="">
-    </div>
+  <div>
+    <img v-bind:src="`${profilePicture}`" className="rounded-full outline outline-white outline-2 w-[80%] flex-shrink-0"/>
+  </div>
 </template>
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 
 export default defineComponent({
-    setup() {
-        return{}
+  setup() {
+    return {};
+  },
+  props: {
+    profilePicture: {
+      required: true,
+      type: String,
     },
-    props:{
-        profilePicture:{
-            required: true,
-            type: String
-        }
-    }
-})
+  },
+//   mounted: function () {
+//     console.log("Picture Atom string: " + this.profilePicture);
+//   },
+});
 </script>

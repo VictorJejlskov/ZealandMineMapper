@@ -7,7 +7,7 @@
       <div className="shrink-0">
         <img
           className="h-12 w-12 rounded-full"
-          v-bind:src="`./assets/imgs/ProfilePics/${postUser.profilePicture}`" />
+          v-bind:src="`${postUser.profilePicture}`" />
       </div>
       <!-- Profile name & handle -->
       <div>
@@ -18,17 +18,17 @@
         <p className="text-slate-500 ">{{ postUser.handle }}</p>
       </div>
     </div>
-          <!-- Dividing line -->
-      <div class="relative py-1 bg-white ">
-        <div class="absolute inset-0 flex items-center">
-          <div class="w-full border-b border-gray-300"></div>
-        </div>
-        <div class="relative flex justify-center">
-          <span class="bg-white px-4 text-sm text-gray-500"></span>
-        </div>
+    <!-- Dividing line -->
+    <div class="relative py-1 bg-white">
+      <div class="absolute inset-0 flex items-center">
+        <div class="w-full border-b border-gray-300"></div>
       </div>
+      <div class="relative flex justify-center">
+        <span class="bg-white px-4 text-sm text-gray-500"></span>
+      </div>
+    </div>
     <div
-      className="p-6 w-full mx-auto bg-white rounded-b-xl shadow-md relative ">
+      className="px-6 pb-6 w-full mx-auto bg-white rounded-b-xl shadow-md relative ">
       <!-- Post Description -->
       <div>
         {{ postDetails[1] }}

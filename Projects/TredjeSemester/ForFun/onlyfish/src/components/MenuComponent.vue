@@ -1,6 +1,6 @@
 <template>
   <aside>
-    <div class=" py-4 px-3 bg-beige fixed ">
+    <div class=" ">
       <!-- Logo -->
       <a href="" class="flex items-center pl-2.5 mb-5">
         <img

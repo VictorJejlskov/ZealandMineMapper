@@ -1,6 +1,5 @@
 <template>
   <div>
-    Organism
     <ul>
       <li v-for="user in users" v-bind:key="user.userId">
         <ProfileBannerComponent :userObject="user" />
@@ -31,8 +30,8 @@ export default defineComponent({
   components: {
     ProfileBannerComponent,
   },
-    mounted: function () {
-    console.log(this.users)
-  },
+  //   mounted: function () {
+  //   console.log("Organism list length: " + this.userList.length)
+  // },
 })
 </script>
