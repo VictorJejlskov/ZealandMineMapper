@@ -1,6 +1,6 @@
 <template>
   <aside>
-    <div class=" ">
+    <div class="pt-5 ">
       <!-- Logo -->
       <a href="" class="flex items-center pl-2.5 mb-5">
         <img

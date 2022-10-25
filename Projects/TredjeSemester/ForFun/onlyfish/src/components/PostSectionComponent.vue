@@ -9,16 +9,21 @@
             class="mb-1 block text-base font-medium text-gray-dark">
             User
           </label>
-          <select
-            v-model="newPost.thisUser"
-            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-gray-dark outline-none focus:border-[#6A64F1] focus:shadow-md">
-            <option
-              v-for="user in users"
-              v-bind:key="user.userId"
-              v-bind:value="user">
-              {{ user.name }}
-            </option>
-          </select>
+          <div className="flex items-center">
+            <select
+              v-model="newPost.thisUser"
+              class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-gray-dark outline-none focus:border-[#6A64F1] focus:shadow-md">
+              <option
+                v-for="user in users"
+                v-bind:key="user.userId"
+                v-bind:value="user">
+                {{ user.name }}
+              </option>
+            </select>
+            <div class="px-2 ml-2">
+              <div className="w-5"></div>
+            </div>
+          </div>
         </div>
         <div class="mb-2">
           <label class="mb-1 block text-base font-medium text-gray-dark">
@@ -35,9 +40,8 @@
               class="px-2 py-2 ml-2 text-sm font-medium bg-gray rounded-lg border border-purple hover:bg-blue focus:ring-4 focus:outline-none focus:ring-blue-300"
               @click="randomizePicture">
               <div className="w-5 text-white">
-              <ArrowPathIcon />
+                <ArrowPathIcon />
               </div>
-
             </button>
           </div>
         </div>
@@ -61,7 +65,7 @@
               class="px-2 py-2 ml-2 text-sm font-medium bg-gray rounded-lg border border-purple hover:bg-blue focus:ring-4 focus:outline-none focus:ring-blue-300"
               @click="randomizeDescription">
               <div className="text-white w-5">
-              <ArrowPathIcon />
+                <ArrowPathIcon />
               </div>
             </button>
           </div>
