@@ -10,7 +10,8 @@
           <PostSectionComponent :mockUsers="users" :mockPosts="posts"/>
         </div>
         <div className="col-span-1">
-          <SuggestionsComponent :mockUsers="users" :mockPosts="posts"/>
+          <suggestionsBoxComponent :userList="users"/>
+          <!-- <SuggestionsComponent :mockUsers="users" :mockPosts="posts"/> -->
         </div>
         <div className="col-span-2"></div>
       </div>
@@ -24,9 +25,10 @@ import { defineComponent } from "vue"
 
 // import PostComponent from "./components/PostComponent.vue"
 import PostSectionComponent from "./components/PostSectionComponent.vue"
-import SuggestionsComponent from "./components/SuggestionsComponent.vue"
+// import SuggestionsComponent from "./components/SuggestionsComponent.vue"
 import MenuComponent from "./components/MenuComponent.vue"
 import SlideBar from "./components/SlideBar.vue"
+import SuggestionsBoxComponent from "./components/template/SuggestionsBoxComponent.vue"
 
 import PostObject from "./types/PostObject";
 import PostUser from "./types/PostUser";
@@ -89,7 +91,8 @@ export default defineComponent({
     PostSectionComponent,
     SlideBar,
     MenuComponent,
-    SuggestionsComponent
+    SuggestionsBoxComponent
+    // SuggestionsComponent
   },
   setup() {
     return {}
