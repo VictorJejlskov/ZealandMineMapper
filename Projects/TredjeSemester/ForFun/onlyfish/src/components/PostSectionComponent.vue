@@ -32,9 +32,12 @@
                 class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-gray-dark outline-none focus:border-[#6A64F1] focus:shadow-md" />
             </div>
             <button
-              class="px-4 py-4 ml-2 text-sm font-medium bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue focus:ring-4 focus:outline-none focus:ring-blue-300"
+              class="px-2 py-2 ml-2 text-sm font-medium bg-gray rounded-lg border border-purple hover:bg-blue focus:ring-4 focus:outline-none focus:ring-blue-300"
               @click="randomizePicture">
+              <div className="w-5 text-white">
               <ArrowPathIcon />
+              </div>
+
             </button>
           </div>
         </div>
@@ -55,9 +58,11 @@
             </div>
 
             <button
-              class="px-4 py-4 ml-2 text-sm font-medium bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue focus:ring-4 focus:outline-none focus:ring-blue-300"
+              class="px-2 py-2 ml-2 text-sm font-medium bg-gray rounded-lg border border-purple hover:bg-blue focus:ring-4 focus:outline-none focus:ring-blue-300"
               @click="randomizeDescription">
+              <div className="text-white w-5">
               <ArrowPathIcon />
+              </div>
             </button>
           </div>
         </div>
@@ -128,9 +133,9 @@ export default defineComponent({
       ) {
         this.newPost.postId = this.posts.length + 1;
         this.posts.push(Object.assign({}, this.newPost));
-        this.posts.sort((obj1, obj2) => obj2.postId - obj1.postId)
-        this.newPost.picture = ""
-        this.newPost.description = ""
+        this.posts.sort((obj1, obj2) => obj2.postId - obj1.postId);
+        this.newPost.picture = "";
+        this.newPost.description = "";
       } else {
         alert("Data sucks :)");
       }
