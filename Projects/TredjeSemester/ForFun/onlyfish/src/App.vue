@@ -89,7 +89,7 @@ export default defineComponent({
     // PostComponent,
     PostSectionComponent,
     MenuComponent,
-    SuggestionsBoxComponent
+    SuggestionsBoxComponent,
     // SuggestionsComponent
   },
   setup() {
