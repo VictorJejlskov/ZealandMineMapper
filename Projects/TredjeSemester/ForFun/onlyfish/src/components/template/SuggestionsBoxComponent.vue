@@ -1,6 +1,6 @@
 <template>
   <div className="bg-beige fixed w-full max-w-[350px]">
-    <div className="pt-4 px-3 text-grey"></div>
+    <div className="pt-1 px-3 text-grey"></div>
     <div className="px-3">
       <div>
         <ProfileBannerListComponent :userList="users" />

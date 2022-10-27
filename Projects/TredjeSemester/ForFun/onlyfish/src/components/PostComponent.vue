@@ -1,5 +1,5 @@
 <template>
-  <div className="pb-3 ">
+  <div className="pb-3">
     <!-- Profile info -->
     <div
       className="p-6 w-full bg-white rounded-t-xl shadow-md flex items-center space-x-4 relative">

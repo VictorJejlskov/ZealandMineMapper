@@ -1,7 +1,9 @@
 <template>
   <div>
     <!-- Create Post Section -->
-    <CreatePostComponent @create-post="submitEmittedPost" :mockUsers="users"/>
+    <div className="sticky top-0 z-10">
+      <CreatePostButton @toggle-modal="toggleModal" />
+    </div>
     <!-- List of posts section -->
     <div className="p-2">
       <ul>
@@ -12,7 +14,6 @@
         </li>
       </ul>
     </div>
-    <ArrowPathIcon />
   </div>
 </template>
 
@@ -21,8 +22,7 @@ import { defineComponent, PropType } from "vue"
 import PostUser from "../types/PostUser"
 import PostObject from "../types/PostObject"
 import PostComponent from "./PostComponent.vue"
-import CreatePostComponent from "./organism/CreatePostComponent.vue"
-
+import CreatePostButton from "./atoms/CreatePostButton.vue"
 
 export default defineComponent({
   props: {
@@ -47,20 +47,20 @@ export default defineComponent({
   },
   components: {
     PostComponent,
-    CreatePostComponent,
+    CreatePostButton,
   },
   methods: {
-    createPost() {
-      return ""
+    toggleModal() {
+      this.$emit("toggleModal")
     },
-    submitEmittedPost(postObject: PostObject) {
-      postObject.postId = this.posts.length + 1
-      this.posts.push(Object.assign({}, postObject))
-      this.posts.sort((obj1, obj2) => obj2.postId - obj1.postId)
-    },
-
-
   },
-  computed: {},
+  computed: {
+    myUsers() {
+      return this.mockUsers
+    },
+    myPosts() {
+      return this.mockPosts
+    },
+  },
 })
 </script>
