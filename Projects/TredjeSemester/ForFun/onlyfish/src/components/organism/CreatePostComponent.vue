@@ -9,21 +9,22 @@
     </button>
 
     <!-- Main modal -->
+
     <div
       id="createPostModal"
       tabindex="-1"
       aria-hidden="true"
       v-if="modalHidden"
-      class="overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full justify-center items-center">
-      <div class="relative p-4 w-full max-w-2xl h-full md:h-auto">
+      class="overflow-y-auto overflow-x-hidden fixed z-50 w-full md:inset-0 h-modal md:h-full justify-center bg-grayBackdrop backdrop-blur-sm flex">
+      <div class="relative p-4 mt-24 w-full max-w-2xl md:h-auto">
         <!-- Modal content -->
-        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+        <div class="relative bg-white rounded-lg shadow">
           <!-- Modal header -->
           <div class="flex justify-between items-start p-4 rounded-t border-b">
-            <h3 class="text-xl font-semibold text-gray">Terms of Service</h3>
+            <h3 class="text-xl font-semibold text-gray">New Post</h3>
             <button
               type="button"
-              class="text-gray-400 bg-transparent hover:bg-gray hover:text-gray rounded-lg text-sm p-1.5 ml-auto inline-flex items-center"
+              class="text-gray bg-transparent hover:bg-gray hover:text-gray rounded-lg text-sm p-1.5 ml-auto inline-flex items-center"
               @click="toggleModal">
               <div className="w-6">
                 <XMarkIcon />
@@ -102,16 +103,17 @@
           </div>
           <!-- Modal footer -->
           <div
-            class="flex items-center p-6 space-x-2 rounded-b border-t border-gray dark:border-gray">
+            class="grid grid-cols-6 p-6 rounded-b border-t border-gray dark:border-gray">
             <button
               type="button"
-              class="text-white bg-blue hover:bg-blue focus:ring-4 focus:outline-none focus:ring-blue font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+              class="text-white bg-green hover:bg-blue font-medium rounded-lg text-sm px-5 py-2.5 text-center"
               @click="submitPost">
               Submit
             </button>
+            <div className="col-span-4"></div>
             <button
               type="button"
-              class="text-gray bg-white hover:bg-gray focus:ring-4 focus:outline-none focus:ring-blue rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray focus:z-10"
+              class="text-white bg-gray-dark hover:bg-blue rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray focus:z-10"
               @click="toggleModal">
               Decline
             </button>
@@ -122,28 +124,39 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent, PropType } from "vue"
-import PostObject from "../../types/PostObject"
-import PostUser from "../../types/PostUser"
-import { XMarkIcon, ArrowPathIcon } from "@heroicons/vue/24/solid"
+import { defineComponent, PropType } from "vue";
+import PostObject from "../../types/PostObject";
+import PostUser from "../../types/PostUser";
+import { XMarkIcon, ArrowPathIcon } from "@heroicons/vue/24/solid";
 
-import { LoremIpsum } from "lorem-ipsum"
-import Axios from "axios"
+import { LoremIpsum } from "lorem-ipsum";
+import Axios from "axios";
 
 export default defineComponent({
   setup() {
-    return {}
+    return {};
   },
   data() {
     return {
       modalHidden: false,
       users: this.mockUsers,
       newPost: {} as PostObject,
-    }
+    };
   },
   methods: {
     toggleModal() {
-      this.modalHidden = !this.modalHidden
+      this.modalHidden = !this.modalHidden;
+      this.newPost.picture = "";
+      this.newPost.description = "";
+      this.newPost.thisUser = {
+        userId: 0,
+        name: "",
+        handle: "",
+        profilePicture:
+          "",
+        bannerPicture:
+          "",
+      };
     },
     submitPost() {
       if (
@@ -151,21 +164,20 @@ export default defineComponent({
         this.newPost.picture &&
         this.newPost.description
       ) {
-        this.$emit("createPost", this.newPost)
-        this.modalHidden = !this.modalHidden
-      }
-      else{
-        alert("Data Missing!")
+        this.$emit("createPost", this.newPost);
+        this.modalHidden = !this.modalHidden;
+      } else {
+        alert("Data Missing!");
       }
     },
     async randomizePicture() {
-      const response = await Axios.get("https://picsum.photos/800.jpg")
-      const idResponse = response.headers["picsum-id"]
+      const response = await Axios.get("https://picsum.photos/800.jpg");
+      const idResponse = response.headers["picsum-id"];
       const newResponse = await Axios.get(
         `https://picsum.photos/id/${idResponse}/info`
-      )
+      );
 
-      this.newPost.picture = newResponse.data["download_url"]
+      this.newPost.picture = newResponse.data["download_url"];
     },
     randomizeDescription() {
       const lorem = new LoremIpsum({
@@ -177,8 +189,8 @@ export default defineComponent({
           max: 10,
           min: 4,
         },
-      })
-      this.newPost.description = lorem.generateParagraphs(1)
+      });
+      this.newPost.description = lorem.generateParagraphs(1);
     },
   },
   props: {
@@ -190,7 +202,7 @@ export default defineComponent({
 
   components: {
     XMarkIcon,
-    ArrowPathIcon
+    ArrowPathIcon,
   },
-})
+});
 </script>
