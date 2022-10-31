@@ -45,8 +45,8 @@ export default defineComponent({
     ProfileInfoComponent,
     ProfilePictureComponent,
   },
-//   mounted: function () {
-//     console.log("Molecule: " + this.userObject);
-//   },
+  methods:{
+
+  }
 });
 </script>

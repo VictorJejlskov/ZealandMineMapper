@@ -2,15 +2,14 @@
   <div>
     <!-- Create Post Section -->
     <div className="sticky top-0 z-10">
-      <CreatePostButton @toggle-modal="toggleModal" />
+      <HomeSectionBox @toggle-modal="toggleModal" />
     </div>
     <!-- List of posts section -->
     <div className="p-2">
       <ul>
         <li v-for="post in posts" v-bind:key="post.postId">
           <PostComponent
-            :postUser="post.thisUser"
-            :postDetails="[post.picture, post.description]" />
+            :postObject="post" />
         </li>
       </ul>
     </div>
@@ -22,7 +21,7 @@ import { defineComponent, PropType } from "vue"
 import PostUser from "../types/PostUser"
 import PostObject from "../types/PostObject"
 import PostComponent from "./PostComponent.vue"
-import CreatePostButton from "./atoms/CreatePostButton.vue"
+import HomeSectionBox from "./molecule/HomeSectionBox.vue"
 
 export default defineComponent({
   props: {
@@ -47,7 +46,7 @@ export default defineComponent({
   },
   components: {
     PostComponent,
-    CreatePostButton,
+    HomeSectionBox,
   },
   methods: {
     toggleModal() {

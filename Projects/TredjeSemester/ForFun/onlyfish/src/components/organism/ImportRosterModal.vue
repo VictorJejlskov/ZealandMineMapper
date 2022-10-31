@@ -1,6 +1,6 @@
 <template>
   <div
-    id="createPostModal"
+    id="importRosterModal"
     tabindex="-1"
     aria-hidden="true"
     @click.self="toggleModal"
@@ -10,7 +10,7 @@
       <div class="relative bg-white rounded-lg shadow">
         <!-- Modal header -->
         <div class="flex justify-between items-start p-4 rounded-t border-b">
-          <h3 class="text-xl font-semibold text-gray">New Post</h3>
+          <h3 class="text-xl font-semibold text-gray">New User</h3>
           <button
             type="button"
             class="text-gray bg-transparent hover:bg-gray hover:text-gray rounded-lg text-sm p-1.5 ml-auto inline-flex items-center"
@@ -24,30 +24,8 @@
         <div class="flex items-center justify-center p-2">
           <div class="mx-auto w-full max-w-[550px]">
             <div class="mb-2">
-              <label
-                for="name"
-                class="mb-1 block text-base font-medium text-gray-dark">
-                User
-              </label>
-              <div className="flex items-center">
-                <select
-                  v-model="newPost.thisUser"
-                  class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-gray-dark outline-none focus:border-[#6A64F1] focus:shadow-md">
-                  <option
-                    v-for="user in this.mockUsers"
-                    v-bind:key="user.userId"
-                    v-bind:value="user">
-                    {{ user.name }}
-                  </option>
-                </select>
-                <div class="px-2 ml-2">
-                  <div className="w-5"></div>
-                </div>
-              </div>
-            </div>
-            <div class="mb-2">
               <label class="mb-1 block text-base font-medium text-gray-dark">
-                Image
+                Character Name
               </label>
               <div className="flex items-center">
                 <div class="relative w-full">
@@ -59,9 +37,7 @@
                 <button
                   class="px-2 py-2 ml-2 text-sm font-medium bg-gray rounded-lg border border-purple hover:bg-blue focus:ring-4 focus:outline-none focus:ring-blue"
                   @click="randomizePicture">
-                  <div className="w-5 text-white">
-                    <ArrowPathIcon />
-                  </div>
+                  <div className="w-5 text-white"></div>
                 </button>
               </div>
             </div>
@@ -69,23 +45,22 @@
               <label
                 for="message"
                 class="mb-1 block text-base font-medium text-[#07074D]">
-                Message
+                Realm
               </label>
               <div className="flex items-center">
-                <div class="relative w-full">
-                  <textarea
-                    rows="4"
-                    v-model="newPost.description"
-                    placeholder="Post Description"
-                    class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+                <select
+                  v-model="newToonName"
+                  class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-gray-dark outline-none focus:border-[#6A64F1] focus:shadow-md">
+                  <option
+                    v-for="realm in this.realmNames"
+                    v-bind:key="realm"
+                    v-bind:value="realm">
+                    {{ realm }}
+                  </option>
+                </select>
+                <div class="px-2 ml-2">
+                  <div className="w-5"></div>
                 </div>
-                <button
-                  class="px-2 py-2 ml-2 text-sm font-medium bg-gray rounded-lg border border-purple hover:bg-blue focus:ring-4 focus:outline-none focus:ring-blue-300"
-                  @click="randomizeDescription">
-                  <div className="text-white w-5">
-                    <ArrowPathIcon />
-                  </div>
-                </button>
               </div>
             </div>
           </div>
@@ -96,7 +71,7 @@
           <button
             type="button"
             class="text-white bg-green hover:bg-blue font-medium rounded-lg text-sm px-5 py-2.5 text-center"
-            @click="submitPost">
+            @click="getRealmList">
             Submit
           </button>
           <div className="col-span-4"></div>
@@ -112,36 +87,45 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent, PropType } from "vue"
-import PostObject from "../../types/PostObject"
-import PostUser from "../../types/PostUser"
-import { XMarkIcon, ArrowPathIcon } from "@heroicons/vue/24/solid"
+import { defineComponent, PropType } from "vue";
+import PostObject from "../../types/PostObject";
+import PostUser from "../../types/PostUser";
+import { XMarkIcon } from "@heroicons/vue/24/solid";
 
-import { LoremIpsum } from "lorem-ipsum"
-import Axios from "axios"
+import { LoremIpsum } from "lorem-ipsum";
+import axios from "axios";
+import oauth from "axios-oauth-client";
+
+const CLIENT_ID = "c5bb4327df624a9eb378f9377a0cd9ae";
+const CLIENT_SECRET = "uUPWqvMD2XzD0H1WWF4TBytxFx3lq2Dh";
 
 export default defineComponent({
   setup() {
-    return {}
+    return {};
   },
   data() {
     return {
       newPost: {} as PostObject,
-    }
+      realmNames: [] as string[],
+      newToonName: String,
+      newToonRealm: String
+    };
   },
-
+  async mounted() {
+    await this.getRealmList();
+  },
   methods: {
     toggleModal() {
-      this.newPost.picture = ""
-      this.newPost.description = ""
+      this.newPost.picture = "";
+      this.newPost.description = "";
       this.newPost.thisUser = {
         userId: 0,
         name: "",
         handle: "",
         profilePicture: "",
         bannerPicture: "",
-      }
-      this.$emit("toggleModal")
+      };
+      this.$emit("toggleModal");
     },
     submitPost() {
       if (
@@ -149,19 +133,19 @@ export default defineComponent({
         this.newPost.picture &&
         this.newPost.description
       ) {
-        this.$emit("createPost", this.newPost)
+        this.$emit("createPost", this.newPost);
       } else {
-        alert("Data Missing!")
+        alert("Data Missing!");
       }
     },
     async randomizePicture() {
-      const response = await Axios.get("https://picsum.photos/800.jpg")
-      const idResponse = response.headers["picsum-id"]
-      const newResponse = await Axios.get(
+      const response = await axios.get("https://picsum.photos/800.jpg");
+      const idResponse = response.headers["picsum-id"];
+      const newResponse = await axios.get(
         `https://picsum.photos/id/${idResponse}/info`
-      )
+      );
 
-      this.newPost.picture = newResponse.data["download_url"]
+      this.newPost.picture = newResponse.data["download_url"];
     },
     randomizeDescription() {
       const lorem = new LoremIpsum({
@@ -173,12 +157,33 @@ export default defineComponent({
           max: 10,
           min: 4,
         },
-      })
-      this.newPost.description = lorem.generateParagraphs(1)
+      });
+      this.newPost.description = lorem.generateParagraphs(1);
     },
-    away(){
-        console.log("yeet")
-    }
+    away() {
+      console.log("yeet");
+    },
+    async getAccessToken() {
+      const getClientCredentials = oauth.clientCredentials(
+        axios.create(),
+        "https://oauth.battle.net/token",
+        CLIENT_ID,
+        CLIENT_SECRET
+      );
+      const auth = await getClientCredentials();
+      return auth["access_token"];
+    },
+    async getRealmList() {
+      const access_token = await this.getAccessToken();
+      const url = `https://eu.api.blizzard.com/data/wow/realm/index?namespace=dynamic-eu&locale=en_US&access_token=${access_token}`;
+      const response = await axios.get(url);
+      const realms = response.data["realms"];
+      Object.keys(realms).forEach((key) => {
+        this.realmNames.push(realms[key]["name"]);
+      });
+      this.realmNames.sort((obj1, obj2) => obj1.localeCompare(obj2))
+    },
+
   },
   props: {
     mockUsers: {
@@ -189,7 +194,6 @@ export default defineComponent({
 
   components: {
     XMarkIcon,
-    ArrowPathIcon,
   },
-})
+});
 </script>

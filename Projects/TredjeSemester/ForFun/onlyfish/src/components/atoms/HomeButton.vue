@@ -1,10 +1,10 @@
 <template>
     <div className="px-2">
       <button
-        class="text-white bg-blue hover:bg-gray text-sm rounded-xl px-5 py-3 w-full"
+        class="text-black bg-beige hover:bg-gray text-sm rounded-xl  px-5 py-3 w-full"
         type="button"
-        @click="toggleModal">
-        New Post
+        @click="scrollTop">
+        Home
       </button>
     </div>
 </template>
@@ -16,8 +16,8 @@ export default defineComponent({
         return{}
     },
     methods:{
-        toggleModal(){
-            this.$emit("toggleModal")
+        scrollTop(){
+            window.scrollTo(0,0);
         }
     }
 })

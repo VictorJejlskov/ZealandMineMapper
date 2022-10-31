@@ -3,6 +3,11 @@
     <div className="pt-1 px-3 text-grey"></div>
     <div className="px-3">
       <div>
+        <div>
+          <CreateUserButton @toggle-user-modal="toggleUserModal" />
+          <GetRosterPlayersButton @toggle-get-roster-modal="toggleUserModal" />
+
+        </div>
         <ProfileBannerListComponent :userList="users" />
       </div>
     </div>
@@ -12,6 +17,8 @@
 import { defineComponent, PropType } from "vue";
 import ProfileBannerListComponent from "../organism/ProfileBannerListComponent.vue";
 import PostUser from "../../types/PostUser";
+import CreateUserButton from "../atoms/CreateUserButton.vue";
+import GetRosterPlayersButton from "../atoms/GetRosterPlayersButton.vue";
 
 export default defineComponent({
   setup() {
@@ -30,9 +37,13 @@ export default defineComponent({
   },
   components: {
     ProfileBannerListComponent,
+    CreateUserButton,
+    GetRosterPlayersButton
   },
-//   mounted: function () {
-//     console.log("SuggestionBox Template length: " + this.userList.length);
-//   },
+  methods: {
+    toggleUserModal() {
+      this.$emit("toggleUserModal");
+    },
+  },
 });
 </script>

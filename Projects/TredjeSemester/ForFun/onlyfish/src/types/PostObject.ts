@@ -5,5 +5,6 @@ interface PostObject{
     thisUser: PostUser
     picture: string
     description: string
+    postDate: string
 }
 export default PostObject;

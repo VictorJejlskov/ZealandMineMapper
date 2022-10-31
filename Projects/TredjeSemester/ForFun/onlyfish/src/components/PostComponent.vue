@@ -7,15 +7,15 @@
       <div className="shrink-0">
         <img
           className="h-12 w-12 rounded-full"
-          v-bind:src="`${postUser.profilePicture}`" />
+          v-bind:src="`${postObject.thisUser.profilePicture}`" />
       </div>
       <!-- Profile name & handle -->
       <div>
         <div className="text-xl font-medium text-black flex w-52">
-          <div className="w-full">{{ postUser.name }}</div>
+          <div className="w-full">{{ postObject.thisUser.name }}</div>
         </div>
-        <div className="absolute top-2 right-5">{{ currentDate }}</div>
-        <p className="text-slate-500 ">{{ postUser.handle }}</p>
+        <div className="absolute top-2 right-5">{{ postObject.postDate }}</div>
+        <p className="text-slate-500 ">{{ postObject.thisUser.handle }}</p>
       </div>
     </div>
     <!-- Dividing line -->
@@ -31,12 +31,12 @@
       className="px-6 pb-6 w-full mx-auto bg-white rounded-b-xl shadow-md relative ">
       <!-- Post Description -->
       <div>
-        {{ postDetails[1] }}
+        {{ postObject.description }}
       </div>
       <!-- Post Picture -->
       <div className="w-full">
         <img
-          v-bind:src="`${postDetails[0]}`"
+          v-bind:src="`${postObject.picture}`"
           alt="./assets/imgs/PostPics/Defaultpic.png"
           className="w-[100%] max-h-min" />
       </div>
@@ -45,27 +45,15 @@
 </template>
 <script lang="ts">
 import { defineComponent, PropType } from "vue";
-import PostUser from "../types/PostUser";
+import PostObject from "@/types/PostObject";
 
 export default defineComponent({
   props: {
-    postUser: {
+    postObject: {
       required: true,
-      type: Object as PropType<PostUser>,
-    },
-    postDetails: {
-      required: true,
-      type: Array as PropType<string[]>,
+      type: Object as PropType<PostObject>,
     },
   },
-  setup() {
-    const date = new Date();
-    const currentDate =
-      date.getDate() + "-" + date.getMonth() + "-" + date.getFullYear();
-
-    return { currentDate };
-  },
-
   methods: {},
 });
 </script>
