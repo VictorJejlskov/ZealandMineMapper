@@ -71,7 +71,7 @@
           <button
             type="button"
             class="text-white bg-green hover:bg-blue font-medium rounded-lg text-sm px-5 py-2.5 text-center"
-            @click="getRealmList">
+            @click="submitRequest">
             Submit
           </button>
           <div className="col-span-4"></div>
@@ -91,8 +91,6 @@ import { defineComponent, PropType } from "vue";
 import PostObject from "../../types/PostObject";
 import PostUser from "../../types/PostUser";
 import { XMarkIcon } from "@heroicons/vue/24/solid";
-
-import { LoremIpsum } from "lorem-ipsum";
 import axios from "axios";
 import oauth from "axios-oauth-client";
 
@@ -127,7 +125,7 @@ export default defineComponent({
       };
       this.$emit("toggleModal");
     },
-    submitPost() {
+    submitRequest() {
       if (
         this.newPost.thisUser &&
         this.newPost.picture &&
@@ -137,31 +135,6 @@ export default defineComponent({
       } else {
         alert("Data Missing!");
       }
-    },
-    async randomizePicture() {
-      const response = await axios.get("https://picsum.photos/800.jpg");
-      const idResponse = response.headers["picsum-id"];
-      const newResponse = await axios.get(
-        `https://picsum.photos/id/${idResponse}/info`
-      );
-
-      this.newPost.picture = newResponse.data["download_url"];
-    },
-    randomizeDescription() {
-      const lorem = new LoremIpsum({
-        sentencesPerParagraph: {
-          max: 3,
-          min: 1,
-        },
-        wordsPerSentence: {
-          max: 10,
-          min: 4,
-        },
-      });
-      this.newPost.description = lorem.generateParagraphs(1);
-    },
-    away() {
-      console.log("yeet");
     },
     async getAccessToken() {
       const getClientCredentials = oauth.clientCredentials(

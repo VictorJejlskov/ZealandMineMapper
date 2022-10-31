@@ -6,19 +6,32 @@
       </li>
     </ul>
   </div>
+  <div className="grid grid-cols-8">
+    <div className="col-span-1">
+      <LeftArrowButton />
+    </div>
+    <div className="col-span-6 text-center m-auto">
+      # - # | Total = #
+    </div>
+    <div className="col-span-1">
+      <RightArrowButton />
+    </div>
+  </div>
 </template>
 <script lang="ts">
 import { defineComponent, PropType } from "vue"
 import PostUser from "../../types/PostUser"
 import ProfileBannerComponent from "../molecule/ProfileBannerComponent.vue"
+import LeftArrowButton from "../atoms/LeftArrowButton.vue"
+import RightArrowButton from "../atoms/RightArrowButton.vue"
 
 export default defineComponent({
   setup() {
     return {}
   },
-  data(){
-    return{
-        users: this.userList,
+  data() {
+    return {
+      users: this.userList,
     }
   },
   props: {
@@ -29,9 +42,8 @@ export default defineComponent({
   },
   components: {
     ProfileBannerComponent,
+    LeftArrowButton,
+    RightArrowButton
   },
-  //   mounted: function () {
-  //   console.log("Organism list length: " + this.userList.length)
-  // },
 })
 </script>

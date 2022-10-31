@@ -79,21 +79,21 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent, PropType } from "vue";
-import PostObject from "../../types/PostObject";
-import PostUser from "../../types/PostUser";
-import { XMarkIcon } from "@heroicons/vue/24/solid";
+import { defineComponent, PropType } from "vue"
+import PostObject from "../../types/PostObject"
+import PostUser from "../../types/PostUser"
+import { XMarkIcon } from "@heroicons/vue/24/solid"
 
-import { LoremIpsum } from "lorem-ipsum";
-import axios from "axios";
-import oauth from "axios-oauth-client";
+import { LoremIpsum } from "lorem-ipsum"
+import axios from "axios"
+import oauth from "axios-oauth-client"
 
-const CLIENT_ID = "c5bb4327df624a9eb378f9377a0cd9ae";
-const CLIENT_SECRET = "uUPWqvMD2XzD0H1WWF4TBytxFx3lq2Dh";
+const CLIENT_ID = "c5bb4327df624a9eb378f9377a0cd9ae"
+const CLIENT_SECRET = "uUPWqvMD2XzD0H1WWF4TBytxFx3lq2Dh"
 
 export default defineComponent({
   setup() {
-    return {};
+    return {}
   },
   data() {
     return {
@@ -101,41 +101,52 @@ export default defineComponent({
       realmNames: [] as string[],
       newToonName: "",
       newToonRealm: "",
-      newToonObject: {} as PostUser
-    };
+      newToonObject: {} as PostUser,
+    }
   },
   async mounted() {
-    await this.getRealmList();
+    if (this.realmNames.length === 0) await this.getRealmList()
   },
   methods: {
     toggleModal() {
-      this.newToonName = "";
-      this.newToonRealm = "";
-      this.$emit("toggleModal");
+      this.newToonName = ""
+      this.newToonRealm = ""
+      this.$emit("toggleModal")
     },
     async submitUser() {
       if (this.newToonName && this.newToonRealm) {
-        const access_token = await this.getAccessToken();
-        const url = `https://eu.api.blizzard.com/profile/wow/character/${this.newToonRealm.toLowerCase()}/${this.newToonName.toLowerCase()}/character-media?namespace=profile-eu&locale=en_US&access_token=${access_token}`;
-        const response = await axios.get(url);
-        if(response.status === 200){
-            this.newToonObject.name = response.data["character"]["name"]
-            this.newToonObject.profilePicture = response.data["assets"][0].value
-            this.newToonObject.bannerPicture = response.data["assets"][1].value
-            console.log(this.newToonObject)
+        const access_token = await this.getAccessToken()
+        const url = `https://eu.api.blizzard.com/profile/wow/character/${this.newToonRealm.toLowerCase()}/${this.newToonName.toLowerCase()}/character-media?namespace=profile-eu&locale=en_US&access_token=${access_token}`
+        const response = await axios.get(url)
+        if (response.status === 200) {
+          this.newToonObject.name = response.data["character"]["name"]
+          this.newToonObject.profilePicture = response.data["assets"][0].value
+          this.newToonObject.bannerPicture = response.data["assets"][1].value
+          this.newToonObject.handle = ""
+          console.log("NewToonObject: " + this.newToonObject)
+          this.$emit("SubmitUser", this.newToonObject)
+          this.clearUserData()
         }
       }
-      
-
     },
+    clearUserData() {
+      this.newToonObject.name = ""
+      this.newToonObject.handle = ""
+      this.newToonObject.profilePicture = ""
+      this.newToonObject.bannerPicture = ""
+    },
+    // async getRandomName(){
+    //   const response = await axios.get("https://api.fungenerators.com/name/generate?category=dragon")
+    //   const data = response.data["contents"]["names"][0]
+    // },
     async randomizePicture() {
-      const response = await axios.get("https://picsum.photos/800.jpg");
-      const idResponse = response.headers["picsum-id"];
+      const response = await axios.get("https://picsum.photos/800.jpg")
+      const idResponse = response.headers["picsum-id"]
       const newResponse = await axios.get(
         `https://picsum.photos/id/${idResponse}/info`
-      );
+      )
 
-      this.newPost.picture = newResponse.data["download_url"];
+      this.newPost.picture = newResponse.data["download_url"]
     },
     randomizeDescription() {
       const lorem = new LoremIpsum({
@@ -147,11 +158,8 @@ export default defineComponent({
           max: 10,
           min: 4,
         },
-      });
-      this.newPost.description = lorem.generateParagraphs(1);
-    },
-    away() {
-      console.log("yeet");
+      })
+      this.newPost.description = lorem.generateParagraphs(1)
     },
     async getAccessToken() {
       const getClientCredentials = oauth.clientCredentials(
@@ -159,19 +167,19 @@ export default defineComponent({
         "https://oauth.battle.net/token",
         CLIENT_ID,
         CLIENT_SECRET
-      );
-      const auth = await getClientCredentials();
-      return auth["access_token"];
+      )
+      const auth = await getClientCredentials()
+      return auth["access_token"]
     },
     async getRealmList() {
-      const access_token = await this.getAccessToken();
-      const url = `https://eu.api.blizzard.com/data/wow/realm/index?namespace=dynamic-eu&locale=en_US&access_token=${access_token}`;
-      const response = await axios.get(url);
-      const realms = response.data["realms"];
+      const access_token = await this.getAccessToken()
+      const url = `https://eu.api.blizzard.com/data/wow/realm/index?namespace=dynamic-eu&locale=en_US&access_token=${access_token}`
+      const response = await axios.get(url)
+      const realms = response.data["realms"]
       Object.keys(realms).forEach((key) => {
-        this.realmNames.push(realms[key]["name"]);
-      });
-      this.realmNames.sort((obj1, obj2) => obj1.localeCompare(obj2));
+        this.realmNames.push(realms[key]["name"])
+      })
+      this.realmNames.sort((obj1, obj2) => obj1.localeCompare(obj2))
     },
   },
   props: {
@@ -184,5 +192,5 @@ export default defineComponent({
   components: {
     XMarkIcon,
   },
-});
+})
 </script>

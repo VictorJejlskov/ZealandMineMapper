@@ -3,10 +3,15 @@
     <div className="pt-1 px-3 text-grey"></div>
     <div className="px-3">
       <div>
-        <div>
-          <CreateUserButton @toggle-user-modal="toggleUserModal" />
-          <GetRosterPlayersButton @toggle-get-roster-modal="toggleUserModal" />
-
+        <div className="grid grid-cols-3 text-center">
+          <div>
+            <CreateUserButton @toggle-user-modal="toggleUserModal" />
+          </div>
+          <div></div>
+          <div>
+            <GetRosterPlayersButton
+              @toggle-get-roster-modal="toggleUserModal" />
+          </div>
         </div>
         <ProfileBannerListComponent :userList="users" />
       </div>
@@ -14,15 +19,15 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent, PropType } from "vue";
-import ProfileBannerListComponent from "../organism/ProfileBannerListComponent.vue";
-import PostUser from "../../types/PostUser";
-import CreateUserButton from "../atoms/CreateUserButton.vue";
-import GetRosterPlayersButton from "../atoms/GetRosterPlayersButton.vue";
+import { defineComponent, PropType } from "vue"
+import ProfileBannerListComponent from "../organism/ProfileBannerListComponent.vue"
+import PostUser from "../../types/PostUser"
+import CreateUserButton from "../atoms/CreateUserButton.vue"
+import GetRosterPlayersButton from "../atoms/GetRosterPlayersButton.vue"
 
 export default defineComponent({
   setup() {
-    return {};
+    return {}
   },
   props: {
     userList: {
@@ -33,17 +38,18 @@ export default defineComponent({
   data() {
     return {
       users: this.userList,
-    };
+    }
   },
   components: {
     ProfileBannerListComponent,
     CreateUserButton,
-    GetRosterPlayersButton
+    GetRosterPlayersButton,
+
   },
   methods: {
     toggleUserModal() {
-      this.$emit("toggleUserModal");
+      this.$emit("toggleUserModal")
     },
   },
-});
+})
 </script>

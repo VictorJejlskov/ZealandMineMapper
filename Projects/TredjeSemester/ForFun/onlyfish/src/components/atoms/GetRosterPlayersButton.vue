@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="toggleGetRosterModal">Roster</button>
+    <button @click="toggleGetRosterModal">Import Roster</button>
   </div>
 </template>
 <script lang="ts">

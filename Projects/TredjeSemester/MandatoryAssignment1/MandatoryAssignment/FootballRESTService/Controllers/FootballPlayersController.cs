@@ -52,27 +52,41 @@ namespace FootballRESTService.Controllers
         [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status409Conflict)]
         public ActionResult<FootballPlayer> Put(int id, [FromBody] FootballPlayer value)
         {
             try
             {
-                value.Validate();
+                return Ok(_manager.Update(id, value));
+            }
+            catch(NullReferenceException e)
+            {
+                return NotFound(e.Message);
+            }
+            catch(ArgumentException e)
+            {
+                return Conflict(e.Message);
             }
             catch
             {
                 return BadRequest("The given data is invalid");
             }
-            if (_manager.GetById(id).ShirtNumber != value.ShirtNumber && _manager.GetAll().Exists(player => player.ShirtNumber == value.ShirtNumber)) return Conflict("A different player with this shirtnumber already exists");
-            return Ok(_manager.Update(id, value));
         }
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<FootballPlayer> Delete(int id)
         {
-            if (_manager.GetById(id) == null) return NotFound($"No player with id: {id} was found");
-            return Ok(_manager.Delete(id));
+            try
+            {
+                return Ok(_manager.Delete(id));
+            }
+            catch 
+            {
+                return NotFound($"No player with id: {id} was found");
+            }
+
         }
     }
 }

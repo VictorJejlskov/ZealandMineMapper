@@ -1,8 +1,8 @@
 <template>
   <div class="app">
     <div>
-      <div className="grid grid-cols-8">
-        <div className="col-span-2"></div>
+      <div className="grid 2xl:grid-cols-8 xl:grid-cols-6">
+        <div className="2xl:col-span-2 xl:col-span-1"></div>
         <div className="col-span-1">
           <MenuComponent className=" h-full " />
         </div>
@@ -18,7 +18,7 @@
             @toggle-user-modal="toggleUserModal" />
           <!-- <SuggestionsComponent :mockUsers="users" :mockPosts="posts"/> -->
         </div>
-        <div className="col-span-2"></div>
+        <div className="2xl:col-span-2 xl:col-span-1"></div>
       </div>
       <div
         className="fixed top-0 left-0 right-0 bottom-0 z-50 overscroll-auto"
@@ -33,7 +33,7 @@
         v-if="showUserModal">
         <CreateUserModal
           :mockUsers="users"
-          @create-post="submitEmittedPost"
+          @submit-user="submitEmittedUser"
           @toggle-modal="toggleUserModal" />
       </div>
     </div>
@@ -41,17 +41,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from "vue"
 
-import PostSectionComponent from "./components/PostSectionComponent.vue";
-import MenuComponent from "./components/MenuComponent.vue";
-import SuggestionsBoxComponent from "./components/template/SuggestionsBoxComponent.vue";
-import CreatePostModal from "./components/organism/CreatePostModal.vue";
-import CreateUserModal from "./components/organism/CreateUserModal.vue";
+import PostSectionComponent from "./components/PostSectionComponent.vue"
+import MenuComponent from "./components/MenuComponent.vue"
+import SuggestionsBoxComponent from "./components/template/SuggestionsBoxComponent.vue"
+import CreatePostModal from "./components/organism/CreatePostModal.vue"
+import CreateUserModal from "./components/organism/CreateUserModal.vue"
 
-import PostObject from "./types/PostObject";
-import PostUser from "./types/PostUser";
-import moment from "moment";
+import PostObject from "./types/PostObject"
+import PostUser from "./types/PostUser"
+import moment from "moment"
 
 const mockUsers: PostUser[] = [
   {
@@ -81,8 +81,8 @@ const mockUsers: PostUser[] = [
     bannerPicture:
       "https://render.worldofwarcraft.com/eu/character/silvermoon/136/108575368-inset.jpg",
   },
-];
-const DATEFORMAT = "DD/MM/YYYY HH:mm:ss";
+]
+const DATEFORMAT = "DD/MM/YYYY HH:mm:ss"
 const mockPosts: PostObject[] = [
   {
     postId: 4,
@@ -112,7 +112,7 @@ const mockPosts: PostObject[] = [
     description: "No description added",
     postDate: moment().format(DATEFORMAT),
   },
-];
+]
 
 export default defineComponent({
   name: "App",
@@ -127,7 +127,7 @@ export default defineComponent({
     // SuggestionsComponent
   },
   setup() {
-    return {};
+    return {}
   },
   data() {
     return {
@@ -135,27 +135,34 @@ export default defineComponent({
       posts: mockPosts,
       showCreateModal: false,
       showUserModal: false,
-    };
+    }
   },
   methods: {
     submitEmittedPost(postObject: PostObject) {
-      postObject.postId = this.posts.length + 1;
-      postObject.postDate = moment().format(DATEFORMAT);
-      this.posts.push(Object.assign({}, postObject));
-      this.posts.sort((obj1, obj2) => obj2.postId - obj1.postId);
-      this.toggleModal();
+      postObject.postId = this.posts.length + 1
+      postObject.postDate = moment().format(DATEFORMAT)
+      this.posts.push(Object.assign({}, postObject))
+      this.posts.sort((obj1, obj2) => obj2.postId - obj1.postId)
+      this.toggleModal()
+    },
+    submitEmittedUser(userObject: PostUser){
+      userObject.userId = this.users.length + 1
+      this.users.push(Object.assign({}, userObject))
+      this.users.sort((obj1, obj2) => obj1.userId - obj2.userId)
+      this.toggleUserModal()
+      console.log(this.users)
     },
     toggleModal() {
-      this.showCreateModal = !this.showCreateModal;
+      this.showCreateModal = !this.showCreateModal
     },
     toggleUserModal() {
-      this.showUserModal = !this.showUserModal;
+      this.showUserModal = !this.showUserModal
     },
     testMethod() {
-      console.log("test");
+      console.log("test")
     },
   },
-});
+})
 </script>
 
 <style></style>
