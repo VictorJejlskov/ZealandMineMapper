@@ -1,8 +1,8 @@
 <template>
   <div class="app">
     <div>
-      <div className="grid 2xl:grid-cols-8 xl:grid-cols-6">
-        <div className="2xl:col-span-2 xl:col-span-1"></div>
+      <div className="grid grid-cols-8">
+        <div className="col-span-2"></div>
         <div className="col-span-1">
           <MenuComponent className=" h-full " />
         </div>
@@ -18,7 +18,7 @@
             @toggle-user-modal="toggleUserModal" />
           <!-- <SuggestionsComponent :mockUsers="users" :mockPosts="posts"/> -->
         </div>
-        <div className="2xl:col-span-2 xl:col-span-1"></div>
+        <div className="col-span-2"></div>
       </div>
       <div
         className="fixed top-0 left-0 right-0 bottom-0 z-50 overscroll-auto"

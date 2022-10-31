@@ -1,6 +1,6 @@
 <template>
   <button>
-    <div>
+    <div className="w-full">
       <ArrowSmallRightIcon />
     </div>
   </button>

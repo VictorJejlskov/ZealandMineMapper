@@ -55,6 +55,7 @@
                 </select>
               </div>
             </div>
+            <AutoCompleteSelect :data="this.realmNames"/>
           </div>
         </div>
         <!-- Modal footer -->
@@ -83,6 +84,7 @@ import { defineComponent, PropType } from "vue"
 import PostObject from "../../types/PostObject"
 import PostUser from "../../types/PostUser"
 import { XMarkIcon } from "@heroicons/vue/24/solid"
+import AutoCompleteSelect from "../molecule/AutoCompleteSelect.vue"
 
 import { LoremIpsum } from "lorem-ipsum"
 import axios from "axios"
@@ -191,6 +193,7 @@ export default defineComponent({
 
   components: {
     XMarkIcon,
+    AutoCompleteSelect
   },
 })
 </script>
