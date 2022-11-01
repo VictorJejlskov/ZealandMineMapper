@@ -43,19 +43,12 @@
                 Realm
               </label>
               <div className="flex items-center">
-                <select
-                  v-model="newToonRealm"
-                  class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-gray-dark outline-none focus:border-[#6A64F1] focus:shadow-md">
-                  <option
-                    v-for="realm in this.realmNames"
-                    v-bind:key="realm"
-                    v-bind:value="realm">
-                    {{ realm }}
-                  </option>
-                </select>
+                <div
+                  className="w-full">
+                  <AutoCompleteSelect ref="autoCompleteSelect" :data="this.realmNames" @submit-realm="getRealm"/>
+                </div>
               </div>
             </div>
-            <AutoCompleteSelect :data="this.realmNames"/>
           </div>
         </div>
         <!-- Modal footer -->
@@ -64,7 +57,8 @@
           <button
             type="button"
             class="text-white bg-green hover:bg-blue font-medium rounded-lg text-sm px-5 py-2.5 text-center"
-            @click="submitUser">
+            
+            @click="$refs.autoCompleteSelect.submitRealm()">
             Submit
           </button>
           <div className="col-span-4"></div>
@@ -80,22 +74,22 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent, PropType } from "vue"
-import PostObject from "../../types/PostObject"
-import PostUser from "../../types/PostUser"
-import { XMarkIcon } from "@heroicons/vue/24/solid"
-import AutoCompleteSelect from "../molecule/AutoCompleteSelect.vue"
+import { defineComponent, PropType } from "vue";
+import PostObject from "../../types/PostObject";
+import PostUser from "../../types/PostUser";
+import { XMarkIcon } from "@heroicons/vue/24/solid";
+import AutoCompleteSelect from "../molecule/AutoCompleteSelect.vue";
 
-import { LoremIpsum } from "lorem-ipsum"
-import axios from "axios"
-import oauth from "axios-oauth-client"
+import { LoremIpsum } from "lorem-ipsum";
+import axios from "axios";
+import oauth from "axios-oauth-client";
 
-const CLIENT_ID = "c5bb4327df624a9eb378f9377a0cd9ae"
-const CLIENT_SECRET = "uUPWqvMD2XzD0H1WWF4TBytxFx3lq2Dh"
+const CLIENT_ID = "c5bb4327df624a9eb378f9377a0cd9ae";
+const CLIENT_SECRET = "uUPWqvMD2XzD0H1WWF4TBytxFx3lq2Dh";
 
 export default defineComponent({
   setup() {
-    return {}
+    return {};
   },
   data() {
     return {
@@ -104,51 +98,56 @@ export default defineComponent({
       newToonName: "",
       newToonRealm: "",
       newToonObject: {} as PostUser,
-    }
+    };
   },
   async mounted() {
-    if (this.realmNames.length === 0) await this.getRealmList()
+    if (this.realmNames.length === 0) await this.getRealmList();
   },
   methods: {
     toggleModal() {
-      this.newToonName = ""
-      this.newToonRealm = ""
-      this.$emit("toggleModal")
+      this.newToonName = "";
+      this.newToonRealm = "";
+      this.$emit("toggleModal");
     },
     async submitUser() {
       if (this.newToonName && this.newToonRealm) {
-        const access_token = await this.getAccessToken()
-        const url = `https://eu.api.blizzard.com/profile/wow/character/${this.newToonRealm.toLowerCase()}/${this.newToonName.toLowerCase()}/character-media?namespace=profile-eu&locale=en_US&access_token=${access_token}`
-        const response = await axios.get(url)
+        const access_token = await this.getAccessToken();
+        const url = `https://eu.api.blizzard.com/profile/wow/character/${this.newToonRealm.toLowerCase()}/${this.newToonName.toLowerCase()}/character-media?namespace=profile-eu&locale=en_US&access_token=${access_token}`;
+        const response = await axios.get(url);
         if (response.status === 200) {
-          this.newToonObject.name = response.data["character"]["name"]
-          this.newToonObject.profilePicture = response.data["assets"][0].value
-          this.newToonObject.bannerPicture = response.data["assets"][1].value
-          this.newToonObject.handle = ""
-          console.log("NewToonObject: " + this.newToonObject)
-          this.$emit("SubmitUser", this.newToonObject)
-          this.clearUserData()
+          this.newToonObject.name = response.data["character"]["name"];
+          this.newToonObject.profilePicture = response.data["assets"][0].value;
+          this.newToonObject.bannerPicture = response.data["assets"][1].value;
+          this.newToonObject.handle = "";
+          console.log("NewToonObject: " + this.newToonObject);
+          this.$emit("SubmitUser", this.newToonObject);
+          this.clearUserData();
         }
       }
     },
+    async getRealm(realm: string){
+      console.log("GetRealm was called")
+      this.newToonRealm = realm;
+      await this.submitUser()
+    },
     clearUserData() {
-      this.newToonObject.name = ""
-      this.newToonObject.handle = ""
-      this.newToonObject.profilePicture = ""
-      this.newToonObject.bannerPicture = ""
+      this.newToonObject.name = "";
+      this.newToonObject.handle = "";
+      this.newToonObject.profilePicture = "";
+      this.newToonObject.bannerPicture = "";
     },
     // async getRandomName(){
     //   const response = await axios.get("https://api.fungenerators.com/name/generate?category=dragon")
     //   const data = response.data["contents"]["names"][0]
     // },
     async randomizePicture() {
-      const response = await axios.get("https://picsum.photos/800.jpg")
-      const idResponse = response.headers["picsum-id"]
+      const response = await axios.get("https://picsum.photos/800.jpg");
+      const idResponse = response.headers["picsum-id"];
       const newResponse = await axios.get(
         `https://picsum.photos/id/${idResponse}/info`
-      )
+      );
 
-      this.newPost.picture = newResponse.data["download_url"]
+      this.newPost.picture = newResponse.data["download_url"];
     },
     randomizeDescription() {
       const lorem = new LoremIpsum({
@@ -160,8 +159,8 @@ export default defineComponent({
           max: 10,
           min: 4,
         },
-      })
-      this.newPost.description = lorem.generateParagraphs(1)
+      });
+      this.newPost.description = lorem.generateParagraphs(1);
     },
     async getAccessToken() {
       const getClientCredentials = oauth.clientCredentials(
@@ -169,19 +168,19 @@ export default defineComponent({
         "https://oauth.battle.net/token",
         CLIENT_ID,
         CLIENT_SECRET
-      )
-      const auth = await getClientCredentials()
-      return auth["access_token"]
+      );
+      const auth = await getClientCredentials();
+      return auth["access_token"];
     },
     async getRealmList() {
-      const access_token = await this.getAccessToken()
-      const url = `https://eu.api.blizzard.com/data/wow/realm/index?namespace=dynamic-eu&locale=en_US&access_token=${access_token}`
-      const response = await axios.get(url)
-      const realms = response.data["realms"]
+      const access_token = await this.getAccessToken();
+      const url = `https://eu.api.blizzard.com/data/wow/realm/index?namespace=dynamic-eu&locale=en_US&access_token=${access_token}`;
+      const response = await axios.get(url);
+      const realms = response.data["realms"];
       Object.keys(realms).forEach((key) => {
-        this.realmNames.push(realms[key]["name"])
-      })
-      this.realmNames.sort((obj1, obj2) => obj1.localeCompare(obj2))
+        this.realmNames.push(realms[key]["name"]);
+      });
+      this.realmNames.sort((obj1, obj2) => obj1.localeCompare(obj2));
     },
   },
   props: {
@@ -193,7 +192,7 @@ export default defineComponent({
 
   components: {
     XMarkIcon,
-    AutoCompleteSelect
+    AutoCompleteSelect: AutoCompleteSelect,
   },
-})
+});
 </script>
