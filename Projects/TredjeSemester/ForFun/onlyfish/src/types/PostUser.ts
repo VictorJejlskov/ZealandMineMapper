@@ -1,7 +1,7 @@
 interface PostUser{
     userId: number
     name: string
-    handle: string
+    realm: string
     profilePicture: string
     bannerPicture: string
 }

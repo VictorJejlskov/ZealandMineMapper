@@ -1,6 +1,6 @@
 <template>
-  <button>
-    <div className="w-full">
+  <button  @click="rightArrowClicked">
+    <div className="w-12">
       <ArrowSmallRightIcon />
     </div>
   </button>
@@ -15,6 +15,11 @@ export default defineComponent({
     },
     components:{
         ArrowSmallRightIcon
+    },
+      methods:{
+    rightArrowClicked(){
+      this.$emit("rightArrowClicked")
     }
+  }
 })
 </script>

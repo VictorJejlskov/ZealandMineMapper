@@ -16,5 +16,18 @@
         public MusicRecord()
         {
         }
+
+        public override bool Equals(object? obj)
+        {
+            return obj is MusicRecord record &&
+                   Id == record.Id &&
+                   RecordName == record.RecordName &&
+                   ArtistName == record.ArtistName;
+        }
+
+        public override string ToString()
+        {
+            return $"{{{nameof(Id)}={Id.ToString()}, {nameof(RecordName)}={RecordName}, {nameof(ArtistName)}={ArtistName}}}";
+        }
     }
 }

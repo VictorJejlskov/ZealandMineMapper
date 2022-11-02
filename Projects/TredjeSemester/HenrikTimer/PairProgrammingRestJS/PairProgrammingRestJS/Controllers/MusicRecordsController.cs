@@ -17,7 +17,7 @@ namespace PairProgrammingRestJS.Controllers
         public ActionResult<List<MusicRecord>> Get()
         {
             List<MusicRecord> list = _musicRecordsManager.GetAll();
-            if(list == null) return NotFound();
+            if(list == null) return NotFound($"No list was found, should never happen.");
             return Ok(list);
         }
 
@@ -27,7 +27,7 @@ namespace PairProgrammingRestJS.Controllers
         public ActionResult<MusicRecord> Get(int id)
         {
             MusicRecord musicRecord = _musicRecordsManager.GetById(id);
-            if (musicRecord == null) return NotFound();
+            if (musicRecord == null) return NotFound($"No record with id: {id}, was found");
             return Ok(musicRecord);
         }
 
@@ -45,7 +45,7 @@ namespace PairProgrammingRestJS.Controllers
         public ActionResult<MusicRecord> Put([FromBody] MusicRecord value, int id)
         {
             MusicRecord musicRecord = _musicRecordsManager.Update(value, id);
-            if (musicRecord == null) return NotFound();
+            if (musicRecord == null) return NotFound($"No record with id: {id}, was found");
             return Ok(musicRecord);
         }
 
@@ -55,7 +55,7 @@ namespace PairProgrammingRestJS.Controllers
         public ActionResult<MusicRecord> Delete(int id)
         {
             MusicRecord musicRecord = _musicRecordsManager.Delete(id);
-            if(musicRecord == null) return NotFound();
+            if(musicRecord == null) return NotFound($"No record with id: {id}, was found");
             return Ok(musicRecord);
         }
     }

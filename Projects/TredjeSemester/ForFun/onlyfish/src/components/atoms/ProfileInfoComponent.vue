@@ -2,7 +2,7 @@
   <div>
     <div className="text-white pt-2">
         <b>{{userName}} </b><br/>
-        @{{userHandle}}
+        {{userRealm}}
     </div>
   </div>
 </template>
@@ -18,7 +18,7 @@ export default defineComponent({
       required: true,
       type: String,
     },
-    userHandle: {
+    userRealm: {
       required: true,
       type: String,
     },

@@ -6,7 +6,7 @@
         className="w-full text-center absolute bottom-[0%] bg-grayBackground h-[40%] ">
         <ProfileInfoComponent
           :userName="userObj.name"
-          :userHandle="userObj.handle" />
+          :userRealm="userObj.realm" />
       </div>
       <div className="absolute bottom-[50%] pl-2 ">
         <div>

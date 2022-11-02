@@ -15,7 +15,7 @@
           <div className="w-full">{{ postObject.thisUser.name }}</div>
         </div>
         <div className="absolute top-2 right-5">{{ postObject.postDate }}</div>
-        <p className="text-slate-500 ">{{ postObject.thisUser.handle }}</p>
+        <p className="text-slate-500 ">{{ postObject.thisUser.realm }}</p>
       </div>
     </div>
     <!-- Dividing line -->

@@ -13,6 +13,7 @@ module.exports = {
       laptop: "1024px",
       desktop: "1280px",
       
+      
     },
     colors: {
       blue: "#00AFF0",

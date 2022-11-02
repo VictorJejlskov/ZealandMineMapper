@@ -5,7 +5,7 @@ namespace PairProgrammingRestJS.Managers
     public class MusicRecordsManager
     {
         private static int _nextId = 1;
-        private readonly static List<MusicRecord> _musicRecords = new List<MusicRecord>()
+        private static List<MusicRecord> _musicRecords = new List<MusicRecord>()
         {
             new MusicRecord(_nextId++, "Smoke weed everyday", "Snoop doggy dog"),
             new MusicRecord(_nextId++, "Drop it like it's hot", "Snoop doggy dog"),
@@ -14,6 +14,17 @@ namespace PairProgrammingRestJS.Managers
             new MusicRecord(_nextId++, "Industry baby", "Lil Nas X"),
         };
 
+        public static void Reset()
+        {
+            _musicRecords = new List<MusicRecord>()
+            {
+                new MusicRecord(1, "Smoke weed everyday", "Snoop doggy dog"),
+                new MusicRecord(2, "Drop it like it's hot", "Snoop doggy dog"),
+                new MusicRecord(3, "Happy", "Pharrell Williams"),
+                new MusicRecord(4, "Old town road", "Lil Nas X"),
+                new MusicRecord(5, "Industry baby", "Lil Nas X"),
+            };
+        }
         public MusicRecord Add(MusicRecord musicRecord)
         {
             musicRecord.Id = _nextId++;

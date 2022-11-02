@@ -137,7 +137,7 @@ export default defineComponent({
       this.newPost.thisUser = {
         userId: 0,
         name: "",
-        handle: "",
+        realm: "",
         profilePicture: "",
         bannerPicture: "",
       }

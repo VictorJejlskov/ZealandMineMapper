@@ -118,21 +118,19 @@ export default defineComponent({
           this.newToonObject.name = response.data["character"]["name"];
           this.newToonObject.profilePicture = response.data["assets"][0].value;
           this.newToonObject.bannerPicture = response.data["assets"][1].value;
-          this.newToonObject.handle = "";
-          console.log("NewToonObject: " + this.newToonObject);
+          this.newToonObject.realm = this.newToonRealm;
           this.$emit("SubmitUser", this.newToonObject);
           this.clearUserData();
         }
       }
     },
     async getRealm(realm: string){
-      console.log("GetRealm was called")
       this.newToonRealm = realm;
       await this.submitUser()
     },
     clearUserData() {
       this.newToonObject.name = "";
-      this.newToonObject.handle = "";
+      this.newToonObject.realm = "";
       this.newToonObject.profilePicture = "";
       this.newToonObject.bannerPicture = "";
     },

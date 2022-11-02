@@ -57,7 +57,7 @@ const mockUsers: PostUser[] = [
   {
     userId: 1,
     name: "Fabioso",
-    handle: "SexyFishMan32",
+    realm: "Silvermoon",
     profilePicture:
       "https://render.worldofwarcraft.com/eu/character/silvermoon/215/143824343-avatar.jpg",
     bannerPicture:
@@ -66,7 +66,7 @@ const mockUsers: PostUser[] = [
   {
     userId: 2,
     name: "Legando",
-    handle: "SubparLock",
+    realm: "Silvermoon",
     profilePicture:
       "https://render.worldofwarcraft.com/eu/character/silvermoon/77/192421709-avatar.jpg",
     bannerPicture:
@@ -75,7 +75,7 @@ const mockUsers: PostUser[] = [
   {
     userId: 3,
     name: "Troopcd",
-    handle: "GreyParser69",
+    realm: "Silvermoon",
     profilePicture:
       "https://render.worldofwarcraft.com/eu/character/silvermoon/136/108575368-avatar.jpg",
     bannerPicture:
