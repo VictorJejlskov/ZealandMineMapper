@@ -10,7 +10,7 @@
           <div></div>
           <div>
             <GetRosterPlayersButton
-              @toggle-get-roster-modal="toggleUserModal" />
+              @toggle-get-roster-modal="toggleRosterModal" />
           </div>
         </div>
         <ProfileBannerListComponent :userList="users" />
@@ -19,15 +19,15 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent, PropType } from "vue"
-import ProfileBannerListComponent from "../organism/ProfileBannerListComponent.vue"
-import PostUser from "../../types/PostUser"
-import CreateUserButton from "../atoms/CreateUserButton.vue"
-import GetRosterPlayersButton from "../atoms/GetRosterPlayersButton.vue"
+import { defineComponent, PropType } from "vue";
+import ProfileBannerListComponent from "../organism/ProfileBannerListComponent.vue";
+import PostUser from "../../types/PostUser";
+import CreateUserButton from "../atoms/CreateUserButton.vue";
+import GetRosterPlayersButton from "../atoms/GetRosterPlayersButton.vue";
 
 export default defineComponent({
   setup() {
-    return {}
+    return {};
   },
   props: {
     userList: {
@@ -38,18 +38,21 @@ export default defineComponent({
   data() {
     return {
       users: this.userList,
-    }
+    };
   },
   components: {
     ProfileBannerListComponent,
     CreateUserButton,
     GetRosterPlayersButton,
-
   },
   methods: {
     toggleUserModal() {
-      this.$emit("toggleUserModal")
+      this.$emit("toggleUserModal");
+    },
+    toggleRosterModal() {
+      console.log("emitted toggleRosterModal")
+      this.$emit("toggleRosterModal");
     },
   },
-})
+});
 </script>

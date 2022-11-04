@@ -75,12 +75,10 @@
 </template>
 <script lang="ts">
 import { defineComponent, PropType } from "vue";
-import PostObject from "../../types/PostObject";
 import PostUser from "../../types/PostUser";
 import { XMarkIcon } from "@heroicons/vue/24/solid";
 import AutoCompleteSelect from "../molecule/AutoCompleteSelect.vue";
 
-import { LoremIpsum } from "lorem-ipsum";
 import axios from "axios";
 import oauth from "axios-oauth-client";
 
@@ -93,7 +91,6 @@ export default defineComponent({
   },
   data() {
     return {
-      newPost: {} as PostObject,
       realmNames: [] as string[],
       newToonName: "",
       newToonRealm: "",
@@ -112,7 +109,9 @@ export default defineComponent({
     async submitUser() {
       if (this.newToonName && this.newToonRealm) {
         const access_token = await this.getAccessToken();
+        
         const url = `https://eu.api.blizzard.com/profile/wow/character/${this.newToonRealm.toLowerCase()}/${this.newToonName.toLowerCase()}/character-media?namespace=profile-eu&locale=en_US&access_token=${access_token}`;
+        console.log(url)
         const response = await axios.get(url);
         if (response.status === 200) {
           this.newToonObject.name = response.data["character"]["name"];
@@ -138,28 +137,6 @@ export default defineComponent({
     //   const response = await axios.get("https://api.fungenerators.com/name/generate?category=dragon")
     //   const data = response.data["contents"]["names"][0]
     // },
-    async randomizePicture() {
-      const response = await axios.get("https://picsum.photos/800.jpg");
-      const idResponse = response.headers["picsum-id"];
-      const newResponse = await axios.get(
-        `https://picsum.photos/id/${idResponse}/info`
-      );
-
-      this.newPost.picture = newResponse.data["download_url"];
-    },
-    randomizeDescription() {
-      const lorem = new LoremIpsum({
-        sentencesPerParagraph: {
-          max: 3,
-          min: 1,
-        },
-        wordsPerSentence: {
-          max: 10,
-          min: 4,
-        },
-      });
-      this.newPost.description = lorem.generateParagraphs(1);
-    },
     async getAccessToken() {
       const getClientCredentials = oauth.clientCredentials(
         axios.create(),
