@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuathleteLibrary", "Duathlete\DuathleteLibrary.csproj", "{DF6E5AC4-9C51-481C-B168-4404F0CD73F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuathleteTests1", "DuathleteTests1\DuathleteTests1.csproj", "{C3B99192-8902-4C87-A37F-37FCF86A5FA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF6E5AC4-9C51-481C-B168-4404F0CD73F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6E5AC4-9C51-481C-B168-4404F0CD73F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6E5AC4-9C51-481C-B168-4404F0CD73F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6E5AC4-9C51-481C-B168-4404F0CD73F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B99192-8902-4C87-A37F-37FCF86A5FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B99192-8902-4C87-A37F-37FCF86A5FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B99192-8902-4C87-A37F-37FCF86A5FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B99192-8902-4C87-A37F-37FCF86A5FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C703A746-AD64-4D72-A648-CCF07B29EC4B}
+	EndGlobalSection
+EndGlobal

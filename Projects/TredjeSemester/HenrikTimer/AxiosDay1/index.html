@@ -28,9 +28,11 @@
             Todos
           </option>
         </select>
-        <br>  
-        <input v-model.lazy="apiUrl" style="width: 25%">
-        <button id="urlClearButton" @click="clearUrl()" class="btn btn-primary">Clear</button>
+        <br />
+        <input v-model.lazy="apiUrl" style="width: 25%" />
+        <button id="urlClearButton" @click="clearUrl()" class="btn btn-primary">
+          Clear
+        </button>
 
         <!-- {{apiUrl}} -->
         <br />
@@ -61,7 +63,9 @@
             <tr>
               <th v-for="(value,name) in objects[0]">
                 {{name}}
-                <button id="sortButton" @click="sortBy(value, name, $event)">sort</button>
+                <button id="sortButton" @click="sortBy(value, name, $event)">
+                  sort
+                </button>
               </th>
               <th></th>
             </tr>
@@ -137,7 +141,8 @@
             </tr>
             <tr>
               <td v-for="(value, name) in exampleObject">
-                <input v-model="exampleObject[name]" readonly="readonly"/> {{getTypeMessage(typeof exampleObject[name])}}
+                <input v-model="exampleObject[name]" readonly="readonly" />
+                {{getTypeMessage(typeof exampleObject[name])}}
               </td>
               <td>
                 <div>&#60;&#61; Example Object</div>
@@ -152,7 +157,7 @@
 
     <script src="/js/main.js"></script>
     <script>
-      const mountedApp = app.mount("#app");
+      const mountedApp = app.mount("#app")
     </script>
   </body>
 </html>

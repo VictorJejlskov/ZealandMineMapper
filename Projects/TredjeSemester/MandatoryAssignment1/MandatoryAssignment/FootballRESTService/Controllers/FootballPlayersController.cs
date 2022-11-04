@@ -84,7 +84,7 @@ namespace FootballRESTService.Controllers
             }
             catch 
             {
-                return NotFound($"No player with id: {id} was found");
+                return NotFound($"No athlete with Bip: {id} was found");
             }
 
         }
