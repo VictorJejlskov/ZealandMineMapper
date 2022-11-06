@@ -11,7 +11,7 @@
       <LeftArrowButton @left-arrow-clicked="previousPage" />
     </div>
     <div className="col-span-6 text-center m-auto">
-      {{ currentPage + 1 }} - {{ currentPage + compMaxSize }} | Total =
+      {{ currentPage + 1 }} - {{ currentPage + compMaxSize }} | Total -
       {{ users.length }}
     </div>
     <div className="col-span-1">

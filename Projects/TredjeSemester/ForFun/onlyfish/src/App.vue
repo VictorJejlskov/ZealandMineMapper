@@ -15,8 +15,8 @@
         <div className="col-span-1">
           <suggestionsBoxComponent
             :userList="users"
-            @toggle-user-modal="toggleUserModal" 
-            @toggle-roster-modal="toggleRosterModal"/>
+            @toggle-user-modal="toggleUserModal"
+            @toggle-roster-modal="toggleRosterModal" />
           <!-- <SuggestionsComponent :mockUsers="users" :mockPosts="posts"/> -->
         </div>
         <div className="col-span-2"></div>
@@ -42,8 +42,8 @@
         v-if="showRosterModal">
         <ImportRosterModal
           :mockUsers="users"
-          @submit-user="submitEmittedUser"
-          @toggle-modal="toggleRosterModal" />
+          @toggle-modal="toggleRosterModal"
+          @submit-players="submitUsers" />
       </div>
     </div>
   </div>
@@ -63,6 +63,11 @@ import PostObject from "./types/PostObject";
 import PostUser from "./types/PostUser";
 import moment from "moment";
 
+import axios from "axios";
+import oauth from "axios-oauth-client";
+
+const CLIENT_ID = "c5bb4327df624a9eb378f9377a0cd9ae";
+const CLIENT_SECRET = "uUPWqvMD2XzD0H1WWF4TBytxFx3lq2Dh";
 const mockUsers: PostUser[] = [
   {
     userId: 1,
@@ -175,6 +180,37 @@ export default defineComponent({
     },
     testMethod() {
       console.log("test");
+    },
+
+    async getAccessToken() {
+      const getClientCredentials = oauth.clientCredentials(
+        axios.create(),
+        "https://oauth.battle.net/token",
+        CLIENT_ID,
+        CLIENT_SECRET
+      );
+      const auth = await getClientCredentials();
+      return auth["access_token"];
+    },
+    // eslint-disable-next-line
+    async submitUsers(playerArray: any[]) {
+      const newToonObject = {} as PostUser;
+      const access_token = await this.getAccessToken();
+
+      for (let i = 1; i < playerArray.length; i++) {
+        console.log(playerArray[i-1])
+        const url = `https://eu.api.blizzard.com/profile/wow/character/${playerArray[i - 1].realm.toLowerCase()}/${playerArray[i - 1].name.toLowerCase()}/character-media?namespace=profile-eu&locale=en_US&access_token=${access_token}`;
+        const response = await axios.get(url);
+        if (response.status === 200) {
+          newToonObject.name = response.data["character"]["name"];
+          newToonObject.profilePicture = response.data["assets"][0].value;
+          newToonObject.bannerPicture = response.data["assets"][1].value;
+          newToonObject.realm = playerArray[i - 1].realm;
+          newToonObject.userId = this.users.length + 1;
+        }
+        this.users.push(Object.assign({}, newToonObject));
+      }
+      this.users.sort((obj1, obj2) => obj1.userId - obj2.userId);
     },
   },
 });
