@@ -1,21 +1,12 @@
 import threading
 from socket import *
-import ssl
-
-certificatesDirectory = 'C:/certificates/'
-privateKeyPath = certificatesDirectory + 'key.pem'
-certificatePath = certificatesDirectory + 'certificate.pem'
-privateKeyPassword = 'ndu45wbu'
-context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
-context.load_cert_chain(certfile=certificatePath, keyfile=privateKeyPath, password=privateKeyPassword)
 
 
-serverPort = 12000
+serverPort = 12020
 serverSocket = socket(AF_INET, SOCK_STREAM)
-secureSocket = context.wrap_socket(serverSocket, server_side=True)
 
-secureSocket.bind(('', serverPort))
-secureSocket.listen(1)
+serverSocket.bind(('', serverPort))
+serverSocket.listen(1)
 
 print("Server is hella ready")
 
@@ -53,6 +44,6 @@ def handle_client(this_socket, address):
 
 
 while True:
-    connection_socket, addr = secureSocket.accept()
+    connection_socket, addr = serverSocket.accept()
     threading.Thread(target=handle_client, args=(connection_socket, addr)).start()
 

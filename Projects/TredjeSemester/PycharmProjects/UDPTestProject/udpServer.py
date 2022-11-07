@@ -1,11 +1,14 @@
 from socket import *
 import requests
+import ssl
 
 
-from urllib3.exceptions import InsecureRequestWarning
-from urllib3 import disable_warnings
-
-disable_warnings(InsecureRequestWarning)
+certificatesDirectory = 'C:/certificates/'
+privateKeyPath = certificatesDirectory + 'key.pem'
+certificatePath = certificatesDirectory + 'certificate.pem'
+privateKeyPassword = "ndu45wbu"
+context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+context.load_cert_chain(certfile=certificatePath, keyfile=privateKeyPath, password=privateKeyPassword)
 
 
 serverPort = 12000
@@ -25,6 +28,7 @@ def post_speed_record(client_message):
 
 
 while True:
-    message, clientAddress = serverSocket.recvfrom(2048)
+    secureSocket = context.wrap_socket(serverSocket, server_side=True)
+    message, clientAddress = secureSocket.recvfrom(2048)
     print(message)
     post_speed_record(message.decode())

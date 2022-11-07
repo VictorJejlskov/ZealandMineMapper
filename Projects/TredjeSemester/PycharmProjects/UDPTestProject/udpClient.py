@@ -1,8 +1,10 @@
 from socket import *
+import ssl
 serverName = '255.255.255.255'
 serverPort = 12000
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 clientSocket.setsockopt(SOL_SOCKET, SO_BROADCAST, 1)
+context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
 
 
 def get_number():
