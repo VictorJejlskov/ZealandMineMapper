@@ -33,7 +33,7 @@ namespace PairProgrammingRestJS.Controllers.Tests
         {
             var manager = new MusicRecordsManager();
             var idToFind = 5;
-            var expected = new MusicRecord(5, "Industry baby", "Lil Nas X");
+            var expected = new MusicRecord(5, "Industry baby", "Lil Nas X", 212, 2021);
 
             var actual = manager.GetById(idToFind);
 
@@ -44,7 +44,7 @@ namespace PairProgrammingRestJS.Controllers.Tests
         public void PostTest()
         {
             var manager = new MusicRecordsManager();
-            MusicRecord recordToAdd = new MusicRecord(6, "House Music", "Boris Brejcha");
+            MusicRecord recordToAdd = new MusicRecord(6, "House Music", "Boris Brejcha", 179, 2021);
             var expectedObject = recordToAdd;
             var expectedCount = 6;
 
@@ -61,10 +61,10 @@ namespace PairProgrammingRestJS.Controllers.Tests
         public void PutTest()
         {
             var manager = new MusicRecordsManager();
-            var recordToUpdate = new MusicRecord(100, "Space Diver", "Boris Brejcha");
+            var recordToUpdate = new MusicRecord(100, "Space Diver", "Boris Brejcha", 397, 2020);
             var notExpected = recordToUpdate;
             var idToChange = 4;
-            var expected = new MusicRecord(idToChange, "Space Diver", "Boris Brejcha"); ;
+            var expected = new MusicRecord(idToChange, "Space Diver", "Boris Brejcha", 397, 2020); ;
             expected.Id = idToChange;
 
             var actual = manager.Update(recordToUpdate, idToChange);
@@ -81,7 +81,7 @@ namespace PairProgrammingRestJS.Controllers.Tests
             List<MusicRecord> testList = manager.GetAll();
             var idToDelete = 5;
             var expectedCount = testList.Count() - 1;
-            MusicRecord expectedObject = new MusicRecord(5, "Industry baby", "Lil Nas X");
+            MusicRecord expectedObject = new MusicRecord(5, "Industry baby", "Lil Nas X", 212, 2021);
 
             var actualObject = manager.Delete(idToDelete);
 

@@ -22,10 +22,32 @@
     </div>
     <!-- Add -->
     <div>
-        <input type="text" v-model="newRecord.RecordName">
-        <input type="text" v-model="newRecord.ArtistName">
+        <input type="text" v-model="newRecord.recordName" placeholder="Title">
+        <input type="text" v-model="newRecord.artistName" placeholder="Artist">
+        <input type="number" v-model="newRecord.duration" placeholder="Duration (in seconds)">
+        <input type="number" v-model="newRecord.publicationYear" placeholder="Release Year">
         <button @click="add">Add</button>
     </div>
+    <div>
+      <input type="text" v-model="searchRecordName" placeholder="Title">
+      <input type="text" v-model="searchArtistName" placeholder="Artist">
+      <input type="number" v-model="searchYear" placeholder="Release Year">
+      <button @click="getFiltered">Filter</button>
+    </div>
+
+    <div>
+      <input type="number" v-model="updateId" placeholder="ID">
+      <input type="text" v-model="updateValue.recordName" placeholder="Title">
+      <input type="text" v-model="updateValue.artistName" placeholder="Artist">
+      <input type="number" v-model="updateValue.duration" placeholder="Duration (in seconds)">
+      <input type="number" v-model="updateValue.publicationYear" placeholder="Release Year">
+      <button @click="update">Update</button>
+  </div>
+  <div>
+    <input type="number" v-model="idToBeDeleted" placeholder="ID">
+    <button @click="deleteRecord">Delete</button>
+  </div>
+
 
 
     <div>

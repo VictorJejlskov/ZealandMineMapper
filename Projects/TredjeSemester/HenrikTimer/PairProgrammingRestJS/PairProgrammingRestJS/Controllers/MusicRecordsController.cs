@@ -14,9 +14,9 @@ namespace PairProgrammingRestJS.Controllers
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<List<MusicRecord>> Get()
+        public ActionResult<List<MusicRecord>> Get([FromQuery]string? recordName, [FromQuery]string? artistName, [FromQuery]int? year)
         {
-            List<MusicRecord> list = _musicRecordsManager.GetAll();
+            List<MusicRecord> list = _musicRecordsManager.GetAll(recordName, artistName, year);
             if(list == null) return NotFound($"No list was found, should never happen.");
             return Ok(list);
         }
