@@ -39,7 +39,7 @@ export default defineComponent({
     filteredRealms() {
       if (this.query === "") return [];
       let result = Object.values(this.realms);
-      let newRestult = result.filter((realm) => {
+      let newRestult = result.filter(realm => {
         return realm.toLowerCase().includes(this.query.toLowerCase());
       });
       let firstTen = newRestult.slice(0, 10)

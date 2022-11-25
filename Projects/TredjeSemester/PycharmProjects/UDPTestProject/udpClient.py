@@ -27,6 +27,4 @@ speed = get_number()
 
 message = sensor_name + " |-| " + speed
 clientSocket.sendto(message.encode(), (serverName, serverPort))
-modifiedMessage, serverAddress = clientSocket.recvfrom(2048)
-print(modifiedMessage.decode())
 clientSocket.close()
