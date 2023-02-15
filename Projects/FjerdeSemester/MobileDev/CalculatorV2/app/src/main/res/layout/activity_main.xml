@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/grid_top_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4">
+
+        <Button
+            android:id="@+id/top_button_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="elp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <Button
+            android:id="@+id/top_button_backspace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Backspace" />
+
+        <Button
+            android:id="@+id/top_button_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="clear" />
+    </GridLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+\hypertarget{class_t_c_p_things_1_1_t_c_p_server_1_1_abstract_t_c_p_server}{}\doxysection{TCPThings.\+TCPServer.\+Abstract\+TCPServer Class Reference}
+\label{class_t_c_p_things_1_1_t_c_p_server_1_1_abstract_t_c_p_server}\index{TCPThings.TCPServer.AbstractTCPServer@{TCPThings.TCPServer.AbstractTCPServer}}
+
+
+Abstract TCP server, needing a port and name as parameters, and an override of Tcp\+Server\+Work, to determine what the server does.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_t_c_p_things_1_1_t_c_p_server_1_1_abstract_t_c_p_server_a0fd32f332abb94c1ec4a76d93733334d}{Abstract\+TCPServer}} (int port, string name)
+\begin{DoxyCompactList}\small\item\em The server needs a port, which to listen on, and a name. The port ABOVE the one used, should also be free, eg. 7001 and 7002, used for the close-\/server \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_t_c_p_things_1_1_t_c_p_server_1_1_abstract_t_c_p_server_a6b6d269954ee77271495344f18244daf}\label{class_t_c_p_things_1_1_t_c_p_server_1_1_abstract_t_c_p_server_a6b6d269954ee77271495344f18244daf}} 
+void {\bfseries Start} ()
+\begin{DoxyCompactList}\small\item\em Method to start the TCP server, preparing it for incoming clients. Also starts the stop-\/server, on the port above the used port \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_t_c_p_things_1_1_t_c_p_server_1_1_abstract_t_c_p_server_a416657573a2381f3bbb31f37ba3c92b0}{Tcp\+Server\+Work}} (Stream\+Reader sr, Stream\+Writer sw)
+\begin{DoxyCompactList}\small\item\em Abstract method, that is executed whenever a new client connects. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Abstract TCP server, needing a port and name as parameters, and an override of Tcp\+Server\+Work, to determine what the server does. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_t_c_p_things_1_1_t_c_p_server_1_1_abstract_t_c_p_server_a0fd32f332abb94c1ec4a76d93733334d}\label{class_t_c_p_things_1_1_t_c_p_server_1_1_abstract_t_c_p_server_a0fd32f332abb94c1ec4a76d93733334d}} 
+\index{TCPThings.TCPServer.AbstractTCPServer@{TCPThings.TCPServer.AbstractTCPServer}!AbstractTCPServer@{AbstractTCPServer}}
+\index{AbstractTCPServer@{AbstractTCPServer}!TCPThings.TCPServer.AbstractTCPServer@{TCPThings.TCPServer.AbstractTCPServer}}
+\doxysubsubsection{\texorpdfstring{AbstractTCPServer()}{AbstractTCPServer()}}
+{\footnotesize\ttfamily TCPThings.\+TCPServer.\+Abstract\+TCPServer.\+Abstract\+TCPServer (\begin{DoxyParamCaption}\item[{int}]{port,  }\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+The server needs a port, which to listen on, and a name. The port ABOVE the one used, should also be free, eg. 7001 and 7002, used for the close-\/server 
+
+
+\begin{DoxyParams}{Parameters}
+{\em port} & The value of the port to listen on (keep port+1 free too)\\
+\hline
+{\em name} & The value of the name, for the server\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_t_c_p_things_1_1_t_c_p_server_1_1_abstract_t_c_p_server_a416657573a2381f3bbb31f37ba3c92b0}\label{class_t_c_p_things_1_1_t_c_p_server_1_1_abstract_t_c_p_server_a416657573a2381f3bbb31f37ba3c92b0}} 
+\index{TCPThings.TCPServer.AbstractTCPServer@{TCPThings.TCPServer.AbstractTCPServer}!TcpServerWork@{TcpServerWork}}
+\index{TcpServerWork@{TcpServerWork}!TCPThings.TCPServer.AbstractTCPServer@{TCPThings.TCPServer.AbstractTCPServer}}
+\doxysubsubsection{\texorpdfstring{TcpServerWork()}{TcpServerWork()}}
+{\footnotesize\ttfamily abstract void TCPThings.\+TCPServer.\+Abstract\+TCPServer.\+Tcp\+Server\+Work (\begin{DoxyParamCaption}\item[{Stream\+Reader}]{sr,  }\item[{Stream\+Writer}]{sw }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Abstract method, that is executed whenever a new client connects. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sr} & The value of the Stream\+Reader\\
+\hline
+{\em sw} & The value of the Stream\+Writer\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/victo/\+Desktop/\+Zealand\+Mapper/\+Projects/\+Fjerde\+Semester/\+Avanceret CSkarp/\+TCPThings/\+TCPThings/\+TCPServer/Abstract\+TCPServer.\+cs\end{DoxyCompactItemize}
