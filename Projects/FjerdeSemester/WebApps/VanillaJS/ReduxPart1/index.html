@@ -1,0 +1,28 @@
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.js"></script>
+  <script src="/index.js"></script>
+</head>
+<body>
+  <button
+    id="buttonRed"
+    class="ui label massive red"
+    onClick="store.dispatch(turnRed())">
+    Red
+  </button>
+  <button
+    id="buttonBlue"
+    class="ui label massive blue"
+    onClick="store.dispatch(turnBlue())">
+    Blue
+  </button>
+  <button
+    id="buttonGreen"
+    class="ui label massive green"
+    onClick="store.dispatch(turnGreen())">
+    Green
+  </button>
+  <p id="result" class="ui label massive black">THIS IS THE RESULT</p>
+</body>
