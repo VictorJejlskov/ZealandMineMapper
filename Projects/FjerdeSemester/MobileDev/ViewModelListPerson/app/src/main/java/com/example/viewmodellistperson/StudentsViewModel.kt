@@ -1,5 +1,6 @@
 package com.example.viewmodellistperson
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
@@ -15,7 +16,7 @@ class StudentsViewModel: ViewModel() {
     private var _students = MutableLiveData<List<Student>>(_studentList)
     var selected = MutableLiveData<Student>()
 
-    var students: MutableLiveData<List<Student>> = _students
+    var students:   LiveData<List<Student>> = _students
     val adding: MutableLiveData<Boolean> = MutableLiveData(false)
 
     fun add(student: Student) {
