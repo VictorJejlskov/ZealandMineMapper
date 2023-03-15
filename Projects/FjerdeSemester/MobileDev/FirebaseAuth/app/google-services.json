@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "91356414469",
+    "project_id": "mandatoryassignmentmobile",
+    "storage_bucket": "mandatoryassignmentmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91356414469:android:f64d5c8fa1f574fcb3926c",
+        "android_client_info": {
+          "package_name": "com.example.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91356414469-aadrgg3d58s9jhm1fs3iqif65vcphkc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrC-gwl_1T7y8st9vLVaieDrH1D0rGfDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91356414469-aadrgg3d58s9jhm1fs3iqif65vcphkc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -33,9 +33,6 @@ class HomepageFragment : Fragment() {
 
         // configure RecyclerView
         binding.recyclerView.layoutManager = LinearLayoutManager(activity)
-        // https://medium.com/geekculture/everything-you-should-know-to-create-a-recyclerview-3defdb660a2f
-        // binding.recyclerView.layoutManager = LinearLayoutManager(activity, RecyclerView.VERTICAL, true)
-        // binding.recyclerView.layoutManager = LinearLayoutManager(activity, RecyclerView.HORIZONTAL, false)
         val items: List<Item> = viewModel.items.value!!
         viewModel.items.observe(viewLifecycleOwner) {items ->
             binding.recyclerView.layoutManager = LinearLayoutManager(activity)

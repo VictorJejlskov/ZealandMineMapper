@@ -4,22 +4,36 @@ import Home from "./components/home"
 import { Route, Routes, Link } from "react-router-dom"
 import SearchMovie from "./components/searchMovie"
 import SearchedMoviesList from "./components/searchedMoviesList"
+import UpcomingMoviesList from "./components/upcomingMoviesList"
+import MovieTrailer from "./components/movieTrailer"
+import FavouriteMoviesList from "./components/favouriteMoviesList"
 function App() {
   return (
     <div>
       <div className="jumbotron pb-3 pt-3">
-        <div className="navbar navbar-expand-lg" style={{paddingLeft: 0}}>
-          <nav className="nav navbar-nav">
-            <Link to="/" className="nav-item nav-link">
+        <div className="">
+          <nav className="navbar navbar-expand-lg">
+            <div className="navbar-brand" href="#">
+              Moviefinder
+            </div>
+            <Link to="/" className="nav-link">
               Home
             </Link>
-            <Link to="/popular" className="nav-item nav-link">
+            <Link to="/popular" className="nav-link">
               Popular
             </Link>
-            <Link to="/highest-rated" className="nav-item nav-link">
+            <Link to="/highest-rated" className="nav-link">
               Highest Rated
             </Link>
-            <SearchMovie/>
+            <Link to="/upcoming" className="nav-link">
+              Upcoming
+            </Link>
+            <Link to="/favourites" className="nav-link">
+              Favourites
+            </Link>
+            <div className="" style={{ position: "absolute", right: 40 }}>
+              <SearchMovie />
+            </div>
           </nav>
         </div>
       </div>
@@ -28,6 +42,9 @@ function App() {
         <Route path="/popular" element={<PopularMoviesList />} />
         <Route path="/highest-rated" element={<HighestRatedMoviesList />} />
         <Route path="/searched-movie" element={<SearchedMoviesList />} />
+        <Route path="/upcoming" element={<UpcomingMoviesList />} />
+        <Route path="/favourites" element={<FavouriteMoviesList />} />
+        <Route path="/trailer/:id" element={<MovieTrailer />} />
       </Routes>
     </div>
   )

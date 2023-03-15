@@ -50,7 +50,6 @@ class FirstFragment : Fragment() {
                     columns = 2
                 }
                 binding.recyclerView.layoutManager = GridLayoutManager(this.context, columns)
-
                 binding.recyclerView.adapter = adapter
             }
         }
@@ -78,7 +77,7 @@ class FirstFragment : Fragment() {
                  ) { // reacts instantly: Much to quick.
                      val action =
                          FirstFragmentDirections.actionFirstFragmentToSecondFragment(position)
-                     findNavController().navigate(action /*R.id.action_FirstFragment_to_SecondFragment*/)
+                      findNavController().navigate(action /*R.id.action_FirstFragment_to_SecondFragment*/)
                  }
 
                  override fun onNothingSelected(parent: AdapterView<*>?) {
