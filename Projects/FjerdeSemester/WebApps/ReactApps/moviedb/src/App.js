@@ -7,6 +7,8 @@ import SearchedMoviesList from "./components/searchedMoviesList"
 import UpcomingMoviesList from "./components/upcomingMoviesList"
 import MovieTrailer from "./components/movieTrailer"
 import FavouriteMoviesList from "./components/favouriteMoviesList"
+import { ToastContainer } from "react-toastify"
+import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <div>
@@ -36,6 +38,7 @@ function App() {
             </div>
           </nav>
         </div>
+        <ToastContainer/>
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
