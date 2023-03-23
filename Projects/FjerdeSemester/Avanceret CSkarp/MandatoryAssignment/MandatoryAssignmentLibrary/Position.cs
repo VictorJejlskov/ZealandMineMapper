@@ -19,7 +19,7 @@ namespace MandatoryAssignmentLibrary
 
         public override string ToString()
         {
-            return $"{{{nameof(PosX)}={PosX.ToString()}, {nameof(PosY)}={PosY.ToString()}}}";
+            return $"{{x: {PosX.ToString()}, y: {PosY.ToString()}}}";
         }
     }
 }

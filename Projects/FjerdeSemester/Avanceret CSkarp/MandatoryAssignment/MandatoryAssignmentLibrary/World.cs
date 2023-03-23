@@ -10,6 +10,13 @@ namespace MandatoryAssignmentLibrary
     {
         public int MaxX { get; set; }
         public int MaxY { get; set; }
-        public List<Creature> Creatures { get; set; } = new List<Creature>();
+        public List<Creature> Creatures { get; set; } 
+
+        public World(int maxX, int maxY)
+        {
+            MaxX = maxX;
+            MaxY = maxY;
+            Creatures = new List<Creature>();
+        }
     }
 }

@@ -16,5 +16,10 @@ namespace MandatoryAssignmentLibrary
             Damage = damage;
             Range = range;
         }
+
+        public override string ToString()
+        {
+            return $"{Name}";
+        }
     }
 }

@@ -14,5 +14,9 @@ namespace MandatoryAssignmentLibrary
             DefenceValue = defenceValue;
         }
 
+        public override string ToString()
+        {
+            return $"{Name}";
+        }   
     }
 }
