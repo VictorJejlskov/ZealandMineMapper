@@ -25,7 +25,6 @@ class SalesItemViewModel: ViewModel() {
     }
 
     fun add(item: SalesItem) {
-        val newItem: SalesItem = SalesItem(0, item.description, )
         repository.add(item)
     }
 

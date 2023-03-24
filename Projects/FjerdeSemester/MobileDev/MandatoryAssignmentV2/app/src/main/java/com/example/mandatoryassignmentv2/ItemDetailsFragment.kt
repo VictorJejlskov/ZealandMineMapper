@@ -11,6 +11,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.mandatoryassignmentv2.databinding.FragmentItemDetailsBinding
 import com.example.mandatoryassignmentv2.models.SalesItem
 import com.example.mandatoryassignmentv2.models.SalesItemViewModel
+import java.text.SimpleDateFormat
 import java.time.Instant
 import java.util.Date
 
@@ -40,6 +41,15 @@ class ItemDetailsFragment : Fragment() {
         }
         binding.editTextTitle.setText(salesItem.description)
         binding.editTextPrice.setText(salesItem.price.toString())
+        binding.editTextEmail.setText(salesItem.sellerEmail)
+        binding.editTextPhone.setText(salesItem.sellerPhone)
+        binding.editTextPicture.setText(salesItem.pictureUrl)
+        val simpleDateFormat = SimpleDateFormat("dd/MM/yyyy")
+        val dateString = simpleDateFormat.format(Date(salesItem.time.toLong()*1000)).toString()
+        binding.textviewItemTime.text = dateString
+
+
+        binding.textviewItemId.text = salesItem.id.toString()
 
         binding.buttonBack.setOnClickListener {
             // findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
@@ -56,10 +66,13 @@ class ItemDetailsFragment : Fragment() {
             val description = binding.editTextTitle.text.toString().trim()
             //val publisher = binding.editTextPublisher.text.toString().trim()
             //val author = binding.editTextAuthor.text.toString().trim()
-            val price = binding.editTextPrice.text.toString().trim().toDouble()
-            val updatedBook = SalesItem(salesItem.id, description, "", price.toInt(), "", "", System.currentTimeMillis().toInt()/1000)
-            Log.d("APPLE", "update $updatedBook")
-            viewModel.update(updatedBook)
+            val price = binding.editTextPrice.text.toString().trim().toInt()
+            val pictureUrl = binding.editTextPicture.text.toString().trim()
+            val sellerEmail = binding.editTextEmail.text.toString().trim()
+            val sellPhone = binding.editTextPhone.text.toString().trim()
+            val updatedItem = SalesItem(salesItem.id, description, pictureUrl, price, sellerEmail, sellPhone, (System.currentTimeMillis()/1000).toInt())
+            Log.d("APPLE", "update $updatedItem")
+            viewModel.update(updatedItem)
             findNavController().popBackStack()
         }
 

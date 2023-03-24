@@ -28,7 +28,6 @@ class SalesItemRepository {
         salesItemService.getAllItems().enqueue(object : Callback<List<SalesItem>> {
             override fun onResponse(call: Call<List<SalesItem>>, response: Response<List<SalesItem>>) {
                 if (response.isSuccessful) {
-                    //Log.d("APPLE", response.body().toString())
                     val b: List<SalesItem>? = response.body()
                     salesItemsLiveData.postValue(b!!)
                     errorMessageLiveData.postValue("")
@@ -42,7 +41,7 @@ class SalesItemRepository {
             override fun onFailure(call: Call<List<SalesItem>>, t: Throwable) {
                 //booksLiveData.postValue(null)
                 errorMessageLiveData.postValue(t.message)
-                Log.d("APPLE", t.message!!)
+                Log.d("ORANGE", t.message!!)
             }
         })
     }
@@ -62,7 +61,7 @@ class SalesItemRepository {
 
             override fun onFailure(call: Call<SalesItem>, t: Throwable) {
                 errorMessageLiveData.postValue(t.message)
-                Log.d("APPLE", t.message!!)
+                Log.d("ORANGE", t.message!!)
             }
         })
     }
@@ -82,13 +81,13 @@ class SalesItemRepository {
 
             override fun onFailure(call: Call<SalesItem>, t: Throwable) {
                 errorMessageLiveData.postValue(t.message)
-                Log.d("APPLE", t.message!!)
+                Log.d("ORANGE", t.message!!)
             }
         })
     }
 
-    fun update(book: SalesItem) {
-        salesItemService.updateItem(book.id, book).enqueue(object : Callback<SalesItem> {
+    fun update(item: SalesItem) {
+        salesItemService.updateItem(item.id, item).enqueue(object : Callback<SalesItem> {
             override fun onResponse(call: Call<SalesItem>, response: Response<SalesItem>) {
                 if (response.isSuccessful) {
                     Log.d("APPLE", "Updated: " + response.body())
@@ -96,13 +95,13 @@ class SalesItemRepository {
                 } else {
                     val message = response.code().toString() + " " + response.message()
                     errorMessageLiveData.postValue(message)
-                    Log.d("APPLE", message)
+                    Log.d("APPLE", "Update: $message")
                 }
             }
 
             override fun onFailure(call: Call<SalesItem>, t: Throwable) {
                 errorMessageLiveData.postValue(t.message)
-                Log.d("APPLE", t.message!!)
+                Log.d("ORANGE", t.message!!)
             }
         })
     }

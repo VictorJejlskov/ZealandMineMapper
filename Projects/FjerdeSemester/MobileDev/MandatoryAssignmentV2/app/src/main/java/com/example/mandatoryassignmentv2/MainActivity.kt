@@ -1,7 +1,9 @@
 package com.example.mandatoryassignmentv2
 
+import android.os.Build
 import android.os.Bundle
 import android.text.InputType
+import android.util.Log
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -12,17 +14,22 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.EditText
 import android.widget.LinearLayout
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
 import com.example.mandatoryassignmentv2.databinding.ActivityMainBinding
 import com.example.mandatoryassignmentv2.models.SalesItem
 import com.example.mandatoryassignmentv2.models.SalesItemViewModel
+import com.google.firebase.auth.FirebaseAuth
+import java.time.LocalDateTime
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
     private var _salesItemViewModel = SalesItemViewModel()
+    private var auth: FirebaseAuth = FirebaseAuth.getInstance()
 
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -61,39 +68,61 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
     }
+    @RequiresApi(Build.VERSION_CODES.O)
     private fun showDialog(){
+        val user = auth.currentUser
+        if(user === null) return
         val builder: AlertDialog.Builder = AlertDialog.Builder(this)
         builder.setTitle("Add Item")
 
         val layout = LinearLayout(this@MainActivity)
         layout.orientation = LinearLayout.VERTICAL
 
-        val titleInputField = EditText(this)
-        titleInputField.hint = "Description"
-        titleInputField.inputType = InputType.TYPE_CLASS_TEXT
-        layout.addView(titleInputField)
+        val descriptionInputField = EditText(this)
+        descriptionInputField.hint = "Description"
+        descriptionInputField.inputType = InputType.TYPE_CLASS_TEXT
+        layout.addView(descriptionInputField)
 
-        val bodyInputField = EditText(this)
-        bodyInputField.hint = "Price"
-        bodyInputField.inputType = InputType.TYPE_CLASS_NUMBER or InputType.TYPE_NUMBER_FLAG_DECIMAL
-        layout.addView(bodyInputField)
+        val priceInputField = EditText(this)
+        priceInputField.hint = "Price"
+        priceInputField.inputType = InputType.TYPE_CLASS_NUMBER or InputType.TYPE_NUMBER_FLAG_DECIMAL
+        layout.addView(priceInputField)
+
+        val phoneInputField = EditText(this)
+        phoneInputField.hint = "Phone"
+        phoneInputField.inputType = InputType.TYPE_CLASS_TEXT
+        layout.addView(phoneInputField)
+
+        val pictureInputField = EditText(this)
+        pictureInputField.hint = "PictureURL"
+        pictureInputField.inputType = InputType.TYPE_CLASS_TEXT
+        layout.addView(pictureInputField)
+
+
 
         builder.setView(layout)
 
         builder.setPositiveButton("OK") { dialog, which ->
-            val description = titleInputField.text.toString().trim()
-            val priceStr = bodyInputField.text.toString().trim()
+            val description = descriptionInputField.text.toString().trim()
+            val priceStr = priceInputField.text.toString().trim()
+            val pictureStr = pictureInputField.text.toString().trim()
+            val phoneStr = phoneInputField.text.toString().trim()
+
             when {
                 description.isEmpty() ->
                     Snackbar.make(binding.root, "No Title", Snackbar.LENGTH_LONG).show()
                 priceStr.isEmpty() ->
                     Snackbar.make(binding.root, "No Price", Snackbar.LENGTH_LONG).show()
+                phoneStr.isEmpty() ->
+                    Snackbar.make(binding.root, "No Phone", Snackbar.LENGTH_LONG).show()
                 else -> {
-                    val newItem = SalesItem(description, 0, "", priceStr.toInt(), "", "", 0)
+                    val newItem = SalesItem(0, description, pictureStr, priceStr.toInt(), user.email.toString(), phoneStr, (System.currentTimeMillis()/1000).toInt())
+                    Log.d("New ITEM", newItem.toString())
                     _salesItemViewModel.add(newItem)
                 }
             }
         }
+        builder.setCancelable(false);
         builder.setNegativeButton("Cancel"){dialog, which -> dialog.cancel()}
         builder.show()
     }
