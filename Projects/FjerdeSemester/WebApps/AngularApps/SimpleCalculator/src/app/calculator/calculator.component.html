@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-1"></div>
+    <div class="col-4" id="calc">
+        <h1>Simple Calculator</h1> CalculatorComponent (Child-component to AppComponent)<br><br><br>
+        Number1: <input type=number [(ngModel)]="number1" id="x"><br><br>
+        Number2: <input type=number [(ngModel)]="number2" id="y"><br><br>
+        <button (click)="Add()">ADD</button>
+        <button (click)="Sub()">SUB</button>
+        <button (click)="Mul()">MUL</button>
+        <button (click)="Div()">DIV</button>
+    </div>
+    <app-result [result]="result" class="align-self-center">Loading...</app-result>
+</div>
