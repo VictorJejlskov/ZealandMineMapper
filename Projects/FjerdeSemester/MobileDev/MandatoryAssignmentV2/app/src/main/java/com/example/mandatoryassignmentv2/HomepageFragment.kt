@@ -16,12 +16,14 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mandatoryassignmentv2.databinding.FragmentHomepageBinding
 import com.example.mandatoryassignmentv2.models.SalesItemAdapter
 import com.example.mandatoryassignmentv2.models.SalesItemViewModel
+import com.google.firebase.auth.FirebaseAuth
 
 class HomepageFragment : Fragment() {
     private var _binding: FragmentHomepageBinding? = null
     private val binding get() = _binding!!
 
     private val viewModel: SalesItemViewModel by activityViewModels()
+    private var auth: FirebaseAuth = FirebaseAuth.getInstance()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -32,6 +34,7 @@ class HomepageFragment : Fragment() {
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        activity?.invalidateOptionsMenu()
         viewModel.salesItemsLiveData.observe(viewLifecycleOwner) { items ->
             //Log.d("APPLE", "observer $books")
             binding.progressbar.visibility = View.GONE
@@ -59,8 +62,6 @@ class HomepageFragment : Fragment() {
             binding.textviewMessage.text = errorMessage
         }
 
-        viewModel.reload()
-
         binding.swiperefresh.setOnRefreshListener {
             viewModel.reload()
             binding.swiperefresh.isRefreshing = false // TODO too early
@@ -81,6 +82,11 @@ class HomepageFragment : Fragment() {
                  return@setOnClickListener
              }*/
             viewModel.filterByDescription(title)
+        }
+
+        binding.buttonMyOwn.setOnClickListener {
+            val user = auth.currentUser ?: return@setOnClickListener
+            viewModel.filterByEmail(user.email.toString())
         }
     }
     override fun onDestroyView() {

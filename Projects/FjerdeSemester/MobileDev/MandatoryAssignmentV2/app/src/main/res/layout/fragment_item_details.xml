@@ -45,7 +45,7 @@
         android:id="@+id/editText_picture"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Phone"
+        android:hint="Picture"
         android:inputType="text" />
     <TextView
         android:id="@+id/textview_item_time"

@@ -55,4 +55,8 @@ class SalesItemViewModel: ViewModel() {
     fun filterByDescription(desc: String) {
         repository.filterByDescription(desc)
     }
+
+    fun filterByEmail(email: String){
+        repository.filterByEmail(email)
+    }
 }

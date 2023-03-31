@@ -26,35 +26,67 @@ class LoginFragment : Fragment() {
         _binding = FragmentLoginBinding.inflate(inflater, container, false)
         return binding.root
     }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        activity?.invalidateOptionsMenu()
+        var clickable = false
         binding.buttonLoginSignIn.setOnClickListener {
-            val email = binding.edittextLoginUsername.text.trim().toString()
-            if (email.isEmpty()){
-                binding.edittextLoginUsername.error = "No username entered!"
-                return@setOnClickListener
-            }
-            val password = binding.edittextLoginPassword.text.trim().toString()
-            if (password.isEmpty()){
-                binding.edittextLoginPassword.error ="No password entered!"
-                return@setOnClickListener
-            }
-            auth.signInWithEmailAndPassword(email, password)
-                .addOnCompleteListener(requireActivity()){
-                    task ->
-                    if (task.isSuccessful){
-                        Log.d("LOGINTAG", "Login: LOGGED IN!!!!")
-                        val user = auth.currentUser
-                        findNavController().navigate(R.id.action_loginFragment_to_homepageFragment)
-                    }
-                    else {
-                        Log.d("LOGINTAGFAIL", "Login: FAILED!!!", task.exception)
-
-                    }
+            if (!clickable) {
+                clickable = true
+                val email = binding.edittextLoginUsername.text.trim().toString()
+                if (email.isEmpty()) {
+                    binding.edittextLoginUsername.error = "No username entered!"
+                    return@setOnClickListener
                 }
+                val password = binding.edittextLoginPassword.text.trim().toString()
+                if (password.isEmpty()) {
+                    binding.edittextLoginPassword.error = "No password entered!"
+                    return@setOnClickListener
+                }
+                auth.signInWithEmailAndPassword(email, password)
+                    .addOnCompleteListener(requireActivity()) { task ->
+                        if (task.isSuccessful) {
+                            Log.d("LOGINTAG", "Login: LOGGED IN!!!!")
+                            val user = auth.currentUser
+                            findNavController().navigate(R.id.action_loginFragment_to_homepageFragment)
+                        } else {
+                            Log.d("LOGINTAGFAIL", "Login: FAILED!!!", task.exception)
+                        }
+                        clickable = false
+                    }
+
+            }
+
+        }
+        binding.buttonLoginSignUp.setOnClickListener {
+            if (!clickable) {
+                clickable = true
+                val email = binding.edittextLoginUsername.text.trim().toString()
+                if (email.isEmpty()) {
+                    binding.edittextLoginUsername.error = "No username entered!"
+                    return@setOnClickListener
+                }
+                val password = binding.edittextLoginPassword.text.trim().toString()
+                if (password.isEmpty()) {
+                    binding.edittextLoginPassword.error = "No password entered!"
+                    return@setOnClickListener
+                }
+                auth.createUserWithEmailAndPassword(email, password)
+                    .addOnCompleteListener(requireActivity()) { task ->
+                        if (task.isSuccessful) {
+                            Log.d("SIGNUPTAG", "SIGNUP: SIGNED UP!!!!")
+                            val user = auth.currentUser
+                            findNavController().navigate(R.id.action_loginFragment_to_homepageFragment)
+                        } else {
+                            Log.d("SIGNUPFAIL", "SIGNUP: FAILED!!!", task.exception)
+                        }
+                        clickable = false
+                    }
+            }
         }
     }
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

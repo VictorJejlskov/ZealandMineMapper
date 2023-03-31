@@ -45,8 +45,8 @@ class SalesItemRepository {
             }
         })
     }
-    fun add(book: SalesItem) {
-        salesItemService.saveItem(book).enqueue(object : Callback<SalesItem> {
+    fun add(item: SalesItem) {
+        salesItemService.saveItem(item).enqueue(object : Callback<SalesItem> {
             override fun onResponse(call: Call<SalesItem>, response: Response<SalesItem>) {
                 if (response.isSuccessful) {
                     Log.d("APPLE", "Added: " + response.body())
@@ -72,6 +72,7 @@ class SalesItemRepository {
                 if (response.isSuccessful) {
                     Log.d("APPLE", "Updated: " + response.body())
                     updateMessageLiveData.postValue("Deleted: " + response.body())
+                    getItems()
                 } else {
                     val message = response.code().toString() + " " + response.message()
                     errorMessageLiveData.postValue(message)
@@ -92,6 +93,7 @@ class SalesItemRepository {
                 if (response.isSuccessful) {
                     Log.d("APPLE", "Updated: " + response.body())
                     updateMessageLiveData.postValue("Updated: " + response.body())
+                    getItems()
                 } else {
                     val message = response.code().toString() + " " + response.message()
                     errorMessageLiveData.postValue(message)
@@ -126,8 +128,12 @@ class SalesItemRepository {
         if (desc.isBlank()) {
             getItems()
         }else {
-            salesItemsLiveData.value = salesItemsLiveData.value?.filter { book -> book.description.contains(desc) }
-            // TODO: bug fix: booksLiveData.value keeps getting smaller for each filter
+            getItems()
+            salesItemsLiveData.value = salesItemsLiveData.value?.filter { item -> item.description.contains(desc) }
         }
+    }
+
+    fun filterByEmail(email: String){
+            salesItemsLiveData.value = salesItemsLiveData.value?.filter { item -> item.sellerEmail.lowercase() == email.lowercase() }
     }
 }

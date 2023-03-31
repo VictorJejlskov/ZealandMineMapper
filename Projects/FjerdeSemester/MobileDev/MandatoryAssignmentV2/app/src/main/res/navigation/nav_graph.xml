@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@id/homepageFragment">
+    app:startDestination="@id/loginFragment">
     <fragment
         android:id="@+id/homepageFragment"
         android:name="com.example.mandatoryassignmentv2.HomepageFragment"
@@ -27,7 +27,7 @@
         android:label="fragment_item_details"
         tools:layout="@layout/fragment_item_details" >
         <argument
-            android:name="position"
+            android:name="itemid"
             app:argType="integer" />
     </fragment>
 </navigation>

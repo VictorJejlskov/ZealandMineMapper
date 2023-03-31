@@ -16,6 +16,7 @@ import android.widget.EditText
 import android.widget.LinearLayout
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
+import androidx.navigation.fragment.findNavController
 import com.example.mandatoryassignmentv2.databinding.ActivityMainBinding
 import com.example.mandatoryassignmentv2.models.SalesItem
 import com.example.mandatoryassignmentv2.models.SalesItemViewModel
@@ -48,8 +49,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        if(auth.currentUser == null){
+            menuInflater.inflate(R.menu.menu_login, menu)
+        }
+        else {
+            menuInflater.inflate(R.menu.menu_main, menu)
+        }
         // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.menu_main, menu)
         return true
     }
 
@@ -58,7 +64,14 @@ class MainActivity : AppCompatActivity() {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         return when (item.itemId) {
-            R.id.action_settings -> true
+            R.id.action_home -> {
+                findNavController(R.id.nav_host_fragment_content_main).navigate(R.id.homepageFragment)
+                true
+            }
+            R.id.action_logout -> {
+                signOut()
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }
@@ -67,6 +80,11 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
+    }
+    private fun signOut(){
+        if(auth.currentUser == null) return
+        auth.signOut()
+        findNavController(R.id.nav_host_fragment_content_main).navigate(R.id.loginFragment)
     }
     @RequiresApi(Build.VERSION_CODES.O)
     private fun showDialog(){
@@ -125,5 +143,6 @@ class MainActivity : AppCompatActivity() {
         builder.setCancelable(false);
         builder.setNegativeButton("Cancel"){dialog, which -> dialog.cancel()}
         builder.show()
+
     }
 }
