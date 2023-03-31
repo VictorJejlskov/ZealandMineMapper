@@ -9,7 +9,13 @@ import MovieTrailer from "./components/movieTrailer"
 import FavouriteMoviesList from "./components/favouriteMoviesList"
 import { ToastContainer } from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
+import Login from "./components/login"
+import { useLogout } from "./components/hooks/useLogout"
 function App() {
+  const logout = useLogout()
+  function handleLogout(){
+    logout();
+  }
   return (
     <div>
       <div className="jumbotron pb-3 pt-3">
@@ -36,6 +42,7 @@ function App() {
             <div className="" style={{ position: "absolute", right: 40 }}>
               <SearchMovie />
             </div>
+            <button onClick={handleLogout}>Log Out</button>
           </nav>
         </div>
         <ToastContainer/>
@@ -48,6 +55,7 @@ function App() {
         <Route path="/upcoming" element={<UpcomingMoviesList />} />
         <Route path="/favourites" element={<FavouriteMoviesList />} />
         <Route path="/trailer/:id" element={<MovieTrailer />} />
+        <Route path="/login" element={<Login/>}/>
       </Routes>
     </div>
   )
