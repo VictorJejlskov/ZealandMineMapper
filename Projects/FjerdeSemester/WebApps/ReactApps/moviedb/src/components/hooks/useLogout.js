@@ -1,4 +1,4 @@
-import { useEffect, useCallback } from 'react';
+import { useCallback } from 'react';
 import { auth } from '../../firebase';
 import { useNavigate } from 'react-router-dom';
 
@@ -15,17 +15,6 @@ export function useLogout() {
     }
   }, [navigate]);
 
-  useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((user) => {
-      if (!user) {
-        handleLogout();
-      }
-    });
-
-    return () => {
-      unsubscribe();
-    };
-  }, [handleLogout]);
 
   return handleLogout;
 }
