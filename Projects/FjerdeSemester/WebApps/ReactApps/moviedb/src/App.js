@@ -42,7 +42,7 @@ function App() {
             <div className="" style={{ position: "absolute", right: 40 }}>
               <SearchMovie />
             </div>
-            <button onClick={handleLogout}>Log Out</button>
+            <button onClick={() => handleLogout}>Log Out</button>
           </nav>
         </div>
         <ToastContainer/>

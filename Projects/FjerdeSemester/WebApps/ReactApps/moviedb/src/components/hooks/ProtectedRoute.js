@@ -17,7 +17,7 @@ export function useUser() {
                 setAuthenticated(true)
             }
         });
-    }, []);
+    }, [navigate]);
 
     return { user, authenticated };
 }
