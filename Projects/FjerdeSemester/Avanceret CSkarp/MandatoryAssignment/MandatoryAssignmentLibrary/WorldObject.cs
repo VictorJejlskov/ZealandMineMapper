@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace MandatoryAssignmentLibrary
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class WorldObject
     {
-        public bool LootAble { get; set; }
         public string Name { get; set; }
-        public bool Removeable { get; set; }
+        public Boolean RemoveAble { get; set; }
+        public Boolean Lootable { get; set; }
     }
 }

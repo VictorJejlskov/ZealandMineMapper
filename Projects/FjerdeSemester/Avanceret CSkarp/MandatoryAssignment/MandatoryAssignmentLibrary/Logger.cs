@@ -9,51 +9,57 @@ namespace MandatoryAssignmentLibrary
 {
     public class Logger
     {
-        public TraceSource ts;
+        TraceSource ts;
 
         public Logger(string nameOfLog)
         {
-            this.ts = new TraceSource(nameOfLog);
+            ts =  new TraceSource(nameOfLog);
             InitializeTrace(nameOfLog);
         }
 
-        public void InitializeTrace(string nameOfLog)
-        { 
-            ts.Switch = new SourceSwitch(nameOfLog, "All");
+        public void InitializeTrace(string name)
+        {
+            ts.Switch = new SourceSwitch(name, "All");
             TraceListener tl = new ConsoleTraceListener();
             ts.Listeners.Add(tl);
         }
 
         public void LogInfo(string msg)
         {
-            Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Black;
             ts.TraceEvent(TraceEventType.Information, 1, msg);
         }
+
         public void LogWarning(string msg)
         {
-            Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.BackgroundColor = ConsoleColor.Black;
             ts.TraceEvent(TraceEventType.Warning, 1, msg);
-            Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.White;
-        }
-        public void LogError(string msg)
-        {
-            Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.Red;
-            ts.TraceEvent(TraceEventType.Error, 1, msg);
-            Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.White;
-        }
-        public void LogFatal(string msg)
-        {
-            Console.BackgroundColor = ConsoleColor.White;
-            Console.ForegroundColor = ConsoleColor.Red;
-            ts.TraceEvent(TraceEventType.Critical, 1, msg);
-            Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.White;
+            ResetConsole();
+
         }
 
+        public void LogError(string msg)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.BackgroundColor = ConsoleColor.Black;
+            ts.TraceEvent(TraceEventType.Error, 1, msg);
+            ResetConsole();
+        }
+
+        public void LogFatal(string msg)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.BackgroundColor = ConsoleColor.White;
+            ts.TraceEvent(TraceEventType.Critical, 1, msg);
+            ResetConsole();
+        }
+
+        public void ResetConsole()
+        {
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Black;
+        }
     }
 }
