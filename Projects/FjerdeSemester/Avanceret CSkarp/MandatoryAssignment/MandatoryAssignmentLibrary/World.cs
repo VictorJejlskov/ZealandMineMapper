@@ -18,6 +18,23 @@ namespace MandatoryAssignmentLibrary
         public int MaxX { get; set; }
         public int MaxY { get; set; }
         public List<Creature> Creatures { get; set; }
+        public List<Position> thePositions { get; set; } = new List<Position>();
+
+        public List<Position> theListOfPositions { get; set; } = new List<Position>();
+
+
+        //public List<Creature> TheRealCreatures { get; set; } = new List<Creature>()
+        //{
+        //    new Creature(){Position = new Position(10, 10)},
+        //    new Creature(){Position = new Position(10, 0)},
+        //    new Creature(){Position = new Position(0, 10)},
+        //    new Creature(){Position = new Position(0, 0)},
+        //    new Creature(){Position = new Position(5, 5)},
+        //    new Creature(){Position = new Position(4, 4)},
+        //    new Creature(){Position = new Position(4, 5)},
+        //    new Creature(){Position = new Position(5, 4)},
+        //};
+
 
 
         // Defines the map size
@@ -45,8 +62,14 @@ namespace MandatoryAssignmentLibrary
             Creatures = new List<Creature>();
             for (int i = 0; i < amountOfCreatures; i++)
             {
-                Creatures.Add(new Creature() { Name = "Creature" + i, AttackItems = attackItems, DefenceItems = defenceItems, Hitpoints = 100 + i});
 
+                Creature theCreature = new Creature() { Name = "Creature" + i, AttackItems = attackItems, DefenceItems = defenceItems, Hitpoints = 100 + i };
+                while (theListOfPositions.Contains(theCreature.Position))
+                {
+                    theCreature.RerollPosition(maxX, maxY);
+                }
+                Creatures.Add(theCreature);
+                theListOfPositions.Add(theCreature.Position);
             }
             Console.WriteLine("The world has been created");
             return this;
@@ -62,7 +85,7 @@ namespace MandatoryAssignmentLibrary
         private World()
         {
             _instance = InitializeWorld();
-            for (int i = 0; i < _instance.MaxX + 2; i++)
+            for (int i = 0; i < _instance.MaxX; i++)
             {
                 horizontalLine += "-";
             }
@@ -81,6 +104,16 @@ namespace MandatoryAssignmentLibrary
                 Console.WriteLine($"|");
             }
             Console.WriteLine(horizontalLine);
+            foreach (Creature position in Creatures)
+            {
+                Console.WriteLine("Creature position X: " + position.Position.PosX + " Position Y: " + position.Position.PosY + "\n");
+            }
+
+            foreach (Position position in thePositions)
+            {
+                Console.WriteLine("Creature position: " + position);
+            }
+
         }
 
         private void PrintRowString(int r)
@@ -94,17 +127,19 @@ namespace MandatoryAssignmentLibrary
 
         private void PrintColRowChar(int row, int col)
         {
-            Position p = new Position(row, col);
+            Position p = new Position(col, row);
 
             var positions = Creatures.Select(it => it.Position);
 
             bool isMatch = false;
 
-            foreach(var position in positions)
+            foreach (var position in positions)
             {
                 if (position.Equals(p))
                 {
+
                     isMatch = true;
+                    thePositions.Add(position);
                     break;
                 }
             }
@@ -112,15 +147,15 @@ namespace MandatoryAssignmentLibrary
             if (isMatch)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-           
                 Console.Write('X');
                 Console.ForegroundColor = ConsoleColor.White;
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.Write(' ');
+                Console.Write('X');
             }
+
         }
     }
 }

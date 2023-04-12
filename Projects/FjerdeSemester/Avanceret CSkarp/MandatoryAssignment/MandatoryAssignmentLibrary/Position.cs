@@ -11,6 +11,7 @@ namespace MandatoryAssignmentLibrary
     {
         public int PosX { get; set; }
         public int PosY { get; set; }
+        public Random random { get; set; } = new Random();
 
         public Position(int posX, int posY)
         {
@@ -20,6 +21,7 @@ namespace MandatoryAssignmentLibrary
             var world = configDoc.DocumentElement.SelectSingleNode("Playground");
             int maxX = Convert.ToInt32(world.SelectSingleNode("MaxX").InnerText);
             int maxY = Convert.ToInt32(world.SelectSingleNode("MaxY").InnerText);
+
 
             PosX = posX > maxX ? maxX : posX;
             PosY = posY > maxY ? maxY : posY;

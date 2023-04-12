@@ -30,7 +30,7 @@ namespace MandatoryAssignmentLibrary
             var world = configDoc.DocumentElement.SelectSingleNode("Playground");
             int maxX = Convert.ToInt32(world.SelectSingleNode("MaxX").InnerText);
             int maxY = Convert.ToInt32(world.SelectSingleNode("MaxY").InnerText);
-            Position = new Position(_rand.Next(0, maxX+1), _rand.Next(0, maxY+ 1));
+            Position = new Position(_rand.Next(0, maxX), _rand.Next(0, maxY));
         }
 
         public int Damage 
@@ -66,6 +66,10 @@ namespace MandatoryAssignmentLibrary
 
         }
 
+        public void RerollPosition(int maxX, int maxY)
+        {
+            Position = new Position(_rand.Next(0, maxX), _rand.Next(0, maxY));
+        }
 
     }
 }
