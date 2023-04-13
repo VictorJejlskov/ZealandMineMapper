@@ -10,21 +10,14 @@ namespace MandatoryAssignmentLibrary
 {
     public abstract class AttackItem : IAttackItem
     {
-        protected bool _hasUsedBuff = false;
         public int Damage { get; set; }
-        public int Range { get; set; }
-        public int CurrentDurability { get; }
         public string Name { get; set; }
-        public int MaximumDurability { get; set; }
         
 
-        protected AttackItem(int damage, int range, string name, int maximumDurability)
+        protected AttackItem(int damage, string name)
         {
             Damage = damage;
-            Range = range;
             Name = name;
-            CurrentDurability = maximumDurability;
-            MaximumDurability = maximumDurability;
         }
 
         public AttackItem()
@@ -35,16 +28,5 @@ namespace MandatoryAssignmentLibrary
         {
             return base.ToString();
         }
-
- 
-
-
-        public abstract void WeaponDamage();
-
-        public void Buff()
-        {
-            throw new NotImplementedException();
-        }
-
     }
 }

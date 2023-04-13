@@ -10,15 +10,15 @@ namespace MandatoryAssignmentLibrary.Factory
 {
     public class WeaponFactory
     {
-        public static IAttackItem Create(WeaponType type, int damage, string name)
+        public static IAttackItem Create(string type, int damage, string name)
         {
             switch (type)
             {
-                case WeaponType.Melee:
+                case "Sword":
                     return new Sword(damage, name);
-                case WeaponType.Ranged:
+                case "Bow":
                     return new Bow(damage, name);
-                case WeaponType.Magic:
+                case "Staff":
                     return new Staff(damage, name);
                 default:
                     return null;

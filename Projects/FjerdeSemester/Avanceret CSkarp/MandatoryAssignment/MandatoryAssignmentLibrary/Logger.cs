@@ -10,11 +10,15 @@ namespace MandatoryAssignmentLibrary
     public class Logger
     {
         TraceSource ts;
-
-        public Logger(string nameOfLog)
+        private static Logger _logger;
+        public static Logger GetLogger(string name = null)
         {
-            ts =  new TraceSource(nameOfLog);
-            InitializeTrace(nameOfLog);
+            return _logger ?? new Logger(name ?? "Logger");
+        }
+        private Logger(string name)
+        {
+            ts =  new TraceSource(name);
+            InitializeTrace(name);
         }
 
         public void InitializeTrace(string name)
@@ -60,6 +64,10 @@ namespace MandatoryAssignmentLibrary
         {
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
+        }
+        public void CloseLogger()
+        {
+            ts.Close();
         }
     }
 }

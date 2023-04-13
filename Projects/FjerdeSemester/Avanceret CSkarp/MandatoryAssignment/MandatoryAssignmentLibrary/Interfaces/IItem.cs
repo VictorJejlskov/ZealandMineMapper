@@ -5,6 +5,5 @@
 
         string Name { get; set; }
 
-        string ToString();
     }
 }

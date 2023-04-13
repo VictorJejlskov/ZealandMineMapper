@@ -11,7 +11,6 @@ namespace MandatoryAssignmentLibrary.Decorator
     {
         private IAttackItem _attackItem;
         public int Damage { get; set; }
-        public int Range { get; set; }
 
         public string Name { get; set; }
 
@@ -19,7 +18,6 @@ namespace MandatoryAssignmentLibrary.Decorator
         {
             _attackItem = item;
             Damage = _attackItem.Damage;
-            Range = _attackItem.Range;
 
             Name = _attackItem.Name;
 

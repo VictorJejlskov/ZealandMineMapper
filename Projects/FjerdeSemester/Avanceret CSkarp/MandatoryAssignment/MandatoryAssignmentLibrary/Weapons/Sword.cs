@@ -8,14 +8,10 @@ namespace MandatoryAssignmentLibrary.Weapons
 {
     public class Sword : AttackItem
     {
-        public Sword(int damage, string name) : base(damage, 60, name, 150) { }
-
-        public override void WeaponDamage()
+        public Sword(int damage, string name) : base(damage, name) { }
+        public override string ToString()
         {
-            if (!_hasUsedBuff)
-            {
-                Damage += 20;
-            }
+            return $"{{{nameof(Damage)}={Damage.ToString()}, {nameof(Name)}={Name}}}";
         }
     }
 }

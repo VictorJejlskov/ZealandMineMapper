@@ -17,61 +17,40 @@ namespace MandatoryAssignmentLibrary
         private static World _instance;
         public int MaxX { get; set; }
         public int MaxY { get; set; }
+        public Creature Hero { get; set; }
         public List<Creature> Creatures { get; set; }
-        public List<Position> thePositions { get; set; } = new List<Position>();
+        public List<Position> DeadCreaturePositions { get; set; } = new List<Position>();
+        public List<Position> ListOfPositions { get; set; } = new List<Position>();
+        private Logger _logger = Logger.GetLogger();
 
-        public List<Position> theListOfPositions { get; set; } = new List<Position>();
-
-
-        //public List<Creature> TheRealCreatures { get; set; } = new List<Creature>()
-        //{
-        //    new Creature(){Position = new Position(10, 10)},
-        //    new Creature(){Position = new Position(10, 0)},
-        //    new Creature(){Position = new Position(0, 10)},
-        //    new Creature(){Position = new Position(0, 0)},
-        //    new Creature(){Position = new Position(5, 5)},
-        //    new Creature(){Position = new Position(4, 4)},
-        //    new Creature(){Position = new Position(4, 5)},
-        //    new Creature(){Position = new Position(5, 4)},
-        //};
-
-
-
-        // Defines the map size
         private World InitializeWorld()
         {
-
-            IAttackItem first = WeaponFactory.Create(WeaponType.Melee, 100, "The first weapon");
-            IAttackItem second = WeaponFactory.Create(WeaponType.Ranged, 85, "The second weapon");
-            IAttackItem third = WeaponFactory.Create(WeaponType.Magic, 105, "The third weapon");
-
-            IDefenceItem firstDefence = new DefenceItem("Skjoldet", 25);
-
-            List<IAttackItem> attackItems = new List<IAttackItem>() { first, second, third };
-            List<IDefenceItem> defenceItems = new List<IDefenceItem>() { firstDefence };
-
             XmlDocument configDoc = new XmlDocument();
             string _path = Environment.GetEnvironmentVariable("GameFrameworkConfig");
             configDoc.Load(_path);
             var world = configDoc.DocumentElement.SelectSingleNode("Playground");
             int maxX = Convert.ToInt32(world.SelectSingleNode("MaxX").InnerText);
             int maxY = Convert.ToInt32(world.SelectSingleNode("MaxY").InnerText);
+            int healthMod = Convert.ToInt32(world.SelectSingleNode("HeroHealthModifier").InnerText);
             int amountOfCreatures = Convert.ToInt32(world.SelectSingleNode("AmountOfCreatures").InnerText);
             this.MaxX = maxX;
             this.MaxY = maxY;
             Creatures = new List<Creature>();
             for (int i = 0; i < amountOfCreatures; i++)
             {
-
-                Creature theCreature = new Creature() { Name = "Creature" + i, AttackItems = attackItems, DefenceItems = defenceItems, Hitpoints = 100 + i };
-                while (theListOfPositions.Contains(theCreature.Position))
+                Creature theCreature = new Creature(maxX, maxY) { Name = "Creature" + i };
+                while (ListOfPositions.Contains(theCreature.Position))
                 {
                     theCreature.RerollPosition(maxX, maxY);
                 }
                 Creatures.Add(theCreature);
-                theListOfPositions.Add(theCreature.Position);
-            }
-            Console.WriteLine("The world has been created");
+                ListOfPositions.Add(theCreature.Position);
+            }  
+            var rnd = new Random();
+            Hero = Creatures[rnd.Next(0, Creatures.Count)];
+            Hero.Hitpoints *= healthMod;
+            Hero.Name = "Hero";
+            Creatures.Remove(Hero);
             return this;
         }
 
@@ -85,7 +64,7 @@ namespace MandatoryAssignmentLibrary
         private World()
         {
             _instance = InitializeWorld();
-            for (int i = 0; i < _instance.MaxX; i++)
+            for (int i = 0; i < _instance.MaxX+2; i++)
             {
                 horizontalLine += "-";
             }
@@ -104,16 +83,7 @@ namespace MandatoryAssignmentLibrary
                 Console.WriteLine($"|");
             }
             Console.WriteLine(horizontalLine);
-            foreach (Creature position in Creatures)
-            {
-                Console.WriteLine("Creature position X: " + position.Position.PosX + " Position Y: " + position.Position.PosY + "\n");
-            }
-
-            foreach (Position position in thePositions)
-            {
-                Console.WriteLine("Creature position: " + position);
-            }
-
+            Fight();
         }
 
         private void PrintRowString(int r)
@@ -129,31 +99,109 @@ namespace MandatoryAssignmentLibrary
         {
             Position p = new Position(col, row);
 
-            var positions = Creatures.Select(it => it.Position);
+            var positions = Creatures.Select(it => it.Position).ToList();
+            positions.Add(Hero.Position);
 
             bool isMatch = false;
+            bool isDeathMatch = false;
 
             foreach (var position in positions)
             {
                 if (position.Equals(p))
                 {
-
                     isMatch = true;
-                    thePositions.Add(position);
                     break;
                 }
             }
-
-            if (isMatch)
+            foreach (var position in DeadCreaturePositions)
+            {
+                if (position.Equals(p))
+                {
+                    isDeathMatch = true;
+                    break;
+                }
+            }
+            if (isMatch && Hero.Position.Equals(p)){
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write('X');
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            else if (isMatch)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write('X');
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            else if (isDeathMatch)
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write('D');
                 Console.ForegroundColor = ConsoleColor.White;
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write('X');
+            }
+
+
+        }
+        public void MoveHero(int input)
+        {
+            switch (input)
+            {
+                case 0:
+                    if (Hero.Position.PosY != 0)
+                        Hero.Position.PosY--;
+                    break;
+                case 1:
+                    if (Hero.Position.PosX != MaxX - 1)
+                        Hero.Position.PosX++;
+                    break;
+                case 2:
+                    if (Hero.Position.PosY != MaxY - 1)
+                        Hero.Position.PosY++;
+                    break;
+                case 3:
+                    if (Hero.Position.PosX != 0)
+                        Hero.Position.PosX--;
+                    break;
+            }
+        }
+        public int CharToNumber(ConsoleKey c)
+        {
+            switch(c)
+            {
+                case ConsoleKey.W: return 0;
+                case ConsoleKey.UpArrow: return 0;
+                case ConsoleKey.D: return 1;
+                case ConsoleKey.RightArrow: return 1;
+                case ConsoleKey.S: return 2;
+                case ConsoleKey.DownArrow: return 2;
+                case ConsoleKey.A: return 3;
+                case ConsoleKey.LeftArrow: return 3;
+                default: return 4;
+            }
+        }
+        public void Fight()
+        {
+            var creatureToFight = Creatures.FirstOrDefault(creature => creature.Position.Equals(Hero.Position));
+            if (creatureToFight != null)
+            {
+                while(creatureToFight.IsAlive && Hero.IsAlive) { 
+                    creatureToFight.ReceiveHit(Hero.Hit());
+                    if (!creatureToFight.IsAlive)
+                    {
+                        Creatures.Remove(creatureToFight);
+                        DeadCreaturePositions.Add(creatureToFight.Position);
+                    }
+                    else
+                    {
+                        Hero.ReceiveHit(creatureToFight.Hit());
+                    }
+                }
+                string winner = Hero.IsAlive ? "Hero" : "Creature";
+                _logger.LogInfo(winner + " won!");
             }
 
         }

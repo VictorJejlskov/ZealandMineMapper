@@ -10,14 +10,11 @@ namespace MandatoryAssignmentLibrary.Weapons
 {
     public class Staff : AttackItem
     {
-        public Staff(int damage, string name) : base(damage, 150, name, 50) { }
+        public Staff(int damage, string name) : base(damage, name) { }
 
-        public override void WeaponDamage()
+        public override string ToString()
         {
-            if (!_hasUsedBuff)
-            {
-                Damage += 15;
-            }
+            return $"{{{nameof(Damage)}={Damage.ToString()}, {nameof(Name)}={Name}}}";
         }
     }
 }

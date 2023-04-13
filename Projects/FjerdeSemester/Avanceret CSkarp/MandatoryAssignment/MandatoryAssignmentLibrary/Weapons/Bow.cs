@@ -10,16 +10,13 @@ namespace MandatoryAssignmentLibrary.Weapons
 {
     public class Bow : AttackItem
     {
-        public Bow(int damage, string name) : base(damage, 100, name, 100) 
+        public Bow(int damage, string name) : base(damage, name) 
         {
         }
 
-        public override void WeaponDamage()
+        public override string ToString()
         {
-            if (!_hasUsedBuff)
-            {
-                Damage += 25;
-            }
+            return $"{{{nameof(Damage)}={Damage.ToString()}, {nameof(Name)}={Name}}}";
         }
     }
 }
